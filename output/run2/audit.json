@@ -1,0 +1,446 @@
+{
+  "iterations": [
+    {
+      "number": 1,
+      "kind": "e",
+      "reason": "R1: identification-and-structuring, descriptive purpose (TDR 7, 8)",
+      "queries": [
+        "DeFi protocols lending exchange yield"
+      ],
+      "documents": 6,
+      "new_objects": 37,
+      "codes": 129,
+      "concepts": 0,
+      "proposal_attempts": [
+        []
+      ],
+      "proposal_rejected": false,
+      "operations": [
+        "add_dimension ['D1', 'D1.C1', 'D1.C2', 'D1.C3', 'D1.C4', 'D1.C5', 'D1.C6', 'D1.C7', 'D1.C8']",
+        "add_dimension ['D2', 'D2.C1', 'D2.C2']",
+        "add_dimension ['D3', 'D3.C1', 'D3.C2', 'D3.C3']",
+        "add_dimension ['D4', 'D4.C1', 'D4.C2']",
+        "add_dimension ['D5', 'D5.C1', 'D5.C2']",
+        "add_dimension ['D6', 'D6.C1', 'D6.C2', 'D6.C3']",
+        "add_dimension ['D7', 'D7.C1', 'D7.C2']",
+        "add_dimension ['D8', 'D8.C1', 'D8.C2']",
+        "add_dimension ['D9', 'D9.C1', 'D9.C2']"
+      ],
+      "cells_classified": 333,
+      "meta_review": "kept (The taxonomy's three perspectives (strategy, organization, technology) map directly onto the three angles named in the meta-characteristic: value creation and business model choices, organizational arrangements, and technological design features. The dimensions D1 to D9 all fall within these angles and within the fixed domain of DeFi applications on public blockchains without intermediaries, so the meta-characteristic still expresses the angle the purpose requires.)",
+      "objective_unmet": [],
+      "subjective_unmet": [],
+      "evaluation": {},
+      "exit": "12",
+      "entry": "4",
+      "entry_reason": "R4: review of the meta-characteristic after the first iteration (TDR 5)",
+      "tokens": 324561
+    },
+    {
+      "number": 2,
+      "kind": "c",
+      "reason": "R2: at least one iteration of each approach (TDR 9)",
+      "queries": [
+        "decentralized finance taxonomy classification dimensions",
+        "DeFi insurance stablecoin derivatives"
+      ],
+      "documents": 10,
+      "new_objects": 0,
+      "codes": 0,
+      "concepts": 127,
+      "proposal_attempts": [
+        [
+          "R5 characteristic D8.C3 'No risk or liquidity isolation stated' expresses missing information, which is recorded as no_information; a negation characteristic names a stated absence (e.g. 'No governance: immutable contracts')"
+        ],
+        []
+      ],
+      "proposal_rejected": false,
+      "operations": [
+        "add_dimension ['D10', 'D10.C1', 'D10.C2']"
+      ],
+      "cells_classified": 137,
+      "meta_review": "",
+      "objective_unmet": [],
+      "subjective_unmet": [],
+      "evaluation": {
+        "new_objects": 10,
+        "all_objects": 47,
+        "kappa_per_dimension": {
+          "D1": 0.7619,
+          "D2": 1.0,
+          "D3": 1.0,
+          "D4": 0.6667,
+          "D5": 0.7059,
+          "D6": 0.8413,
+          "D7": 0.0217,
+          "D8": 1.0,
+          "D9": 1.0,
+          "D10": 1.0
+        },
+        "kappa": 0.7997,
+        "misfit_share": 0.9,
+        "informed_share": 0.34,
+        "distinct_profiles": 0.8298,
+        "discriminating_dimensions": 0.7,
+        "cluster_silhouette": 0.2304,
+        "results": [
+          {
+            "goal": "classifying",
+            "measure": "kappa",
+            "value": 0.7997,
+            "target": 0.61,
+            "comparator": ">=",
+            "met": true,
+            "remedy": "10"
+          },
+          {
+            "goal": "classifying",
+            "measure": "misfit_share",
+            "value": 0.9,
+            "target": 0.3,
+            "comparator": "<=",
+            "met": false,
+            "remedy": "6"
+          },
+          {
+            "goal": "analyzing",
+            "measure": "discriminating_dimensions",
+            "value": 0.7,
+            "target": 0.6,
+            "comparator": ">=",
+            "met": true,
+            "remedy": "10"
+          }
+        ]
+      },
+      "exit": "17",
+      "entry": "6",
+      "entry_reason": "chosen by the LLM: Misfit share is 0.9 against a target of 0.3, so most objects fit no characteristic. Adjusting the existing taxonomy is unlikely to close a gap that large, and the check suggests new evidence. No prior revision has been tried for this condition, so re-entering at step 6 is the appropriate choice.",
+      "tokens": 628307
+    },
+    {
+      "number": 3,
+      "kind": "e",
+      "reason": "R3: the last evaluation calls for new evidence: ['misfit_share']",
+      "queries": [
+        "DeFi prediction market payment tokenization"
+      ],
+      "documents": 6,
+      "new_objects": 44,
+      "codes": 93,
+      "concepts": 0,
+      "proposal_attempts": [
+        []
+      ],
+      "proposal_rejected": false,
+      "operations": [
+        "add_characteristic ['D1']",
+        "add_characteristic ['D1']",
+        "add_characteristic ['D1']",
+        "add_characteristic ['D1']",
+        "add_characteristic ['D1']",
+        "add_characteristic ['D1']",
+        "add_characteristic ['D1']",
+        "add_characteristic ['D2']",
+        "rename ['D2']",
+        "add_characteristic ['D3']",
+        "add_characteristic ['D4']",
+        "rename ['D4']",
+        "add_dimension ['D11', 'D11.C1', 'D11.C2', 'D11.C3']",
+        "add_dimension ['D12', 'D12.C1', 'D12.C2', 'D12.C3', 'D12.C4', 'D12.C5']",
+        "add_dimension ['D13', 'D13.C1', 'D13.C2']"
+      ],
+      "cells_classified": 1077,
+      "meta_review": "",
+      "objective_unmet": [
+        "O3"
+      ],
+      "subjective_unmet": [],
+      "evaluation": {},
+      "exit": "12",
+      "entry": "10",
+      "entry_reason": "chosen by the LLM: O3 is a new unmet condition that has not recurred after any revision; the history shows no earlier failed revision for it, so it can be tested by adjusting the taxonomy with the objects already classified.",
+      "tokens": 668804
+    },
+    {
+      "number": 4,
+      "kind": "r",
+      "reason": "chosen by the LLM: O3 is a new unmet condition that has not recurred after any revision; the history shows no earlier failed revision for it, so it can be tested by adjusting the taxonomy with the objects already classified.",
+      "queries": [
+        "NFT lending protocol smart contracts"
+      ],
+      "documents": 6,
+      "new_objects": 0,
+      "codes": 0,
+      "concepts": 0,
+      "proposal_attempts": [
+        []
+      ],
+      "proposal_rejected": false,
+      "operations": [
+        "delete ['D1.C15']"
+      ],
+      "cells_classified": 221,
+      "meta_review": "",
+      "objective_unmet": [],
+      "subjective_unmet": [],
+      "evaluation": {
+        "new_objects": 10,
+        "all_objects": 101,
+        "kappa_per_dimension": {
+          "D1": 1.0,
+          "D2": 0.2857,
+          "D3": 1.0,
+          "D4": 1.0,
+          "D5": 0.1379,
+          "D6": 1.0,
+          "D7": 0.0,
+          "D8": 1.0,
+          "D9": 1.0,
+          "D10": 1.0,
+          "D11": 1.0,
+          "D12": 1.0,
+          "D13": 1.0
+        },
+        "kappa": 0.8018,
+        "misfit_share": 0.6,
+        "informed_share": 0.1769,
+        "distinct_profiles": 0.7624,
+        "discriminating_dimensions": 0.7692,
+        "cluster_silhouette": 0.2876,
+        "results": [
+          {
+            "goal": "classifying",
+            "measure": "kappa",
+            "value": 0.8018,
+            "target": 0.61,
+            "comparator": ">=",
+            "met": true,
+            "remedy": "10"
+          },
+          {
+            "goal": "classifying",
+            "measure": "misfit_share",
+            "value": 0.6,
+            "target": 0.3,
+            "comparator": "<=",
+            "met": false,
+            "remedy": "6"
+          },
+          {
+            "goal": "analyzing",
+            "measure": "discriminating_dimensions",
+            "value": 0.7692,
+            "target": 0.6,
+            "comparator": ">=",
+            "met": true,
+            "remedy": "10"
+          }
+        ]
+      },
+      "exit": "17",
+      "entry": "6",
+      "entry_reason": "chosen by the LLM: The unmet condition is a misfit share of 0.6 against a target of 0.3, and the check itself suggests new evidence. Most objects fit no characteristic, which points to missing dimensions or characteristics that the existing objects alone are unlikely to supply, so a new building iteration with new documents and objects is the appropriate re-entry.",
+      "tokens": 482209
+    },
+    {
+      "number": 5,
+      "kind": "e",
+      "reason": "R3: the last evaluation calls for new evidence: ['misfit_share']",
+      "queries": [
+        "DeFi wallets non-custodial dApps comparison",
+        "automated market maker decentralized exchange"
+      ],
+      "documents": 12,
+      "new_objects": 106,
+      "codes": 189,
+      "concepts": 0,
+      "proposal_attempts": [
+        [
+          "the previous answer was cut because it was far too long; answer again with a complete, short JSON: only the operations that the evidence requires, each reason in one sentence, no repetition"
+        ],
+        []
+      ],
+      "proposal_rejected": false,
+      "operations": [
+        "add_characteristic ['D1']",
+        "add_characteristic ['D1']",
+        "add_characteristic ['D1']"
+      ],
+      "cells_classified": 1715,
+      "meta_review": "",
+      "objective_unmet": [],
+      "subjective_unmet": [],
+      "evaluation": {
+        "new_objects": 10,
+        "all_objects": 217,
+        "kappa_per_dimension": {
+          "D1": 0.6296,
+          "D2": 1.0,
+          "D3": 0.7959,
+          "D4": 0.3103,
+          "D5": 0.0,
+          "D6": 0.8571,
+          "D7": 0.6296,
+          "D8": 0.0,
+          "D9": 1.0,
+          "D10": 1.0,
+          "D11": 1.0,
+          "D12": 0.4737,
+          "D13": 0.0
+        },
+        "kappa": 0.592,
+        "misfit_share": 0.2,
+        "informed_share": 0.3231,
+        "distinct_profiles": 0.6359,
+        "discriminating_dimensions": 0.6923,
+        "cluster_silhouette": 0.3221,
+        "results": [
+          {
+            "goal": "classifying",
+            "measure": "kappa",
+            "value": 0.592,
+            "target": 0.61,
+            "comparator": ">=",
+            "met": false,
+            "remedy": "10"
+          },
+          {
+            "goal": "classifying",
+            "measure": "misfit_share",
+            "value": 0.2,
+            "target": 0.3,
+            "comparator": "<=",
+            "met": true,
+            "remedy": "6"
+          },
+          {
+            "goal": "analyzing",
+            "measure": "discriminating_dimensions",
+            "value": 0.6923,
+            "target": 0.6,
+            "comparator": ">=",
+            "met": true,
+            "remedy": "10"
+          }
+        ]
+      },
+      "exit": "17",
+      "entry": "10",
+      "entry_reason": "chosen by the LLM: The only unmet condition is classification reliability (kappa 0.592 against a target of 0.61), which can be addressed by clarifying definitions, names, or merging/splitting characteristics using the objects already classified, without new evidence. The history shows no recurring unmet conditions after a revision, so adjusting the taxonomy is expected to be sufficient.",
+      "tokens": 1651135
+    },
+    {
+      "number": 6,
+      "kind": "r",
+      "reason": "chosen by the LLM: The only unmet condition is classification reliability (kappa 0.592 against a target of 0.61), which can be addressed by clarifying definitions, names, or merging/splitting characteristics using the objects already classified, without new evidence. The history shows no recurring unmet conditions after a revision, so adjusting the taxonomy is expected to be sufficient.",
+      "queries": [
+        "flash loan arbitrage DeFi platform"
+      ],
+      "documents": 6,
+      "new_objects": 0,
+      "codes": 0,
+      "concepts": 0,
+      "proposal_attempts": [
+        []
+      ],
+      "proposal_rejected": false,
+      "operations": [
+        "rename ['D1']"
+      ],
+      "cells_classified": 165,
+      "meta_review": "",
+      "objective_unmet": [],
+      "subjective_unmet": [],
+      "evaluation": {
+        "new_objects": 10,
+        "all_objects": 227,
+        "kappa_per_dimension": {
+          "D1": 0.8507,
+          "D2": 1.0,
+          "D3": 1.0,
+          "D4": 0.6296,
+          "D5": 1.0,
+          "D6": 0.6,
+          "D7": 0.0,
+          "D8": 1.0,
+          "D9": 0.5556,
+          "D10": 1.0,
+          "D11": 1.0,
+          "D12": 1.0,
+          "D13": 0.0
+        },
+        "kappa": 0.7412,
+        "misfit_share": 0.0,
+        "informed_share": 0.1846,
+        "distinct_profiles": 0.6123,
+        "discriminating_dimensions": 0.6923,
+        "cluster_silhouette": 0.3083,
+        "results": [
+          {
+            "goal": "classifying",
+            "measure": "kappa",
+            "value": 0.7412,
+            "target": 0.61,
+            "comparator": ">=",
+            "met": true,
+            "remedy": "10"
+          },
+          {
+            "goal": "classifying",
+            "measure": "misfit_share",
+            "value": 0.0,
+            "target": 0.3,
+            "comparator": "<=",
+            "met": true,
+            "remedy": "6"
+          },
+          {
+            "goal": "analyzing",
+            "measure": "discriminating_dimensions",
+            "value": 0.6923,
+            "target": 0.6,
+            "comparator": ">=",
+            "met": true,
+            "remedy": "10"
+          }
+        ]
+      },
+      "exit": null,
+      "entry": null,
+      "entry_reason": "",
+      "tokens": 439384
+    }
+  ],
+  "tokens": {
+    "total": 4195307,
+    "by_step": {
+      "1-3": 0,
+      "4": 6218,
+      "5": 0,
+      "6": 0,
+      "7e": 798538,
+      "8e": 534182,
+      "9e": 127705,
+      "10": 931796,
+      "11-12": 1423,
+      "7c": 308250,
+      "8c": 58947,
+      "13-14": 39929,
+      "15-16": 1383779,
+      "17": 4540
+    },
+    "by_task": {
+      "meta_characteristic": 907,
+      "formulate_query": 12412,
+      "extract_objects": 1770640,
+      "describe_objects": 98453,
+      "classify_objects": 1802602,
+      "propose_operations": 195984,
+      "meta_review": 5311,
+      "extract_concepts": 263106,
+      "judge_subjective": 39929,
+      "choose_entry": 5963
+    }
+  }
+}

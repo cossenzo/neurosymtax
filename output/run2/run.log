@@ -1,0 +1,188 @@
+2026-10-14 01:26:32,178 INFO etdp: --- step 1-3 ---
+2026-10-14 01:26:32,178 INFO etdp.steps: phenomenon: Decentralized finance (DeFi); users: Researchers in finance and information systems; Entrepreneurs and investors in the DeFi sector; Regulators and policy makers; purpose: Systematically structure the emerging field of decentralized finance by classifying DeFi applications; Analyze the DeFi landscape to identify patterns and opportunities for value propositions and business models; Support the design of regulatory measures (identification_and_structuring, descriptive); perspectives: ['strategy', 'organization', 'technology']
+2026-10-14 01:26:32,178 INFO etdp: --- step 4 ---
+2026-10-14 01:26:34,291 INFO etdp.steps: meta-characteristic: DeFi applications viewed as financial services delivered through smart contracts on public blockchains without intermediaries, examined as strategic value-creation and business model choices, organizational arrangements, and technological design features.
+2026-10-14 01:26:34,291 INFO etdp: --- step 5 ---
+2026-10-14 01:26:34,291 INFO etdp: --- step 6 ---
+2026-10-14 01:26:34,291 INFO etdp.steps: === iteration 1 (e): R1: identification-and-structuring, descriptive purpose (TDR 7, 8) ===
+2026-10-14 01:26:34,291 INFO etdp: --- step 7e ---
+2026-10-14 01:26:36,732 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-14 01:26:41,782 INFO etdp.sources.semantic_scholar: Semantic Scholar: 15 results for 'DeFi protocols lending exchange yield' (year=(2008, 2023), open_access_only=True)
+2026-10-14 01:27:09,708 DEBUG etdp.sources.fulltext: PDF not read http://cuir.car.chula.ac.th/bitstream/123456789/82737/1/6484090226.pdf: HTTPSConnectionPool(host='cuir2.car.chula.ac.th', port=443): Max retries exceeded with url: /bitstream/123456789/82737/1/6484090226.pdf (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000010F8124AB10>, 'Connection to cuir2.car.chula.ac.th timed out. (connect timeout=30.0)'))
+2026-10-14 01:27:15,882 INFO etdp.documents: scholarly: 3 full texts for 'DeFi protocols lending exchange yield'
+2026-10-14 01:27:18,003 INFO etdp.documents: web: 3 pages for 'DeFi protocols lending exchange yield'
+2026-10-14 01:30:13,575 INFO etdp.documents: llm: 8 descriptions for 37 objects
+2026-10-14 01:30:45,690 INFO etdp.documents: 37 candidate objects; 37 new objects registered
+2026-10-14 01:30:45,690 INFO etdp: --- step 8e ---
+2026-10-14 01:31:36,558 INFO etdp.classify: classified 0 cells; 129 codes
+2026-10-14 01:31:36,558 INFO etdp: --- step 9e ---
+2026-10-14 01:32:27,321 INFO etdp.steps: proposal 1 of 3: 9 operation(s): add_dimension Primary financial service; add_dimension Fee model; add_dimension Parameter control; add_dimension Asset custody arrangement; add_dimension Operating status; add_dimension Blockchain deployment; add_dimension Position representation; add_dimension Risk and liquidity isolation; add_dimension Security incident history
+2026-10-14 01:32:27,321 INFO etdp: --- step 10 ---
+2026-10-14 01:34:12,366 INFO etdp.classify: classified 333 cells; 0 codes
+2026-10-14 01:34:12,366 INFO etdp.steps: taxonomy: 9 dimensions; 9 operations applied
+2026-10-14 01:34:12,366 INFO etdp.steps:   add_dimension D1, D1.C1, D1.C2, D1.C3, D1.C4, D1.C5, D1.C6, D1.C7, D1.C8: Primary service is the central strategic value-creation choice across the DeFi applications.
+2026-10-14 01:34:12,366 INFO etdp.steps:   add_dimension D2, D2.C1, D2.C2: Revenue model is a business model choice supported by the evidence.
+2026-10-14 01:34:12,366 INFO etdp.steps:   add_dimension D3, D3.C1, D3.C2, D3.C3: Governance arrangements are organizational features shared across applications.
+2026-10-14 01:34:12,382 INFO etdp.steps:   add_dimension D4, D4.C1, D4.C2: Delegation of asset management is an organizational arrangement distinguishing applications.
+2026-10-14 01:34:12,382 INFO etdp.steps:   add_dimension D5, D5.C1, D5.C2: Operating status describes the organizational lifecycle of applications.
+2026-10-14 01:34:12,382 INFO etdp.steps:   add_dimension D6, D6.C1, D6.C2, D6.C3: Blockchain deployment is a technological design feature of each application.
+2026-10-14 01:34:12,382 INFO etdp.steps:   add_dimension D7, D7.C1, D7.C2: Receipt tokens are a distinct technological design feature.
+2026-10-14 01:34:12,382 INFO etdp.steps:   add_dimension D8, D8.C1, D8.C2: Isolation design is a technological feature that changes the risk profile of applications.
+2026-10-14 01:34:12,382 INFO etdp.steps:   add_dimension D9, D9.C1, D9.C2: Security incident history is a technological risk characteristic supported by the passages.
+2026-10-14 01:34:12,382 INFO etdp: --- step 11-12 ---
+2026-10-14 01:34:12,398 INFO etdp.steps: objective conditions unmet: none
+2026-10-14 01:34:12,398 INFO etdp.steps: objective conditions hold, but required: review of the meta-characteristic (R4); an iteration of each approach (R2): only ['e'] so far
+2026-10-14 01:34:12,398 INFO etdp.steps: exit after Step 12; re-entry before Step 4 (R4: review of the meta-characteristic after the first iteration (TDR 5))
+2026-10-14 01:34:12,398 INFO etdp: --- step 4 ---
+2026-10-14 01:34:15,591 INFO etdp.steps: meta-characteristic review: kept (The taxonomy's three perspectives (strategy, organization, technology) map directly onto the three angles named in the meta-characteristic: value creation and business model choices, organizational arrangements, and technological design features. The dimensions D1 to D9 all fall within these angles and within the fixed domain of DeFi applications on public blockchains without intermediaries, so the meta-characteristic still expresses the angle the purpose requires.)
+2026-10-14 01:34:15,607 INFO etdp: --- step 6 ---
+2026-10-14 01:34:15,607 INFO etdp.steps: === iteration 2 (c): R2: at least one iteration of each approach (TDR 9) ===
+2026-10-14 01:34:15,607 INFO etdp: --- step 7c ---
+2026-10-14 01:34:19,159 INFO etdp.sources.semantic_scholar: Semantic Scholar: 6 results for 'decentralized finance taxonomy classification dimensions' (year=(2008, 2023), open_access_only=True)
+2026-10-14 01:34:48,205 INFO etdp.documents: scholarly: 3 full texts for 'decentralized finance taxonomy classification dimensions'
+2026-10-14 01:34:50,814 INFO etdp.documents: web: 1 pages for 'decentralized finance taxonomy classification dimensions'
+2026-10-14 01:38:17,576 INFO etdp.steps: proposal 1 of 3: 5 operation(s): add_dimension Customer segment; add_dimension Customer value; add_dimension Oracle usage; add_characteristic ['D3']; add_characteristic ['D8']
+2026-10-14 01:38:17,576 INFO etdp.steps: proposal violates 1 rule(s) (attempt 1 of 3)
+2026-10-14 01:38:17,576 INFO etdp.steps:   R5: the resulting taxonomy must keep its invariants: every dimension in one perspective of the input, at least the minimum number of characteristics per dimension, at most one negation characteristic per dimension, unique and present names, and no characteristic that expresses missing information
+2026-10-14 01:38:17,576 INFO etdp.steps:   - R5 characteristic D8.C3 'No risk or liquidity isolation stated' expresses missing information, which is recorded as no_information; a negation characteristic names a stated absence (e.g. 'No governance: immutable contracts')
+2026-10-14 01:38:17,576 INFO etdp.steps:   correction: the violations are returned to the LLM, which must answer with a corrected list of operations
+2026-10-14 01:38:28,094 INFO etdp.steps: proposal 2 of 3: 1 operation(s): add_dimension Oracle usage
+2026-10-14 01:38:28,094 INFO etdp.steps: proposal accepted after 1 correction(s)
+2026-10-14 01:38:28,109 INFO etdp: --- step 8c ---
+2026-10-14 01:38:51,975 INFO etdp.classify: classified 37 cells; 0 codes
+2026-10-14 01:38:51,975 INFO etdp: --- step 10 ---
+2026-10-14 01:38:51,975 INFO etdp.classify: classified 0 cells; 0 codes
+2026-10-14 01:38:51,975 INFO etdp.steps: taxonomy: 10 dimensions; 1 operations applied
+2026-10-14 01:38:51,975 INFO etdp.steps:   add_dimension D10, D10.C1, D10.C2: The concepts define oracle usage as a technological design feature that determines whether data flows from the outside world into the blockchain ecosystem, which the current technology perspective lac
+2026-10-14 01:38:51,997 INFO etdp: --- step 11-12 ---
+2026-10-14 01:38:52,006 INFO etdp.steps: objective conditions unmet: none
+2026-10-14 01:38:52,006 INFO etdp: --- step 13-14 ---
+2026-10-14 01:38:58,475 INFO etdp.steps: subjective conditions met: ['concise', 'robust', 'comprehensive', 'extendible', 'explanatory']; unmet: none
+2026-10-14 01:38:58,475 INFO etdp: --- step 15-16 ---
+2026-10-14 01:39:02,195 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-14 01:39:06,649 INFO etdp.sources.semantic_scholar: Semantic Scholar: 4 results for 'DeFi insurance stablecoin derivatives' (year=(2008, 2023), open_access_only=True)
+2026-10-14 01:39:13,926 INFO etdp.documents: scholarly: 3 full texts for 'DeFi insurance stablecoin derivatives'
+2026-10-14 01:39:16,072 INFO etdp.documents: web: 3 pages for 'DeFi insurance stablecoin derivatives'
+2026-10-14 01:42:26,046 INFO etdp.documents: llm: 2 descriptions for 10 objects
+2026-10-14 01:42:28,101 INFO etdp.documents: 32 candidate objects; 10 new objects registered
+2026-10-14 01:43:02,348 INFO etdp.classify: classified 100 cells; 0 codes
+2026-10-14 01:43:38,261 INFO etdp.classify: classified 100 cells; 0 codes
+2026-10-14 01:43:38,517 INFO etdp: --- step 17 ---
+2026-10-14 01:43:42,091 INFO etdp.steps: exit after Step 17; re-entry before Step 6 (chosen by the LLM: Misfit share is 0.9 against a target of 0.3, so most objects fit no characteristic. Adjusting the existing taxonomy is unlikely to close a gap that large, and the check suggests new evidence. No prior revision has been tried for this condition, so re-entering at step 6 is the appropriate choice.)
+2026-10-14 01:43:42,091 INFO etdp: --- step 6 ---
+2026-10-14 01:43:42,091 INFO etdp.steps: === iteration 3 (e): R3: the last evaluation calls for new evidence: ['misfit_share'] ===
+2026-10-14 01:43:42,105 INFO etdp: --- step 7e ---
+2026-10-14 01:43:47,182 INFO etdp.sources.semantic_scholar: Semantic Scholar: 5 results for 'DeFi prediction market payment tokenization' (year=(2008, 2023), open_access_only=True)
+2026-10-14 01:43:57,605 INFO etdp.documents: scholarly: 3 full texts for 'DeFi prediction market payment tokenization'
+2026-10-14 01:43:59,538 INFO etdp.documents: web: 3 pages for 'DeFi prediction market payment tokenization'
+2026-10-14 01:49:46,370 INFO etdp.documents: llm: 9 descriptions for 44 objects
+2026-10-14 01:50:16,938 INFO etdp.documents: 52 candidate objects; 44 new objects registered
+2026-10-14 01:50:16,954 INFO etdp: --- step 8e ---
+2026-10-14 01:53:27,253 INFO etdp.classify: classified 440 cells; 93 codes
+2026-10-14 01:53:27,253 INFO etdp: --- step 9e ---
+2026-10-14 01:54:21,382 INFO etdp.steps: proposal 1 of 3: 15 operation(s): add_characteristic ['D1']; add_characteristic ['D1']; add_characteristic ['D1']; add_characteristic ['D1']; add_characteristic ['D1']; add_characteristic ['D1']; add_characteristic ['D1']; add_characteristic ['D2']; rename ['D2']; add_characteristic ['D3']; add_characteristic ['D4']; rename ['D4']; add_dimension Consensus mechanism; add_dimension Stablecoin peg mechanism; add_dimension Investor access restriction
+2026-10-14 01:54:21,382 INFO etdp: --- step 10 ---
+2026-10-14 01:57:47,687 INFO etdp.classify: classified 637 cells; 0 codes
+2026-10-14 01:57:47,687 INFO etdp.steps: taxonomy: 13 dimensions; 15 operations applied
+2026-10-14 01:57:47,688 INFO etdp.steps:   add_characteristic D1.C9: Insurance protocols are misfits in D1 and fit no existing primary-service characteristic.
+2026-10-14 01:57:47,688 INFO etdp.steps:   add_characteristic D1.C10: Event-outcome markets are misfits in D1 and form a distinct primary service.
+2026-10-14 01:57:47,688 INFO etdp.steps:   add_characteristic D1.C11: Tokenized real-world asset products are misfits in D1 and are not covered by any current characteristic.
+2026-10-14 01:57:47,688 INFO etdp.steps:   add_characteristic D1.C12: Base-layer networks are misfits in D1; the primary service is the network itself.
+2026-10-14 01:57:47,688 INFO etdp.steps:   add_characteristic D1.C13: Payment-channel networks are misfits in D1 and have a distinct service model.
+2026-10-14 01:57:47,689 INFO etdp.steps:   add_characteristic D1.C14: A pooled venture fund is a misfit in D1 and is not covered by existing characteristics.
+2026-10-14 01:57:47,689 INFO etdp.steps:   add_characteristic D1.C15: An AI-based investment support platform is a misfit in D1 and is not a financial service in the existing characteristics.
+2026-10-14 01:57:47,689 INFO etdp.steps:   add_characteristic D2.C3: A one-off borrowing fee is a misfit in D2 because it is neither a share of interest nor no fee.
+2026-10-14 01:57:47,690 INFO etdp.steps:   rename D2: Precedence between the fee characteristics is needed for mutual exclusivity.
+2026-10-14 01:57:47,690 INFO etdp.steps:   add_characteristic D3.C4: Council- or consortium-run networks are misfits in D3 because they fit no token-holder or executive vote characteristic.
+2026-10-14 01:57:47,690 INFO etdp.steps:   add_characteristic D4.C3: Node-network custody is a misfit in D4 because it is neither non-custodial control nor delegated vault management.
+2026-10-14 01:57:47,690 INFO etdp.steps:   rename D4: Precedence is needed among the custody characteristics for mutual exclusivity.
+2026-10-14 01:57:47,691 INFO etdp.steps:   add_dimension D11, D11.C1, D11.C2, D11.C3: Consensus codes describe the technology of the networks and do not fit the existing technology dimensions.
+2026-10-14 01:57:47,691 INFO etdp.steps:   add_dimension D12, D12.C1, D12.C2, D12.C3, D12.C4, D12.C5: Peg codes describe how stablecoins are backed; they fit no existing characteristic of the stablecoin-related dimensions.
+2026-10-14 01:57:47,691 INFO etdp.steps:   add_dimension D13, D13.C1, D13.C2: Investor access codes are distinct from the existing organization dimensions and form a mutually exclusive pair.
+2026-10-14 01:57:47,701 INFO etdp: --- step 11-12 ---
+2026-10-14 01:57:47,714 INFO etdp.steps: objective conditions unmet: ['O3']
+2026-10-14 01:57:47,714 INFO etdp.steps:   O3 At least one object under every characteristic: 1 characteristics without objects; conceptual or negation, exempt: D9.C2 'No recorded exploit or incident', D10.C2 'No oracle usage', D12.C5 'No stablecoin peg mechanism'
+2026-10-14 01:57:50,359 INFO etdp.steps: exit after Step 12; re-entry before Step 10 (chosen by the LLM: O3 is a new unmet condition that has not recurred after any revision; the history shows no earlier failed revision for it, so it can be tested by adjusting the taxonomy with the objects already classified.)
+2026-10-14 01:57:50,359 INFO etdp.steps: === iteration 4 (r): chosen by the LLM: O3 is a new unmet condition that has not recurred after any revision; the history shows no earlier failed revision for it, so it can be tested by adjusting the taxonomy with the objects already classified. ===
+2026-10-14 01:57:50,376 INFO etdp: --- step 10 ---
+2026-10-14 01:57:53,171 INFO etdp.steps: proposal 1 of 3: 1 operation(s): delete ['D1.C15']
+2026-10-14 01:59:02,953 INFO etdp.classify: classified 91 cells; 0 codes
+2026-10-14 01:59:02,953 INFO etdp.steps: taxonomy: 13 dimensions; 1 operations applied
+2026-10-14 01:59:02,953 INFO etdp.steps:   delete D1.C15: Characteristic 'Analytics and decision tooling' holds no classified object (open issue I3.1 cites O3, which does not fall under it), so it is deleted as an element without objects. Dimension D1 keeps 
+2026-10-14 01:59:02,969 INFO etdp: --- step 11-12 ---
+2026-10-14 01:59:02,984 INFO etdp.steps: objective conditions unmet: none
+2026-10-14 01:59:03,001 INFO etdp: --- step 13-14 ---
+2026-10-14 01:59:08,445 INFO etdp.steps: subjective conditions met: ['concise', 'robust', 'comprehensive', 'extendible', 'explanatory']; unmet: none
+2026-10-14 01:59:08,457 INFO etdp: --- step 15-16 ---
+2026-10-14 01:59:12,948 INFO etdp.sources.semantic_scholar: Semantic Scholar: 19 results for 'NFT lending protocol smart contracts' (year=(2008, 2023), open_access_only=True)
+2026-10-14 01:59:19,943 INFO etdp.documents: scholarly: 3 full texts for 'NFT lending protocol smart contracts'
+2026-10-14 01:59:22,010 INFO etdp.documents: web: 3 pages for 'NFT lending protocol smart contracts'
+2026-10-14 02:02:46,326 INFO etdp.documents: llm: 2 descriptions for 10 objects
+2026-10-14 02:02:55,410 INFO etdp.documents: 21 candidate objects; 10 new objects registered
+2026-10-14 02:03:21,843 INFO etdp.classify: classified 130 cells; 0 codes
+2026-10-14 02:03:56,531 INFO etdp.classify: classified 130 cells; 0 codes
+2026-10-14 02:03:56,563 INFO etdp: --- step 17 ---
+2026-10-14 02:04:00,612 INFO etdp.steps: exit after Step 17; re-entry before Step 6 (chosen by the LLM: The unmet condition is a misfit share of 0.6 against a target of 0.3, and the check itself suggests new evidence. Most objects fit no characteristic, which points to missing dimensions or characteristics that the existing objects alone are unlikely to supply, so a new building iteration with new documents and objects is the appropriate re-entry.)
+2026-10-14 02:04:00,628 INFO etdp: --- step 6 ---
+2026-10-14 02:04:00,628 INFO etdp.steps: === iteration 5 (e): R3: the last evaluation calls for new evidence: ['misfit_share'] ===
+2026-10-14 02:04:00,628 INFO etdp: --- step 7e ---
+2026-10-14 02:04:03,917 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-14 02:04:08,630 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-14 02:04:13,331 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-14 02:04:22,065 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-14 02:04:38,797 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-14 02:05:12,707 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-14 02:05:12,708 WARNING etdp.sources.http: semantic_scholar search failed (HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search); using openalex for this query
+2026-10-14 02:05:14,881 INFO etdp.sources.openalex: OpenAlex: 44 results for 'DeFi wallets non-custodial dApps comparison' (year=(2008, 2023), open_access_only=True)
+2026-10-14 02:05:26,142 INFO etdp.documents: scholarly: 3 full texts for 'DeFi wallets non-custodial dApps comparison'
+2026-10-14 02:05:28,328 INFO etdp.documents: web: 3 pages for 'DeFi wallets non-custodial dApps comparison'
+2026-10-14 02:14:08,448 INFO etdp.documents: llm: 21 descriptions for 106 objects
+2026-10-14 02:14:21,107 INFO etdp.documents: 125 candidate objects; 106 new objects registered
+2026-10-14 02:14:21,118 INFO etdp: --- step 8e ---
+2026-10-14 02:21:45,638 INFO etdp.classify: classified 1378 cells; 189 codes
+2026-10-14 02:21:45,653 INFO etdp: --- step 9e ---
+2026-10-14 02:22:58,079 WARNING etdp.steps: proposal 1 of 3: the answer was cut at max_output_tokens; asking for a short answer
+2026-10-14 02:23:09,978 INFO etdp.steps: proposal 2 of 3: 3 operation(s): add_characteristic ['D1']; add_characteristic ['D1']; add_characteristic ['D1']
+2026-10-14 02:23:09,978 INFO etdp.steps: proposal accepted after 1 correction(s)
+2026-10-14 02:23:09,994 INFO etdp: --- step 10 ---
+2026-10-14 02:25:57,465 INFO etdp.classify: classified 207 cells; 0 codes
+2026-10-14 02:25:57,465 INFO etdp.steps: taxonomy: 13 dimensions; 3 operations applied
+2026-10-14 02:25:57,465 INFO etdp.steps:   add_characteristic D1.C16: Wallets and key-management tools are misfits of D1 because no existing primary-service characteristic describes them.
+2026-10-14 02:25:57,465 INFO etdp.steps:   add_characteristic D1.C17: Smart-contract security tools are misfits of D1 and do not fit the oracle and data characteristic.
+2026-10-14 02:25:57,465 INFO etdp.steps:   add_characteristic D1.C18: Centralized intermediary services are misfits of D1 and need a negation characteristic that states the absence of intermediary-free delivery.
+2026-10-14 02:25:57,481 INFO etdp: --- step 11-12 ---
+2026-10-14 02:25:57,529 INFO etdp.steps: objective conditions unmet: none
+2026-10-14 02:25:57,545 INFO etdp: --- step 13-14 ---
+2026-10-14 02:26:02,401 INFO etdp.steps: subjective conditions met: ['concise', 'robust', 'comprehensive', 'extendible', 'explanatory']; unmet: none
+2026-10-14 02:26:02,417 INFO etdp: --- step 15-16 ---
+2026-10-14 02:26:07,644 INFO etdp.sources.semantic_scholar: Semantic Scholar: 50 results for 'automated market maker decentralized exchange' (year=(2008, 2023), open_access_only=True)
+2026-10-14 02:26:12,275 INFO etdp.documents: scholarly: 3 full texts for 'automated market maker decentralized exchange'
+2026-10-14 02:26:14,193 INFO etdp.documents: web: 3 pages for 'automated market maker decentralized exchange'
+2026-10-14 02:34:03,607 INFO etdp.documents: llm: 2 descriptions for 10 objects
+2026-10-14 02:34:41,209 INFO etdp.documents: 84 candidate objects; 10 new objects registered
+2026-10-14 02:35:21,406 INFO etdp.classify: classified 130 cells; 0 codes
+2026-10-14 02:36:03,924 INFO etdp.classify: classified 130 cells; 0 codes
+2026-10-14 02:36:04,004 INFO etdp: --- step 17 ---
+2026-10-14 02:36:06,448 INFO etdp.steps: exit after Step 17; re-entry before Step 10 (chosen by the LLM: The only unmet condition is classification reliability (kappa 0.592 against a target of 0.61), which can be addressed by clarifying definitions, names, or merging/splitting characteristics using the objects already classified, without new evidence. The history shows no recurring unmet conditions after a revision, so adjusting the taxonomy is expected to be sufficient.)
+2026-10-14 02:36:06,448 INFO etdp.steps: === iteration 6 (r): chosen by the LLM: The only unmet condition is classification reliability (kappa 0.592 against a target of 0.61), which can be addressed by clarifying definitions, names, or merging/splitting characteristics using the objects already classified, without new evidence. The history shows no recurring unmet conditions after a revision, so adjusting the taxonomy is expected to be sufficient. ===
+2026-10-14 02:36:06,474 INFO etdp: --- step 10 ---
+2026-10-14 02:36:15,127 INFO etdp.steps: proposal 1 of 3: 1 operation(s): rename ['D1']
+2026-10-14 02:36:55,996 INFO etdp.classify: classified 35 cells; 0 codes
+2026-10-14 02:36:56,008 INFO etdp.steps: taxonomy: 13 dimensions; 1 operations applied
+2026-10-14 02:36:56,008 INFO etdp.steps:   rename D1: Addresses I5.1 (kappa 0.592 below 0.61): the application rule of D1 did not decide between overlapping characteristics (wallet, platform, tooling, insurance, oracle, yield optimization, liquid staking
+2026-10-14 02:36:56,042 INFO etdp: --- step 11-12 ---
+2026-10-14 02:36:56,093 INFO etdp.steps: objective conditions unmet: none
+2026-10-14 02:36:56,124 INFO etdp: --- step 13-14 ---
+2026-10-14 02:37:01,110 INFO etdp.steps: subjective conditions met: ['concise', 'robust', 'comprehensive', 'extendible', 'explanatory']; unmet: none
+2026-10-14 02:37:01,142 INFO etdp: --- step 15-16 ---
+2026-10-14 02:37:05,747 INFO etdp.sources.semantic_scholar: Semantic Scholar: 3 results for 'flash loan arbitrage DeFi platform' (year=(2008, 2023), open_access_only=True)
+2026-10-14 02:37:08,971 INFO etdp.sources.semantic_scholar: Semantic Scholar: 6 results for 'flash loan arbitrage DeFi' (year=(2008, 2023), open_access_only=True)
+2026-10-14 02:37:10,927 INFO etdp.documents: scholarly: 3 full texts for 'flash loan arbitrage DeFi platform'
+2026-10-14 02:37:13,062 INFO etdp.documents: web: 3 pages for 'flash loan arbitrage DeFi platform'
+2026-10-14 02:43:35,786 INFO etdp.documents: llm: 2 descriptions for 10 objects
+2026-10-14 02:43:49,799 INFO etdp.documents: 51 candidate objects; 10 new objects registered
+2026-10-14 02:44:19,925 INFO etdp.classify: classified 130 cells; 0 codes
+2026-10-14 02:44:56,992 INFO etdp.classify: classified 130 cells; 0 codes
+2026-10-14 02:44:57,059 INFO etdp: --- step 17 ---
+2026-10-14 02:44:57,075 INFO etdp: --- step 18 ---
+2026-10-14 02:44:57,186 INFO etdp: run 2026-10-14T01-26-20 finished: completed 

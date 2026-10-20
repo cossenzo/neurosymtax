@@ -1,0 +1,767 @@
+{
+  "run_id": "2026-10-14T01-26-20",
+  "status": "completed",
+  "message": "",
+  "input": {
+    "observed_phenomenon": "Decentralized finance (DeFi)",
+    "target_user_groups": [
+      "Researchers in finance and information systems",
+      "Entrepreneurs and investors in the DeFi sector",
+      "Regulators and policy makers"
+    ],
+    "intended_purposes": [
+      "Systematically structure the emerging field of decentralized finance by classifying DeFi applications",
+      "Analyze the DeFi landscape to identify patterns and opportunities for value propositions and business models",
+      "Support the design of regulatory measures"
+    ],
+    "purpose_type": "identification_and_structuring",
+    "purpose_nature": "descriptive",
+    "domain_of_objects": "Decentralized finance (DeFi) applications: financial services built on smart contracts on public blockchains without intermediaries",
+    "evaluation_goals": [
+      {
+        "goal": "classifying",
+        "targets": {}
+      },
+      {
+        "goal": "analyzing",
+        "targets": {}
+      }
+    ],
+    "perspectives": [
+      "strategy",
+      "organization",
+      "technology"
+    ],
+    "meta_characteristic": null,
+    "seed_keywords": [
+      "decentralized finance",
+      "DeFi",
+      "dApps",
+      "blockchain",
+      "smart contracts"
+    ],
+    "language": "en",
+    "year_range": [
+      2008,
+      2023
+    ]
+  },
+  "meta_characteristic": "DeFi applications viewed as financial services delivered through smart contracts on public blockchains without intermediaries, examined as strategic value-creation and business model choices, organizational arrangements, and technological design features.",
+  "iterations": 6,
+  "documents_read": 92,
+  "objects": {
+    "building": 217,
+    "evaluation": 10
+  },
+  "perspectives": {
+    "strategy": [
+      "D1",
+      "D2"
+    ],
+    "organization": [
+      "D3",
+      "D4",
+      "D5",
+      "D13"
+    ],
+    "technology": [
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12"
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "D1",
+      "name": "Primary financial service",
+      "definition": "The financial service that the DeFi application mainly delivers to its users.",
+      "application_rule": "Choose the service that generates most of the user interactions described in the passages; if several services apply, the primary one decides. Where characteristics overlap, apply this precedence: a blockchain platform or network is chosen only where the application is itself the chain on which others build; a wallet and key management interface is chosen only where no pooling, lending, trading, derivatives, yield, staking, transfer or insurance service is delivered; a security and monitoring tool, an oracle and data infrastructure, or an insurance and risk coverage service is chosen only where that tooling or cover is the main service rather than an incidental feature of a financial service; a yield optimization and aggregation service is chosen only where deposits are routed by vaults or optimizers into strategies rather than lent, borrowed or traded directly; a liquid staking service is chosen only where staked assets are represented by receipt tokens.",
+      "perspective": "strategy",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D1.C1",
+          "name": "Lending and borrowing",
+          "definition": "The application mainly provides lending, borrowing or savings-rate deposits backed by loans.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 23
+        },
+        {
+          "id": "D1.C2",
+          "name": "Stablecoin issuance",
+          "definition": "The application mainly issues a stablecoin against collateral deposited by users.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 11
+        },
+        {
+          "id": "D1.C3",
+          "name": "Trading and exchange",
+          "definition": "The application mainly exchanges tokens through liquidity pools, order books or aggregated routes.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 32
+        },
+        {
+          "id": "D1.C4",
+          "name": "Derivatives and yield trading",
+          "definition": "The application mainly offers perpetual futures, fixed-rate trading or trading of yield tokens.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 4
+        },
+        {
+          "id": "D1.C5",
+          "name": "Yield optimization and aggregation",
+          "definition": "Deposits are routed by vaults or optimizers into yield strategies.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 16
+        },
+        {
+          "id": "D1.C6",
+          "name": "Liquid staking",
+          "definition": "Staked assets are represented by tradable or usable receipt tokens.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 2
+        },
+        {
+          "id": "D1.C7",
+          "name": "Cross-chain transfer",
+          "definition": "The application mainly moves assets or messages between public blockchains.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 13
+        },
+        {
+          "id": "D1.C8",
+          "name": "Oracle and data infrastructure",
+          "definition": "The application mainly supplies external data or tooling to smart contracts.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 6
+        },
+        {
+          "id": "D1.C9",
+          "name": "Insurance and risk coverage",
+          "definition": "The application mainly sells or pools cover against losses or smart-contract risk.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 15
+        },
+        {
+          "id": "D1.C10",
+          "name": "Prediction markets",
+          "definition": "The application mainly lets users trade on the outcomes of real-world events.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 3
+        },
+        {
+          "id": "D1.C11",
+          "name": "Real-world asset tokenization",
+          "definition": "The application mainly represents off-chain real-world assets, such as treasury exposure or property, as tokens on a blockchain.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 5
+        },
+        {
+          "id": "D1.C12",
+          "name": "Blockchain platform or network",
+          "definition": "The application is itself a blockchain or network infrastructure on which others build services, rather than a financial service built on one.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 13
+        },
+        {
+          "id": "D1.C13",
+          "name": "Off-chain payment channels",
+          "definition": "The application mainly routes payments through off-chain payment channels that are settled on a blockchain.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 2
+        },
+        {
+          "id": "D1.C14",
+          "name": "Collective investment fund",
+          "definition": "The application mainly pools participants' capital in a smart contract to invest it.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 1
+        },
+        {
+          "id": "D1.C16",
+          "name": "Wallet and key management interface",
+          "definition": "The application mainly lets users hold, access or manage their own keys and assets, rather than providing a financial service that pools, lends or trades funds.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 23
+        },
+        {
+          "id": "D1.C17",
+          "name": "Security and monitoring tooling",
+          "definition": "The application mainly provides security tools that monitor, patch or protect smart contracts against exploits.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 7
+        },
+        {
+          "id": "D1.C18",
+          "name": "No smart-contract delivery without intermediaries",
+          "definition": "The service is operated by a centralized company or exchange acting as intermediary, so it is not delivered by smart contracts without intermediaries.",
+          "negation": true,
+          "origin": "empirical",
+          "objects": 9
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "name": "Fee model",
+      "definition": "Whether the application charges a protocol, performance or management fee by default.",
+      "application_rule": "If a share of interest or yield is taken as protocol, performance or management fee, choose fee on interest or returns; otherwise, if a one-off fee is charged per transaction or loan origination, choose one-off transaction or origination fee; otherwise choose no default protocol fee.",
+      "perspective": "strategy",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D2.C1",
+          "name": "Fee on interest or returns",
+          "definition": "The application takes a share of interest or yield as protocol, performance or management fee.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 4
+        },
+        {
+          "id": "D2.C2",
+          "name": "No default protocol fee",
+          "definition": "The application charges no exchange or protocol fee by default.",
+          "negation": true,
+          "origin": "empirical",
+          "objects": 2
+        },
+        {
+          "id": "D2.C3",
+          "name": "One-off transaction or origination fee",
+          "definition": "The application charges a one-time fee on transactions or on loan origination by default, and takes no share of interest or returns.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 8
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "Parameter control",
+      "definition": "Who sets the protocol parameters of the application.",
+      "application_rule": "Choose the actor that sets the protocol parameters as described in the passages; token-holder votes apply where governance tokens decide parameters.",
+      "perspective": "organization",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D3.C1",
+          "name": "Token-holder votes",
+          "definition": "Protocol parameters are set by votes of holders of a native governance token.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 28
+        },
+        {
+          "id": "D3.C2",
+          "name": "Executive votes of governance system",
+          "definition": "Parameters are set through executive votes of an associated governance system.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 3
+        },
+        {
+          "id": "D3.C3",
+          "name": "Curator-set allocation and risk",
+          "definition": "Curators set the allocation of deposits and the risk parameters of vaults.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 3
+        },
+        {
+          "id": "D3.C4",
+          "name": "Council or consortium control",
+          "definition": "Protocol parameters are set by a fixed council or consortium of members rather than by votes of token holders.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 2
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "name": "Asset custody arrangement",
+      "definition": "Whether users keep direct control of their assets or delegate them to managed vaults.",
+      "application_rule": "If deposits are pooled into vaults or strategies that allocate funds on the user's behalf, choose delegated vault management; otherwise, if assets are held by a decentralized network of nodes, choose custody by decentralized node network; otherwise choose non-custodial user control.",
+      "perspective": "organization",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D4.C1",
+          "name": "Non-custodial user control",
+          "definition": "Users keep control of their own assets or positions without a custodian.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 31
+        },
+        {
+          "id": "D4.C2",
+          "name": "Delegated vault management",
+          "definition": "Deposits are pooled into vaults or strategies that allocate funds on behalf of users.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 22
+        },
+        {
+          "id": "D4.C3",
+          "name": "Custody by decentralized node network",
+          "definition": "Assets are held on users' behalf by a decentralized network of nodes rather than by users directly or by managed vaults.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 3
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "name": "Operating status",
+      "definition": "Whether the application is still operating.",
+      "application_rule": "Choose ceased operation only where the passages state that the application stopped operating.",
+      "perspective": "organization",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D5.C1",
+          "name": "Actively operating",
+          "definition": "The application is in operation as described in the passages.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 144
+        },
+        {
+          "id": "D5.C2",
+          "name": "Ceased operation",
+          "definition": "The application stopped operating.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 8
+        }
+      ]
+    },
+    {
+      "id": "D6",
+      "name": "Blockchain deployment",
+      "definition": "The public blockchain arrangement on which the application runs.",
+      "application_rule": "If the application runs on several blockchains, choose multi-chain deployment; else if it runs on a layer 2 or its own application chain, choose that; otherwise choose a single layer 1 blockchain.",
+      "perspective": "technology",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D6.C1",
+          "name": "Multi-chain deployment",
+          "definition": "The application runs across multiple public blockchains.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 45
+        },
+        {
+          "id": "D6.C2",
+          "name": "Layer 2 or application chain",
+          "definition": "The application runs on a layer 2 scaling solution or its own application chain.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 12
+        },
+        {
+          "id": "D6.C3",
+          "name": "Single layer 1 blockchain",
+          "definition": "The application runs on one public layer 1 blockchain such as Ethereum or Solana.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 101
+        }
+      ]
+    },
+    {
+      "id": "D7",
+      "name": "Position representation",
+      "definition": "Whether user deposits or stakes are represented by a tokenized receipt.",
+      "application_rule": "Choose tokenized receipt where the passages state that a transferable token represents the deposit or stake; otherwise choose positions held in protocol contracts.",
+      "perspective": "technology",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D7.C1",
+          "name": "Tokenized receipt for deposits or stake",
+          "definition": "A transferable receipt token represents supplied assets or staked assets.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 11
+        },
+        {
+          "id": "D7.C2",
+          "name": "Position held in protocol contracts",
+          "definition": "Positions are recorded in the protocol's own contracts without a separate receipt token.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 25
+        }
+      ]
+    },
+    {
+      "id": "D8",
+      "name": "Risk and liquidity isolation",
+      "definition": "Whether risk and liquidity are isolated per market or vault or shared across a common layer.",
+      "application_rule": "Choose isolated risk where each market or vault has its own risk boundary; choose shared liquidity where markets draw on a common liquidity layer.",
+      "perspective": "technology",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D8.C1",
+          "name": "Isolated risk per market or vault",
+          "definition": "Each market, silo or vault has its own risk boundary so that failures do not spread.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 3
+        },
+        {
+          "id": "D8.C2",
+          "name": "Shared liquidity layer",
+          "definition": "Lending and trading components draw on a common liquidity layer or shared vault architecture.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 3
+        }
+      ]
+    },
+    {
+      "id": "D9",
+      "name": "Security incident history",
+      "definition": "Whether the application has suffered an exploit or security incident.",
+      "application_rule": "Choose prior exploit or security incident where the passages report one; choose the negation where none is stated.",
+      "perspective": "technology",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D9.C1",
+          "name": "Prior exploit or security incident",
+          "definition": "The application suffered an exploit or security incident reported in the passages.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 59
+        },
+        {
+          "id": "D9.C2",
+          "name": "No recorded exploit or incident",
+          "definition": "The passages record no exploit or security incident for the application.",
+          "negation": true,
+          "origin": "empirical",
+          "objects": 2
+        }
+      ]
+    },
+    {
+      "id": "D10",
+      "name": "Oracle usage",
+      "definition": "Whether the application uses oracles to import data from outside the blockchain or to link blockchains.",
+      "application_rule": "Choose oracle usage where the passages state that the application imports external data into a blockchain or establishes interoperability between blockchains through oracles; choose no oracle usage where the passages state that the application does not use oracles; record no_information where the passages are silent.",
+      "perspective": "technology",
+      "origin": "conceptual",
+      "characteristics": [
+        {
+          "id": "D10.C1",
+          "name": "Oracle usage",
+          "definition": "DeFi services that use oracles to import external data into a blockchain network or to establish interoperability between blockchains.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 17
+        },
+        {
+          "id": "D10.C2",
+          "name": "No oracle usage",
+          "definition": "DeFi services that do not use oracles, so data does not flow in from outside the blockchain ecosystem.",
+          "negation": true,
+          "origin": "conceptual",
+          "objects": 0
+        }
+      ]
+    },
+    {
+      "id": "D11",
+      "name": "Consensus mechanism",
+      "definition": "The consensus mechanism by which the underlying blockchain or network validates transactions.",
+      "application_rule": "Choose the consensus mechanism the passages state for the underlying blockchain or network; choose proof-of-stake for delegated proof-of-stake and validator-set variants; choose other consensus mechanism for any other stated mechanism; record no_information where the passages are silent.",
+      "perspective": "technology",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D11.C1",
+          "name": "Proof-of-stake consensus",
+          "definition": "Transactions are validated through proof-of-stake, including delegated proof-of-stake and validator-set variants.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 14
+        },
+        {
+          "id": "D11.C2",
+          "name": "Proof-of-work consensus",
+          "definition": "Transactions are validated through proof-of-work mining.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 1
+        },
+        {
+          "id": "D11.C3",
+          "name": "Other consensus mechanism",
+          "definition": "Transactions are validated through a stated mechanism that is neither proof-of-stake nor proof-of-work, such as federated Byzantine agreement or gossip-based ledger timestamping.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 3
+        }
+      ]
+    },
+    {
+      "id": "D12",
+      "name": "Stablecoin peg mechanism",
+      "definition": "The mechanism by which a stablecoin maintains its peg to a reference value.",
+      "application_rule": "Choose the mechanism the passages state for the stablecoin's peg: fiat reserve backing where fully backed by audited fiat reserves; overcollateralized collateral backing where collateral exceeds the issued amount; arbitrage-based algorithmic peg where a native token is burned and minted; delta-neutral hedged backing where collateral is hedged by short perpetual positions without overcollateralization; otherwise choose no stablecoin peg mechanism.",
+      "perspective": "technology",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D12.C1",
+          "name": "Fiat reserve backing",
+          "definition": "The stablecoin is fully backed by fiat reserves that are audited.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 2
+        },
+        {
+          "id": "D12.C2",
+          "name": "Overcollateralized collateral backing",
+          "definition": "The peg is secured by collateral deposited in excess of the issued amount, including centralized stablecoins accepted as collateral.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 3
+        },
+        {
+          "id": "D12.C3",
+          "name": "Arbitrage-based algorithmic peg",
+          "definition": "The peg is maintained through arbitrage, with a native token burned and minted to keep the stablecoin at its reference value.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 3
+        },
+        {
+          "id": "D12.C4",
+          "name": "Delta-neutral hedged backing",
+          "definition": "Collateral reserves are hedged by short perpetual-type positions without leverage, and the peg holds without overcollateralization.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 1
+        },
+        {
+          "id": "D12.C5",
+          "name": "No stablecoin peg mechanism",
+          "definition": "The application does not issue a stablecoin or maintain a stablecoin peg.",
+          "negation": true,
+          "origin": "empirical",
+          "objects": 0
+        }
+      ]
+    },
+    {
+      "id": "D13",
+      "name": "Investor access restriction",
+      "definition": "Whether access to the application is restricted to qualified investors or open to retail users.",
+      "application_rule": "Choose restricted to accredited or institutional investors where the passages state that access requires accredited or institutional status or KYC checks; otherwise choose open to retail users where the passages state retail targeting or open participation.",
+      "perspective": "organization",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D13.C1",
+          "name": "Restricted to accredited or institutional investors",
+          "definition": "Access is limited to accredited, institutional or qualified investors who pass identity and capital checks.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 2
+        },
+        {
+          "id": "D13.C2",
+          "name": "Open to retail users",
+          "definition": "The application is aimed at retail users or has no participation limits for users.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 19
+        }
+      ]
+    }
+  ],
+  "objective_conditions": {
+    "holds": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "details": {
+      "O1": "217 objects, 13 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects; conceptual or negation, exempt: D10.C2 'No oracle usage', D12.C5 'No stablecoin peg mechanism'",
+      "O5": "not checked: only the e iterations after the first are checked",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 28 misfits",
+      "O10": "structure rules hold"
+    }
+  },
+  "subjective_conditions": {
+    "concise": {
+      "passed": true,
+      "justification": "The thirteen dimensions span the strategy, organization and technology perspectives, and each serves the stated purposes of classifying DeFi applications, analysing business model patterns and supporting regulation. None is clearly redundant with another."
+    },
+    "robust": {
+      "passed": true,
+      "justification": "Each dimension has mutually exclusive characteristics, and the sharpened precedence rule in D1 now decides between the overlapping service characteristics. Sparse coverage in some dimensions reflects the evidence rather than weak differentiation."
+    },
+    "comprehensive": {
+      "passed": true,
+      "justification": "Every object can be classified, and all three perspectives are represented with dimensions relevant to the purpose: primary service, fee model, custody, investor access, deployment, incidents, oracles and stablecoin pegs."
+    },
+    "extendible": {
+      "passed": true,
+      "justification": "Each dimension is defined by mutually exclusive and collectively exhaustive characteristics with application rules, so new characteristics or dimensions can be added within the perspectives without restructuring the existing ones."
+    },
+    "explanatory": {
+      "passed": true,
+      "justification": "Dimensions and characteristics have clear definitions and application rules tied to the meta-characteristic of DeFi as smart-contract financial services, and they explain the nature of applications with respect to the purpose."
+    }
+  },
+  "evaluation_plan": [
+    {
+      "goal": "classifying",
+      "users_aim": "classify objects that represent a certain phenomenon",
+      "designers_provide": "characteristics and dimensions that serve as scheme to classify one particular object",
+      "method": "new objects classified twice, independently",
+      "criteria": [
+        {
+          "measure": "kappa",
+          "label": "mean Cohen's kappa between the two classifications",
+          "comparator": ">=",
+          "target": 0.61,
+          "population": "new",
+          "remedy": "10",
+          "basis": "substantial agreement (Landis & Koch, 1977)"
+        },
+        {
+          "measure": "misfit_share",
+          "label": "share of new objects with a misfit in some dimension",
+          "comparator": "<=",
+          "target": 0.3,
+          "population": "new",
+          "remedy": "6",
+          "basis": ""
+        }
+      ]
+    },
+    {
+      "goal": "analyzing",
+      "users_aim": "analyze objects that represent a certain phenomenon",
+      "designers_provide": "characteristics and dimensions that serve as a basis to determine similarities and differences of objects",
+      "method": "distribution of all classified objects over the characteristics",
+      "criteria": [
+        {
+          "measure": "discriminating_dimensions",
+          "label": "share of dimensions in which no characteristic holds more than the dominance threshold of the informed objects",
+          "comparator": ">=",
+          "target": 0.6,
+          "population": "all",
+          "remedy": "10",
+          "basis": ""
+        }
+      ]
+    }
+  ],
+  "evaluation": {
+    "new_objects": 10,
+    "all_objects": 227,
+    "kappa_per_dimension": {
+      "D1": 0.8507,
+      "D2": 1.0,
+      "D3": 1.0,
+      "D4": 0.6296,
+      "D5": 1.0,
+      "D6": 0.6,
+      "D7": 0.0,
+      "D8": 1.0,
+      "D9": 0.5556,
+      "D10": 1.0,
+      "D11": 1.0,
+      "D12": 1.0,
+      "D13": 0.0
+    },
+    "kappa": 0.7412,
+    "misfit_share": 0.0,
+    "informed_share": 0.1846,
+    "distinct_profiles": 0.6123,
+    "discriminating_dimensions": 0.6923,
+    "cluster_silhouette": 0.3083,
+    "new_object_ids": [
+      "O218",
+      "O219",
+      "O220",
+      "O221",
+      "O222",
+      "O223",
+      "O224",
+      "O225",
+      "O226",
+      "O227"
+    ],
+    "results": [
+      {
+        "goal": "classifying",
+        "measure": "kappa",
+        "value": 0.7412,
+        "target": 0.61,
+        "comparator": ">=",
+        "met": true,
+        "remedy": "10"
+      },
+      {
+        "goal": "classifying",
+        "measure": "misfit_share",
+        "value": 0.0,
+        "target": 0.3,
+        "comparator": "<=",
+        "met": true,
+        "remedy": "6"
+      },
+      {
+        "goal": "analyzing",
+        "measure": "discriminating_dimensions",
+        "value": 0.6923,
+        "target": 0.6,
+        "comparator": ">=",
+        "met": true,
+        "remedy": "10"
+      }
+    ]
+  },
+  "open_issues": [],
+  "tokens_used": 4195307
+}

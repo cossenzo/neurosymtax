@@ -1,0 +1,620 @@
+[
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D1",
+      "D1.C1",
+      "D1.C2",
+      "D1.C3",
+      "D1.C4",
+      "D1.C5",
+      "D1.C6",
+      "D1.C7",
+      "D1.C8"
+    ],
+    "removed": [],
+    "evidence": [
+      "O1",
+      "O3",
+      "O4",
+      "O6",
+      "O25",
+      "O28",
+      "O32",
+      "O34",
+      "O2",
+      "O12",
+      "O18",
+      "O20",
+      "O21",
+      "O16",
+      "O26",
+      "O37",
+      "O14",
+      "O15",
+      "O17",
+      "O23",
+      "O24",
+      "O31",
+      "O22",
+      "O27",
+      "O7",
+      "O13",
+      "O29",
+      "O30",
+      "O33",
+      "O19"
+    ],
+    "reason": "Primary service is the central strategic value-creation choice across the DeFi applications."
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D2",
+      "D2.C1",
+      "D2.C2"
+    ],
+    "removed": [],
+    "evidence": [
+      "O6",
+      "O14",
+      "O15",
+      "O17",
+      "O23",
+      "O12"
+    ],
+    "reason": "Revenue model is a business model choice supported by the evidence."
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D3",
+      "D3.C1",
+      "D3.C2",
+      "D3.C3"
+    ],
+    "removed": [],
+    "evidence": [
+      "O1",
+      "O2",
+      "O3",
+      "O8",
+      "O9",
+      "O10",
+      "O12",
+      "O14",
+      "O16",
+      "O17",
+      "O18",
+      "O20",
+      "O23",
+      "O24",
+      "O25",
+      "O27",
+      "O5",
+      "O11",
+      "O4",
+      "O28",
+      "O31"
+    ],
+    "reason": "Governance arrangements are organizational features shared across applications."
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D4",
+      "D4.C1",
+      "D4.C2"
+    ],
+    "removed": [],
+    "evidence": [
+      "O11",
+      "O12",
+      "O26",
+      "O4",
+      "O14",
+      "O17",
+      "O23",
+      "O24",
+      "O28",
+      "O31"
+    ],
+    "reason": "Delegation of asset management is an organizational arrangement distinguishing applications."
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D5",
+      "D5.C1",
+      "D5.C2"
+    ],
+    "removed": [],
+    "evidence": [
+      "O35"
+    ],
+    "reason": "Operating status describes the organizational lifecycle of applications."
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D6",
+      "D6.C1",
+      "D6.C2",
+      "D6.C3"
+    ],
+    "removed": [],
+    "evidence": [
+      "O7",
+      "O9",
+      "O13",
+      "O18",
+      "O29",
+      "O33",
+      "O26",
+      "O3",
+      "O11",
+      "O12",
+      "O14",
+      "O15",
+      "O16",
+      "O17",
+      "O20",
+      "O21",
+      "O23",
+      "O25",
+      "O37"
+    ],
+    "reason": "Blockchain deployment is a technological design feature of each application."
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D7",
+      "D7.C1",
+      "D7.C2"
+    ],
+    "removed": [],
+    "evidence": [
+      "O5",
+      "O6",
+      "O27",
+      "O34",
+      "O37",
+      "O28",
+      "O8",
+      "O16"
+    ],
+    "reason": "Receipt tokens are a distinct technological design feature."
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D8",
+      "D8.C1",
+      "D8.C2"
+    ],
+    "removed": [],
+    "evidence": [
+      "O4",
+      "O9",
+      "O10",
+      "O8",
+      "O20"
+    ],
+    "reason": "Isolation design is a technological feature that changes the risk profile of applications."
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D9",
+      "D9.C1",
+      "D9.C2"
+    ],
+    "removed": [],
+    "evidence": [
+      "O10",
+      "O15",
+      "O33"
+    ],
+    "reason": "Security incident history is a technological risk characteristic supported by the passages."
+  },
+  {
+    "iteration": 2,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D10",
+      "D10.C1",
+      "D10.C2"
+    ],
+    "removed": [],
+    "evidence": [
+      "K100",
+      "K102",
+      "K103",
+      "K104"
+    ],
+    "reason": "The concepts define oracle usage as a technological design feature that determines whether data flows from the outside world into the blockchain ecosystem, which the current technology perspective lacks. The dimension is limited to a stated presence or absence of oracles and does not express missing information."
+  },
+  {
+    "iteration": 3,
+    "op": "add_characteristic",
+    "targets": [
+      "D1"
+    ],
+    "created": [
+      "D1.C9"
+    ],
+    "removed": [],
+    "evidence": [
+      "O38",
+      "O39",
+      "O42",
+      "O43",
+      "O44",
+      "I2.1"
+    ],
+    "reason": "Insurance protocols are misfits in D1 and fit no existing primary-service characteristic."
+  },
+  {
+    "iteration": 3,
+    "op": "add_characteristic",
+    "targets": [
+      "D1"
+    ],
+    "created": [
+      "D1.C10"
+    ],
+    "removed": [],
+    "evidence": [
+      "O53",
+      "O66",
+      "O90",
+      "I2.1"
+    ],
+    "reason": "Event-outcome markets are misfits in D1 and form a distinct primary service."
+  },
+  {
+    "iteration": 3,
+    "op": "add_characteristic",
+    "targets": [
+      "D1"
+    ],
+    "created": [
+      "D1.C11"
+    ],
+    "removed": [],
+    "evidence": [
+      "O54",
+      "O62",
+      "O68",
+      "O71",
+      "I2.1"
+    ],
+    "reason": "Tokenized real-world asset products are misfits in D1 and are not covered by any current characteristic."
+  },
+  {
+    "iteration": 3,
+    "op": "add_characteristic",
+    "targets": [
+      "D1"
+    ],
+    "created": [
+      "D1.C12"
+    ],
+    "removed": [],
+    "evidence": [
+      "O48",
+      "O49",
+      "O51",
+      "O56",
+      "O57",
+      "O59",
+      "O61",
+      "O69",
+      "O73",
+      "O74",
+      "O75",
+      "O79",
+      "I2.1"
+    ],
+    "reason": "Base-layer networks are misfits in D1; the primary service is the network itself."
+  },
+  {
+    "iteration": 3,
+    "op": "add_characteristic",
+    "targets": [
+      "D1"
+    ],
+    "created": [
+      "D1.C13"
+    ],
+    "removed": [],
+    "evidence": [
+      "O55",
+      "O78",
+      "I2.1"
+    ],
+    "reason": "Payment-channel networks are misfits in D1 and have a distinct service model."
+  },
+  {
+    "iteration": 3,
+    "op": "add_characteristic",
+    "targets": [
+      "D1"
+    ],
+    "created": [
+      "D1.C14"
+    ],
+    "removed": [],
+    "evidence": [
+      "O70",
+      "I2.1"
+    ],
+    "reason": "A pooled venture fund is a misfit in D1 and is not covered by existing characteristics."
+  },
+  {
+    "iteration": 3,
+    "op": "add_characteristic",
+    "targets": [
+      "D1"
+    ],
+    "created": [
+      "D1.C15"
+    ],
+    "removed": [],
+    "evidence": [
+      "O60",
+      "I2.1"
+    ],
+    "reason": "An AI-based investment support platform is a misfit in D1 and is not a financial service in the existing characteristics."
+  },
+  {
+    "iteration": 3,
+    "op": "add_characteristic",
+    "targets": [
+      "D2"
+    ],
+    "created": [
+      "D2.C3"
+    ],
+    "removed": [],
+    "evidence": [
+      "O45",
+      "I2.1"
+    ],
+    "reason": "A one-off borrowing fee is a misfit in D2 because it is neither a share of interest nor no fee."
+  },
+  {
+    "iteration": 3,
+    "op": "rename",
+    "targets": [
+      "D2"
+    ],
+    "created": [],
+    "removed": [],
+    "evidence": [
+      "O45"
+    ],
+    "reason": "Precedence between the fee characteristics is needed for mutual exclusivity."
+  },
+  {
+    "iteration": 3,
+    "op": "add_characteristic",
+    "targets": [
+      "D3"
+    ],
+    "created": [
+      "D3.C4"
+    ],
+    "removed": [],
+    "evidence": [
+      "O59",
+      "O79",
+      "I2.1"
+    ],
+    "reason": "Council- or consortium-run networks are misfits in D3 because they fit no token-holder or executive vote characteristic."
+  },
+  {
+    "iteration": 3,
+    "op": "add_characteristic",
+    "targets": [
+      "D4"
+    ],
+    "created": [
+      "D4.C3"
+    ],
+    "removed": [],
+    "evidence": [
+      "O87",
+      "I2.1"
+    ],
+    "reason": "Node-network custody is a misfit in D4 because it is neither non-custodial control nor delegated vault management."
+  },
+  {
+    "iteration": 3,
+    "op": "rename",
+    "targets": [
+      "D4"
+    ],
+    "created": [],
+    "removed": [],
+    "evidence": [
+      "O87"
+    ],
+    "reason": "Precedence is needed among the custody characteristics for mutual exclusivity."
+  },
+  {
+    "iteration": 3,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D11",
+      "D11.C1",
+      "D11.C2",
+      "D11.C3"
+    ],
+    "removed": [],
+    "evidence": [
+      "O48",
+      "O58",
+      "O61",
+      "O69",
+      "O74",
+      "O75",
+      "O89",
+      "O56",
+      "O67",
+      "O49",
+      "O57",
+      "O59",
+      "I2.1"
+    ],
+    "reason": "Consensus codes describe the technology of the networks and do not fit the existing technology dimensions."
+  },
+  {
+    "iteration": 3,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D12",
+      "D12.C1",
+      "D12.C2",
+      "D12.C3",
+      "D12.C4",
+      "D12.C5"
+    ],
+    "removed": [],
+    "evidence": [
+      "O52",
+      "O50",
+      "O58",
+      "O80",
+      "O63",
+      "I2.1"
+    ],
+    "reason": "Peg codes describe how stablecoins are backed; they fit no existing characteristic of the stablecoin-related dimensions."
+  },
+  {
+    "iteration": 3,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D13",
+      "D13.C1",
+      "D13.C2"
+    ],
+    "removed": [],
+    "evidence": [
+      "O54",
+      "O71",
+      "O68",
+      "O90",
+      "I2.1"
+    ],
+    "reason": "Investor access codes are distinct from the existing organization dimensions and form a mutually exclusive pair."
+  },
+  {
+    "iteration": 4,
+    "op": "delete",
+    "targets": [
+      "D1.C15"
+    ],
+    "created": [],
+    "removed": [
+      "D1.C15"
+    ],
+    "evidence": [],
+    "reason": "Characteristic 'Analytics and decision tooling' holds no classified object (open issue I3.1 cites O3, which does not fall under it), so it is deleted as an element without objects. Dimension D1 keeps 14 characteristics and remains mutually exclusive and collectively exhaustive for the classified objects..)"
+  },
+  {
+    "iteration": 5,
+    "op": "add_characteristic",
+    "targets": [
+      "D1"
+    ],
+    "created": [
+      "D1.C16"
+    ],
+    "removed": [],
+    "evidence": [
+      "O102",
+      "O103",
+      "O104",
+      "O105",
+      "O112",
+      "O149"
+    ],
+    "reason": "Wallets and key-management tools are misfits of D1 because no existing primary-service characteristic describes them."
+  },
+  {
+    "iteration": 5,
+    "op": "add_characteristic",
+    "targets": [
+      "D1"
+    ],
+    "created": [
+      "D1.C17"
+    ],
+    "removed": [],
+    "evidence": [
+      "O132",
+      "O142",
+      "O143",
+      "O144",
+      "O145",
+      "O146"
+    ],
+    "reason": "Smart-contract security tools are misfits of D1 and do not fit the oracle and data characteristic."
+  },
+  {
+    "iteration": 5,
+    "op": "add_characteristic",
+    "targets": [
+      "D1"
+    ],
+    "created": [
+      "D1.C18"
+    ],
+    "removed": [],
+    "evidence": [
+      "O155",
+      "O167",
+      "O175",
+      "O202",
+      "O204"
+    ],
+    "reason": "Centralized intermediary services are misfits of D1 and need a negation characteristic that states the absence of intermediary-free delivery."
+  },
+  {
+    "iteration": 6,
+    "op": "rename",
+    "targets": [
+      "D1"
+    ],
+    "created": [],
+    "removed": [],
+    "evidence": [
+      "I5.1"
+    ],
+    "reason": "Addresses I5.1 (kappa 0.592 below 0.61): the application rule of D1 did not decide between overlapping characteristics (wallet, platform, tooling, insurance, oracle, yield optimization, liquid staking). Sharpening the precedence rule makes the choice between these characteristics decidable without changing any element, adding evidence, or altering object counts."
+  }
+]
