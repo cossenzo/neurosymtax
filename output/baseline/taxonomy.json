@@ -1,0 +1,297 @@
+{
+  "run_id": "baseline-2026-10-14T00-21-37",
+  "configuration": "single-prompt baseline",
+  "meta_characteristic": "Decentralized finance application: a financial service built on smart contracts on a public blockchain without intermediaries",
+  "dimensions": [
+    {
+      "id": "D1",
+      "name": "Primary financial function",
+      "definition": "The core financial service that the DeFi application provides to its users.",
+      "application_rule": "Classify each application by the single financial service that is its main value proposition; if several apply, use the one generating most of its transaction volume.",
+      "perspective": "strategy",
+      "characteristics": [
+        {
+          "id": "D1.C1",
+          "name": "Lending and borrowing",
+          "definition": "The application enables users to lend assets to or borrow assets from a pool or counterparty.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D1.C2",
+          "name": "Trading and exchange",
+          "definition": "The application enables users to swap or exchange crypto-assets.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D1.C3",
+          "name": "Asset management and yield generation",
+          "definition": "The application enables users to deposit assets to earn returns through strategies or yield aggregation.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D1.C4",
+          "name": "Payments and stablecoin transfers",
+          "definition": "The application enables users to transfer value or hold and move stable-valued tokens.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D1.C5",
+          "name": "Derivatives and synthetic assets",
+          "definition": "The application enables users to trade contracts or tokens that derive their value from underlying assets.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D1.C6",
+          "name": "Insurance and risk coverage",
+          "definition": "The application enables users to hedge or insure against risks such as smart contract failure.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D1.C7",
+          "name": "Other financial service",
+          "definition": "The application provides a financial service not covered by the previous characteristics.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "name": "Revenue model",
+      "definition": "The mechanism through which the application generates value for its operators or token holders.",
+      "application_rule": "Classify by the primary mechanism that captures value; if the application generates no revenue for operators or token holders, use the last characteristic.",
+      "perspective": "strategy",
+      "characteristics": [
+        {
+          "id": "D2.C1",
+          "name": "Transaction fee-based",
+          "definition": "Value is captured through fees charged on each transaction executed in the application.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D2.C2",
+          "name": "Interest margin-based",
+          "definition": "Value is captured through the spread between interest paid to depositors and interest charged to borrowers.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D2.C3",
+          "name": "Token-based value capture",
+          "definition": "Value is captured through a native token whose holders benefit from protocol revenue, incentives, or governance rights.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D2.C4",
+          "name": "No direct revenue capture",
+          "definition": "The application does not capture revenue for operators or token holders.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "Governance model",
+      "definition": "The way decisions on the protocol's rules and parameters are made and by whom.",
+      "application_rule": "Classify by the actor group that holds effective decision-making power over protocol changes.",
+      "perspective": "organization",
+      "characteristics": [
+        {
+          "id": "D3.C1",
+          "name": "On-chain token-holder governance",
+          "definition": "Protocol changes are decided by token holders through on-chain voting, often organized as a decentralized autonomous organization.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D3.C2",
+          "name": "Core team or foundation governance",
+          "definition": "Protocol changes are decided by a identifiable development team, company, or foundation.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D3.C3",
+          "name": "Immutable without active governance",
+          "definition": "The protocol's rules are fixed after deployment and cannot be changed by any actor.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "name": "Access model",
+      "definition": "The conditions under which users can access and use the application.",
+      "application_rule": "Classify by whether users must pass any identity or eligibility check before interacting with the application.",
+      "perspective": "organization",
+      "characteristics": [
+        {
+          "id": "D4.C1",
+          "name": "Permissionless access",
+          "definition": "Any wallet holder can interact with the application without identity verification or whitelisting.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D4.C2",
+          "name": "Permissioned access",
+          "definition": "Users must pass identity verification, whitelisting, or another eligibility check before using the application.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "name": "Blockchain platform",
+      "definition": "The public blockchain on which the application's smart contracts are deployed.",
+      "application_rule": "Classify by the blockchain hosting the application's main smart contracts; if deployed on several, use the one hosting the core contracts.",
+      "perspective": "technology",
+      "characteristics": [
+        {
+          "id": "D5.C1",
+          "name": "Ethereum mainnet",
+          "definition": "The application's core smart contracts run on the Ethereum mainnet.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D5.C2",
+          "name": "Other EVM-compatible public blockchain",
+          "definition": "The application's core smart contracts run on a public blockchain compatible with the Ethereum Virtual Machine other than Ethereum mainnet.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D5.C3",
+          "name": "Non-EVM public blockchain",
+          "definition": "The application's core smart contracts run on a public blockchain that is not compatible with the Ethereum Virtual Machine.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        }
+      ]
+    },
+    {
+      "id": "D6",
+      "name": "Price discovery mechanism",
+      "definition": "The mechanism by which the application determines prices or interest rates for its transactions.",
+      "application_rule": "Classify by the mechanism that sets prices or rates for the main service; if the service sets no prices or rates, use the last characteristic.",
+      "perspective": "technology",
+      "characteristics": [
+        {
+          "id": "D6.C1",
+          "name": "Automated market maker",
+          "definition": "Prices are set algorithmically by liquidity pools using a predefined pricing function.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D6.C2",
+          "name": "Order book",
+          "definition": "Prices are set by matching buy and sell orders placed by users.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D6.C3",
+          "name": "Algorithmic interest rate model",
+          "definition": "Interest rates are set algorithmically based on pool utilization or supply and demand.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D6.C4",
+          "name": "No price or rate setting",
+          "definition": "The application does not set prices or rates for its main service.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        }
+      ]
+    },
+    {
+      "id": "D7",
+      "name": "External data dependence",
+      "definition": "Whether the application depends on data from outside the blockchain to operate.",
+      "application_rule": "Classify by whether the application's core logic requires external price or event data delivered by oracles.",
+      "perspective": "technology",
+      "characteristics": [
+        {
+          "id": "D7.C1",
+          "name": "Relies on external oracle data",
+          "definition": "The application's core logic depends on external data, such as asset prices, delivered to the blockchain by oracles.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D7.C2",
+          "name": "Operates without external data",
+          "definition": "The application's core logic operates solely on data available on the blockchain.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        }
+      ]
+    }
+  ],
+  "structure_problems": [],
+  "tokens_used": 4859
+}
