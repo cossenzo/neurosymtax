@@ -1,4 +1,4 @@
-# NeuroSymTax – neuro-symbolic AI automation of the extended taxonomy design process
+# NeuroSymTax: Neuro-Symbolic Automated Taxonomy Development with Applications in Decentralized Finance
 
 Automates the extended taxonomy design process (ETDP) of Kundisch et al. (2022). Each step is done by the researcher
 [I], the LLM or the embedding model [N], or program code [S]. The LLM proposes; the program verifies and decides.
