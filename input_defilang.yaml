@@ -1,0 +1,23 @@
+# input_defilang.yaml – DeFiLang: A semantically traceable DeFi taxonomy oriented toward consumer protection
+
+observed_phenomenon: "Decentralized finance (DeFi)"
+target_user_groups:
+  - "Consumers"
+  - "investors"
+  - "Service providers"
+  - "Regulators"
+intended_purposes:
+  - "Represent sociolinguistic patterns and relate them to technical concepts and risk categories"
+  - "Semantically mediate the transition from public discourse on DeFi to informational consumer protection (traceability)"
+  - "Provide insights to improve consumer protection and strategic decision-making"
+purpose_type: identification_and_structuring
+purpose_nature: descriptive
+domain_of_objects: "Jargon, slang and warning expressions used by the DeFi community in forums and social media to warn about, accuse of or describe risks and harms that may affect consumers, excluding names of specific protocols, tokens, companies or people"
+evaluation_goals:
+  - goal: describing
+  - goal: classifying
+perspectives: ["Consumer risk", "Community discourse"]
+meta_characteristic: null
+seed_keywords: ["decentralized finance", "DeFi", "alert", "warning", "risk", "harm", "vulnerability", "misconduct", "consumer", "asymmetry", "fraud", "scam", "loss", "failure", "liquidity", "attack", "drain", "crisis", "governance", "malicious"]
+language: "en"
+year_range: [2008, 2026]

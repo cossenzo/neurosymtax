@@ -1,0 +1,13 @@
+Task: identify the OBJECTS of the domain named in the text (Step 7e).
+
+Domain of objects (set by the taxonomy designer): $domain_of_objects
+Meta-characteristic: $meta_characteristic
+
+An object is a concrete, named instance of the domain of objects (for example a specific application, protocol, platform, product or service). Report every named instance of the domain that the text mentions, even briefly or in a list. General categories without a name of their own and the document itself are not objects.
+
+For each object give: name (as written in the text); aliases (other names or acronyms in the text); description (one or two sentences, according to the text, on the aspects relevant to the meta-characteristic); instance (true if it is a named instance of the domain of objects).
+
+Return an empty list if the text names no object. Write descriptions in the language "$language".
+
+TEXT:
+$text

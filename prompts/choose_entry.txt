@@ -1,0 +1,9 @@
+Task: the taxonomy did not pass the check after Step $exit of the ETDP. Choose where to re-enter: "6" (a new building iteration, with new evidence from new documents and objects) or "10" (revise the taxonomy with the open issues, without new evidence).
+
+Choose "10" when the unmet conditions can be resolved by adjusting the taxonomy itself with the objects already classified (definitions, names, merging, splitting, deleting elements, or a characteristic for objects that fit none). A revision never creates a dimension or characteristic without objects. Choose "6" when the conditions need more objects or documents (for example a perspective without enough dimensions, or characteristics that no object has), or when revisions did not resolve them before (the same unmet conditions recurring after a revision show that adjusting is not enough).
+
+Unmet: $unmet
+History of the iterations:
+$history
+
+Options: $options

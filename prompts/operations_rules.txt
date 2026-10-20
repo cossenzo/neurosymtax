@@ -1,0 +1,21 @@
+How to answer: a list of operations (Kundisch et al., 2022, Table 5). Use the ids of the taxonomy for existing elements.
+- add_dimension: name, definition, application_rule (what to observe in an object and how to choose the characteristic), perspective, characteristics (each with name, definition and, for a closing characteristic such as "none", negation: true).
+- add_characteristic: target [dimension id], name, definition, negation.
+- rename: target [element id], with the new name, definition, application_rule or perspective (only the fields that change).
+- swap: target [id, id] of two dimensions, or of two characteristics of one dimension.
+- split: target [element id]; for a dimension, parts (at least two dimensions, as in add_dimension); for a characteristic, characteristics (at least two).
+- merge: target [ids] of dimensions, or of characteristics of one dimension; name, definition (and for dimensions application_rule, perspective, characteristics).
+- promote: target [characteristic id]; the new dimension's name, definition, application_rule, perspective and characteristics.
+- demote: target [dimension id, id of the dimension that receives it]; name and definition of the resulting characteristic.
+- delete: target [element id]; reason (no object, or redundant with another element). A negation characteristic is never deleted.
+
+Cite in "evidence" the ids of the objects, concepts or open issues that justify each operation (e.g. "O3", "K12", "I4.2").
+
+Rules checked by the program (a proposal that breaks them is returned to you):
+- Every dimension belongs to exactly one perspective of: $perspectives.
+- Every dimension has at least $min_characteristics_per_dimension characteristics and at most one negation characteristic.
+- A negation characteristic names a stated absence of what the other characteristics describe (e.g. "No governance: immutable contracts"); it needs no object, and you do not delete it. No characteristic expresses missing information ("not stated", "unknown"): when the sources are silent, the cell is "no_information".
+- Names are unique: no two dimensions, and no two characteristics anywhere in the taxonomy, share a name.
+- (O9) Within a dimension the characteristics are mutually exclusive and collectively exhaustive: every object has exactly one of them. The program does not check this; you are responsible for it: where two characteristics could both apply, make the definitions or the application rule decide between them (e.g. precedence of the primary service).
+- At the end, every perspective must have at least $min_dimensions_per_perspective dimensions; add them only when evidence supports them.
+- Change an element only for a reason grounded in the evidence or in an open issue; return an empty list when no change is justified.

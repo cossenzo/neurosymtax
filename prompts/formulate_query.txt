@@ -1,0 +1,12 @@
+Task: write ONE search string for a scholarly database and a web search engine, to find $aim.
+
+Phenomenon: $phenomenon
+Domain of objects: $domain_of_objects
+Seed keywords: $seed_keywords
+
+$focus
+
+Previous search strings (the new one must differ from all of them):
+$previous_queries
+
+Write between $min_words and $max_words plain keywords in English, with no operators or quotation marks. Prefer broad, common terms that the documents of the domain themselves use (for example a segment or type of the domain with its usual name). Every additional keyword narrows the results: add one only if the string would otherwise be ambiguous.

@@ -1,0 +1,12 @@
+Task: extract the dimensions and characteristics that the text proposes for classifying objects of the domain (Step 7c; TDR 13, 14): from taxonomies, classifications, typologies or frameworks presented or discussed in the text.
+
+Phenomenon: $phenomenon
+Domain of objects: $domain_of_objects
+Meta-characteristic: $meta_characteristic
+
+For each concept give: kind ("dimension" or "characteristic"); name; definition (according to the text); dimension (for a characteristic: the dimension the text assigns it to, or "").
+
+Extract only concepts that follow from the meta-characteristic. Return an empty list if the text proposes none. Write in the language "$language".
+
+TEXT:
+$text

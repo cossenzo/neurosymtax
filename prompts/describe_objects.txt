@@ -1,0 +1,3 @@
+Report all important characteristics of the following objects, which are part of the '$domain_of_objects' domain: $objects.
+
+For each object write one paragraph of plain prose, in the language "$language", whose every sentence names the object (not "it" or "the protocol") and states one characteristic. Report only what you know about the object; if you do not know an object, return an empty text for it. Do not invent facts.

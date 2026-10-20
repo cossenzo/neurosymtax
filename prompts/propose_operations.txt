@@ -1,0 +1,19 @@
+Task: create or revise the taxonomy (Step 10 of the ETDP) with taxonomy operations.
+
+Phenomenon: $phenomenon
+Purpose: $purpose
+Domain of objects: $domain_of_objects
+Meta-characteristic: $meta_characteristic
+Perspectives: $perspectives
+
+Current taxonomy (with the number of objects under each characteristic and its origin):
+$taxonomy
+
+$stage
+
+$operations_rules
+
+Violations of your previous answer to correct ("none" on the first attempt):
+$violations
+
+Write names and definitions in the language "$language".

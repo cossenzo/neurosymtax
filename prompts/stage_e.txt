@@ -1,0 +1,10 @@
+Empirical-to-conceptual iteration (Step 9e: group characteristics into dimensions). The codes below are characteristics of new objects that the taxonomy does not capture, each with its object. Group them into characteristics of existing dimensions or into new dimensions (each with mutually exclusive and collectively exhaustive characteristics), citing the objects as evidence. Resolve the misfits (objects that no characteristic of a dimension fits) by adding or revising characteristics.
+
+Codes:
+$codes
+
+Misfits (object and dimension):
+$misfits
+
+Open issues:
+$issues

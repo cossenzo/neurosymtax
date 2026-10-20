@@ -1,0 +1,69 @@
+# config.yaml – full neuro-symbolic approach. API keys are read from .env only.
+
+llm:
+  provider: anthropic            # anthropic | openai | gemini
+  model: "<model-name>"          # e.g. the exact model id of the provider
+  max_output_tokens: 16384
+  max_retries_invalid_json: 3
+  cache_dir: ".cache/llm"
+  request_timeout_s: 120
+
+embeddings:
+  backend: sentence-transformers # sentence-transformers | openai | gemini | hashing (tests only)
+  model: "all-mpnet-base-v2"
+
+scholarly:                       # scholarly database (full texts of open-access articles)
+  provider: semantic_scholar     # semantic_scholar | openalex
+  fallback_provider: openalex
+  contact_email: "you@example.com"
+  results: 3                     # full texts read per search
+  scanned: 50                    # records examined per search to find them
+  open_access_only: true         # only records with an open-access full text (OpenAlex is_oa; Semantic Scholar openAccessPdf)
+  unpaywall_fallback: true
+
+web:                             # web search engine (documentation, white papers)
+  provider: tavily               # tavily (TAVILY_API_KEY in .env) | searxng | none
+  results: 3                     # pages read per search
+  searxng_url: "http://localhost:8080"
+  exclude_domains: []
+
+documents:
+  chunk_size_tokens: 1500
+  chunk_overlap_tokens: 150
+  passage_max_chars: 500
+  objects_per_description: 5     # new objects described per LLM call (their characteristics, in place of web pages)
+  passages_per_object: 16        # passages per object shown to the classifier, most relevant first
+  tokenizer: tiktoken
+  # benchmark article: never read
+  exclude_dois: ["10.1016/j.irfa.2024.103083"]
+  exclude_titles: ["A taxonomy for decentralized finance"]
+
+method:
+  r: 2                           # R5: corrections requested for a proposal of operations
+  min_dimensions_per_perspective: 2      # O10
+  min_characteristics_per_dimension: 2   # R5, O10
+  classification_batch_size: 5
+  min_query_words: 2             # search strings: few, broad keywords
+  max_query_words: 5
+  symbolic_approach: true        # R1–R3 (R2: at least one iteration of each approach before the run may end)
+  verify_operations: true        # R5–R6
+
+evaluation:                      # Steps 15–16; goals and criteria: etdp/goals.py (Kundisch Table 4)
+  new_objects: 10                # new objects identified for the evaluation (TDR 21)
+  dominance_threshold: 0.9       # analyzing: a characteristic holding more than this share dominates its dimension
+  max_groups: 10                 # clustering: numbers of groups tried (2 to this)
+  targets:                       # default target of each criterion (TDR 20); the input file may override them per goal
+    kappa: 0.61                  # classifying: substantial agreement (Landis & Koch, 1977)
+    misfit_share: 0.30           # describing, classifying: maximum share of new objects with a misfit (design decision)
+    informed_share: 0.50         # describing: minimum share of cells with a characteristic
+    distinct_profiles: 0.80      # identifying
+    discriminating_dimensions: 0.60   # analyzing
+    cluster_silhouette: 0.25     # clustering: weak but present structure (Kaufman & Rousseeuw, 1990)
+
+limits:
+  max_iterations: 15
+  max_tokens_budget: null
+
+output:
+  dir: "output"
+  log_prompts: true

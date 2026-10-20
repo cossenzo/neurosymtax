@@ -1,0 +1,14 @@
+Task: review the meta-characteristic after the first iterations (TDR 5). Keep it unless the taxonomy built so far shows that it does not express the angle the purpose requires; in that case return a refined meta-characteristic in one sentence.
+
+Phenomenon: $phenomenon
+Target users: $users
+Purpose: $purpose
+Domain of objects (set by the taxonomy designer; not to be changed): $domain_of_objects
+Current meta-characteristic: $meta_characteristic
+
+The domain of objects is fixed. A refined meta-characteristic stays within it: if the taxonomy contains elements that only objects outside the domain would need, the meta-characteristic is not widened to accommodate them.
+
+Taxonomy so far (number of objects under each characteristic):
+$taxonomy
+
+Write in the language "$language".

@@ -1,0 +1,7 @@
+Conceptual-to-empirical iteration (Step 7c: conceptualize characteristics and dimensions). The concepts below were extracted from the literature and from existing taxonomies. Integrate those that follow from the meta-characteristic and that the taxonomy lacks, citing the concepts as evidence; do not duplicate elements the taxonomy already has.
+
+Concepts:
+$concepts
+
+Open issues:
+$issues

@@ -1,0 +1,9 @@
+Task: determine the meta-characteristic of a taxonomy (Step 4 of the ETDP; TDR 4): the angle from which the taxonomy views the phenomenon, so that every dimension and characteristic follows from it.
+
+Phenomenon: $phenomenon
+Target users: $users
+Purpose: $purpose
+Domain of objects: $domain_of_objects
+Perspectives: $perspectives
+
+Write one sentence, in the language "$language".

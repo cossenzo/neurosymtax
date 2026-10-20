@@ -1,0 +1,8 @@
+Task: choose the approach of the next building iteration of the ETDP: "e" (empirical-to-conceptual: identify objects and their characteristics) or "c" (conceptual-to-empirical: conceptualize characteristics and dimensions from the literature).
+
+Purpose: $purpose
+Objects examined so far: $objects
+History of the iterations:
+$history
+
+Options: $options

@@ -1,0 +1,14 @@
+Task: design a complete taxonomy following the extended taxonomy design process of Kundisch et al. (2022).
+
+Phenomenon: $phenomenon
+Target users: $users
+Purpose: $purpose
+Domain of objects: $domain_of_objects
+Perspectives (every dimension belongs to exactly one): $perspectives
+Meta-characteristic: $meta_characteristic
+
+Determine the meta-characteristic (if not given) and the ending conditions; build the taxonomy through empirical-to-conceptual and conceptual-to-empirical iterations until the objective and subjective ending conditions are met. A taxonomy is a set of dimensions, each with at least $min_characteristics_per_dimension mutually exclusive and collectively exhaustive characteristics, so that every object has exactly one characteristic in every dimension; every perspective has at least $min_dimensions_per_perspective dimensions.
+
+Return the final taxonomy: the meta-characteristic and, for every dimension, its name, definition, perspective, application rule and characteristics, each with name and definition.
+
+Write in the language "$language".

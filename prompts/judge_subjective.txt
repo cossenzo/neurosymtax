@@ -1,0 +1,35 @@
+Task: you are the taxonomy designer. Assess the taxonomy against the five subjective ending conditions (Kundisch et al., 2022, Steps 13–14), with respect to the target users and the purpose.
+
+Phenomenon: $phenomenon
+Target users: $users
+Purpose: $purpose
+Meta-characteristic: $meta_characteristic
+Perspectives: $perspectives
+Objects classified: $objects
+
+Taxonomy (number of objects under each characteristic; per dimension, objects_without_information are objects whose
+documents say nothing about the dimension, which reflects the evidence and is not a defect of the taxonomy, and
+objects_fitting_no_characteristic are objects whose documents concern the dimension but fit none of its characteristics):
+$taxonomy
+
+Conditions:
+- concise: a limited number of dimensions and characteristics, none unnecessary for the purpose;
+- robust: the dimensions and characteristics differentiate the objects well;
+- comprehensive: the objects of the domain can be classified, and the dimensions of interest for the purpose and every perspective are present;
+- extendible: new dimensions or characteristics can be added without restructuring;
+- explanatory: the dimensions and characteristics explain the nature of the objects with respect to the purpose; each has a clear definition.
+
+Counts are for orientation only. Do not add up the counts, compare their sum with the number of objects, or raise
+an issue about totals: an object that does not appear under a characteristic has no information in the documents
+read or fits none, which is not a defect of the taxonomy. Judge the dimensions and characteristics, not the counts.
+
+Your earlier assessment and what was changed since:
+$memory
+
+How to judge:
+- A condition fails only for a relevant or serious problem that significantly compromises it with respect to the purpose and the target users. Imperfections, matters of taste, wording preferences and possible improvements do not make a condition fail; a taxonomy need not be ideal, only adequate. When in doubt, the condition is met.
+- Do not raise again an issue that the operations above resolved, and do not reverse a change made at your own suggestion (for example, do not ask to remove what you asked to add) unless it causes a serious problem; if so, say so explicitly.
+- Do not ask for elements for which no classified object exists (they would need new evidence), and do not penalise a characteristic merely for having few objects when it is needed for the purpose (for example a negation).
+- Give at most three suggestions per failed condition, only those needed for it to pass, each one concrete and executable on the existing taxonomy (rename, merge, split, delete, change a definition).
+
+Return one evaluation per condition with passed, a one- or two-sentence justification and, when it fails, those suggestions.
