@@ -1,0 +1,82 @@
+{
+  "llm": {
+    "provider": "anthropic",
+    "model": "claude-haiku-5-5",
+    "max_output_tokens": 16384,
+    "max_retries_invalid_json": 3,
+    "cache_dir": ".cache/llm",
+    "request_timeout_s": 120.0
+  },
+  "embeddings": {
+    "backend": "sentence-transformers",
+    "model": "all-mpnet-base-v2"
+  },
+  "scholarly": {
+    "provider": "semantic_scholar",
+    "fallback_provider": "openalex",
+    "contact_email": "you@example.com",
+    "results": 3,
+    "scanned": 50,
+    "open_access_only": true,
+    "unpaywall_fallback": true,
+    "request_timeout_s": 60.0,
+    "pdf_timeout_s": 30.0,
+    "max_pdf_mb": 40.0,
+    "min_request_interval_s": 1.1
+  },
+  "web": {
+    "provider": "tavily",
+    "results": 3,
+    "searxng_url": "http://localhost:8080",
+    "request_timeout_s": 30.0,
+    "exclude_domains": []
+  },
+  "documents": {
+    "chunk_size_tokens": 1500,
+    "chunk_overlap_tokens": 150,
+    "passage_max_chars": 500,
+    "objects_per_description": 5,
+    "passages_per_object": 16,
+    "min_fulltext_chars": 1500,
+    "min_page_chars": 400,
+    "max_page_chars": 100000,
+    "tokenizer": "tiktoken",
+    "exclude_dois": [
+      "10.1016/j.irfa.2024.103083"
+    ],
+    "exclude_titles": [
+      "A taxonomy for decentralized finance"
+    ]
+  },
+  "method": {
+    "r": 2,
+    "min_dimensions_per_perspective": 2,
+    "min_characteristics_per_dimension": 2,
+    "classification_batch_size": 5,
+    "min_query_words": 2,
+    "max_query_words": 5,
+    "symbolic_approach": false,
+    "verify_operations": false
+  },
+  "evaluation": {
+    "new_objects": 10,
+    "dominance_threshold": 0.9,
+    "max_groups": 10,
+    "targets": {
+      "kappa": 0.61,
+      "misfit_share": 0.3,
+      "informed_share": 0.5,
+      "distinct_profiles": 0.8,
+      "discriminating_dimensions": 0.6,
+      "cluster_silhouette": 0.25
+    }
+  },
+  "limits": {
+    "max_iterations": 15,
+    "max_tokens_budget": null
+  },
+  "output": {
+    "dir": "output",
+    "log_prompts": true
+  }
+}

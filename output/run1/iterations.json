@@ -1,0 +1,461 @@
+[
+  {
+    "number": 1,
+    "kind": "e",
+    "reason": "R1: identification-and-structuring, descriptive purpose (TDR 7, 8)",
+    "queries": [
+      "DeFi applications list lending exchange"
+    ],
+    "documents": [
+      "d9e0411c075b333a7b9f609b6eaab39dd9bb6959",
+      "2efc4061858caf87cd3a7d8c21f18c0977954891",
+      "38311cf7571bc368d3349f691850bd47e2a93e3b",
+      "web:17242fee092cb58a",
+      "web:b37e7640c7ef6c1c",
+      "web:724651f3167533d4"
+    ],
+    "new_objects": [
+      "O1",
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "O6",
+      "O7",
+      "O8",
+      "O9",
+      "O10",
+      "O11",
+      "O12",
+      "O13",
+      "O14",
+      "O15",
+      "O16",
+      "O17",
+      "O18",
+      "O19",
+      "O20",
+      "O21",
+      "O22",
+      "O23",
+      "O24",
+      "O25",
+      "O26",
+      "O27",
+      "O28",
+      "O29",
+      "O30",
+      "O31",
+      "O32",
+      "O33",
+      "O34",
+      "O35",
+      "O36",
+      "O37",
+      "O38",
+      "O39",
+      "O40",
+      "O41",
+      "O42",
+      "O43",
+      "O44",
+      "O45",
+      "O46",
+      "O47",
+      "O48",
+      "O49",
+      "O50",
+      "O51",
+      "O52",
+      "O53",
+      "O54",
+      "O55",
+      "O56",
+      "O57",
+      "O58",
+      "O59",
+      "O60",
+      "O61",
+      "O62",
+      "O63",
+      "O64",
+      "O65",
+      "O66",
+      "O67",
+      "O68",
+      "O69",
+      "O70",
+      "O71",
+      "O72",
+      "O73",
+      "O74",
+      "O75",
+      "O76",
+      "O77",
+      "O78",
+      "O79",
+      "O80",
+      "O81",
+      "O82",
+      "O83",
+      "O84",
+      "O85",
+      "O86",
+      "O87",
+      "O88",
+      "O89",
+      "O90",
+      "O91",
+      "O92",
+      "O93",
+      "O94",
+      "O95",
+      "O96",
+      "O97",
+      "O98",
+      "O99",
+      "O100",
+      "O101",
+      "O102",
+      "O103",
+      "O104",
+      "O105",
+      "O106",
+      "O107",
+      "O108",
+      "O109",
+      "O110",
+      "O111"
+    ],
+    "codes": 349,
+    "concepts": 0,
+    "attempts": [
+      []
+    ],
+    "rejected": false,
+    "operations": [
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D1",
+          "D1.C1",
+          "D1.C2",
+          "D1.C3",
+          "D1.C4",
+          "D1.C5",
+          "D1.C6",
+          "D1.C7",
+          "D1.C8"
+        ],
+        "removed": [],
+        "evidence": [],
+        "reason": ""
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D2",
+          "D2.C1",
+          "D2.C2",
+          "D2.C3",
+          "D2.C4"
+        ],
+        "removed": [],
+        "evidence": [],
+        "reason": ""
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D3",
+          "D3.C1",
+          "D3.C2"
+        ],
+        "removed": [],
+        "evidence": [],
+        "reason": ""
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D4",
+          "D4.C1",
+          "D4.C2",
+          "D4.C3"
+        ],
+        "removed": [],
+        "evidence": [],
+        "reason": ""
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D5",
+          "D5.C1",
+          "D5.C2",
+          "D5.C3"
+        ],
+        "removed": [],
+        "evidence": [],
+        "reason": ""
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D6",
+          "D6.C1",
+          "D6.C2",
+          "D6.C3"
+        ],
+        "removed": [],
+        "evidence": [],
+        "reason": ""
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D7",
+          "D7.C1",
+          "D7.C2"
+        ],
+        "removed": [],
+        "evidence": [],
+        "reason": ""
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D8",
+          "D8.C1",
+          "D8.C2",
+          "D8.C3"
+        ],
+        "removed": [],
+        "evidence": [],
+        "reason": ""
+      }
+    ],
+    "cells_classified": 888,
+    "meta_review": "kept (The taxonomy's dimensions fall within the three perspectives of the meta-characteristic: strategy (D1, D2), organization (D3, D4) and technology (D5 to D8). Together these cover the purposes of classifying DeFi applications, analyzing value propositions and business models, and supporting regulatory measures (via operating model, governance and security incidents). No dimension requires an angle outside strategy, organization and technology.)",
+    "objective": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "objective_details": {
+      "O1": "111 objects, 8 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects; conceptual or negation, exempt: D2.C4 'No native token', D7.C2 'No external price feed dependence', D8.C3 'No reported incident'",
+      "O5": "not checked: only the e iterations after the first are checked",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 7 misfits",
+      "O10": "structure rules hold"
+    },
+    "subjective": {},
+    "evaluation": {},
+    "exit": "12",
+    "entry": "4",
+    "entry_reason": "R4: review of the meta-characteristic after the first iteration (TDR 5)",
+    "tokens": 697852
+  },
+  {
+    "number": 2,
+    "kind": "c",
+    "reason": "R2: at least one iteration of each approach (TDR 9)",
+    "queries": [
+      "decentralized finance DeFi taxonomy classification",
+      "yield aggregator derivatives insurance protocol"
+    ],
+    "documents": [
+      "ba72dcfe336de3577783aea16f7905a00339aedb",
+      "c9d2810baa66ad17a3c34b271f60c9a9cf8410b3",
+      "1c736bf3ebf9965e2a9c9149980512abd0182538",
+      "web:177e9833c34933e9",
+      "web:74c601133b4aaf45",
+      "cf7a033bc78efc93c2e7bc6d7b4c4449ec104b54",
+      "bac072bc10b298992f220c1762af2b41f16b1f22",
+      "994c8b0a6217cd5e229bd589749fb5daa1c63350",
+      "web:c9f6130988099ae7",
+      "web:3508cd3c631943c1",
+      "web:68157be6531253d0"
+    ],
+    "new_objects": [],
+    "codes": 0,
+    "concepts": 221,
+    "attempts": [
+      []
+    ],
+    "rejected": false,
+    "operations": [
+      {
+        "iteration": 2,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D9",
+          "D9.C1",
+          "D9.C2",
+          "D9.C3",
+          "D9.C4"
+        ],
+        "removed": [],
+        "evidence": [],
+        "reason": ""
+      },
+      {
+        "iteration": 2,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D10",
+          "D10.C1",
+          "D10.C2",
+          "D10.C3"
+        ],
+        "removed": [],
+        "evidence": [
+          "K177",
+          "K178",
+          "K179",
+          "K180"
+        ],
+        "reason": ""
+      }
+    ],
+    "cells_classified": 322,
+    "meta_review": "",
+    "objective": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "objective_details": {
+      "O1": "111 objects, 10 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects; conceptual or negation, exempt: D2.C4 'No native token', D7.C2 'No external price feed dependence', D8.C3 'No reported incident'",
+      "O5": "not checked: only the e iterations after the first are checked",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 27 misfits",
+      "O10": "structure rules hold"
+    },
+    "subjective": {
+      "concise": {
+        "passed": true,
+        "justification": "The taxonomy has ten dimensions across three perspectives, and each dimension serves a stated purpose: classifying DeFi applications, analysing value propositions and business models, and supporting regulation. Some overlap between customer value, primary service and stack layer exists, but it is not severe enough to make the taxonomy unnecessarily large."
+      },
+      "robust": {
+        "passed": true,
+        "justification": "Dimensions with substantial populated characteristics (primary service, operating model, blockchain deployment, security incident status) separate the objects meaningfully. Sparse dimensions and zero-count negation characteristics reflect limited evidence in the documents and the need to represent absence, not a failure to differentiate."
+      },
+      "comprehensive": {
+        "passed": true,
+        "justification": "Every perspective (strategy, organization, technology) is represented by several dimensions, and the dimensions needed for the stated purpose, including operating model, security status and regulatory-relevant dependencies, are present. Objects can be classified through the catch-all characteristics such as 'Other financial service' and 'No native token'."
+      },
+      "extendible": {
+        "passed": true,
+        "justification": "Dimensions are defined independently with mutually exclusive and collectively exhaustive characteristics, and catch-all or negation characteristics allow new objects to fit without restructuring. New dimensions or characteristics can be added to a perspective without changing existing ones."
+      },
+      "explanatory": {
+        "passed": true,
+        "justification": "Each dimension and characteristic has a clear definition tied to the nature of DeFi applications and the target users' purposes. Application rules further clarify how objects are assigned, supporting interpretation for researchers, investors and regulators."
+      }
+    },
+    "evaluation": {
+      "new_objects": 10,
+      "all_objects": 121,
+      "kappa_per_dimension": {
+        "D1": 0.8333,
+        "D2": 1.0,
+        "D3": 0.5588,
+        "D4": 0.7826,
+        "D5": 0.7778,
+        "D6": 1.0,
+        "D7": 1.0,
+        "D8": 1.0,
+        "D9": 0.3548,
+        "D10": 0.863
+      },
+      "kappa": 0.817,
+      "misfit_share": 0.0,
+      "informed_share": 0.46,
+      "distinct_profiles": 0.6446,
+      "discriminating_dimensions": 0.9,
+      "cluster_silhouette": 0.2704,
+      "new_object_ids": [
+        "O112",
+        "O113",
+        "O114",
+        "O115",
+        "O116",
+        "O117",
+        "O118",
+        "O119",
+        "O120",
+        "O121"
+      ],
+      "results": [
+        {
+          "goal": "classifying",
+          "measure": "kappa",
+          "value": 0.817,
+          "target": 0.61,
+          "comparator": ">=",
+          "met": true,
+          "remedy": "10"
+        },
+        {
+          "goal": "classifying",
+          "measure": "misfit_share",
+          "value": 0.0,
+          "target": 0.3,
+          "comparator": "<=",
+          "met": true,
+          "remedy": "6"
+        },
+        {
+          "goal": "analyzing",
+          "measure": "discriminating_dimensions",
+          "value": 0.9,
+          "target": 0.6,
+          "comparator": ">=",
+          "met": true,
+          "remedy": "10"
+        }
+      ]
+    },
+    "exit": null,
+    "entry": null,
+    "entry_reason": "",
+    "tokens": 828738
+  }
+]

@@ -1,0 +1,65 @@
+2026-10-13 23:10:20,804 INFO etdp: --- step 1-3 ---
+2026-10-13 23:10:20,807 INFO etdp.steps: phenomenon: Decentralized finance (DeFi); users: Researchers in finance and information systems; Entrepreneurs and investors in the DeFi sector; Regulators and policy makers; purpose: Systematically structure the emerging field of decentralized finance by classifying DeFi applications; Analyze the DeFi landscape to identify patterns and opportunities for value propositions and business models; Support the design of regulatory measures (identification_and_structuring, descriptive); perspectives: ['strategy', 'organization', 'technology']
+2026-10-13 23:10:20,807 INFO etdp: --- step 4 ---
+2026-10-13 23:10:23,157 INFO etdp.steps: meta-characteristic: DeFi applications viewed as financial services delivered by smart contracts on public blockchains without intermediaries, examined through how they create value and business models (strategy), how they are operated and governed (organization), and how they are technically implemented (technology).
+2026-10-13 23:10:23,157 INFO etdp: --- step 5 ---
+2026-10-13 23:10:23,157 INFO etdp: --- step 6 ---
+2026-10-13 23:10:23,157 INFO etdp.steps: === iteration 1 (e): R1: identification-and-structuring, descriptive purpose (TDR 7, 8) ===
+2026-10-13 23:10:23,157 INFO etdp: --- step 7e ---
+2026-10-13 23:10:25,851 INFO etdp.sources.semantic_scholar: Semantic Scholar: 9 results for 'DeFi applications list lending exchange' (year=(2008, 2023), open_access_only=True)
+2026-10-13 23:10:52,548 DEBUG etdp.sources.fulltext: PDF not read http://cuir.car.chula.ac.th/bitstream/123456789/82737/1/6484090226.pdf: HTTPSConnectionPool(host='cuir2.car.chula.ac.th', port=443): Max retries exceeded with url: /bitstream/123456789/82737/1/6484090226.pdf (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001F4B68D94C0>, 'Connection to cuir2.car.chula.ac.th timed out. (connect timeout=30.0)'))
+2026-10-13 23:11:01,861 INFO etdp.documents: scholarly: 3 full texts for 'DeFi applications list lending exchange'
+2026-10-13 23:11:03,978 INFO etdp.documents: web: 3 pages for 'DeFi applications list lending exchange'
+2026-10-13 23:17:08,765 INFO etdp.documents: llm: 21 descriptions for 111 objects
+2026-10-13 23:17:24,420 INFO etdp.documents: 111 candidate objects; 111 new objects registered
+2026-10-13 23:17:24,424 INFO etdp: --- step 8e ---
+2026-10-13 23:19:54,576 INFO etdp.classify: classified 0 cells; 349 codes
+2026-10-13 23:19:54,581 INFO etdp: --- step 9e ---
+2026-10-13 23:20:34,448 INFO etdp.steps: proposal 1 of 3: 8 operation(s): add_dimension Primary financial service; add_dimension Native token role; add_dimension Operating model; add_dimension Governance mechanism; add_dimension Blockchain deployment; add_dimension Trading mechanism; add_dimension Price input source; add_dimension Security incident status
+2026-10-13 23:20:34,453 INFO etdp: --- step 10 ---
+2026-10-13 23:25:00,811 INFO etdp.classify: classified 888 cells; 0 codes
+2026-10-13 23:25:00,812 INFO etdp.steps: taxonomy: 8 dimensions; 8 operations applied
+2026-10-13 23:25:00,814 INFO etdp.steps:   add_dimension D1, D1.C1, D1.C2, D1.C3, D1.C4, D1.C5, D1.C6, D1.C7, D1.C8: 
+2026-10-13 23:25:00,814 INFO etdp.steps:   add_dimension D2, D2.C1, D2.C2, D2.C3, D2.C4: 
+2026-10-13 23:25:00,814 INFO etdp.steps:   add_dimension D3, D3.C1, D3.C2: 
+2026-10-13 23:25:00,814 INFO etdp.steps:   add_dimension D4, D4.C1, D4.C2, D4.C3: 
+2026-10-13 23:25:00,814 INFO etdp.steps:   add_dimension D5, D5.C1, D5.C2, D5.C3: 
+2026-10-13 23:25:00,815 INFO etdp.steps:   add_dimension D6, D6.C1, D6.C2, D6.C3: 
+2026-10-13 23:25:00,815 INFO etdp.steps:   add_dimension D7, D7.C1, D7.C2: 
+2026-10-13 23:25:00,816 INFO etdp.steps:   add_dimension D8, D8.C1, D8.C2, D8.C3: 
+2026-10-13 23:25:00,821 INFO etdp: --- step 11-12 ---
+2026-10-13 23:25:00,830 INFO etdp.steps: objective conditions unmet: none
+2026-10-13 23:25:00,830 INFO etdp.steps: objective conditions hold, but required: review of the meta-characteristic (R4); an iteration of each approach (R2): only ['e'] so far
+2026-10-13 23:25:00,831 INFO etdp.steps: exit after Step 12; re-entry before Step 4 (R4: review of the meta-characteristic after the first iteration (TDR 5))
+2026-10-13 23:25:00,835 INFO etdp: --- step 4 ---
+2026-10-13 23:25:04,138 INFO etdp.steps: meta-characteristic review: kept (The taxonomy's dimensions fall within the three perspectives of the meta-characteristic: strategy (D1, D2), organization (D3, D4) and technology (D5 to D8). Together these cover the purposes of classifying DeFi applications, analyzing value propositions and business models, and supporting regulatory measures (via operating model, governance and security incidents). No dimension requires an angle outside strategy, organization and technology.)
+2026-10-13 23:25:04,145 INFO etdp: --- step 6 ---
+2026-10-13 23:25:04,145 INFO etdp.steps: === iteration 2 (c): R2: at least one iteration of each approach (TDR 9) ===
+2026-10-13 23:25:04,149 INFO etdp: --- step 7c ---
+2026-10-13 23:25:06,810 INFO etdp.sources.semantic_scholar: Semantic Scholar: 13 results for 'decentralized finance DeFi taxonomy classification' (year=(2008, 2023), open_access_only=True)
+2026-10-13 23:25:15,542 INFO etdp.documents: scholarly: 3 full texts for 'decentralized finance DeFi taxonomy classification'
+2026-10-13 23:25:17,963 INFO etdp.documents: web: 2 pages for 'decentralized finance DeFi taxonomy classification'
+2026-10-13 23:30:08,503 INFO etdp.steps: proposal 1 of 3: 2 operation(s): add_dimension Customer value; add_dimension Stack layer
+2026-10-13 23:30:08,509 INFO etdp: --- step 8c ---
+2026-10-13 23:32:36,260 INFO etdp.classify: classified 222 cells; 0 codes
+2026-10-13 23:32:36,272 INFO etdp: --- step 10 ---
+2026-10-13 23:32:36,290 INFO etdp.classify: classified 0 cells; 0 codes
+2026-10-13 23:32:36,291 INFO etdp.steps: taxonomy: 10 dimensions; 2 operations applied
+2026-10-13 23:32:36,291 INFO etdp.steps:   add_dimension D9, D9.C1, D9.C2, D9.C3, D9.C4: 
+2026-10-13 23:32:36,292 INFO etdp.steps:   add_dimension D10, D10.C1, D10.C2, D10.C3: 
+2026-10-13 23:32:36,296 INFO etdp: --- step 11-12 ---
+2026-10-13 23:32:36,306 INFO etdp.steps: objective conditions unmet: none
+2026-10-13 23:32:36,310 INFO etdp: --- step 13-14 ---
+2026-10-13 23:32:43,026 INFO etdp.steps: subjective conditions met: ['concise', 'robust', 'comprehensive', 'extendible', 'explanatory']; unmet: none
+2026-10-13 23:32:43,031 INFO etdp: --- step 15-16 ---
+2026-10-13 23:32:50,726 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-13 23:32:55,806 INFO etdp.sources.semantic_scholar: Semantic Scholar: 7 results for 'yield aggregator derivatives insurance protocol' (year=(2008, 2023), open_access_only=True)
+2026-10-13 23:33:08,664 INFO etdp.documents: scholarly: 3 full texts for 'yield aggregator derivatives insurance protocol'
+2026-10-13 23:33:10,922 INFO etdp.documents: web: 3 pages for 'yield aggregator derivatives insurance protocol'
+2026-10-13 23:36:06,152 INFO etdp.documents: llm: 2 descriptions for 10 objects
+2026-10-13 23:36:23,084 INFO etdp.documents: 41 candidate objects; 10 new objects registered
+2026-10-13 23:37:03,730 INFO etdp.classify: classified 100 cells; 0 codes
+2026-10-13 23:37:39,348 INFO etdp.classify: classified 100 cells; 0 codes
+2026-10-13 23:37:39,629 INFO etdp: --- step 17 ---
+2026-10-13 23:37:39,635 INFO etdp: --- step 18 ---
+2026-10-13 23:37:39,665 INFO etdp: run 2026-10-13T23-09-53 finished: completed 

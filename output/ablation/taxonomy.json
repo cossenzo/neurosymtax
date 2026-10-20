@@ -1,0 +1,619 @@
+{
+  "run_id": "2026-10-14T00-22-00",
+  "status": "completed",
+  "message": "",
+  "input": {
+    "observed_phenomenon": "Decentralized finance (DeFi)",
+    "target_user_groups": [
+      "Researchers in finance and information systems",
+      "Entrepreneurs and investors in the DeFi sector",
+      "Regulators and policy makers"
+    ],
+    "intended_purposes": [
+      "Systematically structure the emerging field of decentralized finance by classifying DeFi applications",
+      "Analyze the DeFi landscape to identify patterns and opportunities for value propositions and business models",
+      "Support the design of regulatory measures"
+    ],
+    "purpose_type": "identification_and_structuring",
+    "purpose_nature": "descriptive",
+    "domain_of_objects": "Decentralized finance (DeFi) applications: financial services built on smart contracts on public blockchains without intermediaries",
+    "evaluation_goals": [
+      {
+        "goal": "classifying",
+        "targets": {}
+      },
+      {
+        "goal": "analyzing",
+        "targets": {}
+      }
+    ],
+    "perspectives": [
+      "strategy",
+      "organization",
+      "technology"
+    ],
+    "meta_characteristic": null,
+    "seed_keywords": [
+      "decentralized finance",
+      "DeFi",
+      "dApps",
+      "blockchain",
+      "smart contracts"
+    ],
+    "language": "en",
+    "year_range": [
+      2008,
+      2023
+    ]
+  },
+  "meta_characteristic": "DeFi applications viewed as financial services delivered by smart contracts on public blockchains without intermediaries, examined through how they create value and business models (strategy), how they are operated and governed (organization), and how they are technically implemented (technology).",
+  "iterations": 4,
+  "documents_read": 80,
+  "objects": {
+    "building": 211,
+    "evaluation": 10
+  },
+  "perspectives": {
+    "strategy": [
+      "D1",
+      "D2"
+    ],
+    "organization": [
+      "D3",
+      "D4"
+    ],
+    "technology": [
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "D1",
+      "name": "Primary financial service",
+      "definition": "The main financial service that the DeFi application offers to its users, as stated in its description.",
+      "application_rule": "Observe the financial service the application primarily offers. If several services are offered, the primary one decides. Use the no_information characteristic only when the sources state no service.",
+      "perspective": "strategy",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D1.C1",
+          "name": "Lending and borrowing",
+          "definition": "Users lend or borrow crypto assets, with collateral or via flash loans, without intermediaries.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 12
+        },
+        {
+          "id": "D1.C2",
+          "name": "Trading and exchange",
+          "definition": "Users swap or trade crypto assets through the application.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 31
+        },
+        {
+          "id": "D1.C3",
+          "name": "Derivatives and synthetic assets",
+          "definition": "Users trade options, futures or tokens that track other assets.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 57
+        },
+        {
+          "id": "D1.C4",
+          "name": "Stablecoin issuance",
+          "definition": "The application issues a stablecoin backed by collateral or by an algorithm.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 5
+        },
+        {
+          "id": "D1.C5",
+          "name": "Insurance and risk coverage",
+          "definition": "The application covers risks such as smart contract failures, wallet theft or collateral price changes.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 8
+        },
+        {
+          "id": "D1.C6",
+          "name": "Yield optimization",
+          "definition": "The application aggregates or automates yield farming and vault strategies across other protocols.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 15
+        },
+        {
+          "id": "D1.C7",
+          "name": "Payments, streaming and asset management",
+          "definition": "The application provides payment streams, tokenized baskets or asset management.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 2
+        },
+        {
+          "id": "D1.C8",
+          "name": "Prediction markets and gambling",
+          "definition": "The application offers prediction markets or gambling on outcomes.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 3
+        },
+        {
+          "id": "D1.C9",
+          "name": "Analytics, aggregation and wallet interfaces",
+          "definition": "The application analyses, aggregates or displays DeFi data and positions without executing financial transactions itself.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 5
+        },
+        {
+          "id": "D1.C10",
+          "name": "No standalone financial service",
+          "definition": "The object does not on its own provide a financial service, for example a token or a script product.",
+          "negation": true,
+          "origin": "empirical",
+          "objects": 9
+        },
+        {
+          "id": "D1.C11",
+          "name": "no_information: service",
+          "definition": "The sources do not state the financial service offered.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 34
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "name": "Target user group",
+      "definition": "The user group that the DeFi application addresses with its services.",
+      "application_rule": "Observe which user group the application explicitly addresses. Use no_information when the sources do not state it.",
+      "perspective": "strategy",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D2.C2",
+          "name": "Institutional investors",
+          "definition": "The application offers a service specifically for institutional investors.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 2
+        },
+        {
+          "id": "D2.C4",
+          "name": "no_information: user group",
+          "definition": "The sources do not state the target user group.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 159
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "Governance and operating model",
+      "definition": "Who operates and steers the DeFi application.",
+      "application_rule": "Observe whether a company or centralized intermediary operates the application (this takes precedence), otherwise whether token holders govern it by vote, otherwise whether multiple named parties govern it, otherwise whether the application runs autonomously without stated governance. Use no_information when nothing is stated.",
+      "perspective": "organization",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D3.C1",
+          "name": "Company-operated or centralized",
+          "definition": "The application is operated by a company or centralized intermediary rather than purely by smart contracts.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 15
+        },
+        {
+          "id": "D3.C2",
+          "name": "Token-holder governance",
+          "definition": "The application is governed by holders of its governance token through voting.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 20
+        },
+        {
+          "id": "D3.C3",
+          "name": "Multi-party governance",
+          "definition": "The application is governed by multiple parties without token-holder voting.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 9
+        },
+        {
+          "id": "D3.C4",
+          "name": "Autonomous operation without stated governance",
+          "definition": "The application runs through smart contracts without a stated governing body.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 37
+        },
+        {
+          "id": "D3.C5",
+          "name": "no_information: governance",
+          "definition": "The sources do not state how the application is operated or governed.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 91
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "name": "Custody of user assets",
+      "definition": "Whether the application holds the assets of its users.",
+      "application_rule": "Observe whether a custodian holds user assets in accounts or whether users keep control of their own assets in their wallets or in smart contracts. Use no_information when the sources are silent.",
+      "perspective": "organization",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D4.C1",
+          "name": "Non-custodial",
+          "definition": "Users keep control of their own assets and no intermediary holds them.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 36
+        },
+        {
+          "id": "D4.C2",
+          "name": "Custodial",
+          "definition": "An intermediary company holds customer deposits and assets.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 5
+        },
+        {
+          "id": "D4.C3",
+          "name": "no_information: custody",
+          "definition": "The sources do not state who holds the user assets.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 115
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "name": "Technical role",
+      "definition": "The role that the object plays in the technical landscape of DeFi.",
+      "application_rule": "Observe whether the object is an end-user financial application, a supporting infrastructure component (oracle, bridge, sidechain, scaling, interoperability) or a security and monitoring tool. Use no_information when the sources do not state it.",
+      "perspective": "technology",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D5.C1",
+          "name": "End-user financial application",
+          "definition": "The object is a financial application used directly by end users.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 119
+        },
+        {
+          "id": "D5.C2",
+          "name": "Infrastructure component",
+          "definition": "The object supplies oracle data, bridging, sidechain, scaling or interoperability services to other applications.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 13
+        },
+        {
+          "id": "D5.C3",
+          "name": "Security and monitoring tool",
+          "definition": "The object detects, prevents or repairs vulnerabilities or attacks in smart contracts.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 8
+        },
+        {
+          "id": "D5.C4",
+          "name": "no_information: technical role",
+          "definition": "The sources do not state the technical role.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 41
+        }
+      ]
+    },
+    {
+      "id": "D6",
+      "name": "Blockchain deployment",
+      "definition": "The public blockchain on which the DeFi application runs.",
+      "application_rule": "Observe the public blockchain named for the application. Use multiple blockchains when the application spans more than one chain. Use no_information when no blockchain is stated.",
+      "perspective": "technology",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D6.C1",
+          "name": "Ethereum",
+          "definition": "The application runs on the Ethereum blockchain or its Layer 2 or sidechain as its main deployment.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 76
+        },
+        {
+          "id": "D6.C2",
+          "name": "Binance Smart Chain",
+          "definition": "The application runs on the Binance Smart Chain (BNB Chain).",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 11
+        },
+        {
+          "id": "D6.C3",
+          "name": "Other single public blockchain",
+          "definition": "The application runs on one other public blockchain, such as EOS, Fantom, TRON, Cosmos-based Terra or Polygon.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 34
+        },
+        {
+          "id": "D6.C4",
+          "name": "Multiple blockchains",
+          "definition": "The application connects or operates across several public blockchains.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 26
+        },
+        {
+          "id": "D6.C5",
+          "name": "no_information: blockchain",
+          "definition": "The sources do not state the blockchain on which the application runs.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 39
+        }
+      ]
+    },
+    {
+      "id": "D7",
+      "name": "Price formation mechanism",
+      "definition": "How the application sets or obtains the prices of the assets it handles.",
+      "application_rule": "For trading venues observe the price mechanism of the venue (automated market maker takes precedence over order book). For applications that use external price data, use the oracle characteristic. If the application uses no price mechanism, use the negation characteristic. Use no_information when the sources are silent.",
+      "perspective": "technology",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D7.C1",
+          "name": "Automated market maker pools",
+          "definition": "Prices are set by liquidity pools using an automated market maker model.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 29
+        },
+        {
+          "id": "D7.C2",
+          "name": "Order book",
+          "definition": "Trades are matched through an on-chain or off-chain order book.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 4
+        },
+        {
+          "id": "D7.C3",
+          "name": "External oracle price input",
+          "definition": "Asset prices are taken from external oracle feeds for lending, collateral or settlement.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 17
+        },
+        {
+          "id": "D7.C4",
+          "name": "No price-setting mechanism",
+          "definition": "The application neither sets prices by pools or order books nor takes external price feeds.",
+          "negation": true,
+          "origin": "empirical",
+          "objects": 0
+        },
+        {
+          "id": "D7.C5",
+          "name": "no_information: price mechanism",
+          "definition": "The sources do not state how prices are formed.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 111
+        }
+      ]
+    },
+    {
+      "id": "D8",
+      "name": "Asset custody of blockchain bridges",
+      "definition": "Whether a blockchain bridge has a centralized custodian that tracks transactions or stores assets through a smart contract without third parties.",
+      "application_rule": "Observe whether the object is a blockchain bridge. If it is, observe whether a centralized custodian (keeper) tracks the transactions, or whether assets are stored through a smart contract with no third party involved. If the object is not a blockchain bridge, use the negation characteristic. Use no_information when the sources are silent on the custody of a bridge.",
+      "perspective": "technology",
+      "origin": "conceptual",
+      "characteristics": [
+        {
+          "id": "D8.C1",
+          "name": "Centralized bridge",
+          "definition": "A bridge with a centralized custodian (keeper) that tracks transactions.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 1
+        },
+        {
+          "id": "D8.C2",
+          "name": "Decentralized bridge",
+          "definition": "A bridge in which assets are stored on the basis of a smart contract and no third parties are involved.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 0
+        },
+        {
+          "id": "D8.C3",
+          "name": "No bridge: object is not a blockchain bridge",
+          "definition": "The object is not a blockchain bridge, so bridge custody does not apply to it.",
+          "negation": true,
+          "origin": "conceptual",
+          "objects": 50
+        },
+        {
+          "id": "D8.C4",
+          "name": "no_information: bridge custody",
+          "definition": "The sources do not state how a blockchain bridge holds its assets.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 99
+        }
+      ]
+    }
+  ],
+  "objective_conditions": {
+    "holds": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "details": {
+      "O1": "211 objects, 8 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects; conceptual or negation, exempt: D7.C4 'No price-setting mechanism', D8.C2 'Decentralized bridge'",
+      "O5": "not checked: only the e iterations after the first are checked",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 44 misfits",
+      "O10": "structure rules hold"
+    }
+  },
+  "subjective_conditions": {
+    "concise": {
+      "passed": true,
+      "justification": "Eight dimensions structured in three perspectives cover the stated purposes of classifying DeFi applications, analysing value propositions and business models, and supporting regulation without unnecessary dimensions. The newly added bridge-custody dimension D8 is narrow, but it refines the bridging already named in D5 and is needed for the technical perspective, so it does not make the taxonomy unnecessarily large."
+    },
+    "robust": {
+      "passed": true,
+      "justification": "Dimensions have mutually exclusive and collectively exhaustive characteristics with explicit application rules and precedence, so objects are differentiated consistently. Negation and no_information characteristics are needed for the purpose and do not weaken differentiation."
+    },
+    "comprehensive": {
+      "passed": true,
+      "justification": "All three perspectives (strategy, organization, technology) are represented by dimensions that serve the purpose, and the main kinds of DeFi applications can be classified. Residual gaps where objects fit no characteristic in D1, D5 and D7 are modest and do not significantly compromise coverage."
+    },
+    "extendible": {
+      "passed": true,
+      "justification": "The dimensions are largely independent, and characteristics are defined at a level that allows additional characteristics or dimensions to be added without restructuring the existing perspectives. The consistent pattern of no_information and negation characteristics supports further extension, including the new D8."
+    },
+    "explanatory": {
+      "passed": true,
+      "justification": "Each dimension and characteristic has a clear definition and an application rule that explains how objects are assigned, linked to the purposes of structuring DeFi, analysing its landscape and supporting regulation. The definitions are specific enough to explain the nature of the objects, including the bridge custody distinctions in D8."
+    }
+  },
+  "evaluation_plan": [
+    {
+      "goal": "classifying",
+      "users_aim": "classify objects that represent a certain phenomenon",
+      "designers_provide": "characteristics and dimensions that serve as scheme to classify one particular object",
+      "method": "new objects classified twice, independently",
+      "criteria": [
+        {
+          "measure": "kappa",
+          "label": "mean Cohen's kappa between the two classifications",
+          "comparator": ">=",
+          "target": 0.61,
+          "population": "new",
+          "remedy": "10",
+          "basis": "substantial agreement (Landis & Koch, 1977)"
+        },
+        {
+          "measure": "misfit_share",
+          "label": "share of new objects with a misfit in some dimension",
+          "comparator": "<=",
+          "target": 0.3,
+          "population": "new",
+          "remedy": "6",
+          "basis": ""
+        }
+      ]
+    },
+    {
+      "goal": "analyzing",
+      "users_aim": "analyze objects that represent a certain phenomenon",
+      "designers_provide": "characteristics and dimensions that serve as a basis to determine similarities and differences of objects",
+      "method": "distribution of all classified objects over the characteristics",
+      "criteria": [
+        {
+          "measure": "discriminating_dimensions",
+          "label": "share of dimensions in which no characteristic holds more than the dominance threshold of the informed objects",
+          "comparator": ">=",
+          "target": 0.6,
+          "population": "all",
+          "remedy": "10",
+          "basis": ""
+        }
+      ]
+    }
+  ],
+  "evaluation": {
+    "new_objects": 10,
+    "all_objects": 221,
+    "kappa_per_dimension": {
+      "D1": 1.0,
+      "D2": 1.0,
+      "D3": 0.8485,
+      "D4": 0.6,
+      "D5": 1.0,
+      "D6": 0.8507,
+      "D7": 1.0,
+      "D8": 1.0
+    },
+    "kappa": 0.9124,
+    "misfit_share": 0.0,
+    "informed_share": 1.0,
+    "distinct_profiles": 0.81,
+    "discriminating_dimensions": 0.875,
+    "cluster_silhouette": 0.2793,
+    "new_object_ids": [
+      "O212",
+      "O213",
+      "O214",
+      "O215",
+      "O216",
+      "O217",
+      "O218",
+      "O219",
+      "O220",
+      "O221"
+    ],
+    "results": [
+      {
+        "goal": "classifying",
+        "measure": "kappa",
+        "value": 0.9124,
+        "target": 0.61,
+        "comparator": ">=",
+        "met": true,
+        "remedy": "10"
+      },
+      {
+        "goal": "classifying",
+        "measure": "misfit_share",
+        "value": 0.0,
+        "target": 0.3,
+        "comparator": "<=",
+        "met": true,
+        "remedy": "6"
+      },
+      {
+        "goal": "analyzing",
+        "measure": "discriminating_dimensions",
+        "value": 0.875,
+        "target": 0.6,
+        "comparator": ">=",
+        "met": true,
+        "remedy": "10"
+      }
+    ]
+  },
+  "open_issues": [],
+  "tokens_used": 2758815
+}

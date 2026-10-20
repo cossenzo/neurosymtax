@@ -1,0 +1,1 @@
+[[1, "Optimistic Oracle is an oracle design that accepts submitted data as correct unless it is disputed within a challenge period. Optimistic Oracle relies on dispute-based verification rather than continuous on-chain validation of every data point. Optimistic Oracle resolves disputed answers through a separate decentralized voting process."]]

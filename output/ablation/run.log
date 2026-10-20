@@ -1,0 +1,123 @@
+2026-10-14 00:22:26,030 INFO etdp: --- step 1-3 ---
+2026-10-14 00:22:26,030 INFO etdp.steps: phenomenon: Decentralized finance (DeFi); users: Researchers in finance and information systems; Entrepreneurs and investors in the DeFi sector; Regulators and policy makers; purpose: Systematically structure the emerging field of decentralized finance by classifying DeFi applications; Analyze the DeFi landscape to identify patterns and opportunities for value propositions and business models; Support the design of regulatory measures (identification_and_structuring, descriptive); perspectives: ['strategy', 'organization', 'technology']
+2026-10-14 00:22:26,030 INFO etdp: --- step 4 ---
+2026-10-14 00:22:26,030 INFO etdp.steps: meta-characteristic: DeFi applications viewed as financial services delivered by smart contracts on public blockchains without intermediaries, examined through how they create value and business models (strategy), how they are operated and governed (organization), and how they are technically implemented (technology).
+2026-10-14 00:22:26,030 INFO etdp: --- step 5 ---
+2026-10-14 00:22:26,046 INFO etdp: --- step 6 ---
+2026-10-14 00:22:27,696 INFO etdp.steps: === iteration 1 (e): chosen by the LLM: No objects have been examined yet (objects examined so far: 0) and the iteration history is empty, so the taxonomy must begin empirically by identifying DeFi applications and their characteristics before dimensions can be conceptualized and grouped into perspectives. ===
+2026-10-14 00:22:27,696 INFO etdp: --- step 7e ---
+2026-10-14 00:22:28,714 INFO etdp.sources.semantic_scholar: Semantic Scholar: 9 results for 'DeFi applications list lending exchange' (year=(2008, 2023), open_access_only=True)
+2026-10-14 00:22:56,607 DEBUG etdp.sources.fulltext: PDF not read http://cuir.car.chula.ac.th/bitstream/123456789/82737/1/6484090226.pdf: HTTPSConnectionPool(host='cuir2.car.chula.ac.th', port=443): Max retries exceeded with url: /bitstream/123456789/82737/1/6484090226.pdf (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002802AFAAB70>, 'Connection to cuir2.car.chula.ac.th timed out. (connect timeout=30.0)'))
+2026-10-14 00:23:02,116 INFO etdp.documents: scholarly: 3 full texts for 'DeFi applications list lending exchange'
+2026-10-14 00:23:04,843 INFO etdp.documents: web: 3 pages for 'DeFi applications list lending exchange'
+2026-10-14 00:25:27,940 INFO etdp.documents: llm: 23 descriptions for 118 objects
+2026-10-14 00:25:46,962 INFO etdp.documents: 118 candidate objects; 118 new objects registered
+2026-10-14 00:25:46,966 INFO etdp: --- step 8e ---
+2026-10-14 00:28:04,680 INFO etdp.classify: classified 0 cells; 351 codes
+2026-10-14 00:28:04,702 INFO etdp: --- step 9e ---
+2026-10-14 00:28:47,060 INFO etdp.steps: proposal 1 of 1: 7 operation(s): add_dimension Primary financial service; add_dimension Target user group; add_dimension Governance and operating model; add_dimension Custody of user assets; add_dimension Technical role; add_dimension Blockchain deployment; add_dimension Price formation mechanism
+2026-10-14 00:28:47,065 INFO etdp: --- step 10 ---
+2026-10-14 00:33:02,779 INFO etdp.classify: classified 826 cells; 0 codes
+2026-10-14 00:33:02,780 INFO etdp.steps: taxonomy: 7 dimensions; 7 operations applied
+2026-10-14 00:33:02,780 INFO etdp.steps:   add_dimension D1, D1.C1, D1.C10, D1.C11, D1.C2, D1.C3, D1.C4, D1.C5, D1.C6, D1.C7, D1.C8, D1.C9: 
+2026-10-14 00:33:02,781 INFO etdp.steps:   add_dimension D2, D2.C1, D2.C2, D2.C3, D2.C4: 
+2026-10-14 00:33:02,781 INFO etdp.steps:   add_dimension D3, D3.C1, D3.C2, D3.C3, D3.C4, D3.C5: 
+2026-10-14 00:33:02,782 INFO etdp.steps:   add_dimension D4, D4.C1, D4.C2, D4.C3: 
+2026-10-14 00:33:02,782 INFO etdp.steps:   add_dimension D5, D5.C1, D5.C2, D5.C3, D5.C4: 
+2026-10-14 00:33:02,782 INFO etdp.steps:   add_dimension D6, D6.C1, D6.C2, D6.C3, D6.C4, D6.C5: 
+2026-10-14 00:33:02,783 INFO etdp.steps:   add_dimension D7, D7.C1, D7.C2, D7.C3, D7.C4, D7.C5: 
+2026-10-14 00:33:02,790 INFO etdp: --- step 11-12 ---
+2026-10-14 00:33:02,806 INFO etdp.steps: objective conditions unmet: ['O3']
+2026-10-14 00:33:02,808 INFO etdp.steps:   O3 At least one object under every characteristic: 1 characteristics without objects; conceptual or negation, exempt: D7.C4 'No price-setting mechanism'
+2026-10-14 00:33:02,808 INFO etdp.steps: exit after Step 12; re-entry before Step 4 (R4: review of the meta-characteristic after the first iteration (TDR 5))
+2026-10-14 00:33:02,817 INFO etdp: --- step 4 ---
+2026-10-14 00:33:06,202 INFO etdp.steps: meta-characteristic review: kept (The taxonomy so far covers the three angles the purpose needs: strategy (primary service and target users, D1-D2), organization (governance and custody, D3-D4, which regulators need) and technology (technical role, blockchain deployment and price mechanism, D5-D7). The meta-characteristic still expresses these perspectives within the fixed domain, so no refinement is required.)
+2026-10-14 00:33:06,209 INFO etdp: --- step 6 ---
+2026-10-14 00:33:09,152 INFO etdp.steps: === iteration 2 (c): chosen by the LLM: The only completed iteration was empirical-to-conceptual (e), and it left ending condition O3 unmet. With 118 objects already examined, the next step is a conceptual-to-empirical iteration (c) that derives candidate characteristics and dimensions from the literature and tests them against the examined objects, which alternates the approach as the extended process of Kundisch et al. (2022) intends. ===
+2026-10-14 00:33:09,158 INFO etdp: --- step 7c ---
+2026-10-14 00:33:12,428 INFO etdp.sources.semantic_scholar: Semantic Scholar: 0 results for 'DeFi taxonomy retail users classification' (year=(2008, 2023), open_access_only=True)
+2026-10-14 00:33:13,394 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-14 00:33:18,119 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-14 00:33:22,852 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-14 00:33:31,580 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-14 00:33:48,233 INFO etdp.sources.semantic_scholar: Semantic Scholar: 10 results for 'DeFi taxonomy retail users' (year=(2008, 2023), open_access_only=True)
+2026-10-14 00:34:01,244 INFO etdp.documents: scholarly: 3 full texts for 'DeFi taxonomy retail users classification'
+2026-10-14 00:34:03,519 INFO etdp.documents: web: 3 pages for 'DeFi taxonomy retail users classification'
+2026-10-14 00:35:13,276 INFO etdp.steps: proposal 1 of 1: 1 operation(s): delete ['D2.C1']
+2026-10-14 00:35:13,285 INFO etdp: --- step 8c ---
+2026-10-14 00:36:26,188 INFO etdp.classify: classified 118 cells; 0 codes
+2026-10-14 00:36:26,194 INFO etdp: --- step 10 ---
+2026-10-14 00:36:26,214 INFO etdp.classify: classified 0 cells; 0 codes
+2026-10-14 00:36:26,215 INFO etdp.steps: taxonomy: 7 dimensions; 1 operations applied
+2026-10-14 00:36:26,215 INFO etdp.steps:   delete D2.C1: No object fits the characteristic 'Retail users' (open issue I1.1); the characteristic has no object, so it is removed. D2 keeps at least two characteristics.','evidence':[
+2026-10-14 00:36:26,222 INFO etdp: --- step 11-12 ---
+2026-10-14 00:36:26,243 INFO etdp.steps: objective conditions unmet: ['O3']
+2026-10-14 00:36:26,243 INFO etdp.steps:   O3 At least one object under every characteristic: 1 characteristics without objects; conceptual or negation, exempt: D7.C4 'No price-setting mechanism'
+2026-10-14 00:36:28,233 INFO etdp.steps: exit after Step 12; re-entry before Step 6 (chosen by the LLM: Unmet condition O3 recurred after the revision in iteration 2, so adjusting the taxonomy did not resolve it and new evidence from new documents and objects is needed.)
+2026-10-14 00:36:28,240 INFO etdp: --- step 6 ---
+2026-10-14 00:36:30,969 INFO etdp.steps: === iteration 3 (e): chosen by the LLM: Iteration 1 (e) performed 7 operations versus 1 for iteration 2 (c), and both left O3 unmet. With 118 objects already examined, an empirical-to-conceptual pass can identify further objects and characteristics to address O3. ===
+2026-10-14 00:36:30,976 INFO etdp: --- step 7e ---
+2026-10-14 00:36:34,285 INFO etdp.sources.semantic_scholar: Semantic Scholar: 1 results for 'decentralized derivatives options perpetual protocols' (year=(2008, 2023), open_access_only=True)
+2026-10-14 00:36:37,196 INFO etdp.sources.semantic_scholar: Semantic Scholar: 22 results for 'decentralized derivatives options perpetual' (year=(2008, 2023), open_access_only=True)
+2026-10-14 00:36:40,263 INFO etdp.documents: scholarly: 3 full texts for 'decentralized derivatives options perpetual protocols'
+2026-10-14 00:36:42,489 INFO etdp.documents: web: 3 pages for 'decentralized derivatives options perpetual protocols'
+2026-10-14 00:41:50,577 INFO etdp.documents: llm: 17 descriptions for 83 objects
+2026-10-14 00:42:09,814 INFO etdp.documents: 96 candidate objects; 83 new objects registered
+2026-10-14 00:42:09,828 INFO etdp: --- step 8e ---
+2026-10-14 00:46:46,991 INFO etdp.classify: classified 581 cells; 95 codes
+2026-10-14 00:46:47,022 INFO etdp: --- step 9e ---
+2026-10-14 00:47:07,462 INFO etdp.steps: proposal 1 of 1: 1 operation(s): delete ['D2.C3']
+2026-10-14 00:47:07,478 INFO etdp: --- step 10 ---
+2026-10-14 00:49:16,047 INFO etdp.classify: classified 201 cells; 0 codes
+2026-10-14 00:49:16,047 INFO etdp.steps: taxonomy: 7 dimensions; 1 operations applied
+2026-10-14 00:49:16,047 INFO etdp.steps:   delete D2.C3: No object is assigned to the characteristic (open issue I2.1), so it cannot be justified as a characteristic of the target user group dimension.','evidence':[],
+2026-10-14 00:49:16,064 INFO etdp: --- step 11-12 ---
+2026-10-14 00:49:16,136 INFO etdp.steps: objective conditions unmet: none
+2026-10-14 00:49:16,161 INFO etdp: --- step 13-14 ---
+2026-10-14 00:49:24,919 INFO etdp.steps: subjective conditions met: ['concise', 'robust', 'comprehensive', 'extendible', 'explanatory']; unmet: none
+2026-10-14 00:49:24,933 INFO etdp: --- step 15-16 ---
+2026-10-14 00:49:28,785 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-14 00:49:33,505 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-14 00:49:38,239 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-14 00:49:46,941 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-14 00:50:03,614 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-14 00:50:36,501 INFO etdp.sources.semantic_scholar: Semantic Scholar: 1 results for 'liquid staking protocols Ethereum DeFi' (year=(2008, 2023), open_access_only=True)
+2026-10-14 00:50:39,151 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-14 00:50:44,420 INFO etdp.sources.semantic_scholar: Semantic Scholar: 34 results for 'liquid staking protocols Ethereum' (year=(2008, 2023), open_access_only=True)
+2026-10-14 00:50:46,981 INFO etdp.documents: scholarly: 3 full texts for 'liquid staking protocols Ethereum DeFi'
+2026-10-14 00:50:48,834 INFO etdp.documents: web: 3 pages for 'liquid staking protocols Ethereum DeFi'
+2026-10-14 00:55:14,286 INFO etdp.documents: llm: 2 descriptions for 10 objects
+2026-10-14 00:55:28,098 INFO etdp.documents: 31 candidate objects; 10 new objects registered
+2026-10-14 00:56:01,700 INFO etdp.classify: classified 70 cells; 0 codes
+2026-10-14 00:56:41,617 INFO etdp.classify: classified 70 cells; 0 codes
+2026-10-14 00:56:42,206 INFO etdp: --- step 17 ---
+2026-10-14 00:56:45,853 INFO etdp.steps: exit after Step 17; re-entry before Step 6 (chosen by the LLM: The misfit_share of 0.9 far exceeds the target of 0.3 and indicates that most objects fit no existing characteristic. Resolving this needs new evidence from additional documents and objects rather than only adjusting the current taxonomy. The kappa shortfall can be addressed in the same new building iteration.)
+2026-10-14 00:56:45,885 INFO etdp: --- step 6 ---
+2026-10-14 00:56:49,473 INFO etdp.steps: === iteration 4 (c): chosen by the LLM: The last iteration was empirical-to-conceptual (e) and made only one change, so the ETDP alternation calls for a conceptual-to-empirical (c) pass next. This checks the new dimensions and characteristics against the meta-characteristic and the literature, and tests them on the 211 objects examined so far. All objectives are currently met, but the ending conditions require a stable iteration first. ===
+2026-10-14 00:56:49,497 INFO etdp: --- step 7c ---
+2026-10-14 00:56:52,743 INFO etdp.sources.semantic_scholar: Semantic Scholar: 2 results for 'DeFi typology dimensions characteristics blockchain' (year=(2008, 2023), open_access_only=True)
+2026-10-14 00:57:01,574 INFO etdp.sources.semantic_scholar: Semantic Scholar: 50 results for 'DeFi typology dimensions characteristics' (year=(2008, 2023), open_access_only=True)
+2026-10-14 00:57:04,025 INFO etdp.documents: scholarly: 3 full texts for 'DeFi typology dimensions characteristics blockchain'
+2026-10-14 00:57:06,372 INFO etdp.documents: web: 3 pages for 'DeFi typology dimensions characteristics blockchain'
+2026-10-14 01:00:51,297 INFO etdp.steps: proposal 1 of 1: 1 operation(s): add_dimension Asset custody of blockchain bridges
+2026-10-14 01:00:51,312 INFO etdp: --- step 8c ---
+2026-10-14 01:03:51,320 INFO etdp.classify: classified 211 cells; 0 codes
+2026-10-14 01:03:51,336 INFO etdp: --- step 10 ---
+2026-10-14 01:03:51,391 INFO etdp.classify: classified 0 cells; 0 codes
+2026-10-14 01:03:51,391 INFO etdp.steps: taxonomy: 8 dimensions; 1 operations applied
+2026-10-14 01:03:51,392 INFO etdp.steps:   add_dimension D8, D8.C1, D8.C2, D8.C3, D8.C4: The meta-characteristic stresses DeFi services delivered without intermediaries and technical implementation; the concepts K86 to K88 add a technical dimension on bridge custody that the taxonomy lack
+2026-10-14 01:03:51,407 INFO etdp: --- step 11-12 ---
+2026-10-14 01:03:51,452 INFO etdp.steps: objective conditions unmet: none
+2026-10-14 01:03:51,468 INFO etdp: --- step 13-14 ---
+2026-10-14 01:03:57,259 INFO etdp.steps: subjective conditions met: ['concise', 'robust', 'comprehensive', 'extendible', 'explanatory']; unmet: none
+2026-10-14 01:03:57,275 INFO etdp: --- step 15-16 ---
+2026-10-14 01:04:00,612 INFO etdp.sources.semantic_scholar: Semantic Scholar: 5 results for 'yield aggregator vault DeFi protocols' (year=(2008, 2023), open_access_only=True)
+2026-10-14 01:04:03,788 INFO etdp.documents: scholarly: 3 full texts for 'yield aggregator vault DeFi protocols'
+2026-10-14 01:04:05,751 INFO etdp.documents: web: 3 pages for 'yield aggregator vault DeFi protocols'
+2026-10-14 01:09:56,325 INFO etdp.documents: llm: 2 descriptions for 10 objects
+2026-10-14 01:10:38,904 INFO etdp.documents: 94 candidate objects; 10 new objects registered
+2026-10-14 01:11:08,229 INFO etdp.classify: classified 80 cells; 0 codes
+2026-10-14 01:11:41,655 INFO etdp.classify: classified 80 cells; 0 codes
+2026-10-14 01:11:41,702 INFO etdp: --- step 17 ---
+2026-10-14 01:11:41,718 INFO etdp: --- step 18 ---
+2026-10-14 01:11:41,814 INFO etdp: run 2026-10-14T00-22-00 finished: completed 
