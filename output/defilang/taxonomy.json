@@ -1,0 +1,578 @@
+{
+  "run_id": "2026-10-15T18-07-44",
+  "status": "completed",
+  "message": "",
+  "input": {
+    "observed_phenomenon": "Decentralized finance (DeFi)",
+    "target_user_groups": [
+      "Consumers",
+      "investors",
+      "Service providers",
+      "Regulators"
+    ],
+    "intended_purposes": [
+      "Represent sociolinguistic patterns and relate them to technical concepts and risk categories",
+      "Semantically mediate the transition from public discourse on DeFi to informational consumer protection (traceability)",
+      "Provide insights to improve consumer protection and strategic decision-making"
+    ],
+    "purpose_type": "identification_and_structuring",
+    "purpose_nature": "descriptive",
+    "domain_of_objects": "Jargon, slang and warning expressions used by the DeFi community in forums and social media to warn about, accuse of or describe risks and harms that may affect consumers, excluding names of specific protocols, tokens, companies or people",
+    "evaluation_goals": [
+      {
+        "goal": "describing",
+        "targets": {}
+      },
+      {
+        "goal": "classifying",
+        "targets": {}
+      }
+    ],
+    "perspectives": [
+      "Consumer risk",
+      "Community discourse"
+    ],
+    "meta_characteristic": null,
+    "seed_keywords": [
+      "decentralized finance",
+      "DeFi",
+      "alert",
+      "warning",
+      "risk",
+      "harm",
+      "vulnerability",
+      "misconduct",
+      "consumer",
+      "asymmetry",
+      "fraud",
+      "scam",
+      "loss",
+      "failure",
+      "liquidity",
+      "attack",
+      "drain",
+      "crisis",
+      "governance",
+      "malicious"
+    ],
+    "language": "en",
+    "year_range": [
+      2008,
+      2026
+    ]
+  },
+  "meta_characteristic": "The taxonomy views DeFi through the lens of how its community discourse, in the form of jargon, slang and warning expressions, signals and describes risks and harms to consumers, linking these sociolinguistic patterns to technical concepts and risk categories to support consumer protection.",
+  "iterations": 4,
+  "documents_read": 58,
+  "objects": {
+    "building": 128,
+    "evaluation": 10
+  },
+  "perspectives": {
+    "Consumer risk": [
+      "D1",
+      "D2"
+    ],
+    "Community discourse": [
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "D1",
+      "name": "Harm mechanism",
+      "definition": "The kind of consumer harm that the community term signals or describes.",
+      "application_rule": "Identify the harm the term most directly signals to consumers and choose the matching characteristic. Use Non-risk community signal when the term signals no harm.",
+      "perspective": "Consumer risk",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D1.C1",
+          "name": "Market manipulation harm",
+          "definition": "Harm caused by insiders, large holders or transaction-ordering exploits such as front-running that distort prices or trade execution to the detriment of later or other buyers.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 20
+        },
+        {
+          "id": "D1.C2",
+          "name": "Fraud, abandonment or illicit fund flows",
+          "definition": "Harm caused by developers or projects that withdraw funds, disappear or act fraudulently, or by exposure to illicit fund flows such as laundering.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 12
+        },
+        {
+          "id": "D1.C3",
+          "name": "Security or custody failure",
+          "definition": "Harm caused by software vulnerabilities, exploits, attacks or loss of control over assets held with a custodian.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 15
+        },
+        {
+          "id": "D1.C4",
+          "name": "Excessive speculative exposure",
+          "definition": "Harm arising from highly speculative, impulsive or leveraged positions and unrealistic return expectations.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 23
+        },
+        {
+          "id": "D1.C5",
+          "name": "Non-risk community signal",
+          "definition": "Term that does not signal a consumer harm, such as community bonding, greeting, enthusiasm, status or a neutral market label.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 34
+        },
+        {
+          "id": "D1.C6",
+          "name": "Structural or systemic market failure",
+          "definition": "Harm arising from design trade-offs, liquidity shortfalls, collateral mechanics, credit exposure or market-wide downturns rather than from deliberate actors or code exploits.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 21
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "name": "Affected party",
+      "definition": "The group of participants that bears the harm signalled by the community term.",
+      "application_rule": "Choose the party most directly exposed to the harm the term signals, applying the characteristics in the order listed; the first matching characteristic applies: late or new buyers, existing holders of an asset, users of a platform or protocol, individual traders exposed through their own positions, victims of fraud or unauthorised resource use, multiple participants or the whole community, otherwise no consumer group affected.",
+      "perspective": "Consumer risk",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D2.C1",
+          "name": "Late or new buyers",
+          "definition": "The harm falls on participants who buy after the price has already risen or after early insiders have sold.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 14
+        },
+        {
+          "id": "D2.C2",
+          "name": "Existing holders of an asset",
+          "definition": "The harm falls on participants who already hold the asset and keep it through a decline.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 16
+        },
+        {
+          "id": "D2.C3",
+          "name": "Users of a platform or protocol",
+          "definition": "The harm falls on users whose funds or data depend on a platform, protocol or custodian.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 15
+        },
+        {
+          "id": "D2.C4",
+          "name": "Multiple participants or the whole community",
+          "definition": "The harm or benefit is described as affecting several participants or the community as a whole.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 14
+        },
+        {
+          "id": "D2.C5",
+          "name": "No consumer group affected",
+          "definition": "No identifiable consumer group is stated as affected, for example a gaming role, a status label, a neutral market term or a stated personal trading behaviour.",
+          "negation": true,
+          "origin": "empirical",
+          "objects": 27
+        },
+        {
+          "id": "D2.C6",
+          "name": "Individual traders exposed through own positions",
+          "definition": "The harm falls on an individual participant who commits a large share of their own funds to a concentrated or leveraged position and can lose it, for example through a forced liquidation.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 13
+        },
+        {
+          "id": "D2.C7",
+          "name": "Victims of fraud or unauthorised resource use",
+          "definition": "The harm falls on participants who are deceived into a transaction or whose devices or resources are used without consent, such as through scams or cryptojacking.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 12
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "Discourse function",
+      "definition": "The communicative act that the community term performs in forums and social media.",
+      "application_rule": "Identify the primary communicative act of the term in its usage: accusation when it names an actor, otherwise warning, neutral description, hype or community bonding.",
+      "perspective": "Community discourse",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D3.C1",
+          "name": "Risk warning",
+          "definition": "The term warns readers about a risk, a harm or a dangerous situation.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 42
+        },
+        {
+          "id": "D3.C2",
+          "name": "Accusation of a harmful actor",
+          "definition": "The term accuses or names others as responsible for manipulation, fraud, dumping or reckless trading.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 17
+        },
+        {
+          "id": "D3.C3",
+          "name": "Neutral description of a phenomenon",
+          "definition": "The term describes a market state, event or practice without warning or accusing anyone.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 55
+        },
+        {
+          "id": "D3.C4",
+          "name": "Hype or enthusiasm",
+          "definition": "The term expresses optimism, excitement or rally support for an asset or project.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 7
+        },
+        {
+          "id": "D3.C5",
+          "name": "Community bonding or greeting",
+          "definition": "The term builds in-group membership, greets the community or signals shared status.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 4
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "name": "Lexical origin",
+      "definition": "The domain from which the community term originates or in which its meaning is grounded.",
+      "application_rule": "Use the origin stated in the passages. Apply the characteristics in the order listed; the first one that matches the stated origin applies.",
+      "perspective": "Community discourse",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D4.C1",
+          "name": "Gaming-origin term",
+          "definition": "The term originates from online games and keeps a game-specific meaning, such as a game role or tactic.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 13
+        },
+        {
+          "id": "D4.C2",
+          "name": "Technical or hacker term",
+          "definition": "The term originates from computing, software security or hacker culture.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 8
+        },
+        {
+          "id": "D4.C3",
+          "name": "Crypto-native term",
+          "definition": "The term originates within the crypto community, for example from a forum post or a crypto event.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 23
+        },
+        {
+          "id": "D4.C4",
+          "name": "General or financial-market term",
+          "definition": "The term is a general slang or market expression not tied to a gaming, technical or crypto-native origin.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 14
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "name": "Referent type",
+      "definition": "The kind of thing the community term refers to.",
+      "application_rule": "Identify what the term refers to and apply the characteristics in the order listed; the first one that matches applies: a named actor or participant group first, then an attack or fraud technique, then a discrete event or self-reinforcing chain reaction with system-wide consequences, then a market-wide condition or price pattern, then a coin or asset status, then a participant mindset or in-group phrase, otherwise a technical mechanism or product design.",
+      "perspective": "Community discourse",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D5.C1",
+          "name": "Market actor or participant group",
+          "definition": "The term names a person, a group identity or a subculture of participants.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 16
+        },
+        {
+          "id": "D5.C2",
+          "name": "Attack or fraud technique",
+          "definition": "The term names a method used to exploit a system, deceive participants or defraud them.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 24
+        },
+        {
+          "id": "D5.C3",
+          "name": "Systemic event or chain reaction",
+          "definition": "The term names a discrete event, failure or self-reinforcing chain reaction with system-wide consequences.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 8
+        },
+        {
+          "id": "D5.C4",
+          "name": "Market condition or price pattern",
+          "definition": "The term names a market-wide state, a cycle phase or a price pattern.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 17
+        },
+        {
+          "id": "D5.C5",
+          "name": "Coin or asset status",
+          "definition": "The term names a class of coins or the status of an asset, such as a dead or non-Bitcoin coin.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 3
+        },
+        {
+          "id": "D5.C6",
+          "name": "Technical mechanism or product design",
+          "definition": "The term names a blockchain mechanism, token design, product or security practice.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 29
+        },
+        {
+          "id": "D5.C7",
+          "name": "Participant mindset or in-group phrase",
+          "definition": "The term names a psychological stance, an investment behaviour or an in-group greeting or phrase of participants, such as fear of missing out, holding through a downturn or heavy commitment.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 29
+        }
+      ]
+    },
+    {
+      "id": "D6",
+      "name": "Posting tactic",
+      "definition": "The distinctive posting or promotion technique that the community term relies on in forums and social media.",
+      "application_rule": "Identify whether the term or its post relies on a distinctive technique: templated or coordinated posting first, then ticker piggybacking on a popular asset, then derogatory dismissal of critics; otherwise no distinctive tactic.",
+      "perspective": "Community discourse",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D6.C1",
+          "name": "Templated or coordinated posting",
+          "definition": "The term appears in posts that reuse a set of seemingly identical textual templates.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 3
+        },
+        {
+          "id": "D6.C2",
+          "name": "Ticker piggybacking on a popular asset",
+          "definition": "The term mentions a popular asset's ticker to draw trader attention to a different, low-volume asset.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 1
+        },
+        {
+          "id": "D6.C3",
+          "name": "Dismissal of critics",
+          "definition": "The term mocks or dismisses those who doubt or criticise the asset class.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 2
+        },
+        {
+          "id": "D6.C4",
+          "name": "No distinctive discourse tactic",
+          "definition": "A stated absence of templated posting, ticker piggybacking or dismissal of critics.",
+          "negation": true,
+          "origin": "empirical",
+          "objects": 5
+        }
+      ]
+    }
+  ],
+  "objective_conditions": {
+    "holds": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "details": {
+      "O1": "128 objects, 6 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects",
+      "O5": "0 merges or splits in this e iteration",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 14 misfits",
+      "O10": "structure rules hold"
+    }
+  },
+  "subjective_conditions": {
+    "concise": {
+      "passed": true,
+      "justification": "The taxonomy has two perspectives and six dimensions, each with four to seven characteristics. Each dimension maps to the stated purpose of linking discourse to risk, so no dimension is clearly unnecessary."
+    },
+    "robust": {
+      "passed": true,
+      "justification": "The dimensions and characteristics separate the classified objects across harm mechanisms, affected parties, discourse functions and referent types. Sparse dimensions such as lexical origin and posting tactic reflect limited evidence in the documents rather than weak differentiation."
+    },
+    "comprehensive": {
+      "passed": true,
+      "justification": "Both perspectives are represented, and the dimensions needed for the purpose (harm, affected party, discourse function, origin, referent and tactic) are present. The 128 objects can be classified under the characteristics, including negation and no-information categories."
+    },
+    "extendible": {
+      "passed": true,
+      "justification": "Dimensions are defined independently with explicit application rules and ordered matching, so new characteristics or dimensions could be added within each perspective without restructuring the existing framework."
+    },
+    "explanatory": {
+      "passed": true,
+      "justification": "Each dimension and characteristic has a clear definition tied to consumer harm or community discourse, which explains the nature of the objects for consumer protection and traceability. Boundary cases are handled by application rules."
+    }
+  },
+  "evaluation_plan": [
+    {
+      "goal": "describing",
+      "users_aim": "describe a certain phenomenon",
+      "designers_provide": "characteristics and dimensions that serve as a basis to describe a certain phenomenon",
+      "method": "new objects classified in every dimension",
+      "criteria": [
+        {
+          "measure": "informed_share",
+          "label": "share of cells of new objects with a characteristic",
+          "comparator": ">=",
+          "target": 0.5,
+          "population": "new",
+          "remedy": "6",
+          "basis": ""
+        },
+        {
+          "measure": "misfit_share",
+          "label": "share of new objects with a misfit in some dimension",
+          "comparator": "<=",
+          "target": 0.3,
+          "population": "new",
+          "remedy": "6",
+          "basis": ""
+        }
+      ]
+    },
+    {
+      "goal": "classifying",
+      "users_aim": "classify objects that represent a certain phenomenon",
+      "designers_provide": "characteristics and dimensions that serve as scheme to classify one particular object",
+      "method": "new objects classified twice, independently",
+      "criteria": [
+        {
+          "measure": "kappa",
+          "label": "mean Cohen's kappa between the two classifications",
+          "comparator": ">=",
+          "target": 0.61,
+          "population": "new",
+          "remedy": "10",
+          "basis": "substantial agreement (Landis & Koch, 1977)"
+        },
+        {
+          "measure": "misfit_share",
+          "label": "share of new objects with a misfit in some dimension",
+          "comparator": "<=",
+          "target": 0.3,
+          "population": "new",
+          "remedy": "6",
+          "basis": ""
+        }
+      ]
+    }
+  ],
+  "evaluation": {
+    "new_objects": 10,
+    "all_objects": 138,
+    "kappa_per_dimension": {
+      "D1": 0.8684,
+      "D2": 1.0,
+      "D3": 0.4444,
+      "D4": 0.5312,
+      "D5": 0.8649,
+      "D6": 0.375
+    },
+    "kappa": 0.6806,
+    "misfit_share": 0.2,
+    "informed_share": 0.8167,
+    "distinct_profiles": 0.7246,
+    "discriminating_dimensions": 1.0,
+    "cluster_silhouette": 0.1839,
+    "new_object_ids": [
+      "O129",
+      "O130",
+      "O131",
+      "O132",
+      "O133",
+      "O134",
+      "O135",
+      "O136",
+      "O137",
+      "O138"
+    ],
+    "results": [
+      {
+        "goal": "describing",
+        "measure": "informed_share",
+        "value": 0.8167,
+        "target": 0.5,
+        "comparator": ">=",
+        "met": true,
+        "remedy": "6"
+      },
+      {
+        "goal": "describing",
+        "measure": "misfit_share",
+        "value": 0.2,
+        "target": 0.3,
+        "comparator": "<=",
+        "met": true,
+        "remedy": "6"
+      },
+      {
+        "goal": "classifying",
+        "measure": "kappa",
+        "value": 0.6806,
+        "target": 0.61,
+        "comparator": ">=",
+        "met": true,
+        "remedy": "10"
+      },
+      {
+        "goal": "classifying",
+        "measure": "misfit_share",
+        "value": 0.2,
+        "target": 0.3,
+        "comparator": "<=",
+        "met": true,
+        "remedy": "6"
+      }
+    ]
+  },
+  "open_issues": [],
+  "tokens_used": 2233904
+}

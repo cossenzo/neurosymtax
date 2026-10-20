@@ -1,0 +1,139 @@
+object_id,object,role,D1 Harm mechanism,D2 Affected party,D3 Discourse function,D4 Lexical origin,D5 Referent type,D6 Posting tactic
+O1,TP bot,building,Non-risk community signal,No consumer group affected,Accusation of a harmful actor,Gaming-origin term,Technical mechanism or product design,misfit
+O2,jungler,building,Non-risk community signal,No consumer group affected,Neutral description of a phenomenon,Gaming-origin term,Market actor or participant group,misfit
+O3,PA,building,Non-risk community signal,No consumer group affected,Neutral description of a phenomenon,Crypto-native term,Market condition or price pattern,misfit
+O4,MVP,building,Non-risk community signal,No consumer group affected,Community bonding or greeting,General or financial-market term,Technical mechanism or product design,misfit
+O5,GG,building,misfit,Multiple participants or the whole community,Neutral description of a phenomenon,Gaming-origin term,Participant mindset or in-group phrase,misfit
+O6,OP,building,Non-risk community signal,misfit,Neutral description of a phenomenon,Gaming-origin term,Technical mechanism or product design,no information
+O7,roamer,building,Non-risk community signal,misfit,Neutral description of a phenomenon,Gaming-origin term,Technical mechanism or product design,no information
+O8,PnD,building,Market manipulation harm,Late or new buyers,Accusation of a harmful actor,General or financial-market term,Attack or fraud technique,Templated or coordinated posting
+O9,FOMO,building,Excessive speculative exposure,Late or new buyers,Risk warning,General or financial-market term,Participant mindset or in-group phrase,no information
+O10,CT,building,Non-risk community signal,no information,Neutral description of a phenomenon,Crypto-native term,Market actor or participant group,no information
+O11,snowball,building,Structural or systemic market failure,No consumer group affected,Risk warning,Gaming-origin term,Systemic event or chain reaction,no information
+O12,WAGMI / NGMI,building,Non-risk community signal,No consumer group affected,Accusation of a harmful actor,Crypto-native term,Participant mindset or in-group phrase,Dismissal of critics
+O13,HODL,building,Excessive speculative exposure,Existing holders of an asset,Neutral description of a phenomenon,Crypto-native term,Participant mindset or in-group phrase,no information
+O14,FUD,building,Market manipulation harm,Multiple participants or the whole community,Accusation of a harmful actor,no information,Participant mindset or in-group phrase,no information
+O15,REKT,building,Excessive speculative exposure,Individual traders exposed through own positions,Risk warning,General or financial-market term,Participant mindset or in-group phrase,no information
+O16,Jeet,building,Market manipulation harm,Late or new buyers,Accusation of a harmful actor,Crypto-native term,Market actor or participant group,no information
+O17,DYOR,building,Excessive speculative exposure,No consumer group affected,Risk warning,Crypto-native term,Participant mindset or in-group phrase,no information
+O18,DEGEN,building,Excessive speculative exposure,Individual traders exposed through own positions,Accusation of a harmful actor,General or financial-market term,Market actor or participant group,no information
+O19,gank,building,Non-risk community signal,No consumer group affected,Neutral description of a phenomenon,Gaming-origin term,Attack or fraud technique,no information
+O20,kite,building,Non-risk community signal,No consumer group affected,Neutral description of a phenomenon,Gaming-origin term,Attack or fraud technique,no information
+O21,10X or 100X,building,Excessive speculative exposure,no information,Hype or enthusiasm,no information,Market condition or price pattern,misfit
+O22,LFG,building,Non-risk community signal,No consumer group affected,Hype or enthusiasm,no information,Participant mindset or in-group phrase,misfit
+O23,WL,building,Non-risk community signal,No consumer group affected,Neutral description of a phenomenon,Crypto-native term,Technical mechanism or product design,no information
+O24,Trenches,building,Excessive speculative exposure,Individual traders exposed through own positions,Neutral description of a phenomenon,Crypto-native term,Market actor or participant group,no information
+O25,BTD,building,Excessive speculative exposure,No consumer group affected,Hype or enthusiasm,no information,Participant mindset or in-group phrase,no information
+O26,GM,building,Non-risk community signal,No consumer group affected,Community bonding or greeting,Crypto-native term,Participant mindset or in-group phrase,no information
+O27,PPP,building,Non-risk community signal,Multiple participants or the whole community,Neutral description of a phenomenon,Gaming-origin term,Participant mindset or in-group phrase,no information
+O28,SAFU,building,Security or custody failure,Users of a platform or protocol,Neutral description of a phenomenon,Crypto-native term,Technical mechanism or product design,no information
+O29,PVP,building,Market manipulation harm,Individual traders exposed through own positions,Risk warning,Gaming-origin term,Participant mindset or in-group phrase,no information
+O30,OG,building,Non-risk community signal,No consumer group affected,Community bonding or greeting,General or financial-market term,Market actor or participant group,no information
+O31,IYKYK,building,Non-risk community signal,No consumer group affected,Community bonding or greeting,no information,Participant mindset or in-group phrase,No distinctive discourse tactic
+O32,bull run,building,Non-risk community signal,Multiple participants or the whole community,Neutral description of a phenomenon,General or financial-market term,Market condition or price pattern,No distinctive discourse tactic
+O33,retri god,building,Non-risk community signal,No consumer group affected,misfit,Gaming-origin term,Market actor or participant group,No distinctive discourse tactic
+O34,script kiddie,building,Security or custody failure,No consumer group affected,Accusation of a harmful actor,Technical or hacker term,Market actor or participant group,No distinctive discourse tactic
+O35,exploit,building,Security or custody failure,Users of a platform or protocol,Neutral description of a phenomenon,Technical or hacker term,Attack or fraud technique,No distinctive discourse tactic
+O36,botnet,building,Security or custody failure,Victims of fraud or unauthorised resource use,Neutral description of a phenomenon,Technical or hacker term,Attack or fraud technique,no information
+O37,Bag,building,Excessive speculative exposure,Existing holders of an asset,Neutral description of a phenomenon,Crypto-native term,Participant mindset or in-group phrase,no information
+O38,huddle,building,Excessive speculative exposure,Existing holders of an asset,Neutral description of a phenomenon,Crypto-native term,Participant mindset or in-group phrase,no information
+O39,ATTH,building,Excessive speculative exposure,Late or new buyers,Risk warning,General or financial-market term,Market condition or price pattern,no information
+O40,beer run,building,Structural or systemic market failure,Multiple participants or the whole community,Neutral description of a phenomenon,General or financial-market term,Market condition or price pattern,no information
+O41,whale,building,Market manipulation harm,Late or new buyers,Risk warning,no information,Market actor or participant group,no information
+O42,To the moon,building,Excessive speculative exposure,Late or new buyers,Hype or enthusiasm,no information,Market condition or price pattern,no information
+O43,jungle potential,building,Non-risk community signal,no information,Neutral description of a phenomenon,Gaming-origin term,Technical mechanism or product design,no information
+O44,midlaner,building,Non-risk community signal,no information,Neutral description of a phenomenon,Gaming-origin term,Technical mechanism or product design,no information
+O45,frob,building,Non-risk community signal,no information,Neutral description of a phenomenon,Technical or hacker term,Technical mechanism or product design,no information
+O46,rug pull,building,"Fraud, abandonment or illicit fund flows",Existing holders of an asset,Accusation of a harmful actor,Technical or hacker term,Attack or fraud technique,no information
+O47,"Not your keys, not your coins",building,Security or custody failure,Users of a platform or protocol,Risk warning,Crypto-native term,Participant mindset or in-group phrase,no information
+O48,lambo,building,Excessive speculative exposure,No consumer group affected,Hype or enthusiasm,General or financial-market term,Participant mindset or in-group phrase,no information
+O49,Burn crypto,building,Non-risk community signal,No consumer group affected,Neutral description of a phenomenon,no information,Technical mechanism or product design,no information
+O50,Exit liquidity,building,Market manipulation harm,Late or new buyers,Accusation of a harmful actor,no information,Market actor or participant group,no information
+O51,PVP vs PPP,building,Market manipulation harm,Individual traders exposed through own positions,Risk warning,Crypto-native term,Participant mindset or in-group phrase,no information
+O52,Stack sats,building,Non-risk community signal,No consumer group affected,Neutral description of a phenomenon,Crypto-native term,Participant mindset or in-group phrase,no information
+O53,Gas wars,building,Market manipulation harm,Multiple participants or the whole community,Neutral description of a phenomenon,Crypto-native term,Technical mechanism or product design,no information
+O54,Blum code,building,Non-risk community signal,No consumer group affected,Neutral description of a phenomenon,Crypto-native term,Technical mechanism or product design,no information
+O55,Airdrop farming,building,Non-risk community signal,No consumer group affected,Neutral description of a phenomenon,Crypto-native term,Participant mindset or in-group phrase,no information
+O56,10X / 100X,building,Excessive speculative exposure,No consumer group affected,Risk warning,no information,Participant mindset or in-group phrase,no information
+O57,Ape in,building,Excessive speculative exposure,Individual traders exposed through own positions,Risk warning,no information,Participant mindset or in-group phrase,no information
+O58,Rockpool,building,"Fraud, abandonment or illicit fund flows",Existing holders of an asset,Risk warning,no information,Attack or fraud technique,no information
+O59,phreak,building,Security or custody failure,misfit,Neutral description of a phenomenon,Technical or hacker term,Market actor or participant group,no information
+O60,bagholder,building,Market manipulation harm,Late or new buyers,Accusation of a harmful actor,Crypto-native term,Market actor or participant group,no information
+O61,diamond hands,building,Non-risk community signal,Existing holders of an asset,Hype or enthusiasm,Crypto-native term,Participant mindset or in-group phrase,no information
+O62,Cope,building,Non-risk community signal,Existing holders of an asset,Neutral description of a phenomenon,Crypto-native term,Participant mindset or in-group phrase,no information
+O63,Floor is lava,building,Excessive speculative exposure,Late or new buyers,Risk warning,Crypto-native term,Market condition or price pattern,no information
+O64,fuloma,building,no information,no information,no information,no information,no information,no information
+O65,rack,building,no information,no information,no information,no information,no information,no information
+O66,Hedging,building,Non-risk community signal,No consumer group affected,Neutral description of a phenomenon,no information,Participant mindset or in-group phrase,no information
+O67,Collateral,building,Structural or systemic market failure,Individual traders exposed through own positions,Risk warning,no information,Technical mechanism or product design,no information
+O68,Audit,building,Security or custody failure,Users of a platform or protocol,Neutral description of a phenomenon,no information,Technical mechanism or product design,no information
+O69,Phishing,building,"Fraud, abandonment or illicit fund flows",Victims of fraud or unauthorised resource use,Risk warning,Technical or hacker term,Attack or fraud technique,no information
+O70,Airdrop,building,"Fraud, abandonment or illicit fund flows",Victims of fraud or unauthorised resource use,Neutral description of a phenomenon,no information,Technical mechanism or product design,no information
+O71,Tokenomics,building,Market manipulation harm,Late or new buyers,Accusation of a harmful actor,no information,Technical mechanism or product design,no information
+O72,Cold storage,building,Security or custody failure,Users of a platform or protocol,Neutral description of a phenomenon,no information,Technical mechanism or product design,no information
+O73,Impermanent Loss,building,Structural or systemic market failure,Users of a platform or protocol,Neutral description of a phenomenon,no information,Technical mechanism or product design,no information
+O74,All-Time-Low (ATL),building,Non-risk community signal,No consumer group affected,Neutral description of a phenomenon,no information,Market condition or price pattern,no information
+O75,Altcoin,building,Excessive speculative exposure,no information,Neutral description of a phenomenon,no information,Coin or asset status,no information
+O76,Black Swan Event,building,Structural or systemic market failure,Multiple participants or the whole community,Risk warning,no information,Systemic event or chain reaction,no information
+O77,Honeypot,building,"Fraud, abandonment or illicit fund flows",Victims of fraud or unauthorised resource use,Accusation of a harmful actor,no information,Attack or fraud technique,no information
+O78,Front-running,building,Market manipulation harm,Users of a platform or protocol,Neutral description of a phenomenon,no information,Attack or fraud technique,no information
+O79,Air Gap,building,Security or custody failure,no information,Neutral description of a phenomenon,no information,Technical mechanism or product design,no information
+O80,Apeing,building,Excessive speculative exposure,Late or new buyers,Risk warning,no information,Participant mindset or in-group phrase,no information
+O81,Bank Run,building,Structural or systemic market failure,Users of a platform or protocol,Risk warning,no information,Systemic event or chain reaction,no information
+O82,Bearwhale,building,Market manipulation harm,No consumer group affected,Accusation of a harmful actor,no information,Market actor or participant group,no information
+O83,Bear Market,building,Structural or systemic market failure,Multiple participants or the whole community,Neutral description of a phenomenon,no information,Market condition or price pattern,no information
+O84,Blockchain Trilemma,building,Structural or systemic market failure,no information,Neutral description of a phenomenon,no information,Technical mechanism or product design,no information
+O85,Bull Market,building,Non-risk community signal,Multiple participants or the whole community,Hype or enthusiasm,no information,Market condition or price pattern,no information
+O86,Bull Trap,building,Excessive speculative exposure,Late or new buyers,Neutral description of a phenomenon,no information,Market condition or price pattern,no information
+O87,Bug Exploit,building,Security or custody failure,Users of a platform or protocol,Neutral description of a phenomenon,no information,Attack or fraud technique,no information
+O88,Capitulation,building,Structural or systemic market failure,Existing holders of an asset,Neutral description of a phenomenon,no information,Market condition or price pattern,no information
+O89,Community Takeover (CTO),building,"Fraud, abandonment or illicit fund flows",Existing holders of an asset,Risk warning,no information,Coin or asset status,no information
+O90,Crypto Winter,building,Structural or systemic market failure,Multiple participants or the whole community,Risk warning,no information,Market condition or price pattern,no information
+O91,Cryptocurrency Money Laundering,building,"Fraud, abandonment or illicit fund flows",Multiple participants or the whole community,Risk warning,no information,Attack or fraud technique,no information
+O92,Correction,building,Structural or systemic market failure,Existing holders of an asset,Neutral description of a phenomenon,General or financial-market term,Market condition or price pattern,no information
+O93,Death Cross,building,Structural or systemic market failure,Existing holders of an asset,Risk warning,General or financial-market term,Market condition or price pattern,no information
+O94,Currency Crisis,building,Structural or systemic market failure,Existing holders of an asset,Neutral description of a phenomenon,General or financial-market term,Systemic event or chain reaction,no information
+O95,DeFi Degens,building,Market manipulation harm,Individual traders exposed through own positions,Accusation of a harmful actor,General or financial-market term,Market actor or participant group,no information
+O96,DeFi Mullet,building,Structural or systemic market failure,Users of a platform or protocol,Neutral description of a phenomenon,Crypto-native term,Technical mechanism or product design,no information
+O97,Defensive Looping,building,Excessive speculative exposure,Individual traders exposed through own positions,Neutral description of a phenomenon,no information,Technical mechanism or product design,no information
+O98,Private key,building,Security or custody failure,Users of a platform or protocol,Risk warning,no information,Technical mechanism or product design,no information
+O99,Depeg,building,Structural or systemic market failure,Existing holders of an asset,Risk warning,no information,Systemic event or chain reaction,no information
+O100,Exit Scam,building,"Fraud, abandonment or illicit fund flows",Victims of fraud or unauthorised resource use,Accusation of a harmful actor,no information,Attack or fraud technique,no information
+O101,Governance Attack,building,"Fraud, abandonment or illicit fund flows",Users of a platform or protocol,Risk warning,no information,Attack or fraud technique,no information
+O102,Flash Loan Attack,building,Market manipulation harm,Users of a platform or protocol,Risk warning,no information,Attack or fraud technique,no information
+O103,Liquidation Cascade,building,Structural or systemic market failure,Multiple participants or the whole community,Risk warning,no information,Systemic event or chain reaction,no information
+O104,Sandwich Attack,building,Market manipulation harm,Victims of fraud or unauthorised resource use,Risk warning,no information,Attack or fraud technique,no information
+O105,Oracle Attack,building,Security or custody failure,Users of a platform or protocol,Risk warning,no information,Attack or fraud technique,no information
+O106,51% Attack,building,Security or custody failure,Users of a platform or protocol,Risk warning,no information,Attack or fraud technique,no information
+O107,Ashdraked,building,Excessive speculative exposure,Individual traders exposed through own positions,Risk warning,no information,Participant mindset or in-group phrase,no information
+O108,Astroturfing,building,"Fraud, abandonment or illicit fund flows",Multiple participants or the whole community,Accusation of a harmful actor,no information,Attack or fraud technique,Templated or coordinated posting
+O109,Bait and Switch Scam,building,"Fraud, abandonment or illicit fund flows",Victims of fraud or unauthorised resource use,Risk warning,no information,Attack or fraud technique,no information
+O110,Bear Trap,building,Market manipulation harm,Victims of fraud or unauthorised resource use,Risk warning,no information,Attack or fraud technique,no information
+O111,Bear Hug,building,Non-risk community signal,misfit,Neutral description of a phenomenon,no information,Technical mechanism or product design,no information
+O112,Black Hat Hacker,building,Security or custody failure,Victims of fraud or unauthorised resource use,Accusation of a harmful actor,Technical or hacker term,Market actor or participant group,no information
+O113,Bubble,building,Excessive speculative exposure,Late or new buyers,Risk warning,no information,Market condition or price pattern,no information
+O114,Cascading Liquidations,building,Structural or systemic market failure,Individual traders exposed through own positions,Risk warning,no information,Systemic event or chain reaction,no information
+O115,Cryptojacking,building,Security or custody failure,Victims of fraud or unauthorised resource use,Risk warning,no information,Attack or fraud technique,no information
+O116,Credit Risk,building,Structural or systemic market failure,misfit,Neutral description of a phenomenon,no information,Technical mechanism or product design,no information
+O117,Dead Cat Bounce,building,Structural or systemic market failure,Late or new buyers,Risk warning,no information,Market condition or price pattern,no information
+O118,Dead Coin,building,"Fraud, abandonment or illicit fund flows",Existing holders of an asset,Neutral description of a phenomenon,no information,Coin or asset status,no information
+O119,death spiral,building,Structural or systemic market failure,Existing holders of an asset,Risk warning,no information,Systemic event or chain reaction,no information
+O120,Stablecoin sandwich,building,Non-risk community signal,no information,Neutral description of a phenomenon,no information,Technical mechanism or product design,no information
+O121,Vesting schedule,building,Market manipulation harm,Existing holders of an asset,Neutral description of a phenomenon,no information,Technical mechanism or product design,no information
+O122,WSBs,building,Non-risk community signal,Multiple participants or the whole community,Neutral description of a phenomenon,no information,Market actor or participant group,no information
+O123,cashtag piggybacking,building,Market manipulation harm,Victims of fraud or unauthorised resource use,Neutral description of a phenomenon,no information,Attack or fraud technique,Ticker piggybacking on a popular asset
+O124,signal bot,building,Market manipulation harm,no information,Neutral description of a phenomenon,no information,Technical mechanism or product design,Templated or coordinated posting
+O125,Sandwich attacks,building,Market manipulation harm,Victims of fraud or unauthorised resource use,Risk warning,no information,Attack or fraud technique,no information
+O126,HFSP,building,Non-risk community signal,No consumer group affected,Risk warning,no information,Participant mindset or in-group phrase,Dismissal of critics
+O127,YOLOs,building,Excessive speculative exposure,Individual traders exposed through own positions,Risk warning,no information,Participant mindset or in-group phrase,no information
+O128,Margin Call,building,Structural or systemic market failure,Individual traders exposed through own positions,Risk warning,no information,Technical mechanism or product design,no information
+O129,sats,evaluation,Non-risk community signal,No consumer group affected,Neutral description of a phenomenon,Crypto-native term,Coin or asset status,no information
+O130,KYC,evaluation,"Fraud, abandonment or illicit fund flows",Users of a platform or protocol,Risk warning,General or financial-market term,Technical mechanism or product design,no information
+O131,ICO,evaluation,"Fraud, abandonment or illicit fund flows",Victims of fraud or unauthorised resource use,Risk warning,Crypto-native term,Technical mechanism or product design,no information
+O132,shill,evaluation,Market manipulation harm,Late or new buyers,Accusation of a harmful actor,Crypto-native term,Attack or fraud technique,Templated or coordinated posting
+O133,pump signals,evaluation,Market manipulation harm,Late or new buyers,Neutral description of a phenomenon,Crypto-native term,Attack or fraud technique,Templated or coordinated posting
+O134,whales,evaluation,Market manipulation harm,Multiple participants or the whole community,Accusation of a harmful actor,no information,Market actor or participant group,misfit
+O135,Pump and dump scam,evaluation,"Fraud, abandonment or illicit fund flows",Late or new buyers,Risk warning,no information,Attack or fraud technique,misfit
+O136,AMA,evaluation,Non-risk community signal,No consumer group affected,Neutral description of a phenomenon,Crypto-native term,Technical mechanism or product design,no information
+O137,Hacker,evaluation,Security or custody failure,Users of a platform or protocol,Risk warning,Technical or hacker term,Market actor or participant group,no information
+O138,greater fool theory,evaluation,Excessive speculative exposure,Late or new buyers,Neutral description of a phenomenon,no information,Market condition or price pattern,no information

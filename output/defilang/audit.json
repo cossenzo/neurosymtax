@@ -1,0 +1,225 @@
+{
+  "iterations": [
+    {
+      "number": 1,
+      "kind": "e",
+      "reason": "R1: identification-and-structuring, descriptive purpose (TDR 7, 8)",
+      "queries": [
+        "DeFi community jargon slang warning"
+      ],
+      "documents": 6,
+      "new_objects": 66,
+      "codes": 166,
+      "concepts": 0,
+      "proposal_attempts": [
+        [
+          "R5 characteristic D2.C4 'No consumer harm stated' expresses missing information, which is recorded as no_information; a negation characteristic names a stated absence (e.g. 'No governance: immutable contracts')"
+        ],
+        []
+      ],
+      "proposal_rejected": false,
+      "operations": [
+        "add_dimension ['D1', 'D1.C1', 'D1.C2', 'D1.C3', 'D1.C4', 'D1.C5']",
+        "add_dimension ['D2', 'D2.C1', 'D2.C2', 'D2.C3', 'D2.C4']",
+        "add_dimension ['D3', 'D3.C1', 'D3.C2', 'D3.C3', 'D3.C4', 'D3.C5', 'D3.C6']",
+        "add_dimension ['D4', 'D4.C1', 'D4.C2', 'D4.C3', 'D4.C4']"
+      ],
+      "cells_classified": 264,
+      "meta_review": "kept (The four dimensions (harm mechanism, affected party, discourse function, lexical origin) all follow the meta-characteristic's lens of community jargon signalling consumer risks, linking sociolinguistic patterns to risk categories and technical origins. The purpose's aims of relating patterns to technical concepts and risk categories and supporting consumer protection are covered, so no refinement is needed.)",
+      "objective_unmet": [
+        "O3"
+      ],
+      "subjective_unmet": [],
+      "evaluation": {},
+      "exit": "12",
+      "entry": "4",
+      "entry_reason": "R4: review of the meta-characteristic after the first iteration (TDR 5)",
+      "tokens": 558882
+    },
+    {
+      "number": 2,
+      "kind": "c",
+      "reason": "R2: at least one iteration of each approach (TDR 9)",
+      "queries": [
+        "DeFi scam taxonomy typology risk"
+      ],
+      "documents": 6,
+      "new_objects": 0,
+      "codes": 0,
+      "concepts": 0,
+      "proposal_attempts": [],
+      "proposal_rejected": false,
+      "operations": [],
+      "cells_classified": 0,
+      "meta_review": "",
+      "objective_unmet": [
+        "O3"
+      ],
+      "subjective_unmet": [],
+      "evaluation": {},
+      "exit": "12",
+      "entry": "6",
+      "entry_reason": "chosen by the LLM: Unmet condition O3 recurred after the iteration 2 revision, which made no operations and left O3 unresolved. Adjusting the taxonomy with the existing objects has not resolved it, so a new building iteration with new evidence is needed.",
+      "tokens": 344583
+    },
+    {
+      "number": 3,
+      "kind": "e",
+      "reason": "R3: characteristics of empirical origin without objects: ['D3.C6']",
+      "queries": [
+        "DeFi glossary slang risk terms"
+      ],
+      "documents": 6,
+      "new_objects": 55,
+      "codes": 79,
+      "concepts": 0,
+      "proposal_attempts": [
+        []
+      ],
+      "proposal_rejected": false,
+      "operations": [
+        "rename ['D1.C1']",
+        "rename ['D1.C2']",
+        "add_characteristic ['D1']",
+        "add_characteristic ['D2']",
+        "add_dimension ['D5', 'D5.C1', 'D5.C2', 'D5.C3', 'D5.C4', 'D5.C5', 'D5.C6']"
+      ],
+      "cells_classified": 583,
+      "meta_review": "",
+      "objective_unmet": [
+        "O3"
+      ],
+      "subjective_unmet": [],
+      "evaluation": {},
+      "exit": "12",
+      "entry": "6",
+      "entry_reason": "chosen by the LLM: Unmet condition O3 recurs in every iteration (iterations 1 to 3) despite revisions with operations, so adjusting the taxonomy has not resolved it. Re-entering at step 6 with new evidence from new documents and objects is required.",
+      "tokens": 583335
+    },
+    {
+      "number": 4,
+      "kind": "e",
+      "reason": "R3: characteristics of empirical origin without objects: ['D3.C6']",
+      "queries": [
+        "DeFi Telegram Discord slang terminology",
+        "crypto slang pump dump terms"
+      ],
+      "documents": 11,
+      "new_objects": 7,
+      "codes": 9,
+      "concepts": 0,
+      "proposal_attempts": [
+        []
+      ],
+      "proposal_rejected": false,
+      "operations": [
+        "delete ['D3.C6']",
+        "rename ['D3']",
+        "add_characteristic ['D5']",
+        "rename ['D5']",
+        "rename ['D1.C5']",
+        "rename ['D1.C6']",
+        "rename ['D2.C5']",
+        "add_characteristic ['D2']",
+        "add_characteristic ['D2']",
+        "rename ['D2']",
+        "add_dimension ['D6', 'D6.C1', 'D6.C2', 'D6.C3', 'D6.C4']"
+      ],
+      "cells_classified": 632,
+      "meta_review": "",
+      "objective_unmet": [],
+      "subjective_unmet": [],
+      "evaluation": {
+        "new_objects": 10,
+        "all_objects": 138,
+        "kappa_per_dimension": {
+          "D1": 0.8684,
+          "D2": 1.0,
+          "D3": 0.4444,
+          "D4": 0.5312,
+          "D5": 0.8649,
+          "D6": 0.375
+        },
+        "kappa": 0.6806,
+        "misfit_share": 0.2,
+        "informed_share": 0.8167,
+        "distinct_profiles": 0.7246,
+        "discriminating_dimensions": 1.0,
+        "cluster_silhouette": 0.1839,
+        "results": [
+          {
+            "goal": "describing",
+            "measure": "informed_share",
+            "value": 0.8167,
+            "target": 0.5,
+            "comparator": ">=",
+            "met": true,
+            "remedy": "6"
+          },
+          {
+            "goal": "describing",
+            "measure": "misfit_share",
+            "value": 0.2,
+            "target": 0.3,
+            "comparator": "<=",
+            "met": true,
+            "remedy": "6"
+          },
+          {
+            "goal": "classifying",
+            "measure": "kappa",
+            "value": 0.6806,
+            "target": 0.61,
+            "comparator": ">=",
+            "met": true,
+            "remedy": "10"
+          },
+          {
+            "goal": "classifying",
+            "measure": "misfit_share",
+            "value": 0.2,
+            "target": 0.3,
+            "comparator": "<=",
+            "met": true,
+            "remedy": "6"
+          }
+        ]
+      },
+      "exit": null,
+      "entry": null,
+      "entry_reason": "",
+      "tokens": 746155
+    }
+  ],
+  "tokens": {
+    "total": 2233904,
+    "by_step": {
+      "1-3": 0,
+      "4": 4972,
+      "5": 0,
+      "6": 0,
+      "7e": 643834,
+      "8e": 230819,
+      "9e": 86908,
+      "10": 671463,
+      "11-12": 1251,
+      "7c": 344583,
+      "8c": 0,
+      "13-14": 7519,
+      "15-16": 242555,
+      "17": 0
+    },
+    "by_task": {
+      "meta_characteristic": 949,
+      "formulate_query": 7644,
+      "extract_objects": 772011,
+      "describe_objects": 58705,
+      "classify_objects": 951622,
+      "propose_operations": 86908,
+      "meta_review": 4023,
+      "extract_concepts": 343272,
+      "choose_entry": 1251,
+      "judge_subjective": 7519
+    }
+  }
+}

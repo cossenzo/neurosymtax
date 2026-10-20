@@ -1,0 +1,466 @@
+[
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D1",
+      "D1.C1",
+      "D1.C2",
+      "D1.C3",
+      "D1.C4",
+      "D1.C5"
+    ],
+    "removed": [],
+    "evidence": [
+      "O8",
+      "O14",
+      "O16",
+      "O41",
+      "O50",
+      "O9",
+      "O46",
+      "O58",
+      "O35",
+      "O28",
+      "O36",
+      "O47",
+      "O18",
+      "O57",
+      "O21",
+      "O15",
+      "O24",
+      "O26",
+      "O22",
+      "O31",
+      "O30"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D2",
+      "D2.C1",
+      "D2.C2",
+      "D2.C3",
+      "D2.C4"
+    ],
+    "removed": [],
+    "evidence": [
+      "O8",
+      "O16",
+      "O50",
+      "O60",
+      "O63",
+      "O58",
+      "O46",
+      "O28",
+      "O35",
+      "O47",
+      "O27",
+      "O12",
+      "O29"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D3",
+      "D3.C1",
+      "D3.C2",
+      "D3.C3",
+      "D3.C4",
+      "D3.C5",
+      "D3.C6"
+    ],
+    "removed": [],
+    "evidence": [
+      "O8",
+      "O14",
+      "O16",
+      "O18",
+      "O17",
+      "O21",
+      "O22",
+      "O25",
+      "O26",
+      "O31",
+      "O30",
+      "O61",
+      "O12",
+      "O13",
+      "O46",
+      "O50",
+      "O60",
+      "O9"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D4",
+      "D4.C1",
+      "D4.C2",
+      "D4.C3",
+      "D4.C4"
+    ],
+    "removed": [],
+    "evidence": [
+      "O2",
+      "O7",
+      "O19",
+      "O20",
+      "O43",
+      "O44",
+      "O6",
+      "O4",
+      "O5",
+      "O11",
+      "O33",
+      "O34",
+      "O36",
+      "O45",
+      "O59",
+      "O46",
+      "O28",
+      "O13",
+      "O38",
+      "O12",
+      "O17",
+      "O9",
+      "O41",
+      "O32",
+      "O40",
+      "O61"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 3,
+    "op": "rename",
+    "targets": [
+      "D1.C1"
+    ],
+    "created": [],
+    "removed": [],
+    "evidence": [
+      "O78",
+      "O104",
+      "O110"
+    ],
+    "reason": "Front-running (O78) is a misfit in D1 and is a transaction-ordering exploit that harms other traders; the definition is widened to cover it."
+  },
+  {
+    "iteration": 3,
+    "op": "rename",
+    "targets": [
+      "D1.C2"
+    ],
+    "created": [],
+    "removed": [],
+    "evidence": [
+      "O91"
+    ],
+    "reason": "Cryptocurrency Money Laundering (O91) is a misfit in D1 and in D2; its harm (exposure through tainted funds) is not captured by the current characteristic."
+  },
+  {
+    "iteration": 3,
+    "op": "add_characteristic",
+    "targets": [
+      "D1"
+    ],
+    "created": [
+      "D1.C6"
+    ],
+    "removed": [],
+    "evidence": [
+      "O53",
+      "O73",
+      "O76",
+      "O81",
+      "O83",
+      "O84",
+      "O90",
+      "O92",
+      "O94",
+      "O99",
+      "O116"
+    ],
+    "reason": "Several D1 misfits (Impermanent Loss, Black Swan Event, Bank Run, Bear Market, Blockchain Trilemma, Crypto Winter, Currency Crisis, Depeg, Credit Risk, Correction, Gas wars) describe structural or market-wide harm not covered by existing characteristics."
+  },
+  {
+    "iteration": 3,
+    "op": "add_characteristic",
+    "targets": [
+      "D2"
+    ],
+    "created": [
+      "D2.C5"
+    ],
+    "removed": [],
+    "evidence": [
+      "O2",
+      "O3",
+      "O4",
+      "O6",
+      "O7",
+      "O10",
+      "O23",
+      "O25",
+      "O30",
+      "O32",
+      "O33",
+      "O43",
+      "O44",
+      "O48",
+      "O52",
+      "O54",
+      "O55",
+      "O74",
+      "O79",
+      "O120",
+      "O121"
+    ],
+    "reason": "Many D2 misfits are gaming, status or neutral terms that name no affected party; a negation characteristic captures this stated absence."
+  },
+  {
+    "iteration": 3,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D5",
+      "D5.C1",
+      "D5.C2",
+      "D5.C3",
+      "D5.C4",
+      "D5.C5",
+      "D5.C6"
+    ],
+    "removed": [],
+    "evidence": [
+      "O82",
+      "O95",
+      "O112",
+      "O105",
+      "O110",
+      "O104",
+      "O87",
+      "O103",
+      "O114",
+      "O76",
+      "O81",
+      "O83",
+      "O85",
+      "O86",
+      "O90",
+      "O75",
+      "O118",
+      "O67",
+      "O70",
+      "O71",
+      "O72",
+      "O73",
+      "O79",
+      "O84",
+      "O98",
+      "O99",
+      "O120",
+      "O121",
+      "O96"
+    ],
+    "reason": "The new codes (for example Referent is a market actor, Referent is a market-wide condition, Referent is a design trade-off, Flaw in contract code as target) describe a shared conceptual property of the terms that no existing dimension captures; the new dimension groups them into mutually exclusive characteristics."
+  },
+  {
+    "iteration": 4,
+    "op": "delete",
+    "targets": [
+      "D3.C6"
+    ],
+    "created": [],
+    "removed": [
+      "D3.C6"
+    ],
+    "evidence": [],
+    "reason": "No object carries this characteristic; open issue I3.1 records it as empty.','"
+  },
+  {
+    "iteration": 4,
+    "op": "rename",
+    "targets": [
+      "D3"
+    ],
+    "created": [],
+    "removed": [],
+    "evidence": [
+      "I3.1",
+      "O3"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 4,
+    "op": "add_characteristic",
+    "targets": [
+      "D5"
+    ],
+    "created": [
+      "D5.C7"
+    ],
+    "removed": [],
+    "evidence": [
+      "O9",
+      "O13",
+      "O127",
+      "O12",
+      "O26",
+      "O52",
+      "O62",
+      "O15"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 4,
+    "op": "rename",
+    "targets": [
+      "D5"
+    ],
+    "created": [],
+    "removed": [],
+    "evidence": [
+      "O9",
+      "O12",
+      "O13",
+      "O15",
+      "O26",
+      "O52",
+      "O62",
+      "O127"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 4,
+    "op": "rename",
+    "targets": [
+      "D1.C5"
+    ],
+    "created": [],
+    "removed": [],
+    "evidence": [
+      "O75",
+      "O5"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 4,
+    "op": "rename",
+    "targets": [
+      "D1.C6"
+    ],
+    "created": [],
+    "removed": [],
+    "evidence": [
+      "O116",
+      "O128"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 4,
+    "op": "rename",
+    "targets": [
+      "D2.C5"
+    ],
+    "created": [],
+    "removed": [],
+    "evidence": [
+      "O18",
+      "O21",
+      "O24",
+      "O25",
+      "O57"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 4,
+    "op": "add_characteristic",
+    "targets": [
+      "D2"
+    ],
+    "created": [
+      "D2.C6"
+    ],
+    "removed": [],
+    "evidence": [
+      "O127",
+      "O128"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 4,
+    "op": "add_characteristic",
+    "targets": [
+      "D2"
+    ],
+    "created": [
+      "D2.C7"
+    ],
+    "removed": [],
+    "evidence": [
+      "O109",
+      "O115",
+      "O36"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 4,
+    "op": "rename",
+    "targets": [
+      "D2"
+    ],
+    "created": [],
+    "removed": [],
+    "evidence": [
+      "O109",
+      "O115",
+      "O127",
+      "O128",
+      "O18",
+      "O21"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 4,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D6",
+      "D6.C1",
+      "D6.C2",
+      "D6.C3",
+      "D6.C4"
+    ],
+    "removed": [],
+    "evidence": [
+      "O123",
+      "O124",
+      "O126"
+    ],
+    "reason": ""
+  }
+]

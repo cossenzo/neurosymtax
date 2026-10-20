@@ -1,0 +1,907 @@
+[
+  {
+    "number": 1,
+    "kind": "e",
+    "reason": "R1: identification-and-structuring, descriptive purpose (TDR 7, 8)",
+    "queries": [
+      "DeFi community jargon slang warning"
+    ],
+    "documents": [
+      "dcf3b2253fcafefdbc9ff4fc6b3ff8de78f1a6c5",
+      "b902273059625b340d1a7be2941e4a32258a13c4",
+      "1e3014fe0ff56da0f3f6ba9fe580dea39215d7a5",
+      "web:41185499f233379f",
+      "web:c320bb14c0ab83af",
+      "web:10ed5b506a15ff21"
+    ],
+    "new_objects": [
+      "O1",
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "O6",
+      "O7",
+      "O8",
+      "O9",
+      "O10",
+      "O11",
+      "O12",
+      "O13",
+      "O14",
+      "O15",
+      "O16",
+      "O17",
+      "O18",
+      "O19",
+      "O20",
+      "O21",
+      "O22",
+      "O23",
+      "O24",
+      "O25",
+      "O26",
+      "O27",
+      "O28",
+      "O29",
+      "O30",
+      "O31",
+      "O32",
+      "O33",
+      "O34",
+      "O35",
+      "O36",
+      "O37",
+      "O38",
+      "O39",
+      "O40",
+      "O41",
+      "O42",
+      "O43",
+      "O44",
+      "O45",
+      "O46",
+      "O47",
+      "O48",
+      "O49",
+      "O50",
+      "O51",
+      "O52",
+      "O53",
+      "O54",
+      "O55",
+      "O56",
+      "O57",
+      "O58",
+      "O59",
+      "O60",
+      "O61",
+      "O62",
+      "O63",
+      "O64",
+      "O65",
+      "O66"
+    ],
+    "codes": 166,
+    "concepts": 0,
+    "attempts": [
+      [
+        "R5 characteristic D2.C4 'No consumer harm stated' expresses missing information, which is recorded as no_information; a negation characteristic names a stated absence (e.g. 'No governance: immutable contracts')"
+      ],
+      []
+    ],
+    "rejected": false,
+    "operations": [
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D1",
+          "D1.C1",
+          "D1.C2",
+          "D1.C3",
+          "D1.C4",
+          "D1.C5"
+        ],
+        "removed": [],
+        "evidence": [
+          "O8",
+          "O14",
+          "O16",
+          "O41",
+          "O50",
+          "O9",
+          "O46",
+          "O58",
+          "O35",
+          "O28",
+          "O36",
+          "O47",
+          "O18",
+          "O57",
+          "O21",
+          "O15",
+          "O24",
+          "O26",
+          "O22",
+          "O31",
+          "O30"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D2",
+          "D2.C1",
+          "D2.C2",
+          "D2.C3",
+          "D2.C4"
+        ],
+        "removed": [],
+        "evidence": [
+          "O8",
+          "O16",
+          "O50",
+          "O60",
+          "O63",
+          "O58",
+          "O46",
+          "O28",
+          "O35",
+          "O47",
+          "O27",
+          "O12",
+          "O29"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D3",
+          "D3.C1",
+          "D3.C2",
+          "D3.C3",
+          "D3.C4",
+          "D3.C5",
+          "D3.C6"
+        ],
+        "removed": [],
+        "evidence": [
+          "O8",
+          "O14",
+          "O16",
+          "O18",
+          "O17",
+          "O21",
+          "O22",
+          "O25",
+          "O26",
+          "O31",
+          "O30",
+          "O61",
+          "O12",
+          "O13",
+          "O46",
+          "O50",
+          "O60",
+          "O9"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D4",
+          "D4.C1",
+          "D4.C2",
+          "D4.C3",
+          "D4.C4"
+        ],
+        "removed": [],
+        "evidence": [
+          "O2",
+          "O7",
+          "O19",
+          "O20",
+          "O43",
+          "O44",
+          "O6",
+          "O4",
+          "O5",
+          "O11",
+          "O33",
+          "O34",
+          "O36",
+          "O45",
+          "O59",
+          "O46",
+          "O28",
+          "O13",
+          "O38",
+          "O12",
+          "O17",
+          "O9",
+          "O41",
+          "O32",
+          "O40",
+          "O61"
+        ],
+        "reason": ""
+      }
+    ],
+    "cells_classified": 264,
+    "meta_review": "kept (The four dimensions (harm mechanism, affected party, discourse function, lexical origin) all follow the meta-characteristic's lens of community jargon signalling consumer risks, linking sociolinguistic patterns to risk categories and technical origins. The purpose's aims of relating patterns to technical concepts and risk categories and supporting consumer protection are covered, so no refinement is needed.)",
+    "objective": {
+      "O1": true,
+      "O2": true,
+      "O3": false,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "objective_details": {
+      "O1": "66 objects, 4 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "1 characteristics without objects",
+      "O5": "not checked: only the e iterations after the first are checked",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 21 misfits",
+      "O10": "structure rules hold"
+    },
+    "subjective": {},
+    "evaluation": {},
+    "exit": "12",
+    "entry": "4",
+    "entry_reason": "R4: review of the meta-characteristic after the first iteration (TDR 5)",
+    "tokens": 558882
+  },
+  {
+    "number": 2,
+    "kind": "c",
+    "reason": "R2: at least one iteration of each approach (TDR 9)",
+    "queries": [
+      "DeFi scam taxonomy typology risk"
+    ],
+    "documents": [
+      "021180aa4aa8d1d64742e453607f9b2d0cc1f92a",
+      "00f115bd43bfa9b510183f4a77030b6e450835bc",
+      "c6dff307c7128113c9cb93839f93138d6dc5633c",
+      "web:30b56b2c8059da6e",
+      "web:b1d67e776adbffd2",
+      "web:c19f3b976ad40b87"
+    ],
+    "new_objects": [],
+    "codes": 0,
+    "concepts": 0,
+    "attempts": [],
+    "rejected": false,
+    "operations": [],
+    "cells_classified": 0,
+    "meta_review": "",
+    "objective": {
+      "O1": true,
+      "O2": true,
+      "O3": false,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "objective_details": {
+      "O1": "66 objects, 4 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "1 characteristics without objects",
+      "O5": "not checked: only the e iterations after the first are checked",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 21 misfits",
+      "O10": "structure rules hold"
+    },
+    "subjective": {},
+    "evaluation": {},
+    "exit": "12",
+    "entry": "6",
+    "entry_reason": "chosen by the LLM: Unmet condition O3 recurred after the iteration 2 revision, which made no operations and left O3 unresolved. Adjusting the taxonomy with the existing objects has not resolved it, so a new building iteration with new evidence is needed.",
+    "tokens": 344583
+  },
+  {
+    "number": 3,
+    "kind": "e",
+    "reason": "R3: characteristics of empirical origin without objects: ['D3.C6']",
+    "queries": [
+      "DeFi glossary slang risk terms"
+    ],
+    "documents": [
+      "17496e5be93979b31e1cda60ac8ec15dd38381e0",
+      "e178b960a3bce7e6fd33a4a1e25457010afd3abe",
+      "a4f30d1f9a486873790a5ea0f3bc88fbda9bc231",
+      "web:1dfcf332fcd823c9",
+      "web:106de97a00bcf1eb",
+      "web:86bd61c40c8bd487"
+    ],
+    "new_objects": [
+      "O67",
+      "O68",
+      "O69",
+      "O70",
+      "O71",
+      "O72",
+      "O73",
+      "O74",
+      "O75",
+      "O76",
+      "O77",
+      "O78",
+      "O79",
+      "O80",
+      "O81",
+      "O82",
+      "O83",
+      "O84",
+      "O85",
+      "O86",
+      "O87",
+      "O88",
+      "O89",
+      "O90",
+      "O91",
+      "O92",
+      "O93",
+      "O94",
+      "O95",
+      "O96",
+      "O97",
+      "O98",
+      "O99",
+      "O100",
+      "O101",
+      "O102",
+      "O103",
+      "O104",
+      "O105",
+      "O106",
+      "O107",
+      "O108",
+      "O109",
+      "O110",
+      "O111",
+      "O112",
+      "O113",
+      "O114",
+      "O115",
+      "O116",
+      "O117",
+      "O118",
+      "O119",
+      "O120",
+      "O121"
+    ],
+    "codes": 79,
+    "concepts": 0,
+    "attempts": [
+      []
+    ],
+    "rejected": false,
+    "operations": [
+      {
+        "iteration": 3,
+        "op": "rename",
+        "targets": [
+          "D1.C1"
+        ],
+        "created": [],
+        "removed": [],
+        "evidence": [
+          "O78",
+          "O104",
+          "O110"
+        ],
+        "reason": "Front-running (O78) is a misfit in D1 and is a transaction-ordering exploit that harms other traders; the definition is widened to cover it."
+      },
+      {
+        "iteration": 3,
+        "op": "rename",
+        "targets": [
+          "D1.C2"
+        ],
+        "created": [],
+        "removed": [],
+        "evidence": [
+          "O91"
+        ],
+        "reason": "Cryptocurrency Money Laundering (O91) is a misfit in D1 and in D2; its harm (exposure through tainted funds) is not captured by the current characteristic."
+      },
+      {
+        "iteration": 3,
+        "op": "add_characteristic",
+        "targets": [
+          "D1"
+        ],
+        "created": [
+          "D1.C6"
+        ],
+        "removed": [],
+        "evidence": [
+          "O53",
+          "O73",
+          "O76",
+          "O81",
+          "O83",
+          "O84",
+          "O90",
+          "O92",
+          "O94",
+          "O99",
+          "O116"
+        ],
+        "reason": "Several D1 misfits (Impermanent Loss, Black Swan Event, Bank Run, Bear Market, Blockchain Trilemma, Crypto Winter, Currency Crisis, Depeg, Credit Risk, Correction, Gas wars) describe structural or market-wide harm not covered by existing characteristics."
+      },
+      {
+        "iteration": 3,
+        "op": "add_characteristic",
+        "targets": [
+          "D2"
+        ],
+        "created": [
+          "D2.C5"
+        ],
+        "removed": [],
+        "evidence": [
+          "O2",
+          "O3",
+          "O4",
+          "O6",
+          "O7",
+          "O10",
+          "O23",
+          "O25",
+          "O30",
+          "O32",
+          "O33",
+          "O43",
+          "O44",
+          "O48",
+          "O52",
+          "O54",
+          "O55",
+          "O74",
+          "O79",
+          "O120",
+          "O121"
+        ],
+        "reason": "Many D2 misfits are gaming, status or neutral terms that name no affected party; a negation characteristic captures this stated absence."
+      },
+      {
+        "iteration": 3,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D5",
+          "D5.C1",
+          "D5.C2",
+          "D5.C3",
+          "D5.C4",
+          "D5.C5",
+          "D5.C6"
+        ],
+        "removed": [],
+        "evidence": [
+          "O82",
+          "O95",
+          "O112",
+          "O105",
+          "O110",
+          "O104",
+          "O87",
+          "O103",
+          "O114",
+          "O76",
+          "O81",
+          "O83",
+          "O85",
+          "O86",
+          "O90",
+          "O75",
+          "O118",
+          "O67",
+          "O70",
+          "O71",
+          "O72",
+          "O73",
+          "O79",
+          "O84",
+          "O98",
+          "O99",
+          "O120",
+          "O121",
+          "O96"
+        ],
+        "reason": "The new codes (for example Referent is a market actor, Referent is a market-wide condition, Referent is a design trade-off, Flaw in contract code as target) describe a shared conceptual property of the terms that no existing dimension captures; the new dimension groups them into mutually exclusive characteristics."
+      }
+    ],
+    "cells_classified": 583,
+    "meta_review": "",
+    "objective": {
+      "O1": true,
+      "O2": true,
+      "O3": false,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "objective_details": {
+      "O1": "121 objects, 5 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "1 characteristics without objects",
+      "O5": "0 merges or splits in this e iteration",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 22 misfits",
+      "O10": "structure rules hold"
+    },
+    "subjective": {},
+    "evaluation": {},
+    "exit": "12",
+    "entry": "6",
+    "entry_reason": "chosen by the LLM: Unmet condition O3 recurs in every iteration (iterations 1 to 3) despite revisions with operations, so adjusting the taxonomy has not resolved it. Re-entering at step 6 with new evidence from new documents and objects is required.",
+    "tokens": 583335
+  },
+  {
+    "number": 4,
+    "kind": "e",
+    "reason": "R3: characteristics of empirical origin without objects: ['D3.C6']",
+    "queries": [
+      "DeFi Telegram Discord slang terminology",
+      "crypto slang pump dump terms"
+    ],
+    "documents": [
+      "f4a973fce7deaa947bad66e12165cbbee3bff948",
+      "7d5c9777df5cd909a22109a3654956036f435033",
+      "eda5ed5fe553ce64187f48aebee0480b97d86093",
+      "web:9e754b2c5db84731",
+      "web:216ba99ad744b537",
+      "920c99fe6e85d84d96686e841883e46208d5d058",
+      "885f048b76408b67404e43eb47c5e2529c946253",
+      "75303429124df51201b697251060520b3c2cdc4d",
+      "web:a93d3121fa6b2d1d",
+      "web:dc1fe81392817ed0",
+      "web:e13a0db33b94425f"
+    ],
+    "new_objects": [
+      "O122",
+      "O123",
+      "O124",
+      "O125",
+      "O126",
+      "O127",
+      "O128"
+    ],
+    "codes": 9,
+    "concepts": 0,
+    "attempts": [
+      []
+    ],
+    "rejected": false,
+    "operations": [
+      {
+        "iteration": 4,
+        "op": "delete",
+        "targets": [
+          "D3.C6"
+        ],
+        "created": [],
+        "removed": [
+          "D3.C6"
+        ],
+        "evidence": [],
+        "reason": "No object carries this characteristic; open issue I3.1 records it as empty.','"
+      },
+      {
+        "iteration": 4,
+        "op": "rename",
+        "targets": [
+          "D3"
+        ],
+        "created": [],
+        "removed": [],
+        "evidence": [
+          "I3.1",
+          "O3"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 4,
+        "op": "add_characteristic",
+        "targets": [
+          "D5"
+        ],
+        "created": [
+          "D5.C7"
+        ],
+        "removed": [],
+        "evidence": [
+          "O9",
+          "O13",
+          "O127",
+          "O12",
+          "O26",
+          "O52",
+          "O62",
+          "O15"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 4,
+        "op": "rename",
+        "targets": [
+          "D5"
+        ],
+        "created": [],
+        "removed": [],
+        "evidence": [
+          "O9",
+          "O12",
+          "O13",
+          "O15",
+          "O26",
+          "O52",
+          "O62",
+          "O127"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 4,
+        "op": "rename",
+        "targets": [
+          "D1.C5"
+        ],
+        "created": [],
+        "removed": [],
+        "evidence": [
+          "O75",
+          "O5"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 4,
+        "op": "rename",
+        "targets": [
+          "D1.C6"
+        ],
+        "created": [],
+        "removed": [],
+        "evidence": [
+          "O116",
+          "O128"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 4,
+        "op": "rename",
+        "targets": [
+          "D2.C5"
+        ],
+        "created": [],
+        "removed": [],
+        "evidence": [
+          "O18",
+          "O21",
+          "O24",
+          "O25",
+          "O57"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 4,
+        "op": "add_characteristic",
+        "targets": [
+          "D2"
+        ],
+        "created": [
+          "D2.C6"
+        ],
+        "removed": [],
+        "evidence": [
+          "O127",
+          "O128"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 4,
+        "op": "add_characteristic",
+        "targets": [
+          "D2"
+        ],
+        "created": [
+          "D2.C7"
+        ],
+        "removed": [],
+        "evidence": [
+          "O109",
+          "O115",
+          "O36"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 4,
+        "op": "rename",
+        "targets": [
+          "D2"
+        ],
+        "created": [],
+        "removed": [],
+        "evidence": [
+          "O109",
+          "O115",
+          "O127",
+          "O128",
+          "O18",
+          "O21"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 4,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D6",
+          "D6.C1",
+          "D6.C2",
+          "D6.C3",
+          "D6.C4"
+        ],
+        "removed": [],
+        "evidence": [
+          "O123",
+          "O124",
+          "O126"
+        ],
+        "reason": ""
+      }
+    ],
+    "cells_classified": 632,
+    "meta_review": "",
+    "objective": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "objective_details": {
+      "O1": "128 objects, 6 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects",
+      "O5": "0 merges or splits in this e iteration",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 14 misfits",
+      "O10": "structure rules hold"
+    },
+    "subjective": {
+      "concise": {
+        "passed": true,
+        "justification": "The taxonomy has two perspectives and six dimensions, each with four to seven characteristics. Each dimension maps to the stated purpose of linking discourse to risk, so no dimension is clearly unnecessary."
+      },
+      "robust": {
+        "passed": true,
+        "justification": "The dimensions and characteristics separate the classified objects across harm mechanisms, affected parties, discourse functions and referent types. Sparse dimensions such as lexical origin and posting tactic reflect limited evidence in the documents rather than weak differentiation."
+      },
+      "comprehensive": {
+        "passed": true,
+        "justification": "Both perspectives are represented, and the dimensions needed for the purpose (harm, affected party, discourse function, origin, referent and tactic) are present. The 128 objects can be classified under the characteristics, including negation and no-information categories."
+      },
+      "extendible": {
+        "passed": true,
+        "justification": "Dimensions are defined independently with explicit application rules and ordered matching, so new characteristics or dimensions could be added within each perspective without restructuring the existing framework."
+      },
+      "explanatory": {
+        "passed": true,
+        "justification": "Each dimension and characteristic has a clear definition tied to consumer harm or community discourse, which explains the nature of the objects for consumer protection and traceability. Boundary cases are handled by application rules."
+      }
+    },
+    "evaluation": {
+      "new_objects": 10,
+      "all_objects": 138,
+      "kappa_per_dimension": {
+        "D1": 0.8684,
+        "D2": 1.0,
+        "D3": 0.4444,
+        "D4": 0.5312,
+        "D5": 0.8649,
+        "D6": 0.375
+      },
+      "kappa": 0.6806,
+      "misfit_share": 0.2,
+      "informed_share": 0.8167,
+      "distinct_profiles": 0.7246,
+      "discriminating_dimensions": 1.0,
+      "cluster_silhouette": 0.1839,
+      "new_object_ids": [
+        "O129",
+        "O130",
+        "O131",
+        "O132",
+        "O133",
+        "O134",
+        "O135",
+        "O136",
+        "O137",
+        "O138"
+      ],
+      "results": [
+        {
+          "goal": "describing",
+          "measure": "informed_share",
+          "value": 0.8167,
+          "target": 0.5,
+          "comparator": ">=",
+          "met": true,
+          "remedy": "6"
+        },
+        {
+          "goal": "describing",
+          "measure": "misfit_share",
+          "value": 0.2,
+          "target": 0.3,
+          "comparator": "<=",
+          "met": true,
+          "remedy": "6"
+        },
+        {
+          "goal": "classifying",
+          "measure": "kappa",
+          "value": 0.6806,
+          "target": 0.61,
+          "comparator": ">=",
+          "met": true,
+          "remedy": "10"
+        },
+        {
+          "goal": "classifying",
+          "measure": "misfit_share",
+          "value": 0.2,
+          "target": 0.3,
+          "comparator": "<=",
+          "met": true,
+          "remedy": "6"
+        }
+      ]
+    },
+    "exit": null,
+    "entry": null,
+    "entry_reason": "",
+    "tokens": 746155
+  }
+]

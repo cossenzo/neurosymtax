@@ -1,0 +1,132 @@
+2026-10-15 18:08:19,781 INFO etdp: --- step 1-3 ---
+2026-10-15 18:08:19,782 INFO etdp.steps: phenomenon: Decentralized finance (DeFi); users: Consumers; investors; Service providers; Regulators; purpose: Represent sociolinguistic patterns and relate them to technical concepts and risk categories; Semantically mediate the transition from public discourse on DeFi to informational consumer protection (traceability); Provide insights to improve consumer protection and strategic decision-making (identification_and_structuring, descriptive); perspectives: ['Consumer risk', 'Community discourse']
+2026-10-15 18:08:19,784 INFO etdp: --- step 4 ---
+2026-10-15 18:08:21,691 INFO etdp.steps: meta-characteristic: The taxonomy views DeFi through the lens of how its community discourse, in the form of jargon, slang and warning expressions, signals and describes risks and harms to consumers, linking these sociolinguistic patterns to technical concepts and risk categories to support consumer protection.
+2026-10-15 18:08:21,691 INFO etdp: --- step 5 ---
+2026-10-15 18:08:21,698 INFO etdp: --- step 6 ---
+2026-10-15 18:08:21,698 INFO etdp.steps: === iteration 1 (e): R1: identification-and-structuring, descriptive purpose (TDR 7, 8) ===
+2026-10-15 18:08:21,699 INFO etdp: --- step 7e ---
+2026-10-15 18:08:24,404 INFO etdp.sources.semantic_scholar: Semantic Scholar: 0 results for 'DeFi community jargon slang warning' (year=(2008, 2026), open_access_only=True)
+2026-10-15 18:08:25,295 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-15 18:08:30,134 INFO etdp.sources.semantic_scholar: Semantic Scholar: 19 results for 'DeFi community jargon slang' (year=(2008, 2026), open_access_only=True)
+2026-10-15 18:09:08,098 DEBUG etdp.sources.fulltext: PDF not read https://ojs3.unpatti.ac.id/index.php/mirlam/article/download/22349/11447: HTTPSConnectionPool(host='ojs3.unpatti.ac.id', port=443): Read timed out. (read timeout=30.0)
+2026-10-15 18:09:37,680 DEBUG etdp.sources.fulltext: PDF not read https://hisplus.elpub.ru/jour/article/download/907/581: ('Connection broken: IncompleteRead(32414 bytes read, 369306 more expected)', IncompleteRead(32414 bytes read, 369306 more expected))
+2026-10-15 18:09:38,554 DEBUG etdp.sources.fulltext: PDF not read https://fls.acad-pub.com/index.php/FLS/article/download/1610/1047: HTTPSConnectionPool(host='fls.acad-pub.com', port=443): Max retries exceeded with url: /index.php/FLS/article/download/1610/1047 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000191A279EF30>: Failed to resolve 'fls.acad-pub.com' ([Errno 11001] getaddrinfo failed)"))
+2026-10-15 18:09:41,067 INFO etdp.documents: scholarly: 3 full texts for 'DeFi community jargon slang warning'
+2026-10-15 18:09:43,508 INFO etdp.documents: web: 3 pages for 'DeFi community jargon slang warning'
+2026-10-15 18:15:02,304 INFO etdp.documents: llm: 14 descriptions for 66 objects
+2026-10-15 18:15:19,902 INFO etdp.documents: 66 candidate objects; 66 new objects registered
+2026-10-15 18:15:19,904 INFO etdp: --- step 8e ---
+2026-10-15 18:16:45,756 INFO etdp.classify: classified 0 cells; 166 codes
+2026-10-15 18:16:45,758 INFO etdp: --- step 9e ---
+2026-10-15 18:17:10,841 INFO etdp.steps: proposal 1 of 3: 4 operation(s): add_dimension Consumer risk category; add_dimension Harmed consumer position; add_dimension Discourse function; add_dimension Lexical origin
+2026-10-15 18:17:10,841 INFO etdp.steps: proposal violates 1 rule(s) (attempt 1 of 3)
+2026-10-15 18:17:10,841 INFO etdp.steps:   R5: the resulting taxonomy must keep its invariants: every dimension in one perspective of the input, at least the minimum number of characteristics per dimension, at most one negation characteristic per dimension, unique and present names, and no characteristic that expresses missing information
+2026-10-15 18:17:10,841 INFO etdp.steps:   - R5 characteristic D2.C4 'No consumer harm stated' expresses missing information, which is recorded as no_information; a negation characteristic names a stated absence (e.g. 'No governance: immutable contracts')
+2026-10-15 18:17:10,841 INFO etdp.steps:   correction: the violations are returned to the LLM, which must answer with a corrected list of operations
+2026-10-15 18:17:34,897 INFO etdp.steps: proposal 2 of 3: 4 operation(s): add_dimension Harm mechanism; add_dimension Affected party; add_dimension Discourse function; add_dimension Lexical origin
+2026-10-15 18:17:34,897 INFO etdp.steps: proposal accepted after 1 correction(s)
+2026-10-15 18:17:34,897 INFO etdp: --- step 10 ---
+2026-10-15 18:20:06,004 INFO etdp.classify: classified 264 cells; 0 codes
+2026-10-15 18:20:06,004 INFO etdp.steps: taxonomy: 4 dimensions; 4 operations applied
+2026-10-15 18:20:06,004 INFO etdp.steps:   add_dimension D1, D1.C1, D1.C2, D1.C3, D1.C4, D1.C5: 
+2026-10-15 18:20:06,004 INFO etdp.steps:   add_dimension D2, D2.C1, D2.C2, D2.C3, D2.C4: 
+2026-10-15 18:20:06,004 INFO etdp.steps:   add_dimension D3, D3.C1, D3.C2, D3.C3, D3.C4, D3.C5, D3.C6: 
+2026-10-15 18:20:06,020 INFO etdp.steps:   add_dimension D4, D4.C1, D4.C2, D4.C3, D4.C4: 
+2026-10-15 18:20:06,026 INFO etdp: --- step 11-12 ---
+2026-10-15 18:20:06,026 INFO etdp.steps: objective conditions unmet: ['O3']
+2026-10-15 18:20:06,026 INFO etdp.steps:   O3 At least one object under every characteristic: 1 characteristics without objects
+2026-10-15 18:20:06,036 INFO etdp.steps: exit after Step 12; re-entry before Step 4 (R4: review of the meta-characteristic after the first iteration (TDR 5))
+2026-10-15 18:20:06,036 INFO etdp: --- step 4 ---
+2026-10-15 18:20:09,650 INFO etdp.steps: meta-characteristic review: kept (The four dimensions (harm mechanism, affected party, discourse function, lexical origin) all follow the meta-characteristic's lens of community jargon signalling consumer risks, linking sociolinguistic patterns to risk categories and technical origins. The purpose's aims of relating patterns to technical concepts and risk categories and supporting consumer protection are covered, so no refinement is needed.)
+2026-10-15 18:20:09,666 INFO etdp: --- step 6 ---
+2026-10-15 18:20:09,666 INFO etdp.steps: === iteration 2 (c): R2: at least one iteration of each approach (TDR 9) ===
+2026-10-15 18:20:09,666 INFO etdp: --- step 7c ---
+2026-10-15 18:20:12,986 INFO etdp.sources.semantic_scholar: Semantic Scholar: 2 results for 'DeFi scam taxonomy typology risk' (year=(2008, 2026), open_access_only=True)
+2026-10-15 18:20:18,827 INFO etdp.sources.semantic_scholar: Semantic Scholar: 5 results for 'DeFi scam taxonomy typology' (year=(2008, 2026), open_access_only=True)
+2026-10-15 18:20:21,752 INFO etdp.documents: scholarly: 3 full texts for 'DeFi scam taxonomy typology risk'
+2026-10-15 18:20:24,347 INFO etdp.documents: web: 3 pages for 'DeFi scam taxonomy typology risk'
+2026-10-15 18:23:24,155 INFO etdp: --- step 8c ---
+2026-10-15 18:23:24,171 INFO etdp: --- step 10 ---
+2026-10-15 18:23:24,177 INFO etdp.classify: classified 0 cells; 0 codes
+2026-10-15 18:23:24,177 INFO etdp.steps: taxonomy: 4 dimensions; 0 operations applied
+2026-10-15 18:23:24,177 INFO etdp: --- step 11-12 ---
+2026-10-15 18:23:24,188 INFO etdp.steps: objective conditions unmet: ['O3']
+2026-10-15 18:23:24,188 INFO etdp.steps:   O3 At least one object under every characteristic: 1 characteristics without objects
+2026-10-15 18:23:24,204 INFO etdp.steps: exit after Step 12; re-entry before Step 6 (chosen by the LLM: Unmet condition O3 recurred after the iteration 2 revision, which made no operations and left O3 unresolved. Adjusting the taxonomy with the existing objects has not resolved it, so a new building iteration with new evidence is needed.)
+2026-10-15 18:23:24,204 INFO etdp: --- step 6 ---
+2026-10-15 18:23:24,204 INFO etdp.steps: === iteration 3 (e): R3: characteristics of empirical origin without objects: ['D3.C6'] ===
+2026-10-15 18:23:24,204 INFO etdp: --- step 7e ---
+2026-10-15 18:23:26,995 INFO etdp.sources.semantic_scholar: Semantic Scholar: 1 results for 'DeFi glossary slang risk terms' (year=(2008, 2026), open_access_only=True)
+2026-10-15 18:23:28,968 INFO etdp.sources.semantic_scholar: Semantic Scholar: 1 results for 'DeFi glossary slang risk' (year=(2008, 2026), open_access_only=True)
+2026-10-15 18:23:29,997 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-15 18:23:34,354 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-15 18:23:38,726 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-15 18:23:48,131 INFO etdp.sources.semantic_scholar: Semantic Scholar: 50 results for 'DeFi glossary' (year=(2008, 2026), open_access_only=True)
+2026-10-15 18:24:01,992 INFO etdp.documents: scholarly: 3 full texts for 'DeFi glossary slang risk terms'
+2026-10-15 18:24:05,663 INFO etdp.documents: web: 3 pages for 'DeFi glossary slang risk terms'
+2026-10-15 18:28:02,234 INFO etdp.documents: llm: 11 descriptions for 55 objects
+2026-10-15 18:28:02,763 INFO etdp.documents: 65 candidate objects; 55 new objects registered
+2026-10-15 18:28:02,763 INFO etdp: --- step 8e ---
+2026-10-15 18:30:43,083 INFO etdp.classify: classified 220 cells; 79 codes
+2026-10-15 18:30:43,083 INFO etdp: --- step 9e ---
+2026-10-15 18:31:23,712 INFO etdp.steps: proposal 1 of 3: 5 operation(s): rename ['D1.C1']; rename ['D1.C2']; add_characteristic ['D1']; add_characteristic ['D2']; add_dimension Referent type
+2026-10-15 18:31:23,728 INFO etdp: --- step 10 ---
+2026-10-15 18:35:56,785 INFO etdp.classify: classified 363 cells; 0 codes
+2026-10-15 18:35:56,785 INFO etdp.steps: taxonomy: 5 dimensions; 5 operations applied
+2026-10-15 18:35:56,785 INFO etdp.steps:   rename D1.C1: Front-running (O78) is a misfit in D1 and is a transaction-ordering exploit that harms other traders; the definition is widened to cover it.
+2026-10-15 18:35:56,785 INFO etdp.steps:   rename D1.C2: Cryptocurrency Money Laundering (O91) is a misfit in D1 and in D2; its harm (exposure through tainted funds) is not captured by the current characteristic.
+2026-10-15 18:35:56,785 INFO etdp.steps:   add_characteristic D1.C6: Several D1 misfits (Impermanent Loss, Black Swan Event, Bank Run, Bear Market, Blockchain Trilemma, Crypto Winter, Currency Crisis, Depeg, Credit Risk, Correction, Gas wars) describe structural or mar
+2026-10-15 18:35:56,785 INFO etdp.steps:   add_characteristic D2.C5: Many D2 misfits are gaming, status or neutral terms that name no affected party; a negation characteristic captures this stated absence.
+2026-10-15 18:35:56,785 INFO etdp.steps:   add_dimension D5, D5.C1, D5.C2, D5.C3, D5.C4, D5.C5, D5.C6: The new codes (for example Referent is a market actor, Referent is a market-wide condition, Referent is a design trade-off, Flaw in contract code as target) describe a shared conceptual property of th
+2026-10-15 18:35:56,801 INFO etdp: --- step 11-12 ---
+2026-10-15 18:35:56,817 INFO etdp.steps: objective conditions unmet: ['O3']
+2026-10-15 18:35:56,817 INFO etdp.steps:   O3 At least one object under every characteristic: 1 characteristics without objects
+2026-10-15 18:35:58,561 INFO etdp.steps: exit after Step 12; re-entry before Step 6 (chosen by the LLM: Unmet condition O3 recurs in every iteration (iterations 1 to 3) despite revisions with operations, so adjusting the taxonomy has not resolved it. Re-entering at step 6 with new evidence from new documents and objects is required.)
+2026-10-15 18:35:58,577 INFO etdp: --- step 6 ---
+2026-10-15 18:35:58,577 INFO etdp.steps: === iteration 4 (e): R3: characteristics of empirical origin without objects: ['D3.C6'] ===
+2026-10-15 18:35:58,577 INFO etdp: --- step 7e ---
+2026-10-15 18:36:02,369 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-15 18:36:06,867 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-15 18:36:11,294 INFO etdp.sources.semantic_scholar: Semantic Scholar: 0 results for 'DeFi Telegram Discord slang terminology' (year=(2008, 2026), open_access_only=True)
+2026-10-15 18:36:12,016 INFO etdp.sources.semantic_scholar: Semantic Scholar: 1 results for 'DeFi Telegram Discord slang' (year=(2008, 2026), open_access_only=True)
+2026-10-15 18:36:16,694 INFO etdp.sources.semantic_scholar: Semantic Scholar: 50 results for 'DeFi Telegram' (year=(2008, 2026), open_access_only=True)
+2026-10-15 18:36:24,226 INFO etdp.documents: scholarly: 3 full texts for 'DeFi Telegram Discord slang terminology'
+2026-10-15 18:36:26,107 INFO etdp.documents: web: 2 pages for 'DeFi Telegram Discord slang terminology'
+2026-10-15 18:38:46,127 INFO etdp.documents: llm: 2 descriptions for 7 objects
+2026-10-15 18:38:46,190 INFO etdp.documents: 18 candidate objects; 7 new objects registered
+2026-10-15 18:38:46,190 INFO etdp: --- step 8e ---
+2026-10-15 18:39:15,549 INFO etdp.classify: classified 35 cells; 9 codes
+2026-10-15 18:39:15,549 INFO etdp: --- step 9e ---
+2026-10-15 18:39:54,903 INFO etdp.steps: proposal 1 of 3: 11 operation(s): delete ['D3.C6']; rename ['D3']; add_characteristic ['D5']; rename ['D5']; rename ['D1.C5']; rename ['D1.C6']; rename ['D2.C5']; add_characteristic ['D2']; add_characteristic ['D2']; rename ['D2']; add_dimension Posting tactic
+2026-10-15 18:39:54,918 INFO etdp: --- step 10 ---
+2026-10-15 18:45:11,734 INFO etdp.classify: classified 537 cells; 0 codes
+2026-10-15 18:45:11,734 INFO etdp.steps: taxonomy: 6 dimensions; 11 operations applied
+2026-10-15 18:45:11,734 INFO etdp.steps:   delete D3.C6: No object carries this characteristic; open issue I3.1 records it as empty.','
+2026-10-15 18:45:11,734 INFO etdp.steps:   rename D3: 
+2026-10-15 18:45:11,734 INFO etdp.steps:   add_characteristic D5.C7: 
+2026-10-15 18:45:11,734 INFO etdp.steps:   rename D5: 
+2026-10-15 18:45:11,734 INFO etdp.steps:   rename D1.C5: 
+2026-10-15 18:45:11,740 INFO etdp.steps:   rename D1.C6: 
+2026-10-15 18:45:11,740 INFO etdp.steps:   rename D2.C5: 
+2026-10-15 18:45:11,740 INFO etdp.steps:   add_characteristic D2.C6: 
+2026-10-15 18:45:11,740 INFO etdp.steps:   add_characteristic D2.C7: 
+2026-10-15 18:45:11,740 INFO etdp.steps:   rename D2: 
+2026-10-15 18:45:11,740 INFO etdp.steps:   add_dimension D6, D6.C1, D6.C2, D6.C3, D6.C4: 
+2026-10-15 18:45:11,740 INFO etdp: --- step 11-12 ---
+2026-10-15 18:45:11,757 INFO etdp.steps: objective conditions unmet: none
+2026-10-15 18:45:11,757 INFO etdp: --- step 13-14 ---
+2026-10-15 18:45:17,874 INFO etdp.steps: subjective conditions met: ['concise', 'robust', 'comprehensive', 'extendible', 'explanatory']; unmet: none
+2026-10-15 18:45:17,877 INFO etdp: --- step 15-16 ---
+2026-10-15 18:45:21,452 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-15 18:45:26,282 INFO etdp.sources.semantic_scholar: Semantic Scholar: 0 results for 'crypto slang pump dump terms' (year=(2008, 2026), open_access_only=True)
+2026-10-15 18:45:27,754 INFO etdp.sources.semantic_scholar: Semantic Scholar: 7 results for 'crypto slang pump dump' (year=(2008, 2026), open_access_only=True)
+2026-10-15 18:45:32,866 INFO etdp.documents: scholarly: 3 full texts for 'crypto slang pump dump terms'
+2026-10-15 18:45:34,799 INFO etdp.documents: web: 3 pages for 'crypto slang pump dump terms'
+2026-10-15 18:48:59,730 INFO etdp.documents: llm: 2 descriptions for 10 objects
+2026-10-15 18:48:59,840 INFO etdp.documents: 35 candidate objects; 10 new objects registered
+2026-10-15 18:49:29,091 INFO etdp.classify: classified 60 cells; 0 codes
+2026-10-15 18:49:59,789 INFO etdp.classify: classified 60 cells; 0 codes
+2026-10-15 18:50:00,284 INFO etdp: --- step 17 ---
+2026-10-15 18:50:00,284 INFO etdp: --- step 18 ---
+2026-10-15 18:50:00,316 INFO etdp: run 2026-10-15T18-07-44 finished: completed 
