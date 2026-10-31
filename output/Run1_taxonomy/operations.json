@@ -1,0 +1,457 @@
+[
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D1",
+      "D1.C1",
+      "D1.C2",
+      "D1.C3",
+      "D1.C4",
+      "D1.C5",
+      "D1.C6"
+    ],
+    "removed": [],
+    "evidence": [
+      "O1",
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "O6",
+      "O7",
+      "O8",
+      "O9",
+      "O10",
+      "O11",
+      "O12",
+      "O13",
+      "O14",
+      "O15",
+      "O16",
+      "O17",
+      "O18",
+      "O19",
+      "O20",
+      "O21",
+      "O24"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D2",
+      "D2.C1",
+      "D2.C2",
+      "D2.C3"
+    ],
+    "removed": [],
+    "evidence": [
+      "O5",
+      "O6",
+      "O8",
+      "O10",
+      "O11"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D3",
+      "D3.C1",
+      "D3.C2"
+    ],
+    "removed": [],
+    "evidence": [
+      "O8",
+      "O11",
+      "O12",
+      "O14",
+      "O15",
+      "O16",
+      "O18",
+      "O19"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D4",
+      "D4.C1",
+      "D4.C2"
+    ],
+    "removed": [],
+    "evidence": [
+      "O2",
+      "O3"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D5",
+      "D5.C1",
+      "D5.C2",
+      "D5.C3",
+      "D5.C4"
+    ],
+    "removed": [],
+    "evidence": [
+      "O1",
+      "O4",
+      "O5",
+      "O6",
+      "O9",
+      "O10",
+      "O11",
+      "O12",
+      "O13",
+      "O14",
+      "O16",
+      "O17",
+      "O18",
+      "O19",
+      "O21",
+      "O22",
+      "O23",
+      "O24"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D6",
+      "D6.C1",
+      "D6.C2"
+    ],
+    "removed": [],
+    "evidence": [
+      "O5",
+      "O6",
+      "O8",
+      "O9",
+      "O13",
+      "O16",
+      "O17",
+      "O18",
+      "O21"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 2,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D7",
+      "D7.C1",
+      "D7.C2",
+      "D7.C3"
+    ],
+    "removed": [],
+    "evidence": [
+      "K40",
+      "K41",
+      "K42",
+      "K43"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 2,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D8",
+      "D8.C1",
+      "D8.C2",
+      "D8.C3"
+    ],
+    "removed": [],
+    "evidence": [
+      "K70",
+      "K71",
+      "K72",
+      "K73"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 2,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D9",
+      "D9.C1",
+      "D9.C2",
+      "D9.C3"
+    ],
+    "removed": [],
+    "evidence": [
+      "K52",
+      "K53",
+      "K54",
+      "K55"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 2,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D10",
+      "D10.C1",
+      "D10.C2"
+    ],
+    "removed": [],
+    "evidence": [
+      "K61",
+      "K63",
+      "K64",
+      "K65"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 2,
+    "op": "add_characteristic",
+    "targets": [
+      "D3"
+    ],
+    "created": [
+      "D3.C3"
+    ],
+    "removed": [],
+    "evidence": [
+      "K91"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 3,
+    "op": "delete",
+    "targets": [
+      "D8"
+    ],
+    "created": [],
+    "removed": [
+      "D8",
+      "D8.C1",
+      "D8.C2",
+      "D8.C3"
+    ],
+    "evidence": [
+      "I2.1"
+    ],
+    "reason": "Dimension D8 (Delivery channel) and its characteristics D8.C1 to D8.C3 hold no classified objects (all have 0 objects, 24 objects lack information, and the dimension is conceptual), so it is removed as an element with no objects, as I2.1 asks. The strategy perspective keeps D1, D2 and D7, so it still has at least two dimensions. I2.2 is left unaddressed: D10 (Oracle data import) holds one classified object under D10.C1 (Oracle usage), so deleting it would discard that classification, and the alternative of merging it into the technology perspective requires further evidence that a revision may not bring."
+  },
+  {
+    "iteration": 4,
+    "op": "add_characteristic",
+    "targets": [
+      "D1"
+    ],
+    "created": [
+      "D1.C7"
+    ],
+    "removed": [],
+    "evidence": [
+      "O39",
+      "O41",
+      "O43",
+      "O46",
+      "O51",
+      "O62",
+      "I3.1"
+    ],
+    "reason": "Misfits of D1 for prediction-market objects with no matching characteristic."
+  },
+  {
+    "iteration": 4,
+    "op": "add_characteristic",
+    "targets": [
+      "D1"
+    ],
+    "created": [
+      "D1.C8"
+    ],
+    "removed": [],
+    "evidence": [
+      "O55",
+      "O57",
+      "O61",
+      "I3.1"
+    ],
+    "reason": "Misfits of D1 for asset-tokenization objects."
+  },
+  {
+    "iteration": 4,
+    "op": "add_characteristic",
+    "targets": [
+      "D1"
+    ],
+    "created": [
+      "D1.C9"
+    ],
+    "removed": [],
+    "evidence": [
+      "O35",
+      "I3.1"
+    ],
+    "reason": "Misfit of D1 for an insurance object."
+  },
+  {
+    "iteration": 4,
+    "op": "add_characteristic",
+    "targets": [
+      "D1"
+    ],
+    "created": [
+      "D1.C10"
+    ],
+    "removed": [],
+    "evidence": [
+      "O42",
+      "I3.1"
+    ],
+    "reason": "Misfit of D1 for a payment network object."
+  },
+  {
+    "iteration": 4,
+    "op": "add_characteristic",
+    "targets": [
+      "D1"
+    ],
+    "created": [
+      "D1.C11"
+    ],
+    "removed": [],
+    "evidence": [
+      "O59",
+      "I3.1"
+    ],
+    "reason": "Misfit of D1 for an attention-reward object."
+  },
+  {
+    "iteration": 4,
+    "op": "add_characteristic",
+    "targets": [
+      "D1"
+    ],
+    "created": [
+      "D1.C12"
+    ],
+    "removed": [],
+    "evidence": [
+      "O38",
+      "O50",
+      "I3.1"
+    ],
+    "reason": "Misfits of D1 for funding collectives."
+  },
+  {
+    "iteration": 4,
+    "op": "rename",
+    "targets": [
+      "D1"
+    ],
+    "created": [],
+    "removed": [],
+    "evidence": [
+      "O39",
+      "O41",
+      "O55",
+      "O57",
+      "O35",
+      "I3.1"
+    ],
+    "reason": "Precedence rule keeps the new D1 characteristics mutually exclusive with trading and derivatives."
+  },
+  {
+    "iteration": 4,
+    "op": "add_characteristic",
+    "targets": [
+      "D5"
+    ],
+    "created": [
+      "D5.C5"
+    ],
+    "removed": [],
+    "evidence": [
+      "O7",
+      "O27",
+      "O29",
+      "O31",
+      "O46",
+      "O56",
+      "O64",
+      "I3.1"
+    ],
+    "reason": "Misfits of D5 whose deployment matches none of the existing characteristics."
+  },
+  {
+    "iteration": 4,
+    "op": "add_characteristic",
+    "targets": [
+      "D6"
+    ],
+    "created": [
+      "D6.C3"
+    ],
+    "removed": [],
+    "evidence": [
+      "O58",
+      "I3.1"
+    ],
+    "reason": "Misfit of D6 for a trade-routing object."
+  },
+  {
+    "iteration": 4,
+    "op": "rename",
+    "targets": [
+      "D6"
+    ],
+    "created": [],
+    "removed": [],
+    "evidence": [
+      "O58",
+      "I3.1"
+    ],
+    "reason": "Precedence rule for the new aggregated trade routing characteristic."
+  },
+  {
+    "iteration": 4,
+    "op": "add_characteristic",
+    "targets": [
+      "D9"
+    ],
+    "created": [
+      "D9.C4"
+    ],
+    "removed": [],
+    "evidence": [
+      "O1",
+      "O2",
+      "D1.C5",
+      "I3.1"
+    ],
+    "reason": "Misfits of D9 for decentralized storage objects, which match the data-storage service of D1.C5."
+  }
+]

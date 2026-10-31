@@ -1,0 +1,76 @@
+object_id,object,role,D1 Primary financial service,D2 Token-holder value capture,D3 Governance model,D4 Central component for requests and incentives,D5 Underlying blockchain deployment,D6 Trade matching mechanism,D7 Target customer segment,D9 Stack layer,D10 Oracle data import
+O1,Swarm,building,Decentralized data storage,no information,no information,no information,Ethereum mainnet,no information,no information,Storage infrastructure layer,no information
+O2,Storj,building,Decentralized data storage,no information,no information,Central component authorizes requests and incentives,no information,no information,no information,Storage infrastructure layer,no information
+O3,SAFE,building,Decentralized data storage,no information,misfit,No central component,Ethereum mainnet,no information,no information,Storage infrastructure layer,no information
+O4,Arweave,building,Decentralized data storage,no information,no information,no information,Own layer 1 or application chain,no information,no information,Storage infrastructure layer,no information
+O5,GMX,building,Trading and derivatives,Fee or revenue distribution to token holders,no information,no information,Other public blockchain,Automated market maker,no information,Protocol layer,no information
+O6,dYdX,building,Trading and derivatives,No holder fee redistribution,no information,No central component,Own layer 1 or application chain,Order book matching,B2B and B2C,Protocol layer,no information
+O7,Filecoin,building,Decentralized data storage,no information,no information,no information,no information,misfit,no information,Storage infrastructure layer,no information
+O8,Level Finance,building,Trading and derivatives,Fee or revenue distribution to token holders,Governance-token holder voting,no information,BNB Smart Chain,Automated market maker,B2B and B2C,Protocol layer,no information
+O9,Perpetual Protocol,building,Trading and derivatives,no information,no information,no information,Ethereum layer 2 network,Automated market maker,B2B and B2C,Protocol layer,no information
+O10,Gains Network,building,Trading and derivatives,Fee or revenue distribution to token holders,no information,no information,Ethereum layer 2 network,Automated market maker,B2B and B2C,Application layer,no information
+O11,Kwenta,building,Trading and derivatives,Token-based trading fee discounts,Governance-token holder voting,no information,Ethereum layer 2 network,no information,no information,Application layer,no information
+O12,MakerDAO,building,Stablecoin issuance,no information,Decentralized autonomous organization,no information,Ethereum mainnet,no information,no information,Protocol layer,no information
+O13,Hyperliquid,building,Trading and derivatives,no information,no information,no information,Own layer 1 or application chain,Order book matching,no information,misfit,no information
+O14,Compound,building,Lending and borrowing,no information,Governance-token holder voting,no information,Ethereum mainnet,misfit,no information,Protocol layer,no information
+O15,Aave,building,Lending and borrowing,no information,Governance-token holder voting,no information,Ethereum mainnet,no information,no information,Protocol layer,no information
+O16,Aerodrome Finance,building,Trading and derivatives,no information,Governance-token holder voting,no information,Ethereum layer 2 network,Automated market maker,no information,no information,no information
+O17,Injective,building,Trading and derivatives,no information,no information,no information,Own layer 1 or application chain,Order book matching,no information,no information,no information
+O18,Uniswap,building,Trading and derivatives,no information,Governance-token holder voting,no information,Ethereum mainnet,Automated market maker,no information,no information,no information
+O19,Yearn.finance,building,Yield aggregation,no information,Governance-token holder voting,no information,Ethereum mainnet,no information,no information,no information,no information
+O20,Synthetix,building,Trading and derivatives,no information,no information,no information,no information,no information,no information,Protocol layer,Oracle usage
+O21,PancakeSwap,building,Trading and derivatives,no information,no information,no information,BNB Smart Chain,Automated market maker,no information,no information,no information
+O22,SecondLife,building,no information,no information,no information,no information,BNB Smart Chain,no information,no information,no information,no information
+O23,MOOX,building,no information,no information,no information,no information,BNB Smart Chain,no information,no information,no information,no information
+O24,Bomb Crypto,building,Play-to-earn gaming,no information,no information,no information,BNB Smart Chain,no information,no information,no information,no information
+O25,Curve,building,Trading and derivatives,no information,Governance-token holder voting,no information,Ethereum mainnet,Automated market maker,no information,no information,no information
+O26,Liquity,building,Lending and borrowing,no information,misfit,no information,Ethereum mainnet,no information,no information,Protocol layer,no information
+O27,Mango Markets,building,Trading and derivatives,no information,no information,no information,Other public blockchain,no information,no information,Protocol layer,no information
+O28,USDe,building,Stablecoin issuance,no information,no information,no information,Ethereum mainnet,no information,no information,no information,no information
+O29,1inch,building,Trading and derivatives,no information,no information,no information,misfit,Aggregated trade routing,no information,Aggregation layer,no information
+O30,Ethena,building,Stablecoin issuance,no information,no information,no information,Ethereum mainnet,no information,no information,Protocol layer,no information
+O31,Benqi,building,Lending and borrowing,no information,no information,no information,Other public blockchain,no information,no information,Protocol layer,no information
+O32,BOLD,building,Stablecoin issuance,misfit,no information,no information,Ethereum mainnet,no information,no information,Protocol layer,no information
+O33,LUSD,building,Stablecoin issuance,no information,misfit,no information,Ethereum mainnet,no information,no information,Protocol layer,no information
+O34,LP1,building,Lending and borrowing,no information,no information,no information,no information,no information,no information,Protocol layer,no information
+O35,InsurePal,building,Insurance and risk coverage,no information,misfit,no information,no information,no information,B2B and B2C,no information,no information
+O36,Polymarket,building,Prediction and event-outcome markets,no information,misfit,No central component,Other public blockchain,Automated market maker,B2B and B2C,no information,Oracle usage
+O37,PoU,building,Payments and transfers,no information,misfit,Central component authorizes requests and incentives,Own layer 1 or application chain,no information,"B2B, B2C and C2C",Protocol layer,no information
+O38,DAO,building,Collective funding and investment,no information,Decentralized autonomous organization,No central component,Ethereum mainnet,no information,no information,misfit,no information
+O39,UBet,building,Prediction and event-outcome markets,no information,misfit,No central component,Other public blockchain,Automated market maker,B2B and B2C,no information,no information
+O40,Balancer,building,Trading and derivatives,misfit,Governance-token holder voting,no information,Ethereum mainnet,Automated market maker,no information,Protocol layer,no information
+O41,Augur,building,Prediction and event-outcome markets,no information,no information,No central component,Ethereum mainnet,no information,no information,Protocol layer,Oracle usage
+O42,Ripple,building,Payments and transfers,no information,no information,no information,Own layer 1 or application chain,no information,no information,no information,no information
+O43,Gnosis.io,building,Prediction and event-outcome markets,no information,no information,no information,Ethereum mainnet,no information,no information,no information,no information
+O44,Sight.pm,building,Prediction and event-outcome markets,no information,no information,no information,no information,no information,no information,no information,no information
+O45,Kleros,building,misfit,no information,no information,no information,Ethereum mainnet,no information,no information,Protocol layer,no information
+O46,Omen,building,Prediction and event-outcome markets,no information,no information,no information,no information,no information,no information,Application layer,Oracle usage
+O47,Aragon,building,misfit,no information,Decentralized autonomous organization,no information,Ethereum mainnet,no information,no information,Protocol layer,no information
+O48,Chainlink,building,misfit,no information,no information,no information,no information,no information,no information,misfit,Oracle usage
+O49,Moloch DAO,building,Collective funding and investment,no information,Decentralized autonomous organization,no information,no information,no information,no information,misfit,no information
+O50,MetaCartel,building,Collective funding and investment,no information,Decentralized autonomous organization,no information,no information,no information,no information,misfit,no information
+O51,Bitcoin Hivemind,building,Prediction and event-outcome markets,no information,misfit,no information,Other public blockchain,no information,no information,Protocol layer,Oracle usage
+O52,SushiSwap,building,Trading and derivatives,no information,Governance-token holder voting,no information,Ethereum mainnet,Automated market maker,no information,Protocol layer,no information
+O53,Opyn,building,Trading and derivatives,no information,no information,no information,Ethereum mainnet,no information,no information,Protocol layer,no information
+O54,Numerai,building,Collective funding and investment,no information,no information,no information,Ethereum mainnet,no information,no information,no information,no information
+O55,Stox.com,building,Prediction and event-outcome markets,no information,no information,no information,no information,no information,no information,no information,no information
+O56,Ideamarket.io,building,Trading and derivatives,no information,no information,No central component,Other public blockchain,no information,no information,no information,no information
+O57,RealT,building,Real-world asset tokenization,Fee or revenue distribution to token holders,no information,no information,no information,no information,no information,no information,no information
+O58,DEX.AG,building,Trading and derivatives,no information,no information,No central component,no information,Aggregated trade routing,no information,Aggregation layer,no information
+O59,BAT (Basic Attention Token),building,Rewards for user activity,no information,no information,no information,Ethereum mainnet,no information,no information,no information,no information
+O60,COLONY.io,building,misfit,no information,Decentralized autonomous organization,No central component,Ethereum mainnet,no information,no information,no information,no information
+O61,Mantra DAO,building,Real-world asset tokenization,no information,Decentralized autonomous organization,no information,no information,no information,no information,no information,no information
+O62,Delphy,building,Prediction and event-outcome markets,no information,no information,no information,no information,no information,no information,no information,no information
+O63,Delphi,building,Prediction and event-outcome markets,no information,no information,no information,no information,no information,no information,no information,no information
+O64,Lido,building,misfit,no information,Governance-token holder voting,no information,no information,no information,no information,Protocol layer,no information
+O65,Convex,building,Yield aggregation,no information,misfit,No central component,no information,no information,no information,Application layer,no information
+O66,Relay,evaluation,Payments and transfers,no information,misfit,Central component authorizes requests and incentives,Own layer 1 or application chain,no information,no information,Protocol layer,no information
+O67,CroCoDai,evaluation,Stablecoin issuance,no information,Governance-token holder voting,Central component authorizes requests and incentives,Own layer 1 or application chain,no information,no information,Protocol layer,Oracle usage
+O68,zkBridge,evaluation,Payments and transfers,no information,no information,No central component,Ethereum mainnet,no information,no information,Protocol layer,no information
+O69,Wrapped,evaluation,Real-world asset tokenization,no information,no information,Central component authorizes requests and incentives,Ethereum mainnet,no information,no information,no information,no information
+O70,Wrapped Bitcoin,evaluation,Real-world asset tokenization,no information,no information,Central component authorizes requests and incentives,Ethereum mainnet,no information,no information,no information,no information
+O71,ZCLAIM,evaluation,Payments and transfers,no information,no information,No central component,Other public blockchain,no information,no information,Protocol layer,no information
+O72,Ronin bridge,evaluation,Payments and transfers,no information,no information,Central component authorizes requests and incentives,Own layer 1 or application chain,no information,no information,Protocol layer,no information
+O73,Stargate Finance,evaluation,Payments and transfers,no information,no information,no information,misfit,Automated market maker,no information,Application layer,no information
+O74,LayerZero,evaluation,misfit,no information,no information,No central component,no information,no information,no information,Protocol layer,Oracle usage
+O75,Xclaim,evaluation,Payments and transfers,no information,no information,No central component,no information,no information,no information,Protocol layer,no information

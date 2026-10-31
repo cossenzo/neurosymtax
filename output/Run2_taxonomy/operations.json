@@ -1,0 +1,314 @@
+[
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D1",
+      "D1.C1",
+      "D1.C10",
+      "D1.C11",
+      "D1.C2",
+      "D1.C3",
+      "D1.C4",
+      "D1.C5",
+      "D1.C6",
+      "D1.C7",
+      "D1.C8",
+      "D1.C9"
+    ],
+    "removed": [],
+    "evidence": [
+      "O3",
+      "O4",
+      "O6",
+      "O9",
+      "O10",
+      "O12",
+      "O13",
+      "O17",
+      "O27",
+      "O37",
+      "O38",
+      "O44",
+      "O1",
+      "O18",
+      "O5",
+      "O42",
+      "O73",
+      "O60"
+    ],
+    "reason": "The taxonomy is empty; the strategy perspective needs a dimension that classifies how applications create and capture value, and the financial-service objects in the codes show distinct primary services."
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D2",
+      "D2.C1",
+      "D2.C2",
+      "D2.C3",
+      "D2.C4",
+      "D2.C5"
+    ],
+    "removed": [],
+    "evidence": [
+      "O6",
+      "O9",
+      "O20",
+      "O25",
+      "O11",
+      "O14",
+      "O19",
+      "O28",
+      "O51",
+      "O56",
+      "O2"
+    ],
+    "reason": "The stablecoin objects differ in how their peg is backed, which is a distinct value-proposition choice classified by the codes."
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D3",
+      "D3.C1",
+      "D3.C2",
+      "D3.C3"
+    ],
+    "removed": [],
+    "evidence": [
+      "O6",
+      "O10",
+      "O15",
+      "O26",
+      "O27",
+      "O48",
+      "O50",
+      "O29",
+      "O35",
+      "O3",
+      "O16"
+    ],
+    "reason": "The codes show token-holder governance, member voting, and objects with no governance vote, which organizes how participants coordinate without intermediaries."
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D4",
+      "D4.C1",
+      "D4.C2",
+      "D4.C3"
+    ],
+    "removed": [],
+    "evidence": [
+      "O3",
+      "O2",
+      "O8",
+      "O21",
+      "O11",
+      "O14",
+      "O49",
+      "O39",
+      "O55",
+      "O42",
+      "O5"
+    ],
+    "reason": "The codes distinguish non-custodial protocols from services where a custodian or issuer holds the assets, which matters for the regulatory purpose."
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D5",
+      "D5.C1",
+      "D5.C2",
+      "D5.C3",
+      "D5.C4",
+      "D5.C5"
+    ],
+    "removed": [],
+    "evidence": [
+      "O6",
+      "O8",
+      "O29",
+      "O40",
+      "O53",
+      "O54",
+      "O30",
+      "O23",
+      "O46",
+      "O57",
+      "O22",
+      "O11",
+      "O14",
+      "O72",
+      "O42",
+      "O71"
+    ],
+    "reason": "The codes name Ethereum, multiple, own-chain, and other single-chain deployments, which is the technology choice of the object."
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D6",
+      "D6.C1",
+      "D6.C2",
+      "D6.C3"
+    ],
+    "removed": [],
+    "evidence": [
+      "O1",
+      "O17",
+      "O33",
+      "O18",
+      "O58",
+      "O59",
+      "O39"
+    ],
+    "reason": "The codes show oracle-verified, relayer-based and guardian-signed cross-chain designs, which differ in the technology used."
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D7",
+      "D7.C1",
+      "D7.C2",
+      "D7.C3",
+      "D7.C4",
+      "D7.C5",
+      "D7.C6"
+    ],
+    "removed": [],
+    "evidence": [
+      "O4",
+      "O7",
+      "O29",
+      "O23",
+      "O30",
+      "O3",
+      "O10",
+      "O22",
+      "O39",
+      "O49",
+      "O70",
+      "O16",
+      "O8"
+    ],
+    "reason": "The codes name the pricing and rate mechanisms of the trading, lending and oracle objects, which are technology choices that distinguish the objects."
+  },
+  {
+    "iteration": 2,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D8",
+      "D8.C1",
+      "D8.C2",
+      "D8.C3",
+      "D8.C4"
+    ],
+    "removed": [],
+    "evidence": [
+      "K49",
+      "K50",
+      "K51",
+      "K52"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 2,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D9",
+      "D9.C1",
+      "D9.C2",
+      "D9.C3",
+      "D9.C4"
+    ],
+    "removed": [],
+    "evidence": [
+      "K23",
+      "K24",
+      "K25",
+      "K26"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 2,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D10",
+      "D10.C1",
+      "D10.C2",
+      "D10.C3",
+      "D10.C4"
+    ],
+    "removed": [],
+    "evidence": [
+      "K204",
+      "K205",
+      "K206",
+      "K207"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 3,
+    "op": "rename",
+    "targets": [
+      "D2"
+    ],
+    "created": [],
+    "removed": [],
+    "evidence": [
+      "I2.1"
+    ],
+    "reason": "I2.1: the definitions of D2.C1 and D2.C4 both cover crypto collateral, so the application rule now sets an explicit precedence that decides between them."
+  },
+  {
+    "iteration": 3,
+    "op": "rename",
+    "targets": [
+      "D2.C1"
+    ],
+    "created": [],
+    "removed": [],
+    "evidence": [
+      "I2.1"
+    ],
+    "reason": "I2.1: removes the overlap with D2.C4 by excluding hedged and pooled-debt backing from the definition."
+  },
+  {
+    "iteration": 3,
+    "op": "merge",
+    "targets": [
+      "D7.C1",
+      "D7.C4"
+    ],
+    "created": [
+      "D7.C7"
+    ],
+    "removed": [
+      "D7.C1",
+      "D7.C4"
+    ],
+    "evidence": [
+      "I2.1"
+    ],
+    "reason": "I2.1: D7.C1 (constant-product or curve AMM) and D7.C4 (pool as trading counterparty) describe the same pool-based pricing mechanism and could both apply to one object, so they are merged into one exclusive characteristic. I2.2 (misfit share) asks for new evidence on the objects that fit no characteristic and is therefore not addressed by this revision."
+  }
+]

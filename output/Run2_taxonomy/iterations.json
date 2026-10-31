@@ -1,0 +1,722 @@
+[
+  {
+    "number": 1,
+    "kind": "e",
+    "reason": "R1: identification-and-structuring, descriptive purpose (TDR 7, 8)",
+    "queries": [
+      "DeFi protocols dApps overview comparison"
+    ],
+    "documents": [
+      "1b9f4500e4956a942e8a8823348046c8d0bb374e",
+      "10c03077b4fb88429e62a6615856bebecb717e3f",
+      "b0fbf1cfa125ae781fd51f4c7f44a449b8a2347f",
+      "web:e0edfdb250151043",
+      "web:224a518ab6228dc1",
+      "web:33bf06898cc6e296"
+    ],
+    "new_objects": [
+      "O1",
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "O6",
+      "O7",
+      "O8",
+      "O9",
+      "O10",
+      "O11",
+      "O12",
+      "O13",
+      "O14",
+      "O15",
+      "O16",
+      "O17",
+      "O18",
+      "O19",
+      "O20",
+      "O21",
+      "O22",
+      "O23",
+      "O24",
+      "O25",
+      "O26",
+      "O27",
+      "O28",
+      "O29",
+      "O30",
+      "O31",
+      "O32",
+      "O33",
+      "O34",
+      "O35",
+      "O36",
+      "O37",
+      "O38",
+      "O39",
+      "O40",
+      "O41",
+      "O42",
+      "O43",
+      "O44",
+      "O45",
+      "O46",
+      "O47",
+      "O48",
+      "O49",
+      "O50",
+      "O51",
+      "O52",
+      "O53",
+      "O54",
+      "O55",
+      "O56",
+      "O57",
+      "O58",
+      "O59",
+      "O60",
+      "O61",
+      "O62",
+      "O63",
+      "O64",
+      "O65",
+      "O66",
+      "O67",
+      "O68",
+      "O69",
+      "O70",
+      "O71",
+      "O72",
+      "O73"
+    ],
+    "codes": 238,
+    "concepts": 0,
+    "attempts": [
+      []
+    ],
+    "rejected": false,
+    "operations": [
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D1",
+          "D1.C1",
+          "D1.C10",
+          "D1.C11",
+          "D1.C2",
+          "D1.C3",
+          "D1.C4",
+          "D1.C5",
+          "D1.C6",
+          "D1.C7",
+          "D1.C8",
+          "D1.C9"
+        ],
+        "removed": [],
+        "evidence": [
+          "O3",
+          "O4",
+          "O6",
+          "O9",
+          "O10",
+          "O12",
+          "O13",
+          "O17",
+          "O27",
+          "O37",
+          "O38",
+          "O44",
+          "O1",
+          "O18",
+          "O5",
+          "O42",
+          "O73",
+          "O60"
+        ],
+        "reason": "The taxonomy is empty; the strategy perspective needs a dimension that classifies how applications create and capture value, and the financial-service objects in the codes show distinct primary services."
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D2",
+          "D2.C1",
+          "D2.C2",
+          "D2.C3",
+          "D2.C4",
+          "D2.C5"
+        ],
+        "removed": [],
+        "evidence": [
+          "O6",
+          "O9",
+          "O20",
+          "O25",
+          "O11",
+          "O14",
+          "O19",
+          "O28",
+          "O51",
+          "O56",
+          "O2"
+        ],
+        "reason": "The stablecoin objects differ in how their peg is backed, which is a distinct value-proposition choice classified by the codes."
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D3",
+          "D3.C1",
+          "D3.C2",
+          "D3.C3"
+        ],
+        "removed": [],
+        "evidence": [
+          "O6",
+          "O10",
+          "O15",
+          "O26",
+          "O27",
+          "O48",
+          "O50",
+          "O29",
+          "O35",
+          "O3",
+          "O16"
+        ],
+        "reason": "The codes show token-holder governance, member voting, and objects with no governance vote, which organizes how participants coordinate without intermediaries."
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D4",
+          "D4.C1",
+          "D4.C2",
+          "D4.C3"
+        ],
+        "removed": [],
+        "evidence": [
+          "O3",
+          "O2",
+          "O8",
+          "O21",
+          "O11",
+          "O14",
+          "O49",
+          "O39",
+          "O55",
+          "O42",
+          "O5"
+        ],
+        "reason": "The codes distinguish non-custodial protocols from services where a custodian or issuer holds the assets, which matters for the regulatory purpose."
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D5",
+          "D5.C1",
+          "D5.C2",
+          "D5.C3",
+          "D5.C4",
+          "D5.C5"
+        ],
+        "removed": [],
+        "evidence": [
+          "O6",
+          "O8",
+          "O29",
+          "O40",
+          "O53",
+          "O54",
+          "O30",
+          "O23",
+          "O46",
+          "O57",
+          "O22",
+          "O11",
+          "O14",
+          "O72",
+          "O42",
+          "O71"
+        ],
+        "reason": "The codes name Ethereum, multiple, own-chain, and other single-chain deployments, which is the technology choice of the object."
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D6",
+          "D6.C1",
+          "D6.C2",
+          "D6.C3"
+        ],
+        "removed": [],
+        "evidence": [
+          "O1",
+          "O17",
+          "O33",
+          "O18",
+          "O58",
+          "O59",
+          "O39"
+        ],
+        "reason": "The codes show oracle-verified, relayer-based and guardian-signed cross-chain designs, which differ in the technology used."
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D7",
+          "D7.C1",
+          "D7.C2",
+          "D7.C3",
+          "D7.C4",
+          "D7.C5",
+          "D7.C6"
+        ],
+        "removed": [],
+        "evidence": [
+          "O4",
+          "O7",
+          "O29",
+          "O23",
+          "O30",
+          "O3",
+          "O10",
+          "O22",
+          "O39",
+          "O49",
+          "O70",
+          "O16",
+          "O8"
+        ],
+        "reason": "The codes name the pricing and rate mechanisms of the trading, lending and oracle objects, which are technology choices that distinguish the objects."
+      }
+    ],
+    "cells_classified": 511,
+    "meta_review": "kept (The taxonomy's dimensions all fall within the three perspectives of the meta-characteristic (strategy: D1, D2; organization: D3, D4; technology: D5, D6, D7), and these cover the purpose's needs for classifying DeFi applications, analyzing value propositions and business models, and supporting regulatory design through the custody and governance dimensions. No dimension requires an angle outside the stated domain of financial services built on smart contracts on public blockchains without intermediaries.)",
+    "objective": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "objective_details": {
+      "O1": "73 objects, 7 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects; conceptual or negation, exempt: D3.C3 'No token or member governance', D6.C3 'No cross-chain function', D7.C6 'No price or rate setting'",
+      "O5": "not checked: only the e iterations after the first are checked",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 5 misfits",
+      "O10": "structure rules hold"
+    },
+    "subjective": {},
+    "evaluation": {},
+    "exit": "12",
+    "entry": "4",
+    "entry_reason": "R4: review of the meta-characteristic after the first iteration (TDR 5)",
+    "tokens": 548563
+  },
+  {
+    "number": 2,
+    "kind": "c",
+    "reason": "R2: at least one iteration of each approach (TDR 9)",
+    "queries": [
+      "decentralized finance taxonomy classification typology",
+      "decentralized lending borrowing platform case"
+    ],
+    "documents": [
+      "1c736bf3ebf9965e2a9c9149980512abd0182538",
+      "ba72dcfe336de3577783aea16f7905a00339aedb",
+      "c9d2810baa66ad17a3c34b271f60c9a9cf8410b3",
+      "web:ab128fe76585f1c9",
+      "web:affedfee08d43a9d",
+      "e58a125fe8d253ef2385963c7c3524bd214dcbe3",
+      "ed3bc9ca3d96ecfcf58b6f0a362f6998e8f30684",
+      "987897140f5215b65e0c6c45209fe02be5ba05f4",
+      "web:e4305c18d2b39e16",
+      "web:fd33b5aae8f7dcad",
+      "web:0578af7faea6f007"
+    ],
+    "new_objects": [],
+    "codes": 0,
+    "concepts": 499,
+    "attempts": [
+      []
+    ],
+    "rejected": false,
+    "operations": [
+      {
+        "iteration": 2,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D8",
+          "D8.C1",
+          "D8.C2",
+          "D8.C3",
+          "D8.C4"
+        ],
+        "removed": [],
+        "evidence": [
+          "K49",
+          "K50",
+          "K51",
+          "K52"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 2,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D9",
+          "D9.C1",
+          "D9.C2",
+          "D9.C3",
+          "D9.C4"
+        ],
+        "removed": [],
+        "evidence": [
+          "K23",
+          "K24",
+          "K25",
+          "K26"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 2,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D10",
+          "D10.C1",
+          "D10.C2",
+          "D10.C3",
+          "D10.C4"
+        ],
+        "removed": [],
+        "evidence": [
+          "K204",
+          "K205",
+          "K206",
+          "K207"
+        ],
+        "reason": ""
+      }
+    ],
+    "cells_classified": 319,
+    "meta_review": "",
+    "objective": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "objective_details": {
+      "O1": "73 objects, 10 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects; conceptual or negation, exempt: D3.C3 'No token or member governance', D6.C3 'No cross-chain function', D7.C6 'No price or rate setting', D8.C2 'Passive asset management', D8.C3 'Integrated platform', D9.C3 'Semi-fungible token standard', D9.C4 'No token standard', D10.C1 'On-chain data', D10.C4 'No oracle'",
+      "O5": "not checked: only the e iterations after the first are checked",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 10 misfits",
+      "O10": "structure rules hold"
+    },
+    "subjective": {
+      "concise": {
+        "passed": true,
+        "justification": "The taxonomy has ten dimensions across three perspectives, and each serves the stated purpose of classifying DeFi applications, analysing value propositions and supporting regulation. The sparsely populated dimensions (D8 to D10) are conceptual or technology-specific and do not add unnecessary complexity for these users."
+      },
+      "robust": {
+        "passed": true,
+        "justification": "The dimensions separate objects on meaningful criteria such as primary service, custody model, governance mechanism and blockchain deployment, and the characteristics within each dimension are mutually exclusive. The skewed distributions reflect the evidence rather than a lack of differentiation."
+      },
+      "comprehensive": {
+        "passed": true,
+        "justification": "Every object can be placed through the negation characteristics, and all three perspectives (strategy, organization, technology) are represented by dimensions relevant to the purpose."
+      },
+      "extendible": {
+        "passed": true,
+        "justification": "Each dimension is defined independently and includes a negation characteristic, so new characteristics or dimensions can be added within the existing perspectives without restructuring."
+      },
+      "explanatory": {
+        "passed": true,
+        "justification": "Each dimension and characteristic has a clear definition and application rule that ties it to the nature of DeFi applications and the stated purpose."
+      }
+    },
+    "evaluation": {
+      "new_objects": 10,
+      "all_objects": 83,
+      "kappa_per_dimension": {
+        "D1": 0.5833,
+        "D2": 0.0,
+        "D3": 1.0,
+        "D4": 1.0,
+        "D5": 1.0,
+        "D6": 0.0,
+        "D7": 0.6875,
+        "D8": 0.0,
+        "D9": 0.6429,
+        "D10": 1.0
+      },
+      "kappa": 0.5914,
+      "misfit_share": 0.4,
+      "informed_share": 0.33,
+      "distinct_profiles": 0.7831,
+      "discriminating_dimensions": 0.9,
+      "cluster_silhouette": 0.2897,
+      "new_object_ids": [
+        "O74",
+        "O75",
+        "O76",
+        "O77",
+        "O78",
+        "O79",
+        "O80",
+        "O81",
+        "O82",
+        "O83"
+      ],
+      "results": [
+        {
+          "goal": "classifying",
+          "measure": "kappa",
+          "value": 0.5914,
+          "target": 0.61,
+          "comparator": ">=",
+          "met": false,
+          "remedy": "10"
+        },
+        {
+          "goal": "classifying",
+          "measure": "misfit_share",
+          "value": 0.4,
+          "target": 0.3,
+          "comparator": "<=",
+          "met": false,
+          "remedy": "6"
+        },
+        {
+          "goal": "analyzing",
+          "measure": "discriminating_dimensions",
+          "value": 0.9,
+          "target": 0.6,
+          "comparator": ">=",
+          "met": true,
+          "remedy": "10"
+        }
+      ]
+    },
+    "exit": "17",
+    "entry": "10",
+    "entry_reason": "chosen by the LLM: Both unmet conditions can be addressed by revising the taxonomy with the objects already classified: clarifying definitions and names to raise kappa, and adding a characteristic for the objects that fit none to reduce the misfit share. The history shows no earlier revision and no recurring unmet conditions, so new evidence is not yet required.",
+    "tokens": 825151
+  },
+  {
+    "number": 3,
+    "kind": "r",
+    "reason": "chosen by the LLM: Both unmet conditions can be addressed by revising the taxonomy with the objects already classified: clarifying definitions and names to raise kappa, and adding a characteristic for the objects that fit none to reduce the misfit share. The history shows no earlier revision and no recurring unmet conditions, so new evidence is not yet required.",
+    "queries": [
+      "decentralized exchange liquidity pool stablecoin"
+    ],
+    "documents": [
+      "0c103de0ba5692129f8037f8e452711e2c7d92c3",
+      "cc34f5903b913f7ec513b7a54a5f5255169de1b8",
+      "db0ec3a59075ec3d114bd33e6911a26ff0af4dce",
+      "web:c8aa92233e90af39",
+      "web:a66a4b34b3235c28",
+      "web:050e65f4aac97b79"
+    ],
+    "new_objects": [],
+    "codes": 0,
+    "concepts": 0,
+    "attempts": [
+      []
+    ],
+    "rejected": false,
+    "operations": [
+      {
+        "iteration": 3,
+        "op": "rename",
+        "targets": [
+          "D2"
+        ],
+        "created": [],
+        "removed": [],
+        "evidence": [
+          "I2.1"
+        ],
+        "reason": "I2.1: the definitions of D2.C1 and D2.C4 both cover crypto collateral, so the application rule now sets an explicit precedence that decides between them."
+      },
+      {
+        "iteration": 3,
+        "op": "rename",
+        "targets": [
+          "D2.C1"
+        ],
+        "created": [],
+        "removed": [],
+        "evidence": [
+          "I2.1"
+        ],
+        "reason": "I2.1: removes the overlap with D2.C4 by excluding hedged and pooled-debt backing from the definition."
+      },
+      {
+        "iteration": 3,
+        "op": "merge",
+        "targets": [
+          "D7.C1",
+          "D7.C4"
+        ],
+        "created": [
+          "D7.C7"
+        ],
+        "removed": [
+          "D7.C1",
+          "D7.C4"
+        ],
+        "evidence": [
+          "I2.1"
+        ],
+        "reason": "I2.1: D7.C1 (constant-product or curve AMM) and D7.C4 (pool as trading counterparty) describe the same pool-based pricing mechanism and could both apply to one object, so they are merged into one exclusive characteristic. I2.2 (misfit share) asks for new evidence on the objects that fit no characteristic and is therefore not addressed by this revision."
+      }
+    ],
+    "cells_classified": 251,
+    "meta_review": "",
+    "objective": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "objective_details": {
+      "O1": "83 objects, 10 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects; conceptual or negation, exempt: D3.C3 'No token or member governance', D6.C3 'No cross-chain function', D8.C2 'Passive asset management', D8.C3 'Integrated platform', D9.C3 'Semi-fungible token standard', D9.C4 'No token standard', D10.C1 'On-chain data', D10.C4 'No oracle'",
+      "O5": "not checked: only the e iterations after the first are checked",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 19 misfits",
+      "O10": "structure rules hold"
+    },
+    "subjective": {
+      "concise": {
+        "passed": true,
+        "justification": "The taxonomy has ten dimensions across three perspectives, and each serves the stated purpose of classifying DeFi applications, analysing value propositions and supporting regulation. The sparsely populated dimensions are conceptual or technology-specific and do not add unnecessary complexity for these users."
+      },
+      "robust": {
+        "passed": true,
+        "justification": "The dimensions separate objects on meaningful criteria, and the D2 precedence rule and the merged D7 characteristic remove the overlaps raised earlier, so characteristics within each dimension are mutually exclusive. The skewed distributions reflect the evidence rather than a lack of differentiation."
+      },
+      "comprehensive": {
+        "passed": true,
+        "justification": "Every object can be placed through the negation characteristics, and all three perspectives (strategy, organization, technology) are represented by dimensions relevant to the purpose. The misfit shares reflect the evidence and do not show a missing characteristic."
+      },
+      "extendible": {
+        "passed": true,
+        "justification": "Each dimension is defined independently and includes a negation characteristic, so new characteristics or dimensions can be added within the existing perspectives without restructuring."
+      },
+      "explanatory": {
+        "passed": true,
+        "justification": "Each dimension and characteristic has a clear definition and application rule that ties it to the nature of DeFi applications and the stated purpose. The D2 precedence rule makes the stablecoin classification explicit."
+      }
+    },
+    "evaluation": {
+      "new_objects": 10,
+      "all_objects": 93,
+      "kappa_per_dimension": {
+        "D1": 0.0,
+        "D2": 0.0,
+        "D3": 1.0,
+        "D4": 0.6429,
+        "D5": 1.0,
+        "D6": 1.0,
+        "D7": 1.0,
+        "D8": 1.0,
+        "D9": 0.3333,
+        "D10": 1.0
+      },
+      "kappa": 0.6976,
+      "misfit_share": 0.1,
+      "informed_share": 0.42,
+      "distinct_profiles": 0.7204,
+      "discriminating_dimensions": 0.9,
+      "cluster_silhouette": 0.2731,
+      "new_object_ids": [
+        "O84",
+        "O85",
+        "O86",
+        "O87",
+        "O88",
+        "O89",
+        "O90",
+        "O91",
+        "O92",
+        "O93"
+      ],
+      "results": [
+        {
+          "goal": "classifying",
+          "measure": "kappa",
+          "value": 0.6976,
+          "target": 0.61,
+          "comparator": ">=",
+          "met": true,
+          "remedy": "10"
+        },
+        {
+          "goal": "classifying",
+          "measure": "misfit_share",
+          "value": 0.1,
+          "target": 0.3,
+          "comparator": "<=",
+          "met": true,
+          "remedy": "6"
+        },
+        {
+          "goal": "analyzing",
+          "measure": "discriminating_dimensions",
+          "value": 0.9,
+          "target": 0.6,
+          "comparator": ">=",
+          "met": true,
+          "remedy": "10"
+        }
+      ]
+    },
+    "exit": null,
+    "entry": null,
+    "entry_reason": "",
+    "tokens": 426862
+  }
+]

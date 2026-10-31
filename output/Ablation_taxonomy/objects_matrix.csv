@@ -1,0 +1,85 @@
+object_id,object,role,D1 Primary financial service,D2 Revenue model,D3 Governance model,D4 Platform scope,D5 Blockchain deployment,D6 Core mechanism,D7 Role in the DeFi stack
+O1,Yearn Finance,building,Yield aggregation and optimization,Protocol fees retained by the application,Token-holder governance,Product within a multi-product platform or ecosystem,Multiple public blockchains,Vault-based strategy automation,Aggregator or optimizer
+O2,Uniswap,building,Trading and exchange,No protocol fee charged,Token-holder governance,Standalone application,Multiple public blockchains,Automated market maker,Primitive protocol
+O3,Compound,building,Lending and borrowing,no information,Token-holder governance,Standalone application,Multiple public blockchains,Interest-rate lending market,Primitive protocol
+O4,Idle,building,Yield aggregation and optimization,Protocol fees retained by the application,no information,Standalone application,Multiple public blockchains,Vault-based strategy automation,Aggregator or optimizer
+O5,Harvest,building,Yield aggregation and optimization,Revenue shared with token stakers,Token-holder governance,Standalone application,Multiple public blockchains,Vault-based strategy automation,Aggregator or optimizer
+O6,AAVE,building,Lending and borrowing,Protocol fees retained by the application,Token-holder governance,Standalone application,Multiple public blockchains,Interest-rate lending market,Primitive protocol
+O7,Pickle Finance,building,Yield aggregation and optimization,no information,no information,Product within a multi-product platform or ecosystem,Multiple public blockchains,Vault-based strategy automation,Aggregator or optimizer
+O8,Jupiter Exchange,building,Trading and exchange,no information,no information,Standalone application,Single public blockchain,misfit,Aggregator or optimizer
+O9,PLF,building,Lending and borrowing,Protocol fees retained by the application,no information,no information,no information,Interest-rate lending market,Primitive protocol
+O10,Yearn Earn,building,Yield aggregation and optimization,Protocol fees retained by the application,no information,Product within a multi-product platform or ecosystem,Single public blockchain,Vault-based strategy automation,Aggregator or optimizer
+O11,Yearn Vaults,building,Yield aggregation and optimization,Protocol fees retained by the application,Token-holder governance,Product within a multi-product platform or ecosystem,Single public blockchain,Vault-based strategy automation,Aggregator or optimizer
+O12,Earn,building,Yield aggregation and optimization,Protocol fees retained by the application,no information,Product within a multi-product platform or ecosystem,Single public blockchain,Interest-rate lending market,Aggregator or optimizer
+O13,CRV,building,Trading and exchange,no information,Token-holder governance,Standalone application,Multiple public blockchains,Automated market maker,Primitive protocol
+O14,BadgerDAO,building,Yield aggregation and optimization,no information,Token-holder governance,Standalone application,Multiple public blockchains,Vault-based strategy automation,Aggregator or optimizer
+O15,1inch,building,Trading and exchange,no information,Token-holder governance,Product within a multi-product platform or ecosystem,Multiple public blockchains,Order book or auction settlement,Aggregator or optimizer
+O16,MakerDAO,building,Stablecoin issuance,No revenue model described,Token-holder governance,Standalone application,Single public blockchain,Other mechanism,Primitive protocol
+O17,Vesper,building,Yield aggregation and optimization,Revenue shared with token stakers,Token-holder governance,Product within a multi-product platform or ecosystem,Multiple public blockchains,Vault-based strategy automation,Aggregator or optimizer
+O18,Sushiswap,building,Trading and exchange,Revenue shared with token stakers,Token-holder governance,Standalone application,Blockchain not specified,Automated market maker,Primitive protocol
+O19,Pickle Jars,building,Yield aggregation and optimization,Protocol fees retained by the application,Token-holder governance,Product within a multi-product platform or ecosystem,Multiple public blockchains,Vault-based strategy automation,Aggregator or optimizer
+O20,Cetus Protocol,building,Trading and exchange,No revenue model described,Governance not described,Product within a multi-product platform or ecosystem,Multiple public blockchains,Automated market maker,Aggregator or optimizer
+O21,CoW Swap,building,Trading and exchange,No protocol fee charged,Governance not described,Standalone application,Multiple public blockchains,Order book or auction settlement,Aggregator or optimizer
+O22,COMP,building,misfit,No revenue model described,Token-holder governance,no information,Single public blockchain,misfit,Primitive protocol
+O23,Rari Capital,building,Yield aggregation and optimization,No revenue model described,Token-holder governance,Product within a multi-product platform or ecosystem,Single public blockchain,Vault-based strategy automation,Aggregator or optimizer
+O24,Pancake Bunny Finance,building,Yield aggregation and optimization,No revenue model described,Governance not described,no information,Single public blockchain,Vault-based strategy automation,Aggregator or optimizer
+O25,LFJ,building,Trading and exchange,No revenue model described,Governance not described,Product within a multi-product platform or ecosystem,Multiple public blockchains,Automated market maker,Aggregator or optimizer
+O26,Reaper Farm,building,Yield aggregation and optimization,no information,Team-controlled governance,Standalone application,Single public blockchain,Vault-based strategy automation,Aggregator or optimizer
+O27,Beefy,building,Yield aggregation and optimization,no information,Token-holder governance,Standalone application,Multiple public blockchains,Vault-based strategy automation,Aggregator or optimizer
+O28,Bent Finance,building,Lending and borrowing,no information,Team-controlled governance,Standalone application,Single public blockchain,Interest-rate lending market,Primitive protocol
+O29,Balancer,building,Trading and exchange,Protocol fees retained by the application,Token-holder governance,Standalone application,Multiple public blockchains,Automated market maker,Primitive protocol
+O30,Grim Finance,building,Yield aggregation and optimization,no information,Team-controlled governance,Standalone application,Single public blockchain,Vault-based strategy automation,Aggregator or optimizer
+O31,xSUSHI,building,Staking and liquid staking,Revenue shared with token stakers,no information,Standalone application,no information,Other mechanism,Primitive protocol
+O32,ApeRocket,building,Yield aggregation and optimization,no information,no information,no information,no information,Vault-based strategy automation,Aggregator or optimizer
+O33,Ankr,building,Staking and liquid staking,no information,no information,Product within a multi-product platform or ecosystem,Multiple public blockchains,Other mechanism,Aggregator or optimizer
+O34,Arbix Finance,building,Yield aggregation and optimization,no information,no information,no information,no information,Vault-based strategy automation,no information
+O35,Orca,building,Trading and exchange,no information,no information,Standalone application,Single public blockchain,Automated market maker,Primitive protocol
+O36,Meteora,building,Trading and exchange,no information,no information,no information,Single public blockchain,Automated market maker,Primitive protocol
+O37,dYdX,building,Lending and borrowing,no information,no information,no information,no information,Order book or auction settlement,Primitive protocol
+O38,Autofarm,building,Yield aggregation and optimization,no information,no information,no information,Multiple public blockchains,Vault-based strategy automation,Aggregator or optimizer
+O39,Spool Protocol,building,Yield aggregation and optimization,no information,no information,no information,Single public blockchain,Vault-based strategy automation,Aggregator or optimizer
+O40,OnX Finance,building,Yield aggregation and optimization,no information,no information,no information,Multiple public blockchains,no information,Aggregator or optimizer
+O41,Waterfall DeFi,building,Yield aggregation and optimization,no information,no information,no information,Multiple public blockchains,no information,Aggregator or optimizer
+O42,Robo-Vault,building,Yield aggregation and optimization,no information,no information,no information,Multiple public blockchains,no information,Aggregator or optimizer
+O43,ForceDAO,building,no information,no information,no information,no information,no information,no information,Aggregator or optimizer
+O44,Yield Yak,building,Yield aggregation and optimization,no information,no information,no information,Single public blockchain,Vault-based strategy automation,Aggregator or optimizer
+O45,Flamincome,building,Yield aggregation and optimization,no information,no information,no information,Single public blockchain,no information,Aggregator or optimizer
+O46,ACryptoS,building,Yield aggregation and optimization,no information,no information,Standalone application,Multiple public blockchains,no information,Aggregator or optimizer
+O47,Magik Farm,building,Yield aggregation and optimization,no information,no information,Standalone application,Multiple public blockchains,Vault-based strategy automation,Aggregator or optimizer
+O48,Paraswap,building,Trading and exchange,no information,no information,Standalone application,Multiple public blockchains,misfit,Aggregator or optimizer
+O49,Lido,building,Staking and liquid staking,no information,Token-holder governance,Standalone application,Single public blockchain,Other mechanism,Aggregator or optimizer
+O50,Bank of Chain,building,Stablecoin issuance,no information,no information,Standalone application,Blockchain not specified,no information,Primitive protocol
+O51,ZooKeeper,building,Other financial service,no information,no information,no information,no information,no information,no information
+O52,USDT-ETH pool,building,Trading and exchange,no information,no information,no information,no information,Automated market maker,Primitive protocol
+O53,SimpleYield,building,Yield aggregation and optimization,no information,no information,no information,no information,Vault-based strategy automation,Aggregator or optimizer
+O54,Unizen,building,Trading and exchange,no information,no information,no information,no information,no information,Aggregator or optimizer
+O55,Bancor,building,Trading and exchange,Protocol fees retained by the application,no information,no information,no information,Automated market maker,Primitive protocol
+O56,Solidex,building,Yield aggregation and optimization,no information,Token-holder governance,Standalone application,Single public blockchain,Other mechanism,Aggregator or optimizer
+O57,PoolTogether,building,Other financial service,no information,no information,Standalone application,Multiple public blockchains,Other mechanism,Primitive protocol
+O58,MOBOX,building,Staking and liquid staking,no information,no information,Standalone application,Single public blockchain,Other mechanism,Primitive protocol
+O59,Aerodrome Finance,building,Trading and exchange,no information,Token-holder governance,Standalone application,Single public blockchain,Other mechanism,Primitive protocol
+O60,yETH vault,building,Yield aggregation and optimization,Protocol fees retained by the application,no information,Product within a multi-product platform or ecosystem,Single public blockchain,Vault-based strategy automation,Aggregator or optimizer
+O61,Origin Dollar,building,Stablecoin issuance,no information,no information,Standalone application,Single public blockchain,Other mechanism,Primitive protocol
+O62,Pulsar Farm,building,Other financial service,no information,no information,no information,no information,no information,no information
+O63,Harvest Vault,building,Yield aggregation and optimization,no information,Token-holder governance,no information,Single public blockchain,Vault-based strategy automation,Aggregator or optimizer
+O64,Saffron Finance,building,no information,no information,no information,no information,no information,no information,no information
+O65,Fulcrum,building,Lending and borrowing,no information,no information,no information,Single public blockchain,Interest-rate lending market,Primitive protocol
+O66,Pickle Farms,building,Yield aggregation and optimization,Revenue shared with token stakers,Token-holder governance,Product within a multi-product platform or ecosystem,Single public blockchain,Vault-based strategy automation,Primitive protocol
+O67,Tranches,building,Yield aggregation and optimization,No revenue model described,Governance not described,Product within a multi-product platform or ecosystem,Blockchain not specified,no information,Primitive protocol
+O68,Synthetix,building,Other financial service,No revenue model described,Governance not described,Standalone application,Single public blockchain,Other mechanism,Primitive protocol
+O69,UniSwapX,building,Trading and exchange,No revenue model described,Governance not described,Standalone application,Blockchain not specified,Order book or auction settlement,Aggregator or optimizer
+O70,Raydium,building,Trading and exchange,No revenue model described,Governance not described,Standalone application,Single public blockchain,Automated market maker,Primitive protocol
+O71,1inch DeFi wallet,building,Trading and exchange,no information,no information,Product within a multi-product platform or ecosystem,Multiple public blockchains,Other mechanism,Aggregator or optimizer
+O72,Token Mill,building,Other financial service,no information,no information,Product within a multi-product platform or ecosystem,no information,no information,Primitive protocol
+O73,Trenches,building,Trading and exchange,no information,no information,Product within a multi-product platform or ecosystem,no information,no information,Primitive protocol
+O74,JupiterZ,building,Trading and exchange,no information,no information,Product within a multi-product platform or ecosystem,Single public blockchain,Other mechanism,Aggregator or optimizer
+O75,1inch Card,building,Other financial service,no information,no information,Product within a multi-product platform or ecosystem,no information,no information,Primitive protocol
+O76,Place Order,building,Trading and exchange,No revenue model described,Governance not described,Product within a multi-product platform or ecosystem,Blockchain not specified,no information,Primitive protocol
+O77,Anchor,building,Lending and borrowing,no information,no information,Standalone application,Single public blockchain,Interest-rate lending market,Primitive protocol
+O78,AutoCake vault,building,Yield aggregation and optimization,no information,no information,Product within a multi-product platform or ecosystem,Single public blockchain,Vault-based strategy automation,Primitive protocol
+O79,Nexus Mutual,building,Insurance,no information,Token-holder governance,Standalone application,Single public blockchain,Other mechanism,Primitive protocol
+O80,AutoCake,building,Yield aggregation and optimization,no information,Team-controlled governance,Product within a multi-product platform or ecosystem,Single public blockchain,Vault-based strategy automation,Primitive protocol
+O81,PancakeSwap,building,Trading and exchange,no information,Token-holder governance,Standalone application,Single public blockchain,Automated market maker,Primitive protocol
+O82,HegicStaking,building,Staking and liquid staking,Revenue shared with token stakers,no information,Standalone application,Single public blockchain,Other mechanism,Primitive protocol
+O83,Fuse,building,Lending and borrowing,no information,no information,Product within a multi-product platform or ecosystem,Multiple public blockchains,Interest-rate lending market,Primitive protocol
+O84,Tanks,building,no information,no information,no information,Product within a multi-product platform or ecosystem,no information,no information,no information

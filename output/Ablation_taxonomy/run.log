@@ -1,0 +1,34 @@
+2026-10-29 17:07:56,973 INFO etdp: --- step 1-3 ---
+2026-10-29 17:07:56,973 INFO etdp.steps: phenomenon: Decentralized finance (DeFi); users: Researchers in finance and information systems; Entrepreneurs and investors in the DeFi sector; Regulators and policy makers; purpose: Systematically structure the emerging field of decentralized finance by classifying DeFi applications; Analyze the DeFi landscape to identify patterns and opportunities for value propositions and business models; Support the design of regulatory measures (identification_and_structuring, descriptive); perspectives: ['strategy', 'organization', 'technology']
+2026-10-29 17:07:56,973 INFO etdp: --- step 4 ---
+2026-10-29 17:07:58,911 INFO etdp.steps: meta-characteristic: DeFi applications viewed as financial services delivered by smart contracts on public blockchains without intermediaries, examined through the strategic, organizational, and technological means by which they create value and are structured.
+2026-10-29 17:07:58,927 INFO etdp: --- step 5 ---
+2026-10-29 17:07:58,927 INFO etdp: --- step 6 ---
+2026-10-29 17:08:00,827 INFO etdp.steps: === iteration 1 (e): chosen by the LLM: This is the first iteration, and the purpose is of the identification-and-structuring type and descriptive in nature, so rule R1 selects the empirical-to-conceptual approach. ===
+2026-10-29 17:08:00,827 INFO etdp: --- step 7e ---
+2026-10-29 17:08:04,005 INFO etdp.sources.semantic_scholar: Semantic Scholar: 4 results for 'DeFi lending DEX yield aggregators' (year=(2008, 2023), open_access_only=True)
+2026-10-29 17:08:30,815 DEBUG etdp.sources.fulltext: PDF not read http://cuir.car.chula.ac.th/bitstream/123456789/82737/1/6484090226.pdf: HTTPSConnectionPool(host='cuir2.car.chula.ac.th', port=443): Max retries exceeded with url: /bitstream/123456789/82737/1/6484090226.pdf (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000025D03D40770>, 'Connection to cuir2.car.chula.ac.th timed out. (connect timeout=30.0)'))
+2026-10-29 17:08:34,320 INFO etdp.documents: scholarly: 3 full texts for 'DeFi lending DEX yield aggregators'
+2026-10-29 17:08:37,720 INFO etdp.documents: web: 3 pages for 'DeFi lending DEX yield aggregators'
+2026-10-29 17:15:26,143 INFO etdp.documents: llm: 17 descriptions for 84 objects
+2026-10-29 17:16:26,180 INFO etdp.documents: 85 candidate objects; 84 new objects registered
+2026-10-29 17:16:26,180 INFO etdp: --- step 8e ---
+2026-10-29 17:18:26,646 INFO etdp.classify: classified 0 cells; 299 codes
+2026-10-29 17:18:26,666 INFO etdp: --- step 9e ---
+2026-10-29 17:19:17,141 INFO etdp.steps: proposal 1 of 1: 7 operation(s): add_dimension Primary financial service; add_dimension Revenue model; add_dimension Governance model; add_dimension Platform scope; add_dimension Blockchain deployment; add_dimension Core mechanism; add_dimension Role in the DeFi stack
+2026-10-29 17:19:17,157 INFO etdp: --- step 10 ---
+2026-10-29 17:23:24,732 INFO etdp.classify: classified 588 cells; 0 codes
+2026-10-29 17:23:24,732 INFO etdp.steps: taxonomy: 7 dimensions; 7 operations applied
+2026-10-29 17:23:24,732 INFO etdp.steps:   add_dimension D1, D1.C1, D1.C2, D1.C3, D1.C4, D1.C5, D1.C6, D1.C7: 
+2026-10-29 17:23:24,732 INFO etdp.steps:   add_dimension D2, D2.C1, D2.C2, D2.C3, D2.C4: 
+2026-10-29 17:23:24,732 INFO etdp.steps:   add_dimension D3, D3.C1, D3.C2, D3.C3: 
+2026-10-29 17:23:24,732 INFO etdp.steps:   add_dimension D4, D4.C1, D4.C2: 
+2026-10-29 17:23:24,732 INFO etdp.steps:   add_dimension D5, D5.C1, D5.C2, D5.C3: 
+2026-10-29 17:23:24,732 INFO etdp.steps:   add_dimension D6, D6.C1, D6.C2, D6.C3, D6.C4, D6.C5: 
+2026-10-29 17:23:24,732 INFO etdp.steps:   add_dimension D7, D7.C1, D7.C2: 
+2026-10-29 17:23:24,732 INFO etdp: --- step 11-12 ---
+2026-10-29 17:23:24,748 INFO etdp.steps: objective conditions unmet: none
+2026-10-29 17:23:24,764 INFO etdp: --- step 13-14 ---
+2026-10-29 17:23:30,632 INFO etdp.steps: subjective conditions met: ['concise', 'robust', 'comprehensive', 'extendible', 'explanatory']; unmet: none
+2026-10-29 17:23:30,648 INFO etdp: --- step 18 ---
+2026-10-29 17:23:30,680 INFO etdp: run 2026-10-29T17-07-11 finished: completed objective and subjective conditions hold; no evaluation (R9 not applied)

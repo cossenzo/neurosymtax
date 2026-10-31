@@ -1,0 +1,921 @@
+[
+  {
+    "number": 1,
+    "kind": "e",
+    "reason": "R1: identification-and-structuring, descriptive purpose (TDR 7, 8)",
+    "queries": [
+      "decentralized finance protocols comparison overview"
+    ],
+    "documents": [
+      "d9e0411c075b333a7b9f609b6eaab39dd9bb6959",
+      "23717ffa3aa95558a02a9624cd5c222fe0bae611",
+      "be6c7625641774823a23b44660b85a9da986f987",
+      "web:803d7a58bb0a0a82",
+      "web:7233d0fe6c3d679e",
+      "web:d81a5f27605b5121"
+    ],
+    "new_objects": [
+      "O1",
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "O6",
+      "O7",
+      "O8",
+      "O9",
+      "O10",
+      "O11",
+      "O12",
+      "O13",
+      "O14",
+      "O15",
+      "O16",
+      "O17",
+      "O18",
+      "O19",
+      "O20",
+      "O21",
+      "O22",
+      "O23",
+      "O24"
+    ],
+    "codes": 106,
+    "concepts": 0,
+    "attempts": [
+      []
+    ],
+    "rejected": false,
+    "operations": [
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D1",
+          "D1.C1",
+          "D1.C2",
+          "D1.C3",
+          "D1.C4",
+          "D1.C5",
+          "D1.C6"
+        ],
+        "removed": [],
+        "evidence": [
+          "O1",
+          "O2",
+          "O3",
+          "O4",
+          "O5",
+          "O6",
+          "O7",
+          "O8",
+          "O9",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18",
+          "O19",
+          "O20",
+          "O21",
+          "O24"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D2",
+          "D2.C1",
+          "D2.C2",
+          "D2.C3"
+        ],
+        "removed": [],
+        "evidence": [
+          "O5",
+          "O6",
+          "O8",
+          "O10",
+          "O11"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D3",
+          "D3.C1",
+          "D3.C2"
+        ],
+        "removed": [],
+        "evidence": [
+          "O8",
+          "O11",
+          "O12",
+          "O14",
+          "O15",
+          "O16",
+          "O18",
+          "O19"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D4",
+          "D4.C1",
+          "D4.C2"
+        ],
+        "removed": [],
+        "evidence": [
+          "O2",
+          "O3"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D5",
+          "D5.C1",
+          "D5.C2",
+          "D5.C3",
+          "D5.C4"
+        ],
+        "removed": [],
+        "evidence": [
+          "O1",
+          "O4",
+          "O5",
+          "O6",
+          "O9",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O16",
+          "O17",
+          "O18",
+          "O19",
+          "O21",
+          "O22",
+          "O23",
+          "O24"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D6",
+          "D6.C1",
+          "D6.C2"
+        ],
+        "removed": [],
+        "evidence": [
+          "O5",
+          "O6",
+          "O8",
+          "O9",
+          "O13",
+          "O16",
+          "O17",
+          "O18",
+          "O21"
+        ],
+        "reason": ""
+      }
+    ],
+    "cells_classified": 144,
+    "meta_review": "kept (The taxonomy's dimensions all fall within the three perspectives the meta-characteristic names: strategy (D1, D2), organization (D3, D4) and technology (D5, D6). These cover the classification, business-model and value-proposition angles the purpose requires, and the organization perspective supports the regulatory angle. The meta-characteristic therefore still expresses the angle the purpose requires.)",
+    "objective": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "objective_details": {
+      "O1": "24 objects, 6 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects",
+      "O5": "not checked: only the e iterations after the first are checked",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 3 misfits",
+      "O10": "structure rules hold"
+    },
+    "subjective": {},
+    "evaluation": {},
+    "exit": "12",
+    "entry": "4",
+    "entry_reason": "R4: review of the meta-characteristic after the first iteration (TDR 5)",
+    "tokens": 368249
+  },
+  {
+    "number": 2,
+    "kind": "c",
+    "reason": "R2: at least one iteration of each approach (TDR 9)",
+    "queries": [
+      "DeFi taxonomy classification typology framework"
+    ],
+    "documents": [
+      "dcd5759962883cda5b87b1fd4354e4e4d0011f77",
+      "6e6f7635576f3888663b0f8f793e0312fc6624ad",
+      "193fc811bf135c26a513b08cb4db2cc9f2f2e1a5",
+      "web:d7145018763ef103",
+      "web:177e9833c34933e9"
+    ],
+    "new_objects": [],
+    "codes": 0,
+    "concepts": 91,
+    "attempts": [
+      []
+    ],
+    "rejected": false,
+    "operations": [
+      {
+        "iteration": 2,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D7",
+          "D7.C1",
+          "D7.C2",
+          "D7.C3"
+        ],
+        "removed": [],
+        "evidence": [
+          "K40",
+          "K41",
+          "K42",
+          "K43"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 2,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D8",
+          "D8.C1",
+          "D8.C2",
+          "D8.C3"
+        ],
+        "removed": [],
+        "evidence": [
+          "K70",
+          "K71",
+          "K72",
+          "K73"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 2,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D9",
+          "D9.C1",
+          "D9.C2",
+          "D9.C3"
+        ],
+        "removed": [],
+        "evidence": [
+          "K52",
+          "K53",
+          "K54",
+          "K55"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 2,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D10",
+          "D10.C1",
+          "D10.C2"
+        ],
+        "removed": [],
+        "evidence": [
+          "K61",
+          "K63",
+          "K64",
+          "K65"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 2,
+        "op": "add_characteristic",
+        "targets": [
+          "D3"
+        ],
+        "created": [
+          "D3.C3"
+        ],
+        "removed": [],
+        "evidence": [
+          "K91"
+        ],
+        "reason": ""
+      }
+    ],
+    "cells_classified": 120,
+    "meta_review": "",
+    "objective": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "objective_details": {
+      "O1": "24 objects, 10 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects; conceptual or negation, exempt: D3.C3 'Centralized operator governance', D7.C1 'Exclusive B2B-focused', D7.C3 'B2B, B2C and C2C', D8.C1 'API/SDK access', D8.C2 'Web app access', D8.C3 'Web app and API/SDK access', D10.C2 'No oracle usage'",
+      "O5": "not checked: only the e iterations after the first are checked",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 7 misfits",
+      "O10": "structure rules hold"
+    },
+    "subjective": {
+      "concise": {
+        "passed": false,
+        "justification": "Ten dimensions is a lot for the purpose, and D8 (Delivery channel) classifies no object under any characteristic, so it adds structure without helping to classify DeFi applications, find landscape patterns, or support regulation. D10 (Oracle data import) rests on a single object, which also weakens its necessity."
+      },
+      "robust": {
+        "passed": true,
+        "justification": "The dimensions and characteristics separate the classified objects into distinct groups, for example by primary service, blockchain deployment and governance model, with mutually exclusive characteristics and explicit precedence rules where needed."
+      },
+      "comprehensive": {
+        "passed": true,
+        "justification": "The taxonomy covers the strategy, organization and technology perspectives named in the meta-characteristic and includes dimensions relevant to classifying applications, analysing business models and informing regulation. Some objects fit no characteristic in individual dimensions, but this reflects the evidence rather than a gap in coverage."
+      },
+      "extendible": {
+        "passed": true,
+        "justification": "Dimensions are independent and characteristics are mutually exclusive, with negation characteristics and precedence rules, so new characteristics or dimensions can be added within the existing perspectives without restructuring."
+      },
+      "explanatory": {
+        "passed": true,
+        "justification": "Each dimension and characteristic has a clear definition and application rule tied to the meta-characteristic, which allows the nature of DeFi applications to be explained with respect to the purpose."
+      }
+    },
+    "evaluation": {},
+    "exit": "14",
+    "entry": "10",
+    "entry_reason": "chosen by the LLM: The only unmet condition, 'concise', can be resolved by revising the taxonomy itself (merging, renaming, or deleting elements) using the objects already classified. No new evidence is needed, and the condition has not recurred after a prior revision, since iteration 2 had no unmet conditions.",
+    "tokens": 334491
+  },
+  {
+    "number": 3,
+    "kind": "r",
+    "reason": "chosen by the LLM: The only unmet condition, 'concise', can be resolved by revising the taxonomy itself (merging, renaming, or deleting elements) using the objects already classified. No new evidence is needed, and the condition has not recurred after a prior revision, since iteration 2 had no unmet conditions.",
+    "queries": [
+      "DeFi lending borrowing protocols stablecoin"
+    ],
+    "documents": [
+      "1e14f9864adfbec791d80e99d6a45f894bd338d4",
+      "e58a125fe8d253ef2385963c7c3524bd214dcbe3",
+      "f6b488adf538bcd1d8380e31a8c73160fabd4a93",
+      "web:0919ac87fdc966e7",
+      "web:4ba8f94024c984d3",
+      "web:2cd23a6bdd5d9340"
+    ],
+    "new_objects": [],
+    "codes": 0,
+    "concepts": 0,
+    "attempts": [
+      []
+    ],
+    "rejected": false,
+    "operations": [
+      {
+        "iteration": 3,
+        "op": "delete",
+        "targets": [
+          "D8"
+        ],
+        "created": [],
+        "removed": [
+          "D8",
+          "D8.C1",
+          "D8.C2",
+          "D8.C3"
+        ],
+        "evidence": [
+          "I2.1"
+        ],
+        "reason": "Dimension D8 (Delivery channel) and its characteristics D8.C1 to D8.C3 hold no classified objects (all have 0 objects, 24 objects lack information, and the dimension is conceptual), so it is removed as an element with no objects, as I2.1 asks. The strategy perspective keeps D1, D2 and D7, so it still has at least two dimensions. I2.2 is left unaddressed: D10 (Oracle data import) holds one classified object under D10.C1 (Oracle usage), so deleting it would discard that classification, and the alternative of merging it into the technology perspective requires further evidence that a revision may not bring."
+      }
+    ],
+    "cells_classified": 90,
+    "meta_review": "",
+    "objective": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "objective_details": {
+      "O1": "24 objects, 9 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects; conceptual or negation, exempt: D3.C3 'Centralized operator governance', D7.C1 'Exclusive B2B-focused', D7.C3 'B2B, B2C and C2C', D10.C2 'No oracle usage'",
+      "O5": "not checked: only the e iterations after the first are checked",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 7 misfits",
+      "O10": "structure rules hold"
+    },
+    "subjective": {
+      "concise": {
+        "passed": true,
+        "justification": "With D8 removed, the taxonomy has nine dimensions, and each serves the stated purpose of classifying DeFi applications, analysing the landscape and supporting regulation. D10 rests on a single object, but it is not unnecessary given the evidence, so this is an imperfection rather than a serious failure."
+      },
+      "robust": {
+        "passed": true,
+        "justification": "The dimensions separate the classified objects into distinct groups, such as primary service, blockchain deployment, governance model and trade matching, with mutually exclusive characteristics and explicit precedence rules where needed."
+      },
+      "comprehensive": {
+        "passed": true,
+        "justification": "The taxonomy covers the strategy, organization and technology perspectives named in the meta-characteristic, and includes dimensions for classifying applications, analysing business models and informing regulation. Objects without information or fitting no characteristic reflect the evidence rather than a coverage gap."
+      },
+      "extendible": {
+        "passed": true,
+        "justification": "Dimensions are independent and characteristics are mutually exclusive, with negation characteristics and precedence rules, so new characteristics or dimensions can be added within the existing perspectives without restructuring."
+      },
+      "explanatory": {
+        "passed": true,
+        "justification": "Each dimension and characteristic has a clear definition and application rule tied to the meta-characteristic, which allows the nature of DeFi applications to be explained with respect to the purpose."
+      }
+    },
+    "evaluation": {
+      "new_objects": 10,
+      "all_objects": 34,
+      "kappa_per_dimension": {
+        "D1": 1.0,
+        "D2": 0.4737,
+        "D3": 1.0,
+        "D4": 1.0,
+        "D5": 1.0,
+        "D6": 1.0,
+        "D7": 1.0,
+        "D9": 0.2063,
+        "D10": 1.0
+      },
+      "kappa": 0.8533,
+      "misfit_share": 0.6,
+      "informed_share": 0.2222,
+      "distinct_profiles": 0.8235,
+      "discriminating_dimensions": 0.7778,
+      "cluster_silhouette": 0.3166,
+      "new_object_ids": [
+        "O25",
+        "O26",
+        "O27",
+        "O28",
+        "O29",
+        "O30",
+        "O31",
+        "O32",
+        "O33",
+        "O34"
+      ],
+      "results": [
+        {
+          "goal": "classifying",
+          "measure": "kappa",
+          "value": 0.8533,
+          "target": 0.61,
+          "comparator": ">=",
+          "met": true,
+          "remedy": "10"
+        },
+        {
+          "goal": "classifying",
+          "measure": "misfit_share",
+          "value": 0.6,
+          "target": 0.3,
+          "comparator": "<=",
+          "met": false,
+          "remedy": "6"
+        },
+        {
+          "goal": "analyzing",
+          "measure": "discriminating_dimensions",
+          "value": 0.7778,
+          "target": 0.6,
+          "comparator": ">=",
+          "met": true,
+          "remedy": "10"
+        }
+      ]
+    },
+    "exit": "17",
+    "entry": "6",
+    "entry_reason": "chosen by the LLM: The unmet condition is a misfit share of 0.6 against a target of 0.3, which means most objects fit no characteristic. Adding a catch-all characteristic would only hide the gap, so the taxonomy needs new objects and documents to define the missing characteristics. The check also suggests new evidence as the re-entry, and the earlier revision (iteration 3) did not face this condition.",
+    "tokens": 205993
+  },
+  {
+    "number": 4,
+    "kind": "e",
+    "reason": "R3: the last evaluation calls for new evidence: ['misfit_share']",
+    "queries": [
+      "decentralized insurance prediction market staking",
+      "DeFi cross-chain bridge protocol"
+    ],
+    "documents": [
+      "faa8121c3fa40528fca12f1c7a81b3d700d490ee",
+      "dc7d91c4218e8488875df9a4900d1918d90b2244",
+      "1b01565b8271f651db66aaec4eecda769ee535ef",
+      "web:77695699e093886a",
+      "web:48bf8be3e60b5374",
+      "web:21281548741db045",
+      "14f1bb3acfe923c8f390b20aad0a1e4c04e94df9",
+      "e7230fbf1832e68d9d29aa84f50f385241b3202c",
+      "5a898c2cca8042bc7feebaed24b0d6a903649da7",
+      "web:e1339ad2ac63b9d8",
+      "web:1ebcfc0e13fda9de",
+      "web:2e842d7583a2ba16"
+    ],
+    "new_objects": [
+      "O35",
+      "O36",
+      "O37",
+      "O38",
+      "O39",
+      "O40",
+      "O41",
+      "O42",
+      "O43",
+      "O44",
+      "O45",
+      "O46",
+      "O47",
+      "O48",
+      "O49",
+      "O50",
+      "O51",
+      "O52",
+      "O53",
+      "O54",
+      "O55",
+      "O56",
+      "O57",
+      "O58",
+      "O59",
+      "O60",
+      "O61",
+      "O62",
+      "O63",
+      "O64",
+      "O65"
+    ],
+    "codes": 63,
+    "concepts": 0,
+    "attempts": [
+      []
+    ],
+    "rejected": false,
+    "operations": [
+      {
+        "iteration": 4,
+        "op": "add_characteristic",
+        "targets": [
+          "D1"
+        ],
+        "created": [
+          "D1.C7"
+        ],
+        "removed": [],
+        "evidence": [
+          "O39",
+          "O41",
+          "O43",
+          "O46",
+          "O51",
+          "O62",
+          "I3.1"
+        ],
+        "reason": "Misfits of D1 for prediction-market objects with no matching characteristic."
+      },
+      {
+        "iteration": 4,
+        "op": "add_characteristic",
+        "targets": [
+          "D1"
+        ],
+        "created": [
+          "D1.C8"
+        ],
+        "removed": [],
+        "evidence": [
+          "O55",
+          "O57",
+          "O61",
+          "I3.1"
+        ],
+        "reason": "Misfits of D1 for asset-tokenization objects."
+      },
+      {
+        "iteration": 4,
+        "op": "add_characteristic",
+        "targets": [
+          "D1"
+        ],
+        "created": [
+          "D1.C9"
+        ],
+        "removed": [],
+        "evidence": [
+          "O35",
+          "I3.1"
+        ],
+        "reason": "Misfit of D1 for an insurance object."
+      },
+      {
+        "iteration": 4,
+        "op": "add_characteristic",
+        "targets": [
+          "D1"
+        ],
+        "created": [
+          "D1.C10"
+        ],
+        "removed": [],
+        "evidence": [
+          "O42",
+          "I3.1"
+        ],
+        "reason": "Misfit of D1 for a payment network object."
+      },
+      {
+        "iteration": 4,
+        "op": "add_characteristic",
+        "targets": [
+          "D1"
+        ],
+        "created": [
+          "D1.C11"
+        ],
+        "removed": [],
+        "evidence": [
+          "O59",
+          "I3.1"
+        ],
+        "reason": "Misfit of D1 for an attention-reward object."
+      },
+      {
+        "iteration": 4,
+        "op": "add_characteristic",
+        "targets": [
+          "D1"
+        ],
+        "created": [
+          "D1.C12"
+        ],
+        "removed": [],
+        "evidence": [
+          "O38",
+          "O50",
+          "I3.1"
+        ],
+        "reason": "Misfits of D1 for funding collectives."
+      },
+      {
+        "iteration": 4,
+        "op": "rename",
+        "targets": [
+          "D1"
+        ],
+        "created": [],
+        "removed": [],
+        "evidence": [
+          "O39",
+          "O41",
+          "O55",
+          "O57",
+          "O35",
+          "I3.1"
+        ],
+        "reason": "Precedence rule keeps the new D1 characteristics mutually exclusive with trading and derivatives."
+      },
+      {
+        "iteration": 4,
+        "op": "add_characteristic",
+        "targets": [
+          "D5"
+        ],
+        "created": [
+          "D5.C5"
+        ],
+        "removed": [],
+        "evidence": [
+          "O7",
+          "O27",
+          "O29",
+          "O31",
+          "O46",
+          "O56",
+          "O64",
+          "I3.1"
+        ],
+        "reason": "Misfits of D5 whose deployment matches none of the existing characteristics."
+      },
+      {
+        "iteration": 4,
+        "op": "add_characteristic",
+        "targets": [
+          "D6"
+        ],
+        "created": [
+          "D6.C3"
+        ],
+        "removed": [],
+        "evidence": [
+          "O58",
+          "I3.1"
+        ],
+        "reason": "Misfit of D6 for a trade-routing object."
+      },
+      {
+        "iteration": 4,
+        "op": "rename",
+        "targets": [
+          "D6"
+        ],
+        "created": [],
+        "removed": [],
+        "evidence": [
+          "O58",
+          "I3.1"
+        ],
+        "reason": "Precedence rule for the new aggregated trade routing characteristic."
+      },
+      {
+        "iteration": 4,
+        "op": "add_characteristic",
+        "targets": [
+          "D9"
+        ],
+        "created": [
+          "D9.C4"
+        ],
+        "removed": [],
+        "evidence": [
+          "O1",
+          "O2",
+          "D1.C5",
+          "I3.1"
+        ],
+        "reason": "Misfits of D9 for decentralized storage objects, which match the data-storage service of D1.C5."
+      }
+    ],
+    "cells_classified": 629,
+    "meta_review": "",
+    "objective": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "objective_details": {
+      "O1": "65 objects, 9 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects; conceptual or negation, exempt: D3.C3 'Centralized operator governance', D7.C1 'Exclusive B2B-focused', D10.C2 'No oracle usage'",
+      "O5": "0 merges or splits in this e iteration",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 24 misfits",
+      "O10": "structure rules hold"
+    },
+    "subjective": {
+      "concise": {
+        "passed": true,
+        "justification": "With D8 removed, the nine dimensions and their characteristics each serve the stated purpose of classifying DeFi applications, analysing the landscape and supporting regulation. D10 rests on a single characteristic with few objects, but it is needed for the purpose, so this is only a minor imperfection."
+      },
+      "robust": {
+        "passed": true,
+        "justification": "The dimensions separate the classified objects into distinct groups, such as primary service, blockchain deployment, governance model and trade matching. Characteristics are mutually exclusive, and precedence rules resolve overlaps where they arise."
+      },
+      "comprehensive": {
+        "passed": true,
+        "justification": "The taxonomy covers the strategy, organization and technology perspectives named in the meta-characteristic. It includes dimensions for classifying applications, analysing value propositions and business models, and informing regulation, and the remaining gaps reflect the evidence rather than missing coverage."
+      },
+      "extendible": {
+        "passed": true,
+        "justification": "Dimensions are independent and characteristics are mutually exclusive, with negation characteristics and precedence rules. New characteristics or dimensions can therefore be added within the existing perspectives without restructuring."
+      },
+      "explanatory": {
+        "passed": true,
+        "justification": "Each dimension and characteristic has a clear definition and an application rule tied to the meta-characteristic. This allows the nature of DeFi applications to be explained with respect to the classification, pattern-analysis and regulatory purposes."
+      }
+    },
+    "evaluation": {
+      "new_objects": 10,
+      "all_objects": 75,
+      "kappa_per_dimension": {
+        "D1": 0.7101,
+        "D2": 1.0,
+        "D3": 0.7561,
+        "D4": 1.0,
+        "D5": 0.7403,
+        "D6": 1.0,
+        "D7": 1.0,
+        "D9": 0.3333,
+        "D10": 1.0
+      },
+      "kappa": 0.8378,
+      "misfit_share": 0.3,
+      "informed_share": 0.4111,
+      "distinct_profiles": 0.84,
+      "discriminating_dimensions": 0.8889,
+      "cluster_silhouette": 0.3496,
+      "new_object_ids": [
+        "O66",
+        "O67",
+        "O68",
+        "O69",
+        "O70",
+        "O71",
+        "O72",
+        "O73",
+        "O74",
+        "O75"
+      ],
+      "results": [
+        {
+          "goal": "classifying",
+          "measure": "kappa",
+          "value": 0.8378,
+          "target": 0.61,
+          "comparator": ">=",
+          "met": true,
+          "remedy": "10"
+        },
+        {
+          "goal": "classifying",
+          "measure": "misfit_share",
+          "value": 0.3,
+          "target": 0.3,
+          "comparator": "<=",
+          "met": true,
+          "remedy": "6"
+        },
+        {
+          "goal": "analyzing",
+          "measure": "discriminating_dimensions",
+          "value": 0.8889,
+          "target": 0.6,
+          "comparator": ">=",
+          "met": true,
+          "remedy": "10"
+        }
+      ]
+    },
+    "exit": null,
+    "entry": null,
+    "entry_reason": "",
+    "tokens": 911703
+  }
+]
