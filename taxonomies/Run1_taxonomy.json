@@ -1,0 +1,615 @@
+{
+  "run_id": "2026-10-29T13-00-05",
+  "status": "completed",
+  "message": "",
+  "input": {
+    "observed_phenomenon": "Decentralized finance (DeFi)",
+    "target_user_groups": [
+      "Researchers in finance and information systems",
+      "Entrepreneurs and investors in the DeFi sector",
+      "Regulators and policy makers"
+    ],
+    "intended_purposes": [
+      "Systematically structure the emerging field of decentralized finance by classifying DeFi applications",
+      "Analyze the DeFi landscape to identify patterns and opportunities for value propositions and business models",
+      "Support the design of regulatory measures"
+    ],
+    "purpose_type": "identification_and_structuring",
+    "purpose_nature": "descriptive",
+    "domain_of_objects": "Decentralized finance (DeFi) applications: financial services built on smart contracts on public blockchains without intermediaries",
+    "evaluation_goals": [
+      {
+        "goal": "classifying",
+        "targets": {}
+      },
+      {
+        "goal": "analyzing",
+        "targets": {}
+      }
+    ],
+    "perspectives": [
+      "strategy",
+      "organization",
+      "technology"
+    ],
+    "meta_characteristic": null,
+    "seed_keywords": [
+      "decentralized finance",
+      "DeFi",
+      "dApps",
+      "blockchain",
+      "smart contracts"
+    ],
+    "language": "en",
+    "year_range": [
+      2008,
+      2023
+    ]
+  },
+  "meta_characteristic": "The taxonomy views DeFi applications as financial services built on smart contracts on public blockchains without intermediaries, examined through how they create and deliver value to users (strategy), how they are operated and governed without central intermediaries (organization), and how their underlying blockchain and smart contract technology enables these services (technology).",
+  "iterations": 4,
+  "documents_read": 45,
+  "objects": {
+    "building": 65,
+    "evaluation": 10
+  },
+  "perspectives": {
+    "strategy": [
+      "D1",
+      "D2",
+      "D7"
+    ],
+    "organization": [
+      "D3",
+      "D4"
+    ],
+    "technology": [
+      "D5",
+      "D6",
+      "D9",
+      "D10"
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "D1",
+      "name": "Primary financial service",
+      "definition": "The core service that a DeFi application delivers to its users, as stated in the sources.",
+      "application_rule": "Observe the main service the application offers. Choose the characteristic that matches that primary service. When several characteristics could apply, prefer prediction and event-outcome markets, then real-world asset tokenization, then insurance and risk coverage, over trading and derivatives.",
+      "perspective": "strategy",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D1.C1",
+          "name": "Trading and derivatives",
+          "definition": "Exchange of assets or derivative positions, including perpetual futures and synthetic assets.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 20
+        },
+        {
+          "id": "D1.C2",
+          "name": "Lending and borrowing",
+          "definition": "Supplying assets for interest and borrowing against collateral.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 5
+        },
+        {
+          "id": "D1.C3",
+          "name": "Stablecoin issuance",
+          "definition": "Issuing a stablecoin against overcollateralized deposits.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 5
+        },
+        {
+          "id": "D1.C4",
+          "name": "Yield aggregation",
+          "definition": "Providing yield by aggregating returns across automated strategies in vaults.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 2
+        },
+        {
+          "id": "D1.C5",
+          "name": "Decentralized data storage",
+          "definition": "Providing decentralized storage or retrieval of data, paid with tokens.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 5
+        },
+        {
+          "id": "D1.C6",
+          "name": "Play-to-earn gaming",
+          "definition": "Earning users value through a blockchain game.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 1
+        },
+        {
+          "id": "D1.C7",
+          "name": "Prediction and event-outcome markets",
+          "definition": "Users bet on or trade positions on outcomes of real-world events, such as elections or market events, with outcomes resolved through a decentralized process.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 10
+        },
+        {
+          "id": "D1.C8",
+          "name": "Real-world asset tokenization",
+          "definition": "Real-world or financial assets are represented as blockchain tokens that investors hold or trade, including fractional ownership.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 2
+        },
+        {
+          "id": "D1.C9",
+          "name": "Insurance and risk coverage",
+          "definition": "Users are covered against risk through pooled endorsements or smart-contract agreements that offer a financial guarantee.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 1
+        },
+        {
+          "id": "D1.C10",
+          "name": "Payments and transfers",
+          "definition": "The service enables users to send and receive value, such as micropayments, over the network.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 2
+        },
+        {
+          "id": "D1.C11",
+          "name": "Rewards for user activity",
+          "definition": "Tokens reward users for attention or activity on the platform and compensate publishers.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 1
+        },
+        {
+          "id": "D1.C12",
+          "name": "Collective funding and investment",
+          "definition": "A community funds projects, public goods or early-stage ventures through collective governance.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 4
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "name": "Token-holder value capture",
+      "definition": "How the application passes its fee revenue to holders of its native token.",
+      "application_rule": "Observe whether trading fees or revenue are distributed to token holders or whether holders receive fee discounts. Choose the characteristic that matches. Choose the negation characteristic only when the source states that no fees are redistributed.",
+      "perspective": "strategy",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D2.C1",
+          "name": "Fee or revenue distribution to token holders",
+          "definition": "Trading fees or protocol revenue are distributed to holders of the native or governance token.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 4
+        },
+        {
+          "id": "D2.C2",
+          "name": "Token-based trading fee discounts",
+          "definition": "Holders of the native token receive trading fee discounts rather than fee distributions.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 1
+        },
+        {
+          "id": "D2.C3",
+          "name": "No holder fee redistribution",
+          "definition": "Trading fees are never redistributed to token holders.",
+          "negation": true,
+          "origin": "empirical",
+          "objects": 1
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "Governance model",
+      "definition": "How decisions about the application's protocol are made and by whom.",
+      "application_rule": "If the entity is organized as a decentralized autonomous organization, choose that characteristic, which takes precedence. Otherwise, if governance token holders vote on the protocol, choose the token-holder voting characteristic.",
+      "perspective": "organization",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D3.C1",
+          "name": "Decentralized autonomous organization",
+          "definition": "The entity is organized as a decentralized autonomous organization. This takes precedence over token-holder voting.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 7
+        },
+        {
+          "id": "D3.C2",
+          "name": "Governance-token holder voting",
+          "definition": "The protocol is governed by holders of its governance token, who vote on proposals.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 11
+        },
+        {
+          "id": "D3.C3",
+          "name": "Centralized operator governance",
+          "definition": "Operators alone have the right to make changes to the service, and users have no say.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 0
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "name": "Central component for requests and incentives",
+      "definition": "Whether a central component authorizes requests and handles incentives in the application.",
+      "application_rule": "Observe whether a central component, such as satellite nodes, authorizes requests and handles incentivization. Choose the negation characteristic when the source states that authentication or operation relies on no centralized component.",
+      "perspective": "organization",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D4.C1",
+          "name": "Central component authorizes requests and incentives",
+          "definition": "A central component, such as satellite nodes, authorizes requests and handles incentivization.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 2
+        },
+        {
+          "id": "D4.C2",
+          "name": "No central component",
+          "definition": "Authentication or operation follows a mechanism that relies on no centralized component.",
+          "negation": true,
+          "origin": "empirical",
+          "objects": 10
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "name": "Underlying blockchain deployment",
+      "definition": "The blockchain on which the application runs.",
+      "application_rule": "Observe the blockchain on which the application operates. If it runs on its own Layer 1 or application chain, choose that characteristic, which takes precedence. Otherwise choose the Ethereum mainnet, Ethereum layer 2 or BNB Smart Chain characteristic that matches.",
+      "perspective": "technology",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D5.C1",
+          "name": "Own layer 1 or application chain",
+          "definition": "The application runs on its own layer 1 blockchain or application chain. This takes precedence over the other deployments.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 6
+        },
+        {
+          "id": "D5.C2",
+          "name": "Ethereum mainnet",
+          "definition": "The application operates on the Ethereum blockchain.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 24
+        },
+        {
+          "id": "D5.C3",
+          "name": "Ethereum layer 2 network",
+          "definition": "The application runs on a layer 2 network built on Ethereum, such as Arbitrum, Optimism, Base or StarkEx.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 4
+        },
+        {
+          "id": "D5.C4",
+          "name": "BNB Smart Chain",
+          "definition": "The application operates on the BNB Smart Chain public blockchain.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 5
+        },
+        {
+          "id": "D5.C5",
+          "name": "Other public blockchain",
+          "definition": "The application runs on a public blockchain that is neither its own layer 1 or application chain, Ethereum, an Ethereum layer 2 network nor BNB Smart Chain.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 7
+        }
+      ]
+    },
+    {
+      "id": "D6",
+      "name": "Trade matching mechanism",
+      "definition": "How trades are priced and matched in the application.",
+      "application_rule": "If prices come from an automated market maker, a virtual AMM or a shared liquidity pool acting as counterparty, choose the automated market maker characteristic, which takes precedence. Otherwise, if trades are matched in an order book, choose the order book characteristic. Otherwise, if trades are routed across several external exchanges, choose aggregated trade routing.",
+      "perspective": "technology",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D6.C1",
+          "name": "Automated market maker",
+          "definition": "Trades are priced and executed by an automated market maker or liquidity pool. This takes precedence over order matching.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 12
+        },
+        {
+          "id": "D6.C2",
+          "name": "Order book matching",
+          "definition": "Trades are matched through an order book, on-chain or off-chain, without an automated market maker as the pricing mechanism.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 3
+        },
+        {
+          "id": "D6.C3",
+          "name": "Aggregated trade routing",
+          "definition": "Trades are routed across several external decentralized exchanges to find favorable prices.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 2
+        }
+      ]
+    },
+    {
+      "id": "D7",
+      "name": "Target customer segment",
+      "definition": "The customer groups a DeFi service serves, from exclusive B2B focus to business and consumer segments, including peer-to-peer trading between users.",
+      "application_rule": "Observe which customer groups the service serves. Choose 'Exclusive B2B-focused' if it serves only other DeFi service providers and companies. Choose 'B2B and B2C' if it also serves private consumers. Choose 'B2B, B2C and C2C' if users also trade with each other.",
+      "perspective": "strategy",
+      "origin": "conceptual",
+      "characteristics": [
+        {
+          "id": "D7.C1",
+          "name": "Exclusive B2B-focused",
+          "definition": "The service is offered to other DeFi service providers and companies.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 0
+        },
+        {
+          "id": "D7.C2",
+          "name": "B2B and B2C",
+          "definition": "The service is offered to private consumers, businesses and other DeFi providers.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 7
+        },
+        {
+          "id": "D7.C3",
+          "name": "B2B, B2C and C2C",
+          "definition": "The service is offered to businesses and consumers, and enables trading of tokens between consumers.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 1
+        }
+      ]
+    },
+    {
+      "id": "D9",
+      "name": "Stack layer",
+      "definition": "The layer of the hierarchical, multi-layer DeFi architecture on which a service is positioned.",
+      "application_rule": "Observe where the service sits in the architecture. Choose 'Protocol layer' if it defines standards for applications. Choose 'Application layer' if it is built on top of individual protocols to simplify user access. Choose 'Aggregation layer' if it bundles several applications and protocols into one access point.",
+      "perspective": "technology",
+      "origin": "conceptual",
+      "characteristics": [
+        {
+          "id": "D9.C1",
+          "name": "Protocol layer",
+          "definition": "DeFi protocols that define standards for applications such as decentralized exchanges or lending and borrowing services.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 24
+        },
+        {
+          "id": "D9.C2",
+          "name": "Application layer",
+          "definition": "DeFi services built on top of individual protocols of the protocol layer, simplifying user access to DeFi services.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 4
+        },
+        {
+          "id": "D9.C3",
+          "name": "Aggregation layer",
+          "definition": "DeFi services that bundle several applications and protocols to give users easy access to multiple DeFi services.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 2
+        },
+        {
+          "id": "D9.C4",
+          "name": "Storage infrastructure layer",
+          "definition": "Decentralized storage or retrieval infrastructure that other services use, paid with tokens.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 5
+        }
+      ]
+    },
+    {
+      "id": "D10",
+      "name": "Oracle data import",
+      "definition": "Whether external data can flow into the blockchain ecosystem through oracles.",
+      "application_rule": "Observe whether the service uses oracles to import external data into the blockchain network. Choose 'Oracle usage' if it does. Choose 'No oracle usage' if the source states that it uses no oracles.",
+      "perspective": "technology",
+      "origin": "conceptual",
+      "characteristics": [
+        {
+          "id": "D10.C1",
+          "name": "Oracle usage",
+          "definition": "The service uses oracles to import external data into the blockchain network.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 6
+        },
+        {
+          "id": "D10.C2",
+          "name": "No oracle usage",
+          "definition": "The service uses no oracles, so data cannot flow from the outside world into the blockchain ecosystem.",
+          "negation": true,
+          "origin": "conceptual",
+          "objects": 0
+        }
+      ]
+    }
+  ],
+  "objective_conditions": {
+    "holds": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "details": {
+      "O1": "65 objects, 9 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects; conceptual or negation, exempt: D3.C3 'Centralized operator governance', D7.C1 'Exclusive B2B-focused', D10.C2 'No oracle usage'",
+      "O5": "0 merges or splits in this e iteration",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 24 misfits",
+      "O10": "structure rules hold"
+    }
+  },
+  "subjective_conditions": {
+    "concise": {
+      "passed": true,
+      "justification": "With D8 removed, the nine dimensions and their characteristics each serve the stated purpose of classifying DeFi applications, analysing the landscape and supporting regulation. D10 rests on a single characteristic with few objects, but it is needed for the purpose, so this is only a minor imperfection."
+    },
+    "robust": {
+      "passed": true,
+      "justification": "The dimensions separate the classified objects into distinct groups, such as primary service, blockchain deployment, governance model and trade matching. Characteristics are mutually exclusive, and precedence rules resolve overlaps where they arise."
+    },
+    "comprehensive": {
+      "passed": true,
+      "justification": "The taxonomy covers the strategy, organization and technology perspectives named in the meta-characteristic. It includes dimensions for classifying applications, analysing value propositions and business models, and informing regulation, and the remaining gaps reflect the evidence rather than missing coverage."
+    },
+    "extendible": {
+      "passed": true,
+      "justification": "Dimensions are independent and characteristics are mutually exclusive, with negation characteristics and precedence rules. New characteristics or dimensions can therefore be added within the existing perspectives without restructuring."
+    },
+    "explanatory": {
+      "passed": true,
+      "justification": "Each dimension and characteristic has a clear definition and an application rule tied to the meta-characteristic. This allows the nature of DeFi applications to be explained with respect to the classification, pattern-analysis and regulatory purposes."
+    }
+  },
+  "evaluation_plan": [
+    {
+      "goal": "classifying",
+      "users_aim": "classify objects that represent a certain phenomenon",
+      "designers_provide": "characteristics and dimensions that serve as scheme to classify one particular object",
+      "method": "new objects classified twice, independently",
+      "criteria": [
+        {
+          "measure": "kappa",
+          "label": "mean Cohen's kappa between the two classifications",
+          "comparator": ">=",
+          "target": 0.61,
+          "population": "new",
+          "remedy": "10",
+          "basis": "substantial agreement (Landis & Koch, 1977)"
+        },
+        {
+          "measure": "misfit_share",
+          "label": "share of new objects with a misfit in some dimension",
+          "comparator": "<=",
+          "target": 0.3,
+          "population": "new",
+          "remedy": "6",
+          "basis": ""
+        }
+      ]
+    },
+    {
+      "goal": "analyzing",
+      "users_aim": "analyze objects that represent a certain phenomenon",
+      "designers_provide": "characteristics and dimensions that serve as a basis to determine similarities and differences of objects",
+      "method": "distribution of all classified objects over the characteristics",
+      "criteria": [
+        {
+          "measure": "discriminating_dimensions",
+          "label": "share of dimensions in which no characteristic holds more than the dominance threshold of the informed objects",
+          "comparator": ">=",
+          "target": 0.6,
+          "population": "all",
+          "remedy": "10",
+          "basis": ""
+        }
+      ]
+    }
+  ],
+  "evaluation": {
+    "new_objects": 10,
+    "all_objects": 75,
+    "kappa_per_dimension": {
+      "D1": 0.7101,
+      "D2": 1.0,
+      "D3": 0.7561,
+      "D4": 1.0,
+      "D5": 0.7403,
+      "D6": 1.0,
+      "D7": 1.0,
+      "D9": 0.3333,
+      "D10": 1.0
+    },
+    "kappa": 0.8378,
+    "misfit_share": 0.3,
+    "informed_share": 0.4111,
+    "distinct_profiles": 0.84,
+    "discriminating_dimensions": 0.8889,
+    "cluster_silhouette": 0.3496,
+    "new_object_ids": [
+      "O66",
+      "O67",
+      "O68",
+      "O69",
+      "O70",
+      "O71",
+      "O72",
+      "O73",
+      "O74",
+      "O75"
+    ],
+    "results": [
+      {
+        "goal": "classifying",
+        "measure": "kappa",
+        "value": 0.8378,
+        "target": 0.61,
+        "comparator": ">=",
+        "met": true,
+        "remedy": "10"
+      },
+      {
+        "goal": "classifying",
+        "measure": "misfit_share",
+        "value": 0.3,
+        "target": 0.3,
+        "comparator": "<=",
+        "met": true,
+        "remedy": "6"
+      },
+      {
+        "goal": "analyzing",
+        "measure": "discriminating_dimensions",
+        "value": 0.8889,
+        "target": 0.6,
+        "comparator": ">=",
+        "met": true,
+        "remedy": "10"
+      }
+    ]
+  },
+  "open_issues": [],
+  "tokens_used": 1821378
+}

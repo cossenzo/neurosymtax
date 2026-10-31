@@ -1,0 +1,171 @@
+{
+  "run_id": "baseline-2026-10-29T14-41-10",
+  "configuration": "single-prompt baseline",
+  "meta_characteristic": "Decentralized finance application: a financial service built on smart contracts on a public blockchain without intermediaries",
+  "dimensions": [
+    {
+      "id": "D1",
+      "name": "Revenue generation",
+      "definition": "Whether the application charges fees to users for the financial service it provides.",
+      "application_rule": "Assign the characteristic based on whether the application itself charges transaction or service fees to its users.",
+      "perspective": "strategy",
+      "characteristics": [
+        {
+          "id": "D1.C1",
+          "name": "Application charges fees",
+          "definition": "The application levies fees on users for transactions or services it provides.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D1.C2",
+          "name": "No application fees",
+          "definition": "The application does not levy fees on users for its own services.",
+          "negation": true,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "name": "Market orientation",
+      "definition": "Whether the application offers its financial service directly to end users or serves as a component for other applications.",
+      "application_rule": "Assign the characteristic based on whether end users interact with the application directly or only through other applications.",
+      "perspective": "strategy",
+      "characteristics": [
+        {
+          "id": "D2.C1",
+          "name": "End-user facing",
+          "definition": "The application is used directly by end users to access the financial service.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D2.C2",
+          "name": "Building block for other applications",
+          "definition": "The application is used mainly as a component integrated into other applications.",
+          "negation": true,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "Governance mode",
+      "definition": "How decisions about the application's rules and parameters are made.",
+      "application_rule": "Assign the characteristic based on whether changes to the application are decided through token-based voting by holders.",
+      "perspective": "organization",
+      "characteristics": [
+        {
+          "id": "D3.C1",
+          "name": "Token-based governance",
+          "definition": "Rules and parameters are changed through voting by holders of governance tokens.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D3.C2",
+          "name": "No token-based governance",
+          "definition": "Rules and parameters are not changed through token-based voting.",
+          "negation": true,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "name": "Operating entity",
+      "definition": "Whether an identifiable legal entity operates or maintains the application.",
+      "application_rule": "Assign the characteristic based on whether a identifiable legal entity is publicly identified as operating the application.",
+      "perspective": "organization",
+      "characteristics": [
+        {
+          "id": "D4.C1",
+          "name": "Identifiable operating entity",
+          "definition": "A legal entity or organization is identifiable as operating or maintaining the application.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D4.C2",
+          "name": "No identifiable operating entity",
+          "definition": "No legal entity is identifiable as operating or maintaining the application.",
+          "negation": true,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "name": "Blockchain deployment",
+      "definition": "Whether the application is deployed on one or several public blockchains.",
+      "application_rule": "Assign the characteristic based on the number of public blockchains on which the application's smart contracts are deployed.",
+      "perspective": "technology",
+      "characteristics": [
+        {
+          "id": "D5.C1",
+          "name": "Single public blockchain",
+          "definition": "The application's smart contracts are deployed on exactly one public blockchain.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D5.C2",
+          "name": "Multiple public blockchains",
+          "definition": "The application's smart contracts are deployed on two or more public blockchains.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        }
+      ]
+    },
+    {
+      "id": "D6",
+      "name": "Smart contract architecture",
+      "definition": "Whether the application's financial logic is implemented in one smart contract or in several interacting smart contracts.",
+      "application_rule": "Assign the characteristic based on the number of smart contracts that implement the application's core financial logic.",
+      "perspective": "technology",
+      "characteristics": [
+        {
+          "id": "D6.C1",
+          "name": "Single smart contract",
+          "definition": "The core financial logic is implemented in one smart contract.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        },
+        {
+          "id": "D6.C2",
+          "name": "Multiple interacting smart contracts",
+          "definition": "The core financial logic is distributed across several interacting smart contracts.",
+          "negation": false,
+          "origin": "conceptual",
+          "derived_from": [],
+          "iteration": 0
+        }
+      ]
+    }
+  ],
+  "structure_problems": [],
+  "tokens_used": 4063
+}

@@ -1,0 +1,707 @@
+{
+  "run_id": "2026-10-29T18-17-20",
+  "status": "completed",
+  "message": "",
+  "input": {
+    "observed_phenomenon": "Decentralized finance (DeFi)",
+    "target_user_groups": [
+      "Researchers in finance and information systems",
+      "Entrepreneurs and investors in the DeFi sector",
+      "Regulators and policy makers"
+    ],
+    "intended_purposes": [
+      "Systematically structure the emerging field of decentralized finance by classifying DeFi applications",
+      "Analyze the DeFi landscape to identify patterns and opportunities for value propositions and business models",
+      "Support the design of regulatory measures"
+    ],
+    "purpose_type": "identification_and_structuring",
+    "purpose_nature": "descriptive",
+    "domain_of_objects": "Decentralized finance (DeFi) applications: financial services built on smart contracts on public blockchains without intermediaries",
+    "evaluation_goals": [
+      {
+        "goal": "classifying",
+        "targets": {}
+      },
+      {
+        "goal": "analyzing",
+        "targets": {}
+      }
+    ],
+    "perspectives": [
+      "strategy",
+      "organization",
+      "technology"
+    ],
+    "meta_characteristic": null,
+    "seed_keywords": [
+      "decentralized finance",
+      "DeFi",
+      "dApps",
+      "blockchain",
+      "smart contracts"
+    ],
+    "language": "en",
+    "year_range": [
+      2008,
+      2023
+    ]
+  },
+  "meta_characteristic": "The taxonomy views DeFi applications as financial services built on smart contracts on public blockchains that operate without intermediaries, classifying them by how they create and capture value (strategy), how they coordinate participants and governance without central intermediaries (organization), and how their smart contracts and blockchain infrastructure are implemented (technology).",
+  "iterations": 3,
+  "documents_read": 42,
+  "objects": {
+    "building": 83,
+    "evaluation": 10
+  },
+  "perspectives": {
+    "strategy": [
+      "D1",
+      "D2",
+      "D8"
+    ],
+    "organization": [
+      "D3",
+      "D4"
+    ],
+    "technology": [
+      "D5",
+      "D6",
+      "D7",
+      "D9",
+      "D10"
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "D1",
+      "name": "Primary financial service",
+      "definition": "The main financial function that the DeFi application provides to its users.",
+      "application_rule": "Assign the characteristic that matches the core function the application performs for users; if several functions apply, choose the one that generates the application's main activity. Use the negation when the object is not a financial service.",
+      "perspective": "strategy",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D1.C1",
+          "name": "Lending and borrowing",
+          "definition": "Users supply assets to, or borrow assets from, the application's markets.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 12
+        },
+        {
+          "id": "D1.C2",
+          "name": "Trading and exchange",
+          "definition": "Users swap or trade tokens or derivatives against liquidity pools or order books.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 11
+        },
+        {
+          "id": "D1.C3",
+          "name": "Stablecoin issuance",
+          "definition": "The application issues a stablecoin as its core product.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 9
+        },
+        {
+          "id": "D1.C4",
+          "name": "Staking and restaking",
+          "definition": "Users stake or restake assets to secure networks or to earn rewards through the application.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 6
+        },
+        {
+          "id": "D1.C5",
+          "name": "Yield aggregation and management",
+          "definition": "The application allocates user deposits across other DeFi protocols or yield strategies, or trades yield exposure.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 4
+        },
+        {
+          "id": "D1.C6",
+          "name": "Synthetic asset issuance",
+          "definition": "The application mints synthetic assets that track other assets against collateral.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 1
+        },
+        {
+          "id": "D1.C7",
+          "name": "Tokenization of real-world assets",
+          "definition": "The application issues tokenized funds, Treasury securities or commodities for on-chain use.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 2
+        },
+        {
+          "id": "D1.C8",
+          "name": "Insurance cover",
+          "definition": "The application sells cover against smart contract failures.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 1
+        },
+        {
+          "id": "D1.C9",
+          "name": "Payments",
+          "definition": "The application enables payments in cryptocurrency.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 3
+        },
+        {
+          "id": "D1.C10",
+          "name": "Cross-chain asset transfer",
+          "definition": "The application moves assets between different blockchains.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 6
+        },
+        {
+          "id": "D1.C11",
+          "name": "No financial service",
+          "definition": "The object is not a financial service, such as social, identity, storage, naming, gaming or infrastructure applications.",
+          "negation": true,
+          "origin": "empirical",
+          "objects": 25
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "name": "Stablecoin collateral model",
+      "definition": "How the peg of a stablecoin is backed.",
+      "application_rule": "Assign only to stablecoin objects according to their backing, applying the first matching rule in this order: fiat-reserve backing if the peg is backed by off-chain fiat reserves held by the issuer, even if crypto collateral is also used; synthetic hedged backing if the crypto collateral is hedged with short futures or held in a pooled-debt structure; crypto-collateralized peg if the stablecoin is minted against on-chain crypto collateral without such hedging; algorithmic mint-and-burn peg otherwise when the peg relies on a paired token. Use the negation for objects that are not stablecoins.",
+      "perspective": "strategy",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D2.C1",
+          "name": "Crypto-collateralized peg",
+          "definition": "The stablecoin is minted against on-chain crypto collateral, overcollateralized or as a basket, without hedging by short futures or a pooled-debt structure.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 3
+        },
+        {
+          "id": "D2.C2",
+          "name": "Fiat-reserve backing",
+          "definition": "The stablecoin is backed by off-chain fiat reserves held by its issuer.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 2
+        },
+        {
+          "id": "D2.C3",
+          "name": "Algorithmic mint-and-burn peg",
+          "definition": "The peg is maintained by minting and burning a paired token rather than by reserves.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 1
+        },
+        {
+          "id": "D2.C4",
+          "name": "Synthetic hedged backing",
+          "definition": "The stablecoin is backed by crypto collateral hedged with short futures or held in a pooled-debt structure.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 2
+        },
+        {
+          "id": "D2.C5",
+          "name": "Not a stablecoin",
+          "definition": "The object is not a stablecoin.",
+          "negation": true,
+          "origin": "empirical",
+          "objects": 12
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "Governance mechanism",
+      "definition": "How protocol decisions are taken without a central intermediary.",
+      "application_rule": "Assign by the decision mechanism described: token-holder governance when holders of a governance token decide, including Snapshot votes; member voting when members assess claims. Use the negation when no governance vote is described.",
+      "perspective": "organization",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D3.C1",
+          "name": "Token-holder governance",
+          "definition": "Protocol decisions are made by holders of a governance token, including votes run through Snapshot.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 18
+        },
+        {
+          "id": "D3.C2",
+          "name": "Member voting on claims",
+          "definition": "Members vote to assess claims made against a cover pool.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 1
+        },
+        {
+          "id": "D3.C3",
+          "name": "No token or member governance",
+          "definition": "No governance vote is described; the rules are fixed in the smart contracts.",
+          "negation": true,
+          "origin": "empirical",
+          "objects": 0
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "name": "Asset custody model",
+      "definition": "Who holds the assets that users deposit or that back a token.",
+      "application_rule": "Assign non-custodial operation when users keep control of assets through smart contracts without a custodian; assign custodian or issuer when an identified third party holds the underlying or backing assets. Use the negation when the object holds or backs no user assets.",
+      "perspective": "organization",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D4.C1",
+          "name": "Non-custodial operation",
+          "definition": "Assets are held by smart contracts or users, without a custodian.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 19
+        },
+        {
+          "id": "D4.C2",
+          "name": "Custodian or issuer holds assets",
+          "definition": "An identified custodian or issuer holds the underlying or backing assets.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 5
+        },
+        {
+          "id": "D4.C3",
+          "name": "No user assets involved",
+          "definition": "The object does not hold or back user assets, such as data, identity, social or storage services.",
+          "negation": true,
+          "origin": "empirical",
+          "objects": 10
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "name": "Blockchain deployment",
+      "definition": "Which public blockchain or blockchains the application runs on.",
+      "application_rule": "Assign multiple public blockchains if the object is deployed on several public blockchains; otherwise assign own layer-1 or sidechain if the object runs its own chain; otherwise assign the single public blockchain it runs on, Ethereum mainnet or another public blockchain. Use the negation when the object does not run on a public blockchain.",
+      "perspective": "technology",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D5.C1",
+          "name": "Ethereum mainnet deployment",
+          "definition": "The application runs on the Ethereum blockchain as its only public blockchain.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 19
+        },
+        {
+          "id": "D5.C2",
+          "name": "Multiple public blockchains",
+          "definition": "The application is deployed on several public blockchains.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 21
+        },
+        {
+          "id": "D5.C3",
+          "name": "Own layer-1 or sidechain",
+          "definition": "The application runs on its own layer-1 blockchain or on a sidechain it operates.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 8
+        },
+        {
+          "id": "D5.C4",
+          "name": "Other single public blockchain",
+          "definition": "The application runs on one public blockchain other than Ethereum, such as Solana, BNB Smart Chain or Base.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 7
+        },
+        {
+          "id": "D5.C5",
+          "name": "No public blockchain deployment",
+          "definition": "The object does not run on a public blockchain.",
+          "negation": true,
+          "origin": "empirical",
+          "objects": 2
+        }
+      ]
+    },
+    {
+      "id": "D6",
+      "name": "Cross-chain message verification",
+      "definition": "How cross-chain transfers or messages are verified.",
+      "application_rule": "Assign only to objects that move assets or messages between blockchains, choosing by the party that verifies them: oracles or independent relayers, or a validator or guardian network that signs messages. Use the negation for objects without a cross-chain function.",
+      "perspective": "technology",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D6.C1",
+          "name": "Oracle or relayer verification",
+          "definition": "Cross-chain transfers or messages are verified by oracles or independent relayers.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 4
+        },
+        {
+          "id": "D6.C2",
+          "name": "Validator guardian signing",
+          "definition": "Cross-chain messages are signed by a validator or guardian network.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 3
+        },
+        {
+          "id": "D6.C3",
+          "name": "No cross-chain function",
+          "definition": "The object does not transfer assets or messages across blockchains.",
+          "negation": true,
+          "origin": "empirical",
+          "objects": 0
+        }
+      ]
+    },
+    {
+      "id": "D7",
+      "name": "Price or rate determination",
+      "definition": "How the core service sets prices or interest rates.",
+      "application_rule": "Assign by the mechanism that sets prices or rates for the core service. Use external price feed for objects that deliver off-chain prices into smart contracts. Use the negation when the object sets no prices or rates.",
+      "perspective": "technology",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D7.C7",
+          "name": "Pool-based pricing",
+          "definition": "Prices are set by a shared liquidity pool, either by following an automated market maker curve over pooled token reserves or by acting as the counterparty to traders.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 9
+        },
+        {
+          "id": "D7.C2",
+          "name": "Order-book matching",
+          "definition": "Trades are matched in an order book.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 3
+        },
+        {
+          "id": "D7.C3",
+          "name": "Algorithmic interest rate curve",
+          "definition": "Interest rates are set algorithmically from supply and demand or a strategy curve.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 4
+        },
+        {
+          "id": "D7.C5",
+          "name": "External price feed",
+          "definition": "Off-chain prices and data are delivered into smart contracts.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 3
+        },
+        {
+          "id": "D7.C6",
+          "name": "No price or rate setting",
+          "definition": "The object sets no prices or rates.",
+          "negation": true,
+          "origin": "empirical",
+          "objects": 1
+        }
+      ]
+    },
+    {
+      "id": "D8",
+      "name": "Asset management approach",
+      "definition": "How DeFi asset management decides investments and trades: by a professional team, by users through smart contracts, or by an integrated platform combining both.",
+      "application_rule": "Observe who makes the investment decisions and executes trades for users. Choose active management when a professional team decides and trades; passive management when users create their own indices or structured products as smart contracts; integrated platform when both ways are combined. Use the negation when the object offers no asset management.",
+      "perspective": "strategy",
+      "origin": "conceptual",
+      "characteristics": [
+        {
+          "id": "D8.C1",
+          "name": "Active asset management",
+          "definition": "A professional team makes investment decisions and trades.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 1
+        },
+        {
+          "id": "D8.C2",
+          "name": "Passive asset management",
+          "definition": "Users create their own indices, structured products and more in the form of smart contracts.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 0
+        },
+        {
+          "id": "D8.C3",
+          "name": "Integrated platform",
+          "definition": "The platform combines active and passive ways, offering quantitative analysis with machine learning.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 0
+        },
+        {
+          "id": "D8.C4",
+          "name": "No asset management",
+          "definition": "The object offers no asset management service.",
+          "negation": true,
+          "origin": "conceptual",
+          "objects": 3
+        }
+      ]
+    },
+    {
+      "id": "D9",
+      "name": "Token standard",
+      "definition": "The fungibility standard of the main token used by the DeFi application, which determines its tailored use scenarios.",
+      "application_rule": "Identify the main token the application issues or uses for its core service and assign the standard that matches its fungibility: fungible for interchangeable currency, voting or pledge tokens; non-fungible for unique digital items; semi-fungible for tokens that mix both traits, such as gaming or copyright items. Use the negation when the object issues or uses no token.",
+      "perspective": "technology",
+      "origin": "conceptual",
+      "characteristics": [
+        {
+          "id": "D9.C1",
+          "name": "Fungible token standard",
+          "definition": "The token is fungible and interchangeable, as with the ERC-20 standard used for currencies, voting tokens and pledge tokens.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 30
+        },
+        {
+          "id": "D9.C2",
+          "name": "Non-fungible token standard",
+          "definition": "The token is non-fungible, as with the ERC-721 standard used for artwork and digital collections.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 5
+        },
+        {
+          "id": "D9.C3",
+          "name": "Semi-fungible token standard",
+          "definition": "The token is semi-fungible, as with the ERC-1155 standard used in GameFi and copyright.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 0
+        },
+        {
+          "id": "D9.C4",
+          "name": "No token standard",
+          "definition": "The object issues or uses no token.",
+          "negation": true,
+          "origin": "conceptual",
+          "objects": 0
+        }
+      ]
+    },
+    {
+      "id": "D10",
+      "name": "Oracle architecture",
+      "definition": "The data source architecture of the oracles that deliver external data to the application's smart contracts.",
+      "application_rule": "Observe where the data used by the core service comes from: assign on-chain when data stays within the blockchain; off-chain when data comes from outside the blockchain; aggregated when on-chain and off-chain data or several off-chain sources are combined. Use the negation when the object uses no oracle.",
+      "perspective": "technology",
+      "origin": "conceptual",
+      "characteristics": [
+        {
+          "id": "D10.C1",
+          "name": "On-chain data",
+          "definition": "Data within a blockchain.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 0
+        },
+        {
+          "id": "D10.C2",
+          "name": "Off-chain data",
+          "definition": "Data from outside a blockchain.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 3
+        },
+        {
+          "id": "D10.C3",
+          "name": "Aggregated data",
+          "definition": "A combination of on-chain and off-chain data, or of different off-chain sources.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 1
+        },
+        {
+          "id": "D10.C4",
+          "name": "No oracle",
+          "definition": "The object uses no oracle.",
+          "negation": true,
+          "origin": "conceptual",
+          "objects": 0
+        }
+      ]
+    }
+  ],
+  "objective_conditions": {
+    "holds": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "details": {
+      "O1": "83 objects, 10 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects; conceptual or negation, exempt: D3.C3 'No token or member governance', D6.C3 'No cross-chain function', D8.C2 'Passive asset management', D8.C3 'Integrated platform', D9.C3 'Semi-fungible token standard', D9.C4 'No token standard', D10.C1 'On-chain data', D10.C4 'No oracle'",
+      "O5": "not checked: only the e iterations after the first are checked",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 19 misfits",
+      "O10": "structure rules hold"
+    }
+  },
+  "subjective_conditions": {
+    "concise": {
+      "passed": true,
+      "justification": "The taxonomy has ten dimensions across three perspectives, and each serves the stated purpose of classifying DeFi applications, analysing value propositions and supporting regulation. The sparsely populated dimensions are conceptual or technology-specific and do not add unnecessary complexity for these users."
+    },
+    "robust": {
+      "passed": true,
+      "justification": "The dimensions separate objects on meaningful criteria, and the D2 precedence rule and the merged D7 characteristic remove the overlaps raised earlier, so characteristics within each dimension are mutually exclusive. The skewed distributions reflect the evidence rather than a lack of differentiation."
+    },
+    "comprehensive": {
+      "passed": true,
+      "justification": "Every object can be placed through the negation characteristics, and all three perspectives (strategy, organization, technology) are represented by dimensions relevant to the purpose. The misfit shares reflect the evidence and do not show a missing characteristic."
+    },
+    "extendible": {
+      "passed": true,
+      "justification": "Each dimension is defined independently and includes a negation characteristic, so new characteristics or dimensions can be added within the existing perspectives without restructuring."
+    },
+    "explanatory": {
+      "passed": true,
+      "justification": "Each dimension and characteristic has a clear definition and application rule that ties it to the nature of DeFi applications and the stated purpose. The D2 precedence rule makes the stablecoin classification explicit."
+    }
+  },
+  "evaluation_plan": [
+    {
+      "goal": "classifying",
+      "users_aim": "classify objects that represent a certain phenomenon",
+      "designers_provide": "characteristics and dimensions that serve as scheme to classify one particular object",
+      "method": "new objects classified twice, independently",
+      "criteria": [
+        {
+          "measure": "kappa",
+          "label": "mean Cohen's kappa between the two classifications",
+          "comparator": ">=",
+          "target": 0.61,
+          "population": "new",
+          "remedy": "10",
+          "basis": "substantial agreement (Landis & Koch, 1977)"
+        },
+        {
+          "measure": "misfit_share",
+          "label": "share of new objects with a misfit in some dimension",
+          "comparator": "<=",
+          "target": 0.3,
+          "population": "new",
+          "remedy": "6",
+          "basis": ""
+        }
+      ]
+    },
+    {
+      "goal": "analyzing",
+      "users_aim": "analyze objects that represent a certain phenomenon",
+      "designers_provide": "characteristics and dimensions that serve as a basis to determine similarities and differences of objects",
+      "method": "distribution of all classified objects over the characteristics",
+      "criteria": [
+        {
+          "measure": "discriminating_dimensions",
+          "label": "share of dimensions in which no characteristic holds more than the dominance threshold of the informed objects",
+          "comparator": ">=",
+          "target": 0.6,
+          "population": "all",
+          "remedy": "10",
+          "basis": ""
+        }
+      ]
+    }
+  ],
+  "evaluation": {
+    "new_objects": 10,
+    "all_objects": 93,
+    "kappa_per_dimension": {
+      "D1": 0.0,
+      "D2": 0.0,
+      "D3": 1.0,
+      "D4": 0.6429,
+      "D5": 1.0,
+      "D6": 1.0,
+      "D7": 1.0,
+      "D8": 1.0,
+      "D9": 0.3333,
+      "D10": 1.0
+    },
+    "kappa": 0.6976,
+    "misfit_share": 0.1,
+    "informed_share": 0.42,
+    "distinct_profiles": 0.7204,
+    "discriminating_dimensions": 0.9,
+    "cluster_silhouette": 0.2731,
+    "new_object_ids": [
+      "O84",
+      "O85",
+      "O86",
+      "O87",
+      "O88",
+      "O89",
+      "O90",
+      "O91",
+      "O92",
+      "O93"
+    ],
+    "results": [
+      {
+        "goal": "classifying",
+        "measure": "kappa",
+        "value": 0.6976,
+        "target": 0.61,
+        "comparator": ">=",
+        "met": true,
+        "remedy": "10"
+      },
+      {
+        "goal": "classifying",
+        "measure": "misfit_share",
+        "value": 0.1,
+        "target": 0.3,
+        "comparator": "<=",
+        "met": true,
+        "remedy": "6"
+      },
+      {
+        "goal": "analyzing",
+        "measure": "discriminating_dimensions",
+        "value": 0.9,
+        "target": 0.6,
+        "comparator": ">=",
+        "met": true,
+        "remedy": "10"
+      }
+    ]
+  },
+  "open_issues": [],
+  "tokens_used": 1801524
+}
