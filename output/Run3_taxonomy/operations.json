@@ -1,0 +1,370 @@
+[
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D1",
+      "D1.C1",
+      "D1.C2",
+      "D1.C3",
+      "D1.C4",
+      "D1.C5",
+      "D1.C6",
+      "D1.C7",
+      "D1.C8",
+      "D1.C9"
+    ],
+    "removed": [],
+    "evidence": [
+      "O11",
+      "O16",
+      "O27",
+      "O29",
+      "O13",
+      "O15",
+      "O9",
+      "O19",
+      "O14",
+      "O20",
+      "O45",
+      "O55",
+      "O23",
+      "O32",
+      "O40",
+      "O54",
+      "O28",
+      "O30",
+      "O50",
+      "O22",
+      "O31",
+      "O51",
+      "O33",
+      "O43",
+      "O7",
+      "O34",
+      "O6",
+      "O8",
+      "O21",
+      "O1",
+      "O4",
+      "O26",
+      "O53"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D2",
+      "D2.C1",
+      "D2.C2",
+      "D2.C3",
+      "D2.C4"
+    ],
+    "removed": [],
+    "evidence": [
+      "O11",
+      "O47",
+      "O13",
+      "O15",
+      "O12",
+      "O41",
+      "O35",
+      "O57",
+      "O50",
+      "O6",
+      "O8",
+      "O26"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D3",
+      "D3.C1",
+      "D3.C2",
+      "D3.C3",
+      "D3.C4"
+    ],
+    "removed": [],
+    "evidence": [
+      "O9",
+      "O11",
+      "O13",
+      "O14",
+      "O31",
+      "O32",
+      "O40",
+      "O44",
+      "O57",
+      "O5",
+      "O10",
+      "O20",
+      "O45",
+      "O46",
+      "O47",
+      "O48",
+      "O38",
+      "O49",
+      "O55",
+      "O16",
+      "O22",
+      "O23"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D4",
+      "D4.C1",
+      "D4.C2",
+      "D4.C3",
+      "D4.C4"
+    ],
+    "removed": [],
+    "evidence": [
+      "O6",
+      "O8",
+      "O21",
+      "O9",
+      "O13",
+      "O14",
+      "O15",
+      "O12",
+      "O19",
+      "O11",
+      "O38",
+      "O7",
+      "O34",
+      "O53"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D5",
+      "D5.C1",
+      "D5.C2",
+      "D5.C3",
+      "D5.C4"
+    ],
+    "removed": [],
+    "evidence": [
+      "O4",
+      "O2",
+      "O3",
+      "O17",
+      "O18",
+      "O5",
+      "O9",
+      "O11",
+      "O13",
+      "O14",
+      "O21",
+      "O33"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D6",
+      "D6.C1",
+      "D6.C2",
+      "D6.C3",
+      "D6.C4",
+      "D6.C5"
+    ],
+    "removed": [],
+    "evidence": [
+      "O1",
+      "O9",
+      "O11",
+      "O12",
+      "O13",
+      "O14",
+      "O15",
+      "O16",
+      "O19",
+      "O20",
+      "O22",
+      "O23",
+      "O27",
+      "O31",
+      "O32",
+      "O40",
+      "O41",
+      "O43",
+      "O44",
+      "O45",
+      "O55",
+      "O35",
+      "O51",
+      "O36",
+      "O49",
+      "O28",
+      "O10",
+      "O24",
+      "O25",
+      "O46",
+      "O52",
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "O17",
+      "O18",
+      "O33",
+      "O26",
+      "O53",
+      "O57",
+      "O60",
+      "O38",
+      "O47",
+      "O48"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 1,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D7",
+      "D7.C1",
+      "D7.C2",
+      "D7.C3",
+      "D7.C4"
+    ],
+    "removed": [],
+    "evidence": [
+      "O11",
+      "O12",
+      "O57",
+      "O16",
+      "O25",
+      "O27",
+      "O29",
+      "O28",
+      "O9",
+      "O13",
+      "O23"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 2,
+    "op": "delete",
+    "targets": [
+      "D2.C2"
+    ],
+    "created": [],
+    "removed": [
+      "D2.C2"
+    ],
+    "evidence": [
+      "I1.1"
+    ],
+    "reason": "No object is assigned to this characteristic, as stated in open issue I1.1."
+  },
+  {
+    "iteration": 2,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D8",
+      "D8.C1",
+      "D8.C2",
+      "D8.C3",
+      "D8.C4",
+      "D8.C5"
+    ],
+    "removed": [],
+    "evidence": [
+      "K63",
+      "K64",
+      "K65",
+      "K66",
+      "K67"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 2,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D9",
+      "D9.C1",
+      "D9.C2",
+      "D9.C3",
+      "D9.C4"
+    ],
+    "removed": [],
+    "evidence": [
+      "K26",
+      "K27",
+      "K28",
+      "K29"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 2,
+    "op": "add_dimension",
+    "targets": [],
+    "created": [
+      "D10",
+      "D10.C1",
+      "D10.C2",
+      "D10.C3"
+    ],
+    "removed": [],
+    "evidence": [
+      "K34",
+      "K35",
+      "K36"
+    ],
+    "reason": ""
+  },
+  {
+    "iteration": 3,
+    "op": "rename",
+    "targets": [
+      "D1"
+    ],
+    "created": [],
+    "removed": [],
+    "evidence": [
+      "I2.1"
+    ],
+    "reason": "I2.1 reports low agreement (kappa 0.4626) among coders. The D1 application rule did not decide between overlapping characteristics such as exchange, asset management, derivatives and lending. An explicit precedence order makes each object fall into exactly one primary service without new evidence."
+  },
+  {
+    "iteration": 3,
+    "op": "rename",
+    "targets": [
+      "D3"
+    ],
+    "created": [],
+    "removed": [],
+    "evidence": [
+      "I2.1"
+    ],
+    "reason": "I2.1 reports low agreement (kappa 0.4626). The D3 application rule did not decide between company operation and validator-run network, so the precedence order is stated explicitly to make the characteristics mutually exclusive in practice."
+  }
+]

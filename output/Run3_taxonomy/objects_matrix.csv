@@ -1,0 +1,91 @@
+object_id,object,role,D1 Primary financial service,D2 Value capture mechanism,D3 Governance model,D4 Asset custody model,D5 Underlying consensus,D6 Blockchain deployment layer,D7 Trading mechanism,D8 Collateral backing,D9 Collateralization,D10 Rate variability over time
+O1,Ethereum,building,Infrastructure and access,no information,no information,Assets held in smart contracts,Proof-of-work,Ethereum mainnet,no information,no information,no information,no information
+O2,Cardano,building,Infrastructure and access,no information,Validator-run network,no information,Proof-of-stake,Own layer-1 blockchain,no information,no information,no information,no information
+O3,Solana,building,Infrastructure and access,no information,Validator-run network,no information,Proof-of-stake,Own layer-1 blockchain,no information,no information,no information,no information
+O4,Bitcoin blockchain,building,Infrastructure and access,no information,no information,no information,Proof-of-work,Own layer-1 blockchain,no information,no information,no information,no information
+O5,Fantom,building,Infrastructure and access,no information,Validator-run network,no information,Other consensus (aBFT or DAG),Own layer-1 blockchain,no information,no information,no information,no information
+O6,Metamask,building,Infrastructure and access,no information,no information,Self-custody by users,No own blockchain,no information,no information,no information,no information,no information
+O7,Pulse,building,Data and analytics,no information,no information,no information,no information,no information,no information,no information,no information,no information
+O8,Ledger,building,Infrastructure and access,no information,Company operation,Self-custody by users,no information,no information,no information,no information,no information,no information
+O9,MakerDAO,building,Lending and borrowing,no information,Token-holder governance,Assets held in smart contracts,No own blockchain,Ethereum mainnet,no information,On-chain crypto assets,Overcollateralized,no information
+O10,BNB Chain,building,Infrastructure and access,no information,Company operation,no information,no information,Own layer-1 blockchain,no information,no information,no information,no information
+O11,Uniswap,building,Exchange and trading,Fees on transactions,Token-holder governance,no information,No own blockchain,Ethereum mainnet,Automated market maker,no information,no information,no information
+O12,Bancor,building,Exchange and trading,no information,no information,no information,No own blockchain,Ethereum mainnet,Automated market maker,no information,no information,no information
+O13,Aave,building,Lending and borrowing,no information,Token-holder governance,no information,No own blockchain,no information,no information,no information,Overcollateralized,Dynamic rate
+O14,Multi-Collateral Dai (MCD) System,building,Stablecoin issuance,no information,Token-holder governance,Assets held in smart contracts,No own blockchain,Ethereum mainnet,no information,On-chain crypto assets,Overcollateralized,no information
+O15,Compound,building,Lending and borrowing,Native token value capture,Token-holder governance,no information,No own blockchain,Ethereum mainnet,no information,no information,Overcollateralized,Dynamic rate
+O16,EtherDelta,building,Exchange and trading,no information,Autonomous without central operator,no information,No own blockchain,Ethereum mainnet,On-chain order book,no information,no information,no information
+O17,Terra,building,Infrastructure and access,Native token value capture,no information,no information,Proof-of-stake,Own layer-1 blockchain,no information,Not fully backed by collateral,no information,no information
+O18,Avalanche (AVAX),building,Infrastructure and access,no information,no information,no information,Proof-of-stake,Own layer-1 blockchain,no information,no information,no information,no information
+O19,Salt,building,Lending and borrowing,no information,no information,no information,No own blockchain,Ethereum mainnet,no information,no information,no information,no information
+O20,USD Coin,building,Stablecoin issuance,no information,Company operation,no information,No own blockchain,Ethereum mainnet,no information,Off-chain reserves,no information,no information
+O21,MyCrypto,building,Infrastructure and access,no information,no information,Self-custody by users,no information,no information,no information,no information,no information,no information
+O22,Melon,building,Asset management and funds,no information,Autonomous without central operator,no information,No own blockchain,Ethereum mainnet,no information,no information,no information,no information
+O23,Etherisc,building,Insurance,no information,Autonomous without central operator,no information,No own blockchain,Ethereum mainnet,no information,no information,no information,no information
+O24,Circle's Arc,building,Infrastructure and access,Fees on transactions,Company operation,no information,no information,Own layer-1 blockchain,no information,no information,no information,no information
+O25,Injective,building,Infrastructure and access,no information,no information,no information,no information,Own layer-1 blockchain,On-chain order book,no information,no information,no information
+O26,Chainlink CCIP,building,Infrastructure and access,no information,no information,no information,no information,no information,no information,no information,no information,no information
+O27,0x project,building,Exchange and trading,no information,no information,no information,no information,Ethereum mainnet,Off-chain matching with on-chain settlement,no information,no information,no information
+O28,dYdX,building,Derivatives and synthetic assets,no information,no information,no information,no information,Own layer-1 blockchain,Off-chain matching with on-chain settlement,no information,no information,no information
+O29,Idex,building,Exchange and trading,no information,no information,no information,no information,no information,Off-chain matching with on-chain settlement,no information,no information,no information
+O30,FinNexus,building,Derivatives and synthetic assets,no information,no information,no information,no information,no information,no information,no information,no information,no information
+O31,Betoken,building,Asset management and funds,no information,Token-holder governance,Assets held in smart contracts,No own blockchain,Ethereum mainnet,no information,no information,no information,no information
+O32,Cover,building,Insurance,no information,Token-holder governance,Assets held in smart contracts,No own blockchain,Ethereum mainnet,no information,no information,no information,no information
+O33,Polymarket,building,Prediction markets,no information,no information,no information,No own blockchain,Other existing public blockchain,no information,no information,no information,no information
+O34,DeFi Pulse,building,Data and analytics,no information,no information,no information,no information,no information,no information,no information,no information,no information
+O35,Polymath,building,Infrastructure and access,no information,no information,no information,No own blockchain,Ethereum mainnet,no information,no information,no information,no information
+O36,Robinhood Chain,building,Infrastructure and access,no information,Company operation,no information,no information,Layer-2 on Ethereum,no information,no information,no information,no information
+O37,StablePay,building,no information,no information,no information,no information,no information,no information,no information,no information,no information,no information
+O38,Cake DeFi,building,Lending and borrowing,no information,Company operation,Assets held by a company,no information,no information,no information,no information,no information,no information
+O39,DDEX,building,Exchange and trading,no information,no information,no information,no information,no information,no information,no information,no information,no information
+O40,Nexus Mutual,building,Insurance,no information,Token-holder governance,no information,No own blockchain,Ethereum mainnet,no information,no information,no information,no information
+O41,Ocean,building,misfit,Native token value capture,no information,no information,No own blockchain,Ethereum mainnet,no information,no information,no information,no information
+O42,Lien,building,Stablecoin issuance,no information,no information,no information,no information,no information,no information,On-chain crypto assets,no information,no information
+O43,Augur,building,Prediction markets,Native token value capture,Autonomous without central operator,no information,No own blockchain,Ethereum mainnet,no information,no information,no information,no information
+O44,The DAO,building,no information,no information,Token-holder governance,no information,No own blockchain,Ethereum mainnet,no information,no information,no information,no information
+O45,Tether,building,Stablecoin issuance,no information,Company operation,Assets held by a company,No own blockchain,misfit,no information,Off-chain reserves,no information,no information
+O46,Diem,building,Infrastructure and access,no information,no information,no information,no information,Own layer-1 blockchain,no information,no information,no information,no information
+O47,OpenSea,building,Exchange and trading,Fees on transactions,Company operation,no information,no information,no information,no information,no information,no information,no information
+O48,Wyre,building,Infrastructure and access,no information,Company operation,no information,no information,no information,no information,no information,no information,no information
+O49,zkSync,building,Infrastructure and access,no information,no information,no information,no information,Layer-2 on Ethereum,no information,no information,no information,no information
+O50,Synthetix,building,Derivatives and synthetic assets,Native token value capture,no information,no information,no information,Layer-2 on Ethereum,no information,misfit,no information,no information
+O51,Tokensets,building,Asset management and funds,no information,no information,no information,no information,Ethereum mainnet,no information,no information,no information,no information
+O52,Centrifuge,building,Lending and borrowing,no information,no information,no information,no information,Ethereum mainnet,no information,no information,no information,no information
+O53,Wormhole V2,building,Infrastructure and access,no information,Validator-run network,no information,no information,no information,no information,no information,no information,no information
+O54,fidentiaX,building,Insurance,no information,no information,no information,no information,no information,no information,no information,no information,no information
+O55,Pax,building,Stablecoin issuance,no information,Company operation,no information,no information,Ethereum mainnet,no information,Off-chain reserves,no information,no information
+O56,Hydra,building,Infrastructure and access,no information,no information,no information,no information,Other existing public blockchain,no information,no information,no information,no information
+O57,PancakeSwap,building,Exchange and trading,Native token value capture,Token-holder governance,no information,no information,Other existing public blockchain,Automated market maker,no information,no information,no information
+O58,SecondLife,building,no information,no information,no information,no information,no information,Other existing public blockchain,no information,no information,no information,no information
+O59,MOOX,building,no information,no information,no information,no information,no information,Other existing public blockchain,no information,no information,no information,no information
+O60,Bomb Crypto,building,misfit,Native token value capture,no information,no information,no information,Other existing public blockchain,no information,no information,no information,no information
+O61,Yearn,building,Asset management and funds,Fees on transactions,Company operation,Assets held in smart contracts,No own blockchain,Ethereum mainnet,no information,no information,no information,Dynamic rate
+O62,Cian,building,Asset management and funds,no information,no information,Assets held in smart contracts,No own blockchain,Ethereum mainnet,no information,no information,no information,no information
+O63,Idle,building,Asset management and funds,Fees on transactions,Token-holder governance,Assets held in smart contracts,No own blockchain,Ethereum mainnet,no information,no information,no information,Dynamic rate
+O64,Harvest,building,Asset management and funds,Native token value capture,Token-holder governance,Assets held in smart contracts,No own blockchain,Ethereum mainnet,no information,no information,no information,no information
+O65,Pickle,building,Asset management and funds,Fees on transactions,Token-holder governance,Assets held in smart contracts,No own blockchain,Ethereum mainnet,no information,no information,no information,no information
+O66,Lido,building,Asset management and funds,no information,Token-holder governance,Assets held in smart contracts,no information,Ethereum mainnet,no information,On-chain crypto assets,no information,no information
+O67,Curve,building,Exchange and trading,Fees on transactions,Token-holder governance,Assets held in smart contracts,no information,no information,Automated market maker,Not a stablecoin,no information,no information
+O68,Earn,building,Asset management and funds,no information,no information,Assets held in smart contracts,no information,no information,no information,no information,no information,no information
+O69,Vesper,building,Asset management and funds,Native token value capture,Token-holder governance,Assets held in smart contracts,no information,no information,no information,no information,no information,no information
+O70,EarnUSD stablecoin yield vault,building,Asset management and funds,no information,Company operation,Assets held in smart contracts,no information,Ethereum mainnet,no information,On-chain crypto assets,No loan,Dynamic rate
+O71,Shiba Swap,building,Exchange and trading,Fees on transactions,no information,Assets held in smart contracts,No own blockchain,Ethereum mainnet,Automated market maker,no information,no information,no information
+O72,Sushi Swap,building,Exchange and trading,Fees on transactions,Token-holder governance,no information,No own blockchain,Other existing public blockchain,no information,no information,no information,no information
+O73,bury,building,misfit,misfit,no information,Assets held in smart contracts,No own blockchain,Ethereum mainnet,no information,no information,no information,no information
+O74,Bone,building,misfit,Native token value capture,no information,no information,No own blockchain,Ethereum mainnet,no information,no information,no information,no information
+O75,dig,building,misfit,misfit,no information,no information,No own blockchain,Ethereum mainnet,no information,no information,no information,no information
+O76,TokenStore,building,Exchange and trading,no information,no information,no information,no information,Ethereum mainnet,On-chain order book,no information,no information,no information
+O77,woof,building,misfit,misfit,no information,no information,no information,no information,no information,no information,no information,no information
+O78,Kyber,building,Exchange and trading,Native token value capture,Token-holder governance,Assets held in smart contracts,no information,no information,Automated market maker,no information,no information,no information
+O79,Balancer,building,Exchange and trading,Fees on transactions,Token-holder governance,Assets held in smart contracts,no information,no information,Automated market maker,no information,no information,no information
+O80,BadgerDAO,building,Asset management and funds,no information,Token-holder governance,Assets held in smart contracts,no information,no information,no information,no information,no information,no information
+O81,Miqado,evaluation,Lending and borrowing,no information,no information,Assets held in smart contracts,no information,no information,no information,no information,Overcollateralized,no information
+O82,Panoptic,evaluation,Derivatives and synthetic assets,no information,no information,Assets held in smart contracts,no information,Ethereum mainnet,no information,no information,Undercollateralized,no information
+O83,Surf Protocol,evaluation,Exchange and trading,no information,no information,no information,no information,no information,no information,no information,no information,no information
+O84,Hegic,evaluation,Derivatives and synthetic assets,Native token value capture,Token-holder governance,Assets held in smart contracts,no information,Ethereum mainnet,no information,no information,no information,no information
+O85,Opyn v2,evaluation,Derivatives and synthetic assets,no information,no information,Assets held in smart contracts,no information,no information,Automated market maker,no information,no information,no information
+O86,Premia,evaluation,Derivatives and synthetic assets,Fees on transactions,no information,Assets held in smart contracts,No own blockchain,Ethereum mainnet,Automated market maker,no information,no information,no information
+O87,Squeeth,evaluation,Derivatives and synthetic assets,no information,Autonomous without central operator,no information,No own blockchain,Ethereum mainnet,no information,no information,no information,no information
+O88,Ribbon,evaluation,Derivatives and synthetic assets,no information,no information,Assets held in smart contracts,No own blockchain,Ethereum mainnet,misfit,no information,no information,no information
+O89,Loopring,evaluation,Infrastructure and access,no information,no information,no information,no information,Layer-2 on Ethereum,no information,no information,no information,no information
+O90,Hyperliquid,evaluation,Infrastructure and access,no information,Autonomous without central operator,no information,no information,Own layer-1 blockchain,On-chain order book,no information,no information,no information
