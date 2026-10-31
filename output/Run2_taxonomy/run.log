@@ -1,0 +1,95 @@
+2026-10-29 18:18:01,670 INFO etdp: --- step 1-3 ---
+2026-10-29 18:18:01,672 INFO etdp.steps: phenomenon: Decentralized finance (DeFi); users: Researchers in finance and information systems; Entrepreneurs and investors in the DeFi sector; Regulators and policy makers; purpose: Systematically structure the emerging field of decentralized finance by classifying DeFi applications; Analyze the DeFi landscape to identify patterns and opportunities for value propositions and business models; Support the design of regulatory measures (identification_and_structuring, descriptive); perspectives: ['strategy', 'organization', 'technology']
+2026-10-29 18:18:01,674 INFO etdp: --- step 4 ---
+2026-10-29 18:18:04,233 INFO etdp.steps: meta-characteristic: The taxonomy views DeFi applications as financial services built on smart contracts on public blockchains that operate without intermediaries, classifying them by how they create and capture value (strategy), how they coordinate participants and governance without central intermediaries (organization), and how their smart contracts and blockchain infrastructure are implemented (technology).
+2026-10-29 18:18:04,249 INFO etdp: --- step 5 ---
+2026-10-29 18:18:04,249 INFO etdp: --- step 6 ---
+2026-10-29 18:18:04,249 INFO etdp.steps: === iteration 1 (e): R1: identification-and-structuring, descriptive purpose (TDR 7, 8) ===
+2026-10-29 18:18:04,249 INFO etdp: --- step 7e ---
+2026-10-29 18:18:07,890 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-29 18:18:12,653 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-29 18:18:17,491 INFO etdp.sources.semantic_scholar: Semantic Scholar: 0 results for 'DeFi protocols dApps overview comparison' (year=(2008, 2023), open_access_only=True)
+2026-10-29 18:18:18,197 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-29 18:18:22,855 INFO etdp.sources.semantic_scholar: Semantic Scholar: 5 results for 'DeFi protocols dApps overview' (year=(2008, 2023), open_access_only=True)
+2026-10-29 18:18:36,156 INFO etdp.documents: scholarly: 3 full texts for 'DeFi protocols dApps overview comparison'
+2026-10-29 18:18:38,562 INFO etdp.documents: web: 3 pages for 'DeFi protocols dApps overview comparison'
+2026-10-29 18:23:19,997 INFO etdp.documents: llm: 15 descriptions for 73 objects
+2026-10-29 18:23:39,263 INFO etdp.documents: 73 candidate objects; 73 new objects registered
+2026-10-29 18:23:39,263 INFO etdp: --- step 8e ---
+2026-10-29 18:25:16,038 INFO etdp.classify: classified 0 cells; 238 codes
+2026-10-29 18:25:16,038 INFO etdp: --- step 9e ---
+2026-10-29 18:26:21,070 INFO etdp.steps: proposal 1 of 3: 7 operation(s): add_dimension Primary financial service; add_dimension Stablecoin collateral model; add_dimension Governance mechanism; add_dimension Asset custody model; add_dimension Blockchain deployment; add_dimension Cross-chain message verification; add_dimension Price or rate determination
+2026-10-29 18:26:21,085 INFO etdp: --- step 10 ---
+2026-10-29 18:30:06,097 INFO etdp.classify: classified 511 cells; 0 codes
+2026-10-29 18:30:06,097 INFO etdp.steps: taxonomy: 7 dimensions; 7 operations applied
+2026-10-29 18:30:06,098 INFO etdp.steps:   add_dimension D1, D1.C1, D1.C10, D1.C11, D1.C2, D1.C3, D1.C4, D1.C5, D1.C6, D1.C7, D1.C8, D1.C9: The taxonomy is empty; the strategy perspective needs a dimension that classifies how applications create and capture value, and the financial-service objects in the codes show distinct primary servic
+2026-10-29 18:30:06,098 INFO etdp.steps:   add_dimension D2, D2.C1, D2.C2, D2.C3, D2.C4, D2.C5: The stablecoin objects differ in how their peg is backed, which is a distinct value-proposition choice classified by the codes.
+2026-10-29 18:30:06,098 INFO etdp.steps:   add_dimension D3, D3.C1, D3.C2, D3.C3: The codes show token-holder governance, member voting, and objects with no governance vote, which organizes how participants coordinate without intermediaries.
+2026-10-29 18:30:06,099 INFO etdp.steps:   add_dimension D4, D4.C1, D4.C2, D4.C3: The codes distinguish non-custodial protocols from services where a custodian or issuer holds the assets, which matters for the regulatory purpose.
+2026-10-29 18:30:06,099 INFO etdp.steps:   add_dimension D5, D5.C1, D5.C2, D5.C3, D5.C4, D5.C5: The codes name Ethereum, multiple, own-chain, and other single-chain deployments, which is the technology choice of the object.
+2026-10-29 18:30:06,099 INFO etdp.steps:   add_dimension D6, D6.C1, D6.C2, D6.C3: The codes show oracle-verified, relayer-based and guardian-signed cross-chain designs, which differ in the technology used.
+2026-10-29 18:30:06,100 INFO etdp.steps:   add_dimension D7, D7.C1, D7.C2, D7.C3, D7.C4, D7.C5, D7.C6: The codes name the pricing and rate mechanisms of the trading, lending and oracle objects, which are technology choices that distinguish the objects.
+2026-10-29 18:30:06,105 INFO etdp: --- step 11-12 ---
+2026-10-29 18:30:06,117 INFO etdp.steps: objective conditions unmet: none
+2026-10-29 18:30:06,118 INFO etdp.steps: objective conditions hold, but required: review of the meta-characteristic (R4); an iteration of each approach (R2): only ['e'] so far
+2026-10-29 18:30:06,118 INFO etdp.steps: exit after Step 12; re-entry before Step 4 (R4: review of the meta-characteristic after the first iteration (TDR 5))
+2026-10-29 18:30:06,124 INFO etdp: --- step 4 ---
+2026-10-29 18:30:09,753 INFO etdp.steps: meta-characteristic review: kept (The taxonomy's dimensions all fall within the three perspectives of the meta-characteristic (strategy: D1, D2; organization: D3, D4; technology: D5, D6, D7), and these cover the purpose's needs for classifying DeFi applications, analyzing value propositions and business models, and supporting regulatory design through the custody and governance dimensions. No dimension requires an angle outside the stated domain of financial services built on smart contracts on public blockchains without intermediaries.)
+2026-10-29 18:30:09,759 INFO etdp: --- step 6 ---
+2026-10-29 18:30:09,759 INFO etdp.steps: === iteration 2 (c): R2: at least one iteration of each approach (TDR 9) ===
+2026-10-29 18:30:09,759 INFO etdp: --- step 7c ---
+2026-10-29 18:30:12,583 INFO etdp.sources.semantic_scholar: Semantic Scholar: 1 results for 'decentralized finance taxonomy classification typology' (year=(2008, 2023), open_access_only=True)
+2026-10-29 18:30:14,016 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-29 18:30:18,716 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-29 18:30:23,412 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-29 18:30:33,015 INFO etdp.sources.semantic_scholar: Semantic Scholar: 50 results for 'decentralized finance taxonomy classification' (year=(2008, 2023), open_access_only=True)
+2026-10-29 18:30:33,015 INFO etdp.documents: excluded by configuration: A Taxonomy for Decentralized Finance
+2026-10-29 18:30:41,366 INFO etdp.documents: scholarly: 3 full texts for 'decentralized finance taxonomy classification typology'
+2026-10-29 18:30:44,249 INFO etdp.documents: web: 2 pages for 'decentralized finance taxonomy classification typology'
+2026-10-29 18:37:27,996 INFO etdp.steps: proposal 1 of 3: 3 operation(s): add_dimension Asset management approach; add_dimension Token standard; add_dimension Oracle architecture
+2026-10-29 18:37:28,005 INFO etdp: --- step 8c ---
+2026-10-29 18:39:07,815 INFO etdp.classify: classified 219 cells; 0 codes
+2026-10-29 18:39:07,815 INFO etdp: --- step 10 ---
+2026-10-29 18:39:07,831 INFO etdp.classify: classified 0 cells; 0 codes
+2026-10-29 18:39:07,831 INFO etdp.steps: taxonomy: 10 dimensions; 3 operations applied
+2026-10-29 18:39:07,831 INFO etdp.steps:   add_dimension D8, D8.C1, D8.C2, D8.C3, D8.C4: 
+2026-10-29 18:39:07,831 INFO etdp.steps:   add_dimension D9, D9.C1, D9.C2, D9.C3, D9.C4: 
+2026-10-29 18:39:07,831 INFO etdp.steps:   add_dimension D10, D10.C1, D10.C2, D10.C3, D10.C4: 
+2026-10-29 18:39:07,847 INFO etdp: --- step 11-12 ---
+2026-10-29 18:39:07,862 INFO etdp.steps: objective conditions unmet: none
+2026-10-29 18:39:07,862 INFO etdp: --- step 13-14 ---
+2026-10-29 18:39:14,128 INFO etdp.steps: subjective conditions met: ['concise', 'robust', 'comprehensive', 'extendible', 'explanatory']; unmet: none
+2026-10-29 18:39:14,128 INFO etdp: --- step 15-16 ---
+2026-10-29 18:39:17,788 INFO etdp.sources.semantic_scholar: Semantic Scholar: 23 results for 'decentralized lending borrowing platform case' (year=(2008, 2023), open_access_only=True)
+2026-10-29 18:39:30,554 INFO etdp.documents: scholarly: 3 full texts for 'decentralized lending borrowing platform case'
+2026-10-29 18:39:32,658 INFO etdp.documents: web: 3 pages for 'decentralized lending borrowing platform case'
+2026-10-29 18:41:46,201 INFO etdp.documents: llm: 2 descriptions for 10 objects
+2026-10-29 18:41:50,084 INFO etdp.documents: 22 candidate objects; 10 new objects registered
+2026-10-29 18:42:18,807 INFO etdp.classify: classified 100 cells; 0 codes
+2026-10-29 18:42:52,429 INFO etdp.classify: classified 100 cells; 0 codes
+2026-10-29 18:42:52,670 INFO etdp: --- step 17 ---
+2026-10-29 18:42:55,915 INFO etdp.steps: exit after Step 17; re-entry before Step 10 (chosen by the LLM: Both unmet conditions can be addressed by revising the taxonomy with the objects already classified: clarifying definitions and names to raise kappa, and adding a characteristic for the objects that fit none to reduce the misfit share. The history shows no earlier revision and no recurring unmet conditions, so new evidence is not yet required.)
+2026-10-29 18:42:55,915 INFO etdp.steps: === iteration 3 (r): chosen by the LLM: Both unmet conditions can be addressed by revising the taxonomy with the objects already classified: clarifying definitions and names to raise kappa, and adding a characteristic for the objects that fit none to reduce the misfit share. The history shows no earlier revision and no recurring unmet conditions, so new evidence is not yet required. ===
+2026-10-29 18:42:55,931 INFO etdp: --- step 10 ---
+2026-10-29 18:43:19,282 INFO etdp.steps: proposal 1 of 3: 3 operation(s): rename ['D2']; rename ['D2.C1']; merge ['D7.C1', 'D7.C4']
+2026-10-29 18:45:07,010 INFO etdp.classify: classified 151 cells; 0 codes
+2026-10-29 18:45:07,010 INFO etdp.steps: taxonomy: 10 dimensions; 3 operations applied
+2026-10-29 18:45:07,010 INFO etdp.steps:   rename D2: I2.1: the definitions of D2.C1 and D2.C4 both cover crypto collateral, so the application rule now sets an explicit precedence that decides between them.
+2026-10-29 18:45:07,010 INFO etdp.steps:   rename D2.C1: I2.1: removes the overlap with D2.C4 by excluding hedged and pooled-debt backing from the definition.
+2026-10-29 18:45:07,010 INFO etdp.steps:   merge D7.C7: I2.1: D7.C1 (constant-product or curve AMM) and D7.C4 (pool as trading counterparty) describe the same pool-based pricing mechanism and could both apply to one object, so they are merged into one excl
+2026-10-29 18:45:07,015 INFO etdp: --- step 11-12 ---
+2026-10-29 18:45:07,025 INFO etdp.steps: objective conditions unmet: none
+2026-10-29 18:45:07,028 INFO etdp: --- step 13-14 ---
+2026-10-29 18:45:12,253 INFO etdp.steps: subjective conditions met: ['concise', 'robust', 'comprehensive', 'extendible', 'explanatory']; unmet: none
+2026-10-29 18:45:12,273 INFO etdp: --- step 15-16 ---
+2026-10-29 18:45:14,690 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-29 18:45:19,722 INFO etdp.sources.semantic_scholar: Semantic Scholar: 10 results for 'decentralized exchange liquidity pool stablecoin' (year=(2008, 2023), open_access_only=True)
+2026-10-29 18:45:24,436 INFO etdp.documents: scholarly: 3 full texts for 'decentralized exchange liquidity pool stablecoin'
+2026-10-29 18:45:26,919 INFO etdp.documents: web: 3 pages for 'decentralized exchange liquidity pool stablecoin'
+2026-10-29 18:49:05,187 INFO etdp.documents: llm: 2 descriptions for 10 objects
+2026-10-29 18:49:05,297 INFO etdp.documents: 26 candidate objects; 10 new objects registered
+2026-10-29 18:49:34,620 INFO etdp.classify: classified 100 cells; 0 codes
+2026-10-29 18:50:06,716 INFO etdp.classify: classified 100 cells; 0 codes
+2026-10-29 18:50:06,731 INFO etdp: --- step 17 ---
+2026-10-29 18:50:06,747 INFO etdp: --- step 18 ---
+2026-10-29 18:50:06,773 INFO etdp: run 2026-10-29T18-17-20 finished: completed 
