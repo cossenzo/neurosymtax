@@ -1,0 +1,21 @@
+# input.example.yaml – Steps 1–3 [I]: the research problem, given by the researcher. Copy to input.yaml and edit.
+observed_phenomenon: "Digital platforms"                       # Step 1
+target_user_groups:                                             # Step 2
+  - "Researchers of digital platforms"
+  - "Platform managers"
+intended_purposes:                                              # Step 3
+  - "Classify digital platforms by how they create and capture value"
+purpose_type: identification_and_structuring   # structuring (known constructs) | identification_and_structuring (emerging)
+purpose_nature: descriptive                    # descriptive (what is) | normative (what should be)
+domain_of_objects: "Digital platforms"
+evaluation_goals:                              # Step 5 (Kundisch et al., 2022, Table 4); targets optional (TDR 20): they override evaluation.targets of config.yaml
+  - goal: classifying                          # targets: config.yaml (evaluation.targets)
+  - goal: identifying                          # distinct_profiles (>= 0.80)
+    targets: {distinct_profiles: 0.7}
+# other goals: describing, analyzing (discriminating_dimensions
+# >= 0.60), clustering (cluster_silhouette >= 0.25). A goal may also be written as its name alone.
+perspectives: ["Business", "Technology"]       # second-level grouping of dimensions (TDR 12); empty = one perspective
+meta_characteristic: null                      # Step 4: formulated by the LLM if null
+seed_keywords: ["digital platform", "business model"]
+language: "en"
+year_range: [2010, 2026]

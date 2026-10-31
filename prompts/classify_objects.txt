@@ -1,0 +1,17 @@
+Task: classify each object in each dimension of the taxonomy, using only the passages given for the object.
+
+Domain of objects: $domain_of_objects
+Meta-characteristic: $meta_characteristic
+
+Taxonomy ("none" = no dimension to classify):
+$taxonomy
+
+Objects (description and passages of documents that mention each object):
+$objects
+
+For EVERY object and EVERY dimension give one cell with its value: the id of the ONE characteristic of the dimension that applies to the object, chosen by following the application rule and the definitions; or "misfit" when the passages concern this dimension but none of its characteristics describes the object; or "no_information" when the passages say nothing about this dimension. A negation characteristic applies only when a passage states that the object lacks what the other characteristics describe; when the passages are silent, the value is "no_information".
+
+Follow the application rule of each dimension. Do not use knowledge beyond the passages.
+
+Coding requested: $coding
+If coding is "yes", also give for each object "codes": the characteristics of the object that follow from the meta-characteristic and that NO dimension of the taxonomy captures (when the taxonomy is "none", all such characteristics). Each code has a short label and a definition. A code names a property that distinguishes objects (for example "fees charged on trades"), not the object itself. If coding is "no", return "codes": [].

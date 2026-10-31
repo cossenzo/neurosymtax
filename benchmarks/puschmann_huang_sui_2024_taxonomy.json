@@ -1,0 +1,307 @@
+{
+  "source": "Puschmann, T., & Huang-Sui, M. (2024). A taxonomy for decentralized finance. International Review of Financial Analysis, 92, 103083. https://doi.org/10.1016/j.irfa.2024.103083",
+  "notes": [
+    "Dimensions, characteristics, perspectives and exclusivity (E/N) are taken from Table 4; shares of start-ups from Table 5 (n = 278).",
+    "Definitions paraphrase the descriptions in Section 3.1; the article gives no application rules.",
+    "Exclusive = true means exactly one characteristic per object (E); false means several characteristics may apply (N).",
+    "Price mechanism appears under the organization perspective in Table 4.",
+    "Shares of non-exclusive dimensions need not sum to 1."
+  ],
+  "perspectives": [
+    "strategy",
+    "organization",
+    "technology"
+  ],
+  "counts": {
+    "dimensions": 7,
+    "characteristics": 36
+  },
+  "dimensions": [
+    {
+      "id": "D1",
+      "name": "Blockchain",
+      "definition": "The blockchain around which a specific DeFi solution is centred (the article considers the top blockchains by total value locked).",
+      "perspective": "strategy",
+      "exclusive": true,
+      "application_rule": "",
+      "characteristics": [
+        {
+          "id": "D1.C1",
+          "name": "Ethereum",
+          "definition": "The DeFi solution is centred on Ethereum.",
+          "share_of_startups": 0.363
+        },
+        {
+          "id": "D1.C2",
+          "name": "Terra",
+          "definition": "The DeFi solution is centred on Terra.",
+          "share_of_startups": 0.076
+        },
+        {
+          "id": "D1.C3",
+          "name": "BSC",
+          "definition": "The DeFi solution is centred on BNB Smart Chain (BSC).",
+          "share_of_startups": 0.162
+        },
+        {
+          "id": "D1.C4",
+          "name": "Avalanche",
+          "definition": "The DeFi solution is centred on Avalanche.",
+          "share_of_startups": 0.068
+        },
+        {
+          "id": "D1.C5",
+          "name": "Solana",
+          "definition": "The DeFi solution is centred on Solana.",
+          "share_of_startups": 0.115
+        },
+        {
+          "id": "D1.C6",
+          "name": "Tron",
+          "definition": "The DeFi solution is centred on Tron.",
+          "share_of_startups": 0.018
+        },
+        {
+          "id": "D1.C7",
+          "name": "Fantom",
+          "definition": "The DeFi solution is centred on Fantom.",
+          "share_of_startups": 0.104
+        },
+        {
+          "id": "D1.C8",
+          "name": "Cronos",
+          "definition": "The DeFi solution is centred on Cronos.",
+          "share_of_startups": 0.018
+        },
+        {
+          "id": "D1.C9",
+          "name": "Cardano",
+          "definition": "The DeFi solution is centred on Cardano.",
+          "share_of_startups": 0.011
+        },
+        {
+          "id": "D1.C10",
+          "name": "Others",
+          "definition": "The DeFi solution is centred on another blockchain.",
+          "share_of_startups": 0.065
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "name": "Value proposition",
+      "definition": "The different ways of benefits that DeFi solutions can provide.",
+      "perspective": "strategy",
+      "exclusive": false,
+      "application_rule": "",
+      "characteristics": [
+        {
+          "id": "D2.C1",
+          "name": "Decentralized data infrastructure",
+          "definition": "Storing a record of transaction data on a blockchain instead of a centralized platform.",
+          "share_of_startups": 0.116
+        },
+        {
+          "id": "D2.C2",
+          "name": "Membership management",
+          "definition": "Blockchain-based forms of identification, authentication and data privacy, which allow applications to be designed peer-to-peer without losing the benefits of data privacy and security.",
+          "share_of_startups": 0.017
+        },
+        {
+          "id": "D2.C3",
+          "name": "Analytics & automation",
+          "definition": "Automation of processes through smart contracts, e.g., automated processing of ownership changes of digital assets, which speeds up processes and reduces counterparty risk.",
+          "share_of_startups": 0.52
+        },
+        {
+          "id": "D2.C4",
+          "name": "Crypto-economic model",
+          "definition": "Incentivization of the validators of transactions, rewarding staking for consensus mechanisms such as proof-of-work or proof-of-stake.",
+          "share_of_startups": 0.08
+        },
+        {
+          "id": "D2.C5",
+          "name": "Decentralized governance",
+          "definition": "Decision making performed through decentralized, distributed governance, relying on community voting and participation.",
+          "share_of_startups": 0.033
+        },
+        {
+          "id": "D2.C6",
+          "name": "Aggregation",
+          "definition": "Connection of several DeFi applications to perform complex processes among various DeFi blockchains.",
+          "share_of_startups": 0.234
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "Token type",
+      "definition": "The type of token used in a specific DeFi scenario.",
+      "perspective": "strategy",
+      "exclusive": false,
+      "application_rule": "",
+      "characteristics": [
+        {
+          "id": "D3.C1",
+          "name": "Fungible tokens",
+          "definition": "Tokens that are interchangeable with one another.",
+          "share_of_startups": 0.942
+        },
+        {
+          "id": "D3.C2",
+          "name": "Non-fungible tokens",
+          "definition": "Non-exchangeable digital assets whose ownership is authenticated and stored on a blockchain.",
+          "share_of_startups": 0.058
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "name": "Business process",
+      "definition": "The business process which a DeFi solution attempts to address.",
+      "perspective": "organization",
+      "exclusive": true,
+      "application_rule": "",
+      "characteristics": [
+        {
+          "id": "D4.C1",
+          "name": "Payments",
+          "definition": "Payment services, e.g., stablecoins that stabilize the volatility of crypto assets.",
+          "share_of_startups": 0.032
+        },
+        {
+          "id": "D4.C2",
+          "name": "Financing",
+          "definition": "Issuance of loans, e.g., over-collateralized loans secured with crypto assets.",
+          "share_of_startups": 0.227
+        },
+        {
+          "id": "D4.C3",
+          "name": "Investments",
+          "definition": "Investment services, e.g., automated asset management, portfolio management, yield aggregators, crypto asset indices, option marketplaces, perpetual contracts or synthetic assets.",
+          "share_of_startups": 0.378
+        },
+        {
+          "id": "D4.C4",
+          "name": "Insurance",
+          "definition": "Insurance against events such as hacks, attacks on DeFi protocols, smart contract failures or stablecoin price crashes, with compensation from a decentralized pool of coverage providers.",
+          "share_of_startups": 0.018
+        },
+        {
+          "id": "D4.C5",
+          "name": "Trading",
+          "definition": "Trading services, e.g., exchanges, automated market makers and market predictors.",
+          "share_of_startups": 0.345
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "name": "Price mechanism",
+      "definition": "The price discovery mechanism: the process by which a DeFi solution matches counterparties with regard to their willingness to sell or purchase a given asset for a certain price within a decentralized network.",
+      "perspective": "organization",
+      "exclusive": true,
+      "application_rule": "",
+      "characteristics": [
+        {
+          "id": "D5.C1",
+          "name": "Automated",
+          "definition": "Transactions are executed automatically by smart contracts once the pre-programmed contract terms are fulfilled.",
+          "share_of_startups": 0.914
+        },
+        {
+          "id": "D5.C2",
+          "name": "P2P negotiation",
+          "definition": "A potential buyer and seller negotiate the price and other price-related transaction conditions.",
+          "share_of_startups": 0.0
+        },
+        {
+          "id": "D5.C3",
+          "name": "Proposed by maker",
+          "definition": "The transaction initiator proposes a price range on which the counterparty can bid.",
+          "share_of_startups": 0.011
+        },
+        {
+          "id": "D5.C4",
+          "name": "Off-chain order books",
+          "definition": "Order books hosted and updated by centralized third parties (relayers); the blockchain is used only as a settlement layer.",
+          "share_of_startups": 0.007
+        },
+        {
+          "id": "D5.C5",
+          "name": "On-chain order books",
+          "definition": "Every order is stored within a smart contract for deal-matching.",
+          "share_of_startups": 0.068
+        }
+      ]
+    },
+    {
+      "id": "D6",
+      "name": "Protocol type",
+      "definition": "How a specific transaction process is programmed for execution by a DeFi application.",
+      "perspective": "technology",
+      "exclusive": true,
+      "application_rule": "",
+      "characteristics": [
+        {
+          "id": "D6.C1",
+          "name": "Reserve aggregation",
+          "definition": "Protocols with centralized control mechanisms, such as maximum prices or a minimum number of liquidity providers.",
+          "share_of_startups": 0.155
+        },
+        {
+          "id": "D6.C2",
+          "name": "Constant function market maker",
+          "definition": "A liquidity pool holding at least two crypto assets in reserve that allows anyone to deposit tokens of one type and thereby withdraw tokens of the other type.",
+          "share_of_startups": 0.076
+        },
+        {
+          "id": "D6.C3",
+          "name": "Peer-to-peer",
+          "definition": "Over-the-counter protocol: participants query the network for counterparties for a given pair of crypto assets and then negotiate the exchange rate bilaterally.",
+          "share_of_startups": 0.629
+        },
+        {
+          "id": "D6.C4",
+          "name": "Decentralized order book exchanges",
+          "definition": "All buy and sell orders are collected in an order book, where potential transactions are matched before being executed.",
+          "share_of_startups": 0.14
+        }
+      ]
+    },
+    {
+      "id": "D7",
+      "name": "Integration type",
+      "definition": "Whether a DeFi solution is implemented on a single chain or across several blockchains, and whether it integrates off-chain data (non-exclusive: the article combines both distinctions in one dimension).",
+      "perspective": "technology",
+      "exclusive": false,
+      "application_rule": "",
+      "characteristics": [
+        {
+          "id": "D7.C1",
+          "name": "Single-chain",
+          "definition": "The DeFi solution is implemented on a single blockchain.",
+          "share_of_startups": 0.568
+        },
+        {
+          "id": "D7.C2",
+          "name": "Cross-chain",
+          "definition": "The DeFi solution is implemented across several blockchains.",
+          "share_of_startups": 0.432
+        },
+        {
+          "id": "D7.C3",
+          "name": "On-chain",
+          "definition": "The DeFi solution facilitates on-chain transactions.",
+          "share_of_startups": 0.953
+        },
+        {
+          "id": "D7.C4",
+          "name": "Off-chain",
+          "definition": "The DeFi solution integrates off-chain data on a blockchain through oracles.",
+          "share_of_startups": 0.047
+        }
+      ]
+    }
+  ]
+}

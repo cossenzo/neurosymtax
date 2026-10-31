@@ -1,0 +1,6 @@
+Revision (re-entry before Step 10). The taxonomy failed the checks listed below. A revision ADJUSTS the taxonomy that exists; it does not rebuild it and brings no new evidence. Resolve EVERY open issue in this single pass: for each one, either apply the operation(s) that settle it completely, or leave it unaddressed only because it asks for something a revision may not do ($revision_limits) or because it is clearly mistaken; say which in the reason of an operation. Do not apply a minimal change that leaves the issue standing, and do not undo what an earlier revision did unless an issue asks for it. Cite the issue as evidence (e.g. "I4.1"): for example merge or rename duplicates; sharpen the definitions or the application rule of a dimension whose definitions do not decide between two characteristics, or split it; merge or delete characteristics that hold few or no objects; add a characteristic (or a negation characteristic) for objects that fit no characteristic.
+
+$revision_rule
+
+Open issues:
+$issues

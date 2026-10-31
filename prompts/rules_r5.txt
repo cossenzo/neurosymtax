@@ -1,0 +1,5 @@
+Rules checked by the program (a proposal that breaks them is returned to you):
+- Every dimension belongs to exactly one perspective of: $perspectives.
+- Every dimension has at least $min_characteristics_per_dimension characteristics and at most one negation characteristic.
+- A negation characteristic names a stated absence of what the other characteristics describe (e.g. "No governance: immutable contracts"); it needs no object, and you do not delete it. No characteristic expresses missing information ("not stated", "unknown"): when the sources are silent, the cell is "no_information".
+- Names are unique: no two dimensions, and no two characteristics anywhere in the taxonomy, share a name.

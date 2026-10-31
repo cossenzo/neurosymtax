@@ -1,0 +1,18 @@
+Task: choose the approach of the next building iteration of the ETDP: "e" (empirical-to-conceptual: identify objects and their characteristics) or "c" (conceptual-to-empirical: conceptualize characteristics and dimensions from the literature).
+
+Apply these rules:
+- R1. The first iteration follows the empirical-to-conceptual approach ("e") if the purpose is of the 'identification-and-structuring' type and 'descriptive' in nature; otherwise, it follows the conceptual-to-empirical approach ("c").
+- R3. Later iterations follow the empirical-to-conceptual approach ("e") if a characteristic of empirical origin has no objects or if the most recent evaluation calls for new evidence; otherwise, the "e" and "c" approaches alternate.
+
+Purpose: $purpose
+Type of purpose: $purpose_type
+Nature of purpose: $purpose_nature
+Objects examined so far: $objects
+Current taxonomy (with the number of objects under each characteristic and its origin):
+$taxonomy
+Unmet criteria of the most recent evaluation, with the suggested remedy:
+$evaluation
+History of the iterations:
+$history
+
+Options: $options

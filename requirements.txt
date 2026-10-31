@@ -1,0 +1,28 @@
+# taxonomy_builder – Python 3.11+
+# LLM providers (only the one selected in config.yaml must be configured)
+openai>=1.40
+anthropic>=0.40
+google-genai>=1.0
+
+# Validation, configuration, environment
+pydantic>=2.6
+pyyaml>=6.0
+python-dotenv>=1.0
+
+# HTTP and retries
+requests>=2.31
+brotli>=1.2          # older versions break HTTP decompression in recent anthropic SDKs
+tenacity>=8.2
+
+# Full-text extraction and chunking
+pymupdf>=1.24
+tiktoken>=0.7
+
+# Embeddings, clustering, similarity
+sentence-transformers>=3.0
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+
+# Tests
+pytest>=8.0

@@ -1,0 +1,24 @@
+# input_defi.yaml – Steps 1–3 [I], derived from Puschmann & Huang-Sui (2024), "A taxonomy for decentralized
+# finance", International Review of Financial Analysis, 92, 103083 (the benchmark; excluded from the documents read).
+# [explicit] = stated in the article; [assumed] = our reading, to be confirmed by the researcher.
+
+observed_phenomenon: "Decentralized finance (DeFi)"                                      # [explicit]
+target_user_groups:                                                                       # [assumed] from sec. 4
+  - "Researchers in finance and information systems"
+  - "Entrepreneurs and investors in the DeFi sector"
+  - "Regulators and policy makers"
+intended_purposes:                                                                        # [explicit] abstract, sec. 1, 4
+  - "Systematically structure the emerging field of decentralized finance by classifying DeFi applications"
+  - "Analyze the DeFi landscape to identify patterns and opportunities for value propositions and business models"
+  - "Support the design of regulatory measures"
+purpose_type: identification_and_structuring   # [assumed] emerging phenomenon whose constructs are identified
+purpose_nature: descriptive                    # [assumed] classifies what exists
+domain_of_objects: "Decentralized finance (DeFi) applications: financial services built on smart contracts on public blockchains without intermediaries"   # [explicit] sec. 2.3
+evaluation_goals:                              # [assumed] classify and analyze (abstract, sec. 4); default targets
+  - goal: classifying                          # targets: config.yaml (evaluation.targets)
+  - goal: analyzing                            # discriminating_dimensions >= 0.60
+perspectives: ["strategy", "organization", "technology"]                                  # [explicit] sec. 3
+meta_characteristic: null                      # not stated in the article: formulated in Step 4
+seed_keywords: ["decentralized finance", "DeFi", "dApps", "blockchain", "smart contracts"]   # [explicit] sec. 2.2
+language: "en"
+year_range: [2008, 2023]                       # [assumed] Bitcoin white paper to the article's submission
