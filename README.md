@@ -40,3 +40,14 @@ proposal attempts and violations, conditions per iteration, tokens), `objects.js
 ## Tests
 
 `python -m pytest` runs the whole method with a scripted LLM and fake sources (no network).
+
+## Taxonomies
+
+The generated taxonomies are saved in the `output` directory, including:
+
+- the taxonomy with definitions and application rules (JSON and Markdown);
+- the audit trail;
+- the iteration log;
+- the run log;
+- the list of sources used;
+- the supporting evidence.
